@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dynamics and networks in single-cell biology | SMB 2021</title>
+
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Dynamics and networks in single-cell biology | SMB 2021</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Dynamics and networks in single-cell biology" />
+<meta name="author" content="esmb" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="This minisymposium will discuss current mathematical and theoretical approaches to address open questions in single-cell biology. As single-cell genomics technologies advance, computational data analysis becomes one of the greatest hurdles to biological discovery. As the field begins to mature, and standards slowly emerge, the most pressing mathematical challenges shift from core tasks – such as normalization and clustering – to higher-level tasks. New advances in several areas will be presented in this minisymposium, including: network inference, dynamical systems approaches, modeling across scales, spatial transcriptomics, and multi-modal data integration." />
+<meta property="og:description" content="This minisymposium will discuss current mathematical and theoretical approaches to address open questions in single-cell biology. As single-cell genomics technologies advance, computational data analysis becomes one of the greatest hurdles to biological discovery. As the field begins to mature, and standards slowly emerge, the most pressing mathematical challenges shift from core tasks – such as normalization and clustering – to higher-level tasks. New advances in several areas will be presented in this minisymposium, including: network inference, dynamical systems approaches, modeling across scales, spatial transcriptomics, and multi-modal data integration." />
+<link rel="canonical" href="http://localhost:4000/CDEV/CDEV-MS20.html" />
+<meta property="og:url" content="http://localhost:4000/CDEV/CDEV-MS20.html" />
+<meta property="og:site_name" content="SMB 2021" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-06-17T15:54:54-04:00" />
+<script type="application/ld+json">
+{"description":"This minisymposium will discuss current mathematical and theoretical approaches to address open questions in single-cell biology. As single-cell genomics technologies advance, computational data analysis becomes one of the greatest hurdles to biological discovery. As the field begins to mature, and standards slowly emerge, the most pressing mathematical challenges shift from core tasks – such as normalization and clustering – to higher-level tasks. New advances in several areas will be presented in this minisymposium, including: network inference, dynamical systems approaches, modeling across scales, spatial transcriptomics, and multi-modal data integration.","author":{"@type":"Person","name":"esmb"},"@type":"BlogPosting","url":"http://localhost:4000/CDEV/CDEV-MS20.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"esmb"},"headline":"Dynamics and networks in single-cell biology","dateModified":"2021-06-17T15:54:54-04:00","datePublished":"2021-06-17T15:54:54-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/CDEV/CDEV-MS20.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
+
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+
+		<!-- Twitter card validator -->
+		<meta name="twitter:card" content="summary_large_image">
+	  <meta name="twitter:site" content="@smb2021">
+		<meta name="twitter:creator" content="@smb2021">
+		<meta name="twitter:title" content="Dynamics and networks in single-cell biology">
+		<meta name="twitter:description" content="The Society for Mathematical Biology annual meeting - 2021.">
+		<meta name="twitter:image" content="http://schedule.smb2021.org/assets/images/twitter.png">
+		
+		<meta name="title" content="Dynamics and networks in single-cell biology" />
+		<meta name="description" content="The Society for Mathematical Biology annual meeting - 2021." />
+		<meta property="og:title" content="Dynamics and networks in single-cell biology" />
+		<meta property="og:description" content="The Society for Mathematical Biology annual meeting - 2021." />
+		<meta property="og:image" content="http://schedule.smb2021.org/assets/images/twitter.png"/>
+
+
+
+    
+
+
+    
+
+		<!-- Bootstrap Modified -->
+		
+			<link rel="stylesheet" href="../assets/css/main.css">
+		
+		
+		<!-- Theme Stylesheet -->
+		
+			<link rel="stylesheet" href="../assets/css/theme.css">
+		
+		
+		<!-- Custom Themes Stylesheet -->
+		
+			<link rel="stylesheet" href="../assets/css/custom.css">
+		
+
+
+
+    <!-- Jquery on header to make sure everything works, the rest  of the scripts in footer for fast loading -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    
+    <script src="/assets/js/custom.js"></script>
+
+
+</head>
+
+<body class="">
+  
+	<nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+	  <div class="container">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		
+		  <div class="collapse navbar-collapse" id="navbarColor02">
+		    <ul class="navbar-nav mr-auto d-flex align-items-center">
+			    <li class="nav-item"> <img src="/assets/images/logo.png" width="65" alt="" class="d-inline-block align-middle mr-2"> </li>
+					<a class="navbar-brand" href="/"><strong>SMB 2021</strong></a>
+		      <!--  Replace menu links here -->
+
+<!-- <li class="nav-item"> <img src="/assets/images/logo.jpg" width="45" alt="" class="d-inline-block align-middle mr-2"> </li> -->
+<!-- <a class="navbar-brand" href="/"><strong>SMB 2021</strong></a> -->
+
+<li class="nav-item"><a class="nav-link" id="strong-nav" href="/">Home</a></li>
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Schedule
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item" style="color:#000000 !important;" href="/">Overview</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/your-smb2021">Plan Your SMB2021</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/pre-conference">Pre-conference</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/americas">Americas</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/europe-africa">Europe/Africa</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/asia-oceania">Asia/Oceania</a>
+		
+  </div>
+</li>
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Search by Name
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item" style="color:#000000 !important;" href="/contributed-speakers">Contributed Talks</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/minisymposia-speakers">Minisymposia</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/plenary">Plenary</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/posters">Posters</a>
+  </div>
+</li>
+
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Subgroup / Theme
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item text-CBBS" style="color:#000000 !important;" href="/CBBS"><span class="text-CBBS">CBBS</span> (Complex Biological and Biomedical Systems)</a>
+		<a class="dropdown-item text-CDEV" style="color:#000000 !important;" href="/CDEV"><span class="text-CDEV">CDEV</span> (Cell and Developmental Biology)</a>
+		<a class="dropdown-item text-DDMB" style="color:#000000 !important;" href="/DDMB"><span class="text-DDMB">DDMB</span> (Data Driven Modeling in Biology)</a>
+		<a class="dropdown-item text-DEI" style="color:#000000 !important;" href="/DEI"><span class="text-DEI">DEI</span> (Diversity, Equity, and Inclusion)</a>
+		<a class="dropdown-item text-ECOP" style="color:#000000 !important;" href="/ECOP"><span class="text-ECOP">ECOP</span> (Population Dynamics & Ecology)</a>
+		<a class="dropdown-item text-EDUC" style="color:#000000 !important;" href="/EDUC"><span class="text-EDUC">EDUC</span> (Education)</a>
+		<a class="dropdown-item text-EVOP" style="color:#000000 !important;" href="/EVOP"><span class="text-EVOP">EVOP</span> (Population Dynamics & Evolution)</a>
+		<a class="dropdown-item text-IMMU" style="color:#000000 !important;" href="/IMMU"><span class="text-IMMU">IMMU</span> (Immunobiology and Infection)</a>
+		<a class="dropdown-item text-MEPI" style="color:#000000 !important;" href="/MEPI"><span class="text-MEPI">MEPI</span> (Mathematical Epidemiology)</a>
+		<a class="dropdown-item text-MFBM" style="color:#000000 !important;" href="/MFBM"><span class="text-MFBM">MFBM</span> (Methods for Biological Modeling)</a>
+		<a class="dropdown-item text-MMPB" style="color:#000000 !important;" href="/MMPB"><span class="text-MMPB">MMPB</span> (Multiscale Modeling in Physiology and Biophysics )</a>
+		<a class="dropdown-item text-NEUR" style="color:#000000 !important;" href="/NEUR"><span class="text-NEUR">NEUR</span> (Mathematical Neuroscience)</a>
+		<a class="dropdown-item text-ONCO" style="color:#000000 !important;" href="/ONCO"><span class="text-ONCO">ONCO</span> (Mathematical Oncology)</a>
+  </div>
+</li>
+<li class="nav-item">
+	<a class="nav-link" href="https://www.smb2021.org/">Return to SMB2021.org</a>
+</li>
+
+		    </ul>
+		    
+		  </div>
+	  </div>
+	</nav>
+	
+
+
+    
+
+    <!-- Search Results -->
+    <div id="lunrsearchresults">
+        <ul class="mb-0"></ul>
+    </div>
+
+    <!-- Content -->
+    <main role="main" class="site-content" style="margin-bottom: 300px;">
+        
+<div class="container">
+<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+		<div class="h-100 tofront">
+			<div class="row  justify-content-center ">
+				<div class=" col-md-8  pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+					<p class="text-uppercase font-weight-bold">
+              <span class="catlist">
+              	<span class="text-CDEV">CDEV-MS20</span>						
+              </span>
+					</p>
+					<h1 class="display-4 mb-4 article-headline">Dynamics and networks in single-cell biology</h1>
+					<h4>Thursday, June 17 at 11:30am (PDT)</br>Thursday, June 17 at 07:30pm (BST)</br>Friday, June 18 03:30am (KST)</h4>
+					<div class="d-flex align-items-center">
+                        
+                        <img class="rounded-circle" src="../assets/images/logo.jpg" alt="SMB2021" width="70"/>
+                        
+						<small class="ml-3"> SMB2021 <span><a target="_blank" href="https://twitter.com/smb2021" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
+              <span class="text-muted d-block mt-1">Thursday (Friday) during the "MS20" time block.</span>
+						</small>
+						
+					</div>
+				</div>
+				
+					<small class="ml-3">Note: this minisymposia has multiple sessions. The second session is <strong>MS19-CDEV</strong> <a href="../CDEV/CDEV-MS19.html">(click here)</a>. 
+						
+						
+						
+					</small></br></br>
+				
+        
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<div class="container-lg pt-4 pb-4">
+	<div class="row justify-content-center">
+        
+        <!-- Share -->
+				<div class="col-lg-2 pr-4 mb-4 col-md-12">
+					<div class="sticky-top sticky-top-offset text-center">
+						<div class="text-muted">
+							Share this
+						</div>
+						<div class="share d-inline-block">
+							<!-- AddToAny BEGIN -->
+							<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+								<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+								<a class="a2a_button_facebook"></a>
+								<a class="a2a_button_twitter"></a>
+							</div>
+							<script async src="https://static.addtoany.com/menu/page.js"></script>
+							<!-- AddToAny END -->
+						</div>
+					</div>
+				</div>
+        
+        
+		<div class="col-md-12 col-lg-10">
+			
+			
+			<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem CDEV position-relative">
+		    <div class="pl-4 pr-0 h-100 tofront">
+		        <div class="row justify-content-between">
+		            <div class="col-md-12 pt-6 pb-6 pr-lg-4 align-self-center">
+		                <p><strong>Organizers:</strong></p>
+		                <h4 class="mb-3">Adam Maclean (Univeristy of Southern California) & Russell Rockne (City of Hope, USA)</h4>
+		                
+		                
+		                	<p><strong>Description</strong>:</p> 
+		                	<p>This minisymposium will discuss current mathematical and theoretical approaches to address open questions in single-cell biology. As single-cell genomics technologies advance, computational data analysis becomes one of the greatest hurdles to biological discovery. As the field begins to mature, and standards slowly emerge, the most pressing mathematical challenges shift from core tasks -- such as normalization and clustering -- to higher-level tasks. New advances in several areas will be presented in this minisymposium, including: network inference, dynamical systems approaches, modeling across scales, spatial transcriptomics, and multi-modal data integration.</p>
+			              
+			              
+			              
+		            </div>             
+		        </div>
+		    </div>
+			</div>
+			</br>
+			</br>
+			
+			
+			
+			
+			
+						
+			
+			
+			
+			
+			
+	    	<h4 id="author1">Amy Brock</h4>
+	    	 
+	    		<em> (University of Texas at Austin, USA)</em>
+	    	
+	    	
+	    	
+	    		
+	    			<h6>"Clonally-resolved mapping of cancer cell trajectories under therapeutic pressure"</h6>
+	    		
+	    	
+	    	
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			Heterogeneity across individual cancer cells and clonal populations impacts growth rate, tumor composition, and response to therapy. To improve treatment, new tools are required to measure and control the contributions of diverse cell subpopulations. Our lab has developed a high-complexity expressed barcode system, ClonMapper, that integrates expressed cell barcoding with single-cell RNA-sequencing and clonal isolation to characterize and track subpopulation trajectories. Using this approach, we uncovered subsets of cells from breast cancer cell models with distinct transcriptional signatures and chemotherapy survivorship trajectories. To gain a deeper understanding of the process of clonal diversification, we profiled clones and retrieved sub-clones over the course of expansion and treatment. Supervised learning indicated that clonal subpopulations have characteristic transcriptomic signatures that are well-conserved under a variety of therapeutic perturbations. By providing the capability for systematic dissection of complex clonal dynamics, ClonMapper enables the delineation of an underlying engine of clonal diversification in cancer cell populations and refines our understanding of clonal identity.
+		    		
+	    		</article>
+	    	
+				
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    	<h4 id="author2">Meghan Ferrall-Fairbanks</h4>
+	    	 
+	    		<em> (University of Florida, USA)</em>
+	    	
+	    	
+	    		
+	    			<h6>"Single-cell eco-evolutionary dynamics of intratumor heterogeneity"</h6>
+	    		
+	    	
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			Researchers have recognized that a one-size-fits-all approach is not effective at treating cancer and that tumor heterogeneity plays an important role in response. Current dogma stipulates that this heterogeneity results from compounding genetic and epigenetic changes and instability, ultimately driving unfavorable outcomes for these patients. Nonetheless, some cancers, including many pediatric cancers and some leukemias, have limited genomic diversity. As a result, we have a limited ability to stratify patients into high versus low-risk groups. To address this, we explore intratumor heterogeneity at the single-cell transcriptomic level to quantify and identify driving phenotypes in tumor evolution. We leverage the generalized diversity index (GDI) from ecology, which allows us to tailor the scale of cellular diversity in a given context. We show that the order of diversity parameter in GDI allows us to either emphasize clonal richness at low values while high values shift the analysis toward the abundance of potential drivers of the tumor evolution. We have explored GDI changes in both in vitro sequential single-cell RNA sequencing samples across many cancer tissue types including breast, lung, and ovarian cell lines as well as treatment naïve and treated patient samples in chronic myelomonocytic leukemia. Our analyses show how quantifying intratumor heterogeneity with GDI is a powerful tool to understand eco-evolutionary dynamics of a patient’s tumor.
+		    		
+	    		</article>
+	    	
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    	<h4 id="author3">Stephen Williams</h4>
+	    	 
+	    		<em> (10X Genomics, USA)</em>
+	    	
+	    	
+	    		
+	    			<h6>"Analyzing spatial and high-resolution single cell multi-omic data"</h6>
+	    		
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			Chromium Single Cell and Visium Spatial Solutions from 10x Genomics provide the ability to build a more comprehensive multidimensional understanding of complex biological systems. Analyzing datasets that measure different molecular modes in thousands of single cells or in a spatial context can be challenging. To enable interpretation of these complex datasets, 10x Genomics provides analysis and visualization software for evaluating genomic, epigenomic, transcriptomic, and proteomic data. In this seminar, we will discuss software, methods, and guidance that can be used to analyze your 10x Genomics datasets.
+		    		
+	    		</article>
+	    	
+	    
+	    
+			</br>
+			</br>
+	    
+	    
+	    	<h4 id="author4">Sihem Cheloufi</h4>
+	    	 
+	    		<em> (University of California, Riverside, USA)</em>
+	    	
+	    	
+	    		
+	    			<h6>"Mathematical modeling of chromatin accessibility to predict stem cell plasticity"</h6>
+	    		
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			Stem and progenitor cells become progressively more restricted in their differentiation potential. This process of cell fate determination is driven by lineage-specific transcription factors and is accompanied by dynamic changes in chromatin structure. The chromatin assembly factor complex CAF-1 plays a central role in assembling nucleosomes during DNA replication and has been implicated in regulating cellular plasticity in various lineages in different organisms. However, whether CAF-1 sustains lineage identity during normal homeostasis by influencing chromatin accessibility is unknown. To address this question, we investigated the role of CAF-1 in a myeloid lineage differentiation paradigm. CAF-1 suppression in myeloid progenitors triggered their rapid commitment but incomplete differentiation toward granulocyte, megakaryocyte, and erythrocyte lineages, resulting in a mixed cellular state. Through comparison with a canonical program of directed terminal myeloid differentiation, we define changes in chromatin accessibility that underlie a unique single cell transcriptome of the matured CAF-1 deficient cells. Using mathematical modeling we further predict the cell fate trajectories of the mixed cellular state caused by CAF-1 inhibition. We use nonlinear dimensionality reduction algorithms to produce RNA velocity maps, pseudotime alignment and corresponding differentiation trajectories. We infer an equation of motion from the RNA velocity vector field, which allows a probability density function to be derived and, ultimately, to compute state transition probabilities. Importantly, the resulting mathematical model of cell fate will be used to identify, interrogate, and quantify states of genome organization and predict corresponding changes to cell identities. Furthermore, we can use the model to predict how interfering with lineage specific transcription factors or factors involved in chromatin organization will modify the differentiation trajectories. Future work with this system will identify new targets to restore normal hematopoiesis in disease and generate clinically relevant cell types.
+		    		
+	    		</article>
+	    	
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    
+	      
+			<!-- Author Box -->
+      				
+			<div class="row mt-5">
+				<div class="col-md-2 align-self-center">
+                       
+                      <img class="rounded-circle" src="../assets/images/logo.jpg" alt="SMB2021" width="90"/>
+                       
+				</div>
+				<div class="col-md-10">		
+                      <h5 class="font-weight-bold">Hosted by SMB2021 <span><a target="_blank" href="https://twitter.com/smb2021" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span></h5>
+					Virtual conference of the Society for Mathematical Biology, 2021.					
+				</div>
+			</div>				
+      
+      
+      <!-- Comments -->
+      
+          <!--  Don't edit anything here. Set your disqus id in _config.yml -->
+
+<div id="comments" class="mt-5">
+    <div id="disqus_thread">
+    </div>
+    <script type="text/javascript">
+        var disqus_shortname = ''; 
+        var disqus_developer = 0;
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = window.location.protocol + '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>
+    Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
+</div>
+      
+            
+		</div>
+        
+        
+	</div>
+</div>
+
+
+
+    </main>
+
+
+    <!-- Scripts: popper, bootstrap, theme, lunr -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+    
+    
+			<script src="../assets/js/theme.js"></script>
+		
+    
+    <!-- All this area goes before </body> closing tag --> 
+
+
+</body>
+
+</html>

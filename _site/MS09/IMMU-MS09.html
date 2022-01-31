@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Within-host modelling of SARS-CoV-2 | SMB 2021</title>
+
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Within-host modelling of SARS-CoV-2 | SMB 2021</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Within-host modelling of SARS-CoV-2" />
+<meta name="author" content="esmb" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="In this session we consider mathematical models for the within-host dynamics of SARS-CoV-2. A good understanding of the course of the infection inside the body is of great importance for treatment and control of COVID-19. We will discuss the modelling of the immune response, cytokine dynamics, fibrosis and scarring, tissue damage and models to estimate COVID related health risks." />
+<meta property="og:description" content="In this session we consider mathematical models for the within-host dynamics of SARS-CoV-2. A good understanding of the course of the infection inside the body is of great importance for treatment and control of COVID-19. We will discuss the modelling of the immune response, cytokine dynamics, fibrosis and scarring, tissue damage and models to estimate COVID related health risks." />
+<link rel="canonical" href="http://localhost:4000/MS09/IMMU-MS09.html" />
+<meta property="og:url" content="http://localhost:4000/MS09/IMMU-MS09.html" />
+<meta property="og:site_name" content="SMB 2021" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-06-17T15:54:54-04:00" />
+<script type="application/ld+json">
+{"description":"In this session we consider mathematical models for the within-host dynamics of SARS-CoV-2. A good understanding of the course of the infection inside the body is of great importance for treatment and control of COVID-19. We will discuss the modelling of the immune response, cytokine dynamics, fibrosis and scarring, tissue damage and models to estimate COVID related health risks.","author":{"@type":"Person","name":"esmb"},"@type":"BlogPosting","url":"http://localhost:4000/MS09/IMMU-MS09.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"esmb"},"headline":"Within-host modelling of SARS-CoV-2","dateModified":"2021-06-17T15:54:54-04:00","datePublished":"2021-06-17T15:54:54-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/MS09/IMMU-MS09.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
+
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+
+		<!-- Twitter card validator -->
+		<meta name="twitter:card" content="summary_large_image">
+	  <meta name="twitter:site" content="@smb2021">
+		<meta name="twitter:creator" content="@smb2021">
+		<meta name="twitter:title" content="Within-host modelling of SARS-CoV-2">
+		<meta name="twitter:description" content="The Society for Mathematical Biology annual meeting - 2021.">
+		<meta name="twitter:image" content="http://schedule.smb2021.org/assets/images/twitter.png">
+		
+		<meta name="title" content="Within-host modelling of SARS-CoV-2" />
+		<meta name="description" content="The Society for Mathematical Biology annual meeting - 2021." />
+		<meta property="og:title" content="Within-host modelling of SARS-CoV-2" />
+		<meta property="og:description" content="The Society for Mathematical Biology annual meeting - 2021." />
+		<meta property="og:image" content="http://schedule.smb2021.org/assets/images/twitter.png"/>
+
+
+
+    
+
+
+    
+
+		<!-- Bootstrap Modified -->
+		
+			<link rel="stylesheet" href="../assets/css/main.css">
+		
+		
+		<!-- Theme Stylesheet -->
+		
+			<link rel="stylesheet" href="../assets/css/theme.css">
+		
+		
+		<!-- Custom Themes Stylesheet -->
+		
+			<link rel="stylesheet" href="../assets/css/custom.css">
+		
+
+
+
+    <!-- Jquery on header to make sure everything works, the rest  of the scripts in footer for fast loading -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    
+    <script src="/assets/js/custom.js"></script>
+
+
+</head>
+
+<body class="">
+  
+	<nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+	  <div class="container">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		
+		  <div class="collapse navbar-collapse" id="navbarColor02">
+		    <ul class="navbar-nav mr-auto d-flex align-items-center">
+			    <li class="nav-item"> <img src="/assets/images/logo.png" width="65" alt="" class="d-inline-block align-middle mr-2"> </li>
+					<a class="navbar-brand" href="/"><strong>SMB 2021</strong></a>
+		      <!--  Replace menu links here -->
+
+<!-- <li class="nav-item"> <img src="/assets/images/logo.jpg" width="45" alt="" class="d-inline-block align-middle mr-2"> </li> -->
+<!-- <a class="navbar-brand" href="/"><strong>SMB 2021</strong></a> -->
+
+<li class="nav-item"><a class="nav-link" id="strong-nav" href="/">Home</a></li>
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Schedule
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item" style="color:#000000 !important;" href="/">Overview</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/your-smb2021">Plan Your SMB2021</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/pre-conference">Pre-conference</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/americas">Americas</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/europe-africa">Europe/Africa</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/asia-oceania">Asia/Oceania</a>
+		
+  </div>
+</li>
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Search by Name
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item" style="color:#000000 !important;" href="/contributed-speakers">Contributed Talks</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/minisymposia-speakers">Minisymposia</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/plenary">Plenary</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/posters">Posters</a>
+  </div>
+</li>
+
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Subgroup / Theme
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item text-CBBS" style="color:#000000 !important;" href="/CBBS"><span class="text-CBBS">CBBS</span> (Complex Biological and Biomedical Systems)</a>
+		<a class="dropdown-item text-CDEV" style="color:#000000 !important;" href="/CDEV"><span class="text-CDEV">CDEV</span> (Cell and Developmental Biology)</a>
+		<a class="dropdown-item text-DDMB" style="color:#000000 !important;" href="/DDMB"><span class="text-DDMB">DDMB</span> (Data Driven Modeling in Biology)</a>
+		<a class="dropdown-item text-DEI" style="color:#000000 !important;" href="/DEI"><span class="text-DEI">DEI</span> (Diversity, Equity, and Inclusion)</a>
+		<a class="dropdown-item text-ECOP" style="color:#000000 !important;" href="/ECOP"><span class="text-ECOP">ECOP</span> (Population Dynamics & Ecology)</a>
+		<a class="dropdown-item text-EDUC" style="color:#000000 !important;" href="/EDUC"><span class="text-EDUC">EDUC</span> (Education)</a>
+		<a class="dropdown-item text-EVOP" style="color:#000000 !important;" href="/EVOP"><span class="text-EVOP">EVOP</span> (Population Dynamics & Evolution)</a>
+		<a class="dropdown-item text-IMMU" style="color:#000000 !important;" href="/IMMU"><span class="text-IMMU">IMMU</span> (Immunobiology and Infection)</a>
+		<a class="dropdown-item text-MEPI" style="color:#000000 !important;" href="/MEPI"><span class="text-MEPI">MEPI</span> (Mathematical Epidemiology)</a>
+		<a class="dropdown-item text-MFBM" style="color:#000000 !important;" href="/MFBM"><span class="text-MFBM">MFBM</span> (Methods for Biological Modeling)</a>
+		<a class="dropdown-item text-MMPB" style="color:#000000 !important;" href="/MMPB"><span class="text-MMPB">MMPB</span> (Multiscale Modeling in Physiology and Biophysics )</a>
+		<a class="dropdown-item text-NEUR" style="color:#000000 !important;" href="/NEUR"><span class="text-NEUR">NEUR</span> (Mathematical Neuroscience)</a>
+		<a class="dropdown-item text-ONCO" style="color:#000000 !important;" href="/ONCO"><span class="text-ONCO">ONCO</span> (Mathematical Oncology)</a>
+  </div>
+</li>
+<li class="nav-item">
+	<a class="nav-link" href="https://www.smb2021.org/">Return to SMB2021.org</a>
+</li>
+
+		    </ul>
+		    
+		  </div>
+	  </div>
+	</nav>
+	
+
+
+    
+
+    <!-- Search Results -->
+    <div id="lunrsearchresults">
+        <ul class="mb-0"></ul>
+    </div>
+
+    <!-- Content -->
+    <main role="main" class="site-content" style="margin-bottom: 300px;">
+        
+<div class="container">
+<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+		<div class="h-100 tofront">
+			<div class="row  justify-content-center ">
+				<div class=" col-md-8  pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+					<p class="text-uppercase font-weight-bold">
+              <span class="catlist">
+              	<span class="text-IMMU">IMMU-MS09</span>						
+              </span>
+					</p>
+					<h1 class="display-4 mb-4 article-headline">Within-host modelling of SARS-CoV-2</h1>
+					<h4>Tuesday, June 15 at 05:45pm (PDT)</br>Wednesday, June 16 at 01:45am (BST)</br>Wednesday, June 16 09:45am (KST)</h4>
+					<div class="d-flex align-items-center">
+                        
+                        <img class="rounded-circle" src="../assets/images/logo.jpg" alt="SMB2021" width="70"/>
+                        
+						<small class="ml-3"> SMB2021 <span><a target="_blank" href="https://twitter.com/smb2021" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
+              <span class="text-muted d-block mt-1">Tuesday (Wednesday) during the "MS09" time block.</span>
+						</small>
+						
+					</div>
+				</div>
+				
+					<small class="ml-3">Note: this minisymposia has multiple sessions. The second session is <strong>MS10-IMMU</strong> <a href="../IMMU/IMMU-MS10.html">(click here)</a>. 
+						
+						
+						
+					</small></br></br>
+				
+        
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<div class="container-lg pt-4 pb-4">
+	<div class="row justify-content-center">
+        
+        <!-- Share -->
+				<div class="col-lg-2 pr-4 mb-4 col-md-12">
+					<div class="sticky-top sticky-top-offset text-center">
+						<div class="text-muted">
+							Share this
+						</div>
+						<div class="share d-inline-block">
+							<!-- AddToAny BEGIN -->
+							<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+								<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+								<a class="a2a_button_facebook"></a>
+								<a class="a2a_button_twitter"></a>
+							</div>
+							<script async src="https://static.addtoany.com/menu/page.js"></script>
+							<!-- AddToAny END -->
+						</div>
+					</div>
+				</div>
+        
+        
+		<div class="col-md-12 col-lg-10">
+			
+			
+			<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem IMMU position-relative">
+		    <div class="pl-4 pr-0 h-100 tofront">
+		        <div class="row justify-content-between">
+		            <div class="col-md-12 pt-6 pb-6 pr-lg-4 align-self-center">
+		                <p><strong>Organizers:</strong></p>
+		                <h4 class="mb-3">Thomas Hillen (University of Alberta, Canada), Carlos Contreras (University of Alberta, Canada)</h4>
+		                
+		                
+		                	<p><strong>Description</strong>:</p> 
+		                	<p>In this session we consider mathematical models for the within-host dynamics of SARS-CoV-2. A good understanding of the course of the infection inside the body is of great importance for treatment and control of COVID-19. We will discuss the modelling of the immune response, cytokine dynamics, fibrosis and scarring, tissue damage and models to estimate COVID related health risks.</p>
+			              
+			              
+			              
+		            </div>             
+		        </div>
+		    </div>
+			</div>
+			</br>
+			</br>
+			
+			
+			
+			
+			
+						
+			
+			
+			
+			
+			
+	    	<h4 id="author1">Morgan Craig</h4>
+	    	 
+	    		<em> (Sainte-Justine University Hospital Research Centre/Université de Montréal, Canada)</em>
+	    	
+	    	
+	    	
+	    		
+	    			<h6>" The impact of viral variants on immunopathology in COVID-19"</h6>
+	    		
+	    	
+	    	
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			As SARS-CoV-2 continues its spread, the emergence of new variants has attracted increased attention, particularly as vaccination efforts ramped up. Throughout the pandemic, there has been a considerable effort to understand the genomic evolution of the virus. A quantitative picture of the evolution of SARS-CoV-2 in response to within-host pressures and their influence on the immunological response to infection is a crucial component to understanding and predicting COVID-19 outcomes. We have previously developed a mechanistic mathematical model of the immunological response to SARS-CoV-2 infection. Leveraging this framework, here we studied how viral variants influence immunopathology in COVID-19. Merging within-host SARS-CoV-2 evolutionary data and our cohort of realistic virtual patients, we predicted the combined effects of spike proteins and interferon-evading mutations on COVID-19 severity. Our results suggest that an individual’s immune response and their potential propensity for severe COVID-19 are the key factors distinguishing COVID-19 disease courses and outcomes.
+		    		
+	    		</article>
+	    	
+				
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    	<h4 id="author2">Ashlee N. Ford Versypt</h4>
+	    	 
+	    		<em> (University at Buffalo, The State University of New York, USA)</em>
+	    	
+	    	
+	    		
+	    			<h6>"Multiscale Simulation of Lung Fibrosis Induced by SARS-CoV-2 Infection and Acute Respiratory Distress Syndrome"</h6>
+	    		
+	    	
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			The 2019 novel coronavirus, SARS-CoV-2, is a pathogen of critical significance to international public health. Knowledge about immune system-virus-tissue interactions and how these can result in low-level infections in some cases and acute respiratory distress syndrome (ARDS) and other tissue damage in others is limited. We are developing an open-source, multi-scale tissue simulator that can be used to investigate mechanisms of intracellular viral replication, infection of epithelial cells, host immune response, and tissue damage. Our model can simulate fibroblast-mediated collagen deposition to account for the fibrosis at the damaged site in response to immune-response-induced tissue injury. The severity of infection and collagen deposition depends on the anti-inflammatory cytokine secretion rate, multiplicity of infection, and contact time for a CD8+ T cell to kill an infected cell. Additionally, the change in the ACE2 receptor concentration from the multiscale model has been used in a separate model of renin-angiotensin system to predict the change in ANGII, which is a biomarker for hypertension, pro-inflammation, and pro-fibrosis.
+		    		
+	    		</article>
+	    	
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    	<h4 id="author3">Paul Macklin</h4>
+	    	 
+	    		<em> (Indiana University, USA)</em>
+	    	
+	    	
+	    		
+	    			<h6>"Community-driven multiscale model of SARS-CoV-2 dynamics and immune response"</h6>
+	    		
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			The 2019 novel coronavirus, SARS-CoV-2, is a pathogen of critical significance to international public health. Knowledge of the interplay between molecular-scale virus-receptor interactions, single-cell viral replication, in-tracellular-scale viral transport, and emergent tissue-scale viral propagation is limited. Moreover, little is known about immune system-virus-tissue interactions and how these can result in low-level (asymptomatic) infections in some cases and acute respiratory distress syndrome (ARDS) in others, particularly with respect to presentation in different age groups or pre-existing inflammatory risk factors. Given the nonlinear interactions within and among each of these processes, multiscale simulation models can shed light on the emergent dynamics that lead to divergent outcomes, identify actionable “choke points” for pharmacologic interventions, screen potential therapies, and identify potential biomarkers that differentiate patient outcomes. Given the complexity of the problem and the acute need for an actionable model to guide therapy discovery and optimization, we introduce and iteratively refine a prototype of a multiscale model of SARS-CoV-2 dynamics in lung tissue. The first prototype model was built and shared internationally as open source code and an online interactive model in under 12 hours, and community domain expertise is driving regular refinements. In a sustained community effort, this consortium is integrating data and expertise across virology, immunology, mathematical biology, quantitative systems physiology, cloud and high performance computing, and other domains to accelerate our response to this critical threat to international health. More broadly, this effort is creating a reusable, modular framework for studying viral replication and immune response in tissues, which can also potentially be adapted to related problems in immunology and immunotherapy.
+		    		
+	    		</article>
+	    	
+	    
+	    
+			</br>
+			</br>
+	    
+	    
+	    	<h4 id="author4">Adrianne Jenner</h4>
+	    	 
+	    		<em> (Queensland University of Technology, Australia)</em>
+	    	
+	    	
+	    		
+	    			<h6>"Virtual patient cohort reveals immune mechanism driving COVID-19 disease outcomes"</h6>
+	    		
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			Manifestations of SARS-CoV-2 infection are heterogeneous, and a large proportion of people experience asymptomatic or mild infections that do not require hospitalization. In severe cases, patients develop coronavirus disease (COVID-19), which is frequently accompanied by a myriad of inflammatory indicators and hospitalization. To understand the diversity of immune responses to SARS-CoV-2 and distinguish features that predispose individuals to severe COVID-19, we developed a mathematical model (system of delay differential equations) and from that interpolated a virtual patient cohort. Our results indicate that virtual patients with low production rates of IFN subsequently experienced highly inflammatory disease phenotypes, compared to those with early and robust IFN responses. In these in silico patients, the concentration of interleukin-6 (IL-6) was also a major predictor of CD8+ T cell depletion (a known marker of disease severity in hospitalised patients). Our analyses predicted that individuals with severe COVID-19 also have accelerated monocyte-to-macrophage differentiation that was mediated by increased IL-6 and reduced type I IFN signalling. Together, these findings identify biomarkers driving the development of severe COVID-19 and support early interventions aimed at reducing inflammation.
+		    		
+	    		</article>
+	    	
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    
+	      
+			<!-- Author Box -->
+      				
+			<div class="row mt-5">
+				<div class="col-md-2 align-self-center">
+                       
+                      <img class="rounded-circle" src="../assets/images/logo.jpg" alt="SMB2021" width="90"/>
+                       
+				</div>
+				<div class="col-md-10">		
+                      <h5 class="font-weight-bold">Hosted by SMB2021 <span><a target="_blank" href="https://twitter.com/smb2021" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span></h5>
+					Virtual conference of the Society for Mathematical Biology, 2021.					
+				</div>
+			</div>				
+      
+      
+      <!-- Comments -->
+      
+          <!--  Don't edit anything here. Set your disqus id in _config.yml -->
+
+<div id="comments" class="mt-5">
+    <div id="disqus_thread">
+    </div>
+    <script type="text/javascript">
+        var disqus_shortname = ''; 
+        var disqus_developer = 0;
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = window.location.protocol + '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>
+    Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
+</div>
+      
+            
+		</div>
+        
+        
+	</div>
+</div>
+
+
+
+    </main>
+
+
+    <!-- Scripts: popper, bootstrap, theme, lunr -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+    
+    
+			<script src="../assets/js/theme.js"></script>
+		
+    
+    <!-- All this area goes before </body> closing tag --> 
+
+
+</body>
+
+</html>

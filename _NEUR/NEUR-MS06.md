@@ -1,0 +1,27 @@
+---
+layout: group
+author: esmb
+day: "Monday (Tuesday)"
+subgroup: "NEUR"
+title: "Effects of stochasticity and heterogeneity on networks' synchronization properties"
+organizers: "Zahra Aminzare (University of Iowa, United States), Vaibhav Srivastava (Michigan State University, United States)"
+description: "Coupled dynamical systems provide an essential theoretical framework for modeling various natural or physical networks and analyzing their collective behavior, such as synchronization. These simple models often miss environmental fluctuations as well as internal and external disturbances which are ubiquitous in such networks. Therefore, a stochastic and heterogeneous dynamics approach provides a significant compromise to keep modeling complexity tractable and still capture important phenomena. The mini-symposium brings together mathematicians and experimentalists working on synchronization problems in neuronal networks, bio-molecular networks, and social networks."
+code: "MS06"
+code2: "MS07"
+author1: "James Roberts"
+inst1: " (QIMR Berghofer Medical Research Institute, Australia)"
+title1: "Noise-enhanced synchronization of dynamics on the human connectome"
+abstract1: "Synchronization is a collective mechanism by which oscillatory networks achieve their functions. However, it is not well understood how potentially disruptive external inputs like stochastic perturbations affect synchronization. This is particularly so for real-world systems with relatively complex network topologies and dynamical properties, such as the human brain. Here, we aim to address this problem using a large-scale model of the human brain network (i.e., the human connectome). Using the Kuramoto model, we show that when nodes in the network are coupled at some critical strength, a counterintuitive phenomenon emerges where the addition of noise increases the synchronization of global and local dynamics, with structural hub nodes benefiting the most. We link this stochastic synchronization effect to the intrinsic hierarchy of neural timescales of the brain and the heterogeneous complex topology of the connectome. We find that the human connectome supports the formation of frustrated clusters, which, in the presence of moderate levels of noise, reconfigure via phase shifts and frequency shifts to increase the overall synchronization. Overall, the work provides theoretical insights into the emergence and mechanisms of stochastic synchronization, highlighting its putative contribution in achieving network integration underpinning brain function."
+author2: "Giovanni Russo"
+inst2: " (University of Salerno, Italy)"
+title2: "On noise-induced phenomena in complex networks"
+abstract2: "This talk is focused on the study of noise-induced emerging behaviors in complex networks. We will explore how the interplay between the dynamics at the nodes, the network topology and noise diffusion processes play a key role in determining stability of certain manifolds in the network state-space. After introducing the mathematical framework, we present a perhaps counter-intuitive result for network synchronization. Indeed we show how certain noise diffusion processes (also termed as relative-state- dependent noise) force stability of the synchronization/consensus manifold that, without noise, would be unstable. Applications of the results to biochemical systems are also discussed."
+author3: "Matin Jafarian"
+inst3: " (Delft University of Technology, Netherlands)"
+title3: "Stochastic stability of discrete-time phase-coupled oscillators"
+abstract3: "In this talk, we study the conditions of stochastic stability for a class of discrete-time phase-coupled oscillators. We introduce the notion of stochastic phase-cohesiveness using the concept of Harris recurrency of Markov chains. We study the stochastic phase-cohesiveness of oscillators in a network with an underlying connected topology subject to both multiplicative and additive stochastic uncertainties. We derive sufficient conditions for achieving the phase-cohesiveness considering stochastic uncertainties realized according to probability distributions with both positive and negative mean values. We further discuss the phase-cohesiveness of oscillators in a random network as a special case of the aforementioned problem."
+author4: "Supravat Dey"
+inst4: " (University of Delaware, United States)"
+title4: "Role of intercellular coupling and delay on the synchronization of biomolecular clocks"
+abstract4: "Living cells encode diverse biological clocks for circadian timekeeping and formation of rhythmic structures during embryonic development. These biomolecular clocks are subject to unavoidable fluctuations due to the inherent stochasticity of biochemical reactions. How do these clocks synchronize across cells through intercellular coupling mechanisms? To address this question, we leverage the classical motif for genetic clocks, the Goodwin oscillator, where a gene product inhibits its own synthesis via time-delayed negative feedback. More specifically, we study an interconnected system of two identical Goodwin oscillators (each operating in a single cell), where state information is conveyed between cells via a signaling pathway whose dynamics is modeled as a first-order system. Our results show intercellular coupling strength and intercellular time delay play a vital role in the synchronization of the coupled oscillators."
+---

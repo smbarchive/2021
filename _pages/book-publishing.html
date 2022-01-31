@@ -1,0 +1,104 @@
+---
+title: "Book Publishing @ Springer"
+layout: default
+pagination:
+    enabled: false
+description: "The Society for Mathematical Biology - e-Conference 2021."
+permalink: /book-publishing-springer/
+---
+
+
+<div class="container">
+	
+	<div class="col-md-12 main-loop">
+	    <div class="row">
+	        <div class="col-md-12  text-center">
+		        {% include banner.html %}
+		        <h1 class="mb-3">{{page.title}}</h1>
+
+	        </div>
+	    </div>
+	</div>
+
+
+	<div class="row justify-content-center">
+        
+        <!-- Share -->
+				<div class="col-lg-2 pr-4 mb-4 col-md-12">
+					<div class="sticky-top sticky-top-offset text-center">
+						<div class="text-muted">
+							Share this
+						</div>
+						<div class="share d-inline-block">
+							<!-- AddToAny BEGIN -->
+							<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+								<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+								<a class="a2a_button_facebook"></a>
+								<a class="a2a_button_twitter"></a>
+							</div>
+							<script async src="https://static.addtoany.com/menu/page.js"></script>
+							<!-- AddToAny END -->
+						</div>
+					</div>
+				</div>
+        
+        
+		<div class="col-md-12 col-lg-10">
+			
+			<h4>Book Publishing @ Springer</h4>
+			
+			<h6>Speaker: Elena Griniari - Senior Editor, Mathematics</h6>
+			
+			<p><strong>05:45am on Thursday June 17 (PDT), 01:45pm on Thursday June 17 (BST), 09:45pm on Thursday June 17 (KST)</strong></p> 
+
+ 
+			<p><strong>Brief Description:</strong></br></br>
+ 
+This session is devoted to a discussion of the book publishing process, covering topics such as the substantial difference between journals and books publishing, manuscript submission, peer-review process and acceptance and the role of the Publisher in supporting authors throughout the process.
+ </br></br>
+The target audience is young researchers and experienced authors who wish to be guided or updated on the subject.
+ </br></br>
+Elena Griniari will be also glad to provide info on specific tools and resources offered by Springer for free, and answer your questions.
+</p>				      
+											      
+			<!-- Author Box -->
+      {% if page.author %}				
+			<div class="row mt-5">
+				<div class="col-md-2 align-self-center">
+                       {% if author.avatar %}
+                      <img class="rounded-circle" src="../{{author.avatar}}" alt="{{author.name}}" width="90"/>
+                      {% endif %} 
+				</div>
+				<div class="col-md-10">		
+                      <h5 class="font-weight-bold">Hosted by {{ author.name }} {% if author.twitter %}<span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span>{% endif %}</h5>
+					{{ author.bio }}					
+				</div>
+			</div>				
+      {% endif %}
+      
+      <!-- Comments -->
+      {% if page.comments != false %}
+          {% include comments.html %}
+      {% endif %}
+            
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

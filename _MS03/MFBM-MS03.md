@@ -1,0 +1,27 @@
+---
+layout: group
+author: esmb
+day: "Monday (Tuesday)"
+subgroup: "MFBM"
+title: "Generalized Boolean network models and the concept of canalization"
+organizers: "Claus Kadelka (Iowa State University, United States)"
+description: "Boolean network models are a particular type of finite dynamic system, which is widely used in biological systems such as gene regulation networks. In this minisymposium, we will look at the design and analysis of generalized Boolean network models with a particular focus on the biologically important concept of canalization."
+code: "MS03"
+code2: "MS02"
+author1: "Claus Kadelka"
+inst1: " (Iowa State University, United States)"
+title1: "Collective canalization"
+abstract1: "In this talk, I introduce collectively canalizing Boolean functions, a class of functions that has arisen from applications in systems biology. Boolean networks are an increasingly popular modeling framework for regulatory networks, and the class of collectively canalizing functions captures a key feature of biological network dynamics, namely that a subset of one or more variables, under certain conditions, can dominate the value of a Boolean function, to the exclusion of all others. These functions have rich mathematical properties to be explored. We show how the number and type of such sets influence a function’s behavior and define a new measure for the canalizing strength of any Boolean function. We further connect the concept of collective canalization with the well-studied concept of the average sensitivity of a Boolean function. The relationship between Boolean functions and the dynamics of the networks they form is important in a wide range of applications beyond biology, such as computer science, and has been studied with statistical and simulation-based methods. However, the rich relationship between structure and dynamics remains largely unexplored, and we attempt a first step towards its mathematical foundation."
+author2: "Elena Dimitrova"
+inst2: " (California Polytechnic State University, United States)"
+title2: "Revealing the canalizing structure of Boolean functions — algorithms and applications"
+abstract2: "Nested canalization, a type of hierarchical clustering of the inputs of a Boolean function, has been studied in the context of network modeling where each layer of canalization adds a degree of stability in the dynamics of the network. Boolean functions, however, can be represented in many ways, including logical forms, truth tables, and polynomials, as well as different canonical representations such as minimal disjunctive normal form. These representations may obscure the canalizing structure of a Boolean function making its extraction a challenge. In this talk, we show that the problem of determining the specific layer structure of a Boolean function is NP-hard and present and compare algorithms for finding the canalizing layers. Further, we discuss applications of these algorithms for computing disjunctive normal forms and for reverse engineering of Boolean functions according to a prescribed layering format."
+author3: "Matthew Macauley"
+inst3: " (Clemson University, United States)"
+title3: "Toggling independent sets as an asynchronous Boolean network"
+abstract3: "The notion of 'generalized toggle groups' has been a recent popular topic in the field of dynamic algebraic combinatorics. In this talk, I will introduce what it means to toggle independent sets of a graph. Loosely speaking, toggling at a vertex adds it (if possible) when it is absent, removes it if it is present, and otherwise does nothing. I will frame this problem in terms of asynchronous Boolean networks, and summarize the mathematics that we have developed to analyze it. If your interest is piqued by covering spaces consisting of (co-)snakes on a plane that project down to a (co-)ouroborus on a torus, and how the (co-)snake and (co-)ouroborous groups act on the (co)-slithers, then you won't want to miss this talk. It will be widely accessible, and there will be no shortage of open problems, colorful pretty pictures, and puns."
+author4: "Alan Veliz-Cuba"
+inst4: " (University of Dayton, Ohio, United States)"
+title4: "Identification of control targets in Boolean networks via computational algebra"
+abstract4: "Many problems in biology have the goal of finding strategies to change an undesirable state of a biological system into another state through an intervention. The identification of such strategies is typically based on a mathematical model such as Boolean networks. In this talk we will see how to find node and edge interventions using computational algebra."
+---

@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Deterministic and stochastic models for complex cardiovascular phenomena | SMB 2021</title>
+
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Deterministic and stochastic models for complex cardiovascular phenomena | SMB 2021</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Deterministic and stochastic models for complex cardiovascular phenomena" />
+<meta name="author" content="esmb" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Hemodynamic modeling has become a powerful tool in the study of basic vascular function, as well as many cardiovascular diseases. Biophysically detailed vascular simulations can reveal underlying mechanisms that help explain experimental and clinical observations. As a result, there is an increasing demand for fast and efficient numerical algorithms to solve coupled multi-physics problems arising from biomedical applications. Examples include fluid-structure interaction models (e.g., valvular modeling), fluid-porous or poroelastic medium interaction models (e.g., biological tissue or tumor modeling), as well as models of transport phenomena (e.g., transport of drugs or chemicals). Moreover, creation of realistic models might be difficult in situations where only partial knowledge is available for the input processes. Examples include, but are not limited to, uncertainty in the model anatomy, physiologic boundary conditions and material properties of the cardiac and vascular tissue. In such cases, uncertainty quantification becomes an integral part of the modeling exercise. While significant progress have been achieved in recent years, hemodynamic modeling still poses significant challenges in the mathematical and computational sciences. Thus, substantial effort is allocated to the design of adaptable and uncertainty-aware numerical methods for coupled problems due to their intricate multi-physics nature, possible strong nonlinearity and presence of uncertainty. Hence, this minisymposium focuses on methodological developments and analysis of results from deterministic and stochastic cardiovascular models." />
+<meta property="og:description" content="Hemodynamic modeling has become a powerful tool in the study of basic vascular function, as well as many cardiovascular diseases. Biophysically detailed vascular simulations can reveal underlying mechanisms that help explain experimental and clinical observations. As a result, there is an increasing demand for fast and efficient numerical algorithms to solve coupled multi-physics problems arising from biomedical applications. Examples include fluid-structure interaction models (e.g., valvular modeling), fluid-porous or poroelastic medium interaction models (e.g., biological tissue or tumor modeling), as well as models of transport phenomena (e.g., transport of drugs or chemicals). Moreover, creation of realistic models might be difficult in situations where only partial knowledge is available for the input processes. Examples include, but are not limited to, uncertainty in the model anatomy, physiologic boundary conditions and material properties of the cardiac and vascular tissue. In such cases, uncertainty quantification becomes an integral part of the modeling exercise. While significant progress have been achieved in recent years, hemodynamic modeling still poses significant challenges in the mathematical and computational sciences. Thus, substantial effort is allocated to the design of adaptable and uncertainty-aware numerical methods for coupled problems due to their intricate multi-physics nature, possible strong nonlinearity and presence of uncertainty. Hence, this minisymposium focuses on methodological developments and analysis of results from deterministic and stochastic cardiovascular models." />
+<link rel="canonical" href="http://localhost:4000/MS14/MMPB-MS14.html" />
+<meta property="og:url" content="http://localhost:4000/MS14/MMPB-MS14.html" />
+<meta property="og:site_name" content="SMB 2021" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-06-17T15:54:54-04:00" />
+<script type="application/ld+json">
+{"description":"Hemodynamic modeling has become a powerful tool in the study of basic vascular function, as well as many cardiovascular diseases. Biophysically detailed vascular simulations can reveal underlying mechanisms that help explain experimental and clinical observations. As a result, there is an increasing demand for fast and efficient numerical algorithms to solve coupled multi-physics problems arising from biomedical applications. Examples include fluid-structure interaction models (e.g., valvular modeling), fluid-porous or poroelastic medium interaction models (e.g., biological tissue or tumor modeling), as well as models of transport phenomena (e.g., transport of drugs or chemicals). Moreover, creation of realistic models might be difficult in situations where only partial knowledge is available for the input processes. Examples include, but are not limited to, uncertainty in the model anatomy, physiologic boundary conditions and material properties of the cardiac and vascular tissue. In such cases, uncertainty quantification becomes an integral part of the modeling exercise. While significant progress have been achieved in recent years, hemodynamic modeling still poses significant challenges in the mathematical and computational sciences. Thus, substantial effort is allocated to the design of adaptable and uncertainty-aware numerical methods for coupled problems due to their intricate multi-physics nature, possible strong nonlinearity and presence of uncertainty. Hence, this minisymposium focuses on methodological developments and analysis of results from deterministic and stochastic cardiovascular models.","author":{"@type":"Person","name":"esmb"},"@type":"BlogPosting","url":"http://localhost:4000/MS14/MMPB-MS14.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"esmb"},"headline":"Deterministic and stochastic models for complex cardiovascular phenomena","dateModified":"2021-06-17T15:54:54-04:00","datePublished":"2021-06-17T15:54:54-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/MS14/MMPB-MS14.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
+
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+
+		<!-- Twitter card validator -->
+		<meta name="twitter:card" content="summary_large_image">
+	  <meta name="twitter:site" content="@smb2021">
+		<meta name="twitter:creator" content="@smb2021">
+		<meta name="twitter:title" content="Deterministic and stochastic models for complex cardiovascular phenomena">
+		<meta name="twitter:description" content="The Society for Mathematical Biology annual meeting - 2021.">
+		<meta name="twitter:image" content="http://schedule.smb2021.org/assets/images/twitter.png">
+		
+		<meta name="title" content="Deterministic and stochastic models for complex cardiovascular phenomena" />
+		<meta name="description" content="The Society for Mathematical Biology annual meeting - 2021." />
+		<meta property="og:title" content="Deterministic and stochastic models for complex cardiovascular phenomena" />
+		<meta property="og:description" content="The Society for Mathematical Biology annual meeting - 2021." />
+		<meta property="og:image" content="http://schedule.smb2021.org/assets/images/twitter.png"/>
+
+
+
+    
+
+
+    
+
+		<!-- Bootstrap Modified -->
+		
+			<link rel="stylesheet" href="../assets/css/main.css">
+		
+		
+		<!-- Theme Stylesheet -->
+		
+			<link rel="stylesheet" href="../assets/css/theme.css">
+		
+		
+		<!-- Custom Themes Stylesheet -->
+		
+			<link rel="stylesheet" href="../assets/css/custom.css">
+		
+
+
+
+    <!-- Jquery on header to make sure everything works, the rest  of the scripts in footer for fast loading -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    
+    <script src="/assets/js/custom.js"></script>
+
+
+</head>
+
+<body class="">
+  
+	<nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+	  <div class="container">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		
+		  <div class="collapse navbar-collapse" id="navbarColor02">
+		    <ul class="navbar-nav mr-auto d-flex align-items-center">
+			    <li class="nav-item"> <img src="/assets/images/logo.png" width="65" alt="" class="d-inline-block align-middle mr-2"> </li>
+					<a class="navbar-brand" href="/"><strong>SMB 2021</strong></a>
+		      <!--  Replace menu links here -->
+
+<!-- <li class="nav-item"> <img src="/assets/images/logo.jpg" width="45" alt="" class="d-inline-block align-middle mr-2"> </li> -->
+<!-- <a class="navbar-brand" href="/"><strong>SMB 2021</strong></a> -->
+
+<li class="nav-item"><a class="nav-link" id="strong-nav" href="/">Home</a></li>
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Schedule
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item" style="color:#000000 !important;" href="/">Overview</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/your-smb2021">Plan Your SMB2021</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/pre-conference">Pre-conference</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/americas">Americas</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/europe-africa">Europe/Africa</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/asia-oceania">Asia/Oceania</a>
+		
+  </div>
+</li>
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Search by Name
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item" style="color:#000000 !important;" href="/contributed-speakers">Contributed Talks</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/minisymposia-speakers">Minisymposia</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/plenary">Plenary</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/posters">Posters</a>
+  </div>
+</li>
+
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Subgroup / Theme
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item text-CBBS" style="color:#000000 !important;" href="/CBBS"><span class="text-CBBS">CBBS</span> (Complex Biological and Biomedical Systems)</a>
+		<a class="dropdown-item text-CDEV" style="color:#000000 !important;" href="/CDEV"><span class="text-CDEV">CDEV</span> (Cell and Developmental Biology)</a>
+		<a class="dropdown-item text-DDMB" style="color:#000000 !important;" href="/DDMB"><span class="text-DDMB">DDMB</span> (Data Driven Modeling in Biology)</a>
+		<a class="dropdown-item text-DEI" style="color:#000000 !important;" href="/DEI"><span class="text-DEI">DEI</span> (Diversity, Equity, and Inclusion)</a>
+		<a class="dropdown-item text-ECOP" style="color:#000000 !important;" href="/ECOP"><span class="text-ECOP">ECOP</span> (Population Dynamics & Ecology)</a>
+		<a class="dropdown-item text-EDUC" style="color:#000000 !important;" href="/EDUC"><span class="text-EDUC">EDUC</span> (Education)</a>
+		<a class="dropdown-item text-EVOP" style="color:#000000 !important;" href="/EVOP"><span class="text-EVOP">EVOP</span> (Population Dynamics & Evolution)</a>
+		<a class="dropdown-item text-IMMU" style="color:#000000 !important;" href="/IMMU"><span class="text-IMMU">IMMU</span> (Immunobiology and Infection)</a>
+		<a class="dropdown-item text-MEPI" style="color:#000000 !important;" href="/MEPI"><span class="text-MEPI">MEPI</span> (Mathematical Epidemiology)</a>
+		<a class="dropdown-item text-MFBM" style="color:#000000 !important;" href="/MFBM"><span class="text-MFBM">MFBM</span> (Methods for Biological Modeling)</a>
+		<a class="dropdown-item text-MMPB" style="color:#000000 !important;" href="/MMPB"><span class="text-MMPB">MMPB</span> (Multiscale Modeling in Physiology and Biophysics )</a>
+		<a class="dropdown-item text-NEUR" style="color:#000000 !important;" href="/NEUR"><span class="text-NEUR">NEUR</span> (Mathematical Neuroscience)</a>
+		<a class="dropdown-item text-ONCO" style="color:#000000 !important;" href="/ONCO"><span class="text-ONCO">ONCO</span> (Mathematical Oncology)</a>
+  </div>
+</li>
+<li class="nav-item">
+	<a class="nav-link" href="https://www.smb2021.org/">Return to SMB2021.org</a>
+</li>
+
+		    </ul>
+		    
+		  </div>
+	  </div>
+	</nav>
+	
+
+
+    
+
+    <!-- Search Results -->
+    <div id="lunrsearchresults">
+        <ul class="mb-0"></ul>
+    </div>
+
+    <!-- Content -->
+    <main role="main" class="site-content" style="margin-bottom: 300px;">
+        
+<div class="container">
+<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+		<div class="h-100 tofront">
+			<div class="row  justify-content-center ">
+				<div class=" col-md-8  pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+					<p class="text-uppercase font-weight-bold">
+              <span class="catlist">
+              	<span class="text-MMPB">MMPB-MS14</span>						
+              </span>
+					</p>
+					<h1 class="display-4 mb-4 article-headline">Deterministic and stochastic models for complex cardiovascular phenomena</h1>
+					<h4>Wednesday, June 16 at 11:30am (PDT)</br>Wednesday, June 16 at 07:30pm (BST)</br>Thursday, June 17 03:30am (KST)</h4>
+					<div class="d-flex align-items-center">
+                        
+                        <img class="rounded-circle" src="../assets/images/logo.jpg" alt="SMB2021" width="70"/>
+                        
+						<small class="ml-3"> SMB2021 <span><a target="_blank" href="https://twitter.com/smb2021" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
+              <span class="text-muted d-block mt-1">Wednesday (Thursday) during the "MS14" time block.</span>
+						</small>
+						
+					</div>
+				</div>
+				
+					<small class="ml-3">Note: this minisymposia has multiple sessions. The second session is <strong>MS20-MMPB</strong> <a href="../MMPB/MMPB-MS20.html">(click here)</a>. 
+						
+						
+						
+					</small></br></br>
+				
+        
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<div class="container-lg pt-4 pb-4">
+	<div class="row justify-content-center">
+        
+        <!-- Share -->
+				<div class="col-lg-2 pr-4 mb-4 col-md-12">
+					<div class="sticky-top sticky-top-offset text-center">
+						<div class="text-muted">
+							Share this
+						</div>
+						<div class="share d-inline-block">
+							<!-- AddToAny BEGIN -->
+							<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+								<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+								<a class="a2a_button_facebook"></a>
+								<a class="a2a_button_twitter"></a>
+							</div>
+							<script async src="https://static.addtoany.com/menu/page.js"></script>
+							<!-- AddToAny END -->
+						</div>
+					</div>
+				</div>
+        
+        
+		<div class="col-md-12 col-lg-10">
+			
+			
+			<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem MMPB position-relative">
+		    <div class="pl-4 pr-0 h-100 tofront">
+		        <div class="row justify-content-between">
+		            <div class="col-md-12 pt-6 pb-6 pr-lg-4 align-self-center">
+		                <p><strong>Organizers:</strong></p>
+		                <h4 class="mb-3">Martina Bukac (University of Notre Dame, United States), Daniele Schiavazzi (University of Notre Dame, United States)</h4>
+		                
+		                
+		                	<p><strong>Description</strong>:</p> 
+		                	<p>Hemodynamic modeling has become a powerful tool in the study of basic vascular function, as well as many cardiovascular diseases. Biophysically detailed vascular simulations can reveal underlying mechanisms that help explain experimental and clinical observations. As a result, there is an increasing demand for fast and efficient numerical algorithms to solve coupled multi-physics problems arising from biomedical applications. Examples include fluid-structure interaction models (e.g., valvular modeling), fluid-porous or poroelastic medium interaction models (e.g., biological tissue or tumor modeling), as well as models of transport phenomena (e.g., transport of drugs or chemicals). Moreover, creation of realistic models might be difficult in situations where only partial knowledge is available for the input processes. Examples include, but are not limited to, uncertainty in the model anatomy, physiologic boundary conditions and material properties of the cardiac and vascular tissue. In such cases, uncertainty quantification becomes an integral part of the modeling exercise. While significant progress have been achieved in recent years, hemodynamic modeling still poses significant challenges in the mathematical and computational sciences. Thus, substantial effort is allocated to the design of adaptable and uncertainty-aware numerical methods for coupled problems due to their intricate multi-physics nature, possible strong nonlinearity and presence of uncertainty. Hence, this minisymposium focuses on methodological developments and analysis of results from deterministic and stochastic cardiovascular models.</p>
+			              
+			              
+			              
+		            </div>             
+		        </div>
+		    </div>
+			</div>
+			</br>
+			</br>
+			
+			
+			
+			
+			
+						
+			
+			
+			
+			
+			
+	    	<h4 id="author1">Suncica Canic</h4>
+	    	 
+	    		<em> (University of California, Berkeley, United States)</em>
+	    	
+	    	
+	    	
+	    		
+	    			<h6>"Computational design of a bioartificial pancreas"</h6>
+	    		
+	    	
+	    	
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			This talk will address the design of a first implantable bioartificial pancreas without the need for immunosuppressant therapy. The design is based on transplanting the healthy (donor) pancreatic cells into a poroelastic medium (alginate hydrogel, or agarose gel) and encapsulating the cell-containing medium between two nanopore semi-permeable membranes. The nanopore membranes are manufactured to block the immune cells while allowing passage of nutrients and oxygen to keep the transplanted cells viable as long as possible. The key challenge is maintaining the survival of transplanted pancreatic cells for an extended period of time of which oxygen is the main limiting factor. This challenge is addressed via our nonlinear, multi-scale, multi-physics mathematical and computational model. At the micro scale we use particle-based simulations to study the nano-scale structure of the poroelastic medium containing the cells, and combine the results with Convolution Neural Networks approaches to recover the macro-scale parameters, such as hydraulic conductivity of the poroelastic get matrix. The macro-scale parameters are used to study fluid-structure interaction between blood flow at the multi-layered poroelastic medium containing the cells. The output of the FSI simulations is then used in the advection-reaction-diffusion models to study oxygen supply to the seeded pancreatic cell. The results of the numerical simulations have aided optimal design of the first implantable bioartificial pancreas without the need for immunosuppressant therapy.
+		    		
+	    		</article>
+	    	
+				
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    	<h4 id="author2">Philipp Milović</h4>
+	    	 
+	    		<em> (University of Zagreb, Croatia)</em>
+	    	
+	    	
+	    		
+	    			<h6>"A block-coupled finite volume solver for analysis of large strain in incompressible hyperelastic materials"</h6>
+	    		
+	    	
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			Efficient solution procedures for fluid-structure interaction simulations of vascular flows require adequate solid phase solvers. Existing finite volume based solvers exhibit convergence and stability issues for problems of incompressible finite strain and unstructured meshes which commonly occur when modelling arterial tissue. In this work a block-coupled finite volume solution methodology employing a mixed displacement-pressure formulation for problems of incompressible finite strain in hyperelastic materials is developed. The solution strategy is based on integral momentum and mass conservation equations wherein pressure is used as an additional variable to improve numerical stability. The domain is discretized by cell-centred finite volumes of arbitrary polyhedral shape and a coupled solution procedure is used to improve convergence. Performance of the solution procedure is evaluated for several test cases and compared with analytical and finite element solutions.
+		    		
+	    		</article>
+	    	
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    	<h4 id="author3">Paolo Zunino</h4>
+	    	 
+	    		<em> (Politecnico di Milano, Italy)</em>
+	    	
+	    	
+	    		
+	    			<h6>"A meso-scale computational model for micro-vascular oxygen transfer"</h6>
+	    		
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			We address a mathematical model for oxygen transfer in the microcirculation. The model includes blood flow and hematocrit transport coupled with the interstitial flow, oxygen transport in the blood and the tissue, including capillary-tissue exchange effects. Moreover, the model is suited to handle arbitrarily complex vascular geometries. The purpose of this study is the validation of the model with respect to classical solutions and the further demonstration of its adequacy to describe the heterogeneities of oxygenation in the tissue micro-environment. Finally, we discuss the importance of these effects in the treatment of cancer using radiotherapy.
+		    		
+	    		</article>
+	    	
+	    
+	    
+			</br>
+			</br>
+	    
+	    
+	    	<h4 id="author4">Rana Zakerzadeh</h4>
+	    	 
+	    		<em> (Duquesne University, United States)</em>
+	    	
+	    	
+	    		
+	    			<h6>"The Role of Intraluminal Thrombus on the Vessel Wall Oxygen Starvation"</h6>
+	    		
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			In this presentation, the biomechanical role of intraluminal thrombus (ILT) in an abdominal aortic aneurysm (AAA) is investigated. It is hypothesized that different ILT geometries can enhance wall strength while also inhibiting oxygen transport and inducing arterial wall degradation. The objective of this work is to simulate AAAs with variable ILT dimensions and analyze how ILT thickness and size influence AAA rupture. A comparison between different ILT morphologies was performed. Geometric variations studied include the thickness, length, and degree of asymmetry of the ILT. Nine two-bulged, symmetrical AAAs were modeled with varying ILT thicknesses (0.1 cm, 0.2 cm, or 0.4 cm) and lengths (4cm, 6cm, or 8cm) using CAD software. A finite element method simulation of the Fluid-Solid Interactions (FSI) between arterial wall, ILT and blood was solved to assess the influence ILT geometry has on wall stress and oxygen concentration Results are presented for wall stress and deformation patterns, lumen pressure and velocity fields, and oxygen concentration within the ILT and arterial wall. While ILT geometries were found to reduce wall stress, our simulations demonstrated that thicker and longer ILTs reduced oxygen transport, leading to wall degradation.
+		    		
+	    		</article>
+	    	
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    
+	      
+			<!-- Author Box -->
+      				
+			<div class="row mt-5">
+				<div class="col-md-2 align-self-center">
+                       
+                      <img class="rounded-circle" src="../assets/images/logo.jpg" alt="SMB2021" width="90"/>
+                       
+				</div>
+				<div class="col-md-10">		
+                      <h5 class="font-weight-bold">Hosted by SMB2021 <span><a target="_blank" href="https://twitter.com/smb2021" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span></h5>
+					Virtual conference of the Society for Mathematical Biology, 2021.					
+				</div>
+			</div>				
+      
+      
+      <!-- Comments -->
+      
+          <!--  Don't edit anything here. Set your disqus id in _config.yml -->
+
+<div id="comments" class="mt-5">
+    <div id="disqus_thread">
+    </div>
+    <script type="text/javascript">
+        var disqus_shortname = ''; 
+        var disqus_developer = 0;
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = window.location.protocol + '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>
+    Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
+</div>
+      
+            
+		</div>
+        
+        
+	</div>
+</div>
+
+
+
+    </main>
+
+
+    <!-- Scripts: popper, bootstrap, theme, lunr -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+    
+    
+			<script src="../assets/js/theme.js"></script>
+		
+    
+    <!-- All this area goes before </body> closing tag --> 
+
+
+</body>
+
+</html>

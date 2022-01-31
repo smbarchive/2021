@@ -1,0 +1,123 @@
+---
+title: "Discussions Celebrating and Building Diversity in Mathematical Biology: Setting the Stage for SMB 2021"
+layout: default
+pagination:
+    enabled: false
+permalink: /DEI-setting-the-stage/
+---
+
+{% assign author = site.authors.esmb %}
+<div class="container">
+<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+		<div class="h-100 tofront">
+			<div class="row {% if page.image %} justify-content-between {% else %} justify-content-center {% endif %}">
+				<div class="{% if page.image %} col-md-6 {% else %} col-md-8 {% endif %} pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+					<p class="text-uppercase font-weight-bold">
+              <span class="catlist">
+              	<span class="text-DEI">DEI</span>						
+              </span>
+					</p>
+					<h1 class="display-4 mb-4 article-headline">{{ page.title }}</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<div class="container-lg pt-4 pb-4">
+	<div class="row justify-content-center">
+        
+        <!-- Share -->
+				<div class="col-lg-2 pr-4 mb-4 col-md-12">
+					<div class="sticky-top sticky-top-offset text-center">
+						<div class="text-muted">
+							Share this
+						</div>
+						<div class="share d-inline-block">
+							<!-- AddToAny BEGIN -->
+							<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+								<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+								<a class="a2a_button_facebook"></a>
+								<a class="a2a_button_twitter"></a>
+							</div>
+							<script async src="https://static.addtoany.com/menu/page.js"></script>
+							<!-- AddToAny END -->
+						</div>
+					</div>
+				</div>
+        
+        
+		<div class="col-md-12 col-lg-10">
+			
+			<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem DEI position-relative">
+		    <div class="pl-4 pr-0 h-100 tofront">
+		        <div class="row justify-content-between">
+		            <div class="col-md-12 pt-6 pb-6 pr-lg-4 align-self-center">
+			            
+			            
+		              <h4 class="mb-3">Discussions Celebrating and Building Diversity in Mathematical Biology</h4>
+                	<p><strong>Sunday, June 13 at 2PM PDT.</strong></p> 
+
+									<p>									
+Join your colleagues in the Society for Mathematical Biology who are interested in building structures to promote diversity, equity and inclusion in our field. Come and learn from the experience of your colleagues through small group discussions. Topics will range from Inclusive Pedagogy, Recruitment, Hiring & Retention of Diverse Faculty, Disability & Accommodation, Gender Inclusivity, Diversity in Graduate Admissions and other topics as suggested by participants.
+									</p>
+										                
+		            </div>             
+		        </div>
+		    </div>
+			</div>
+			</br>
+			</br>
+			
+			<button id="{{site.baseurl}}/session-recordings#DEI-DEI-Sunday" onclick="passWord(this.id)">Session video recording</button>
+			
+				      
+			<!-- Author Box -->
+      {% if author %}				
+			<div class="row mt-5">
+				<div class="col-md-2 align-self-center">
+                       {% if author.avatar %}
+                      <img class="rounded-circle" src="../{{author.avatar}}" alt="{{author.name}}" width="90"/>
+                      {% endif %} 
+				</div>
+				<div class="col-md-10">		
+                      <h5 class="font-weight-bold">Hosted by {{ author.name }} {% if author.twitter %}<span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span>{% endif %}</h5>
+					{{ author.bio }}					
+				</div>
+			</div>				
+      {% endif %}
+      
+      <!-- Comments -->
+      {% if page.comments != false %}
+          {% include comments.html %}
+      {% endif %}
+            
+		</div>
+        
+        
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

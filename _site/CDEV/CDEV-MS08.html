@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Control theory for microbiology | SMB 2021</title>
+
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Control theory for microbiology | SMB 2021</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Control theory for microbiology" />
+<meta name="author" content="esmb" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="In recent years, there has been much interest in the design and study of control theory in unicellular life. The aims are both fundamental and applied. We wish to understand how cells control themselves, by maintaining homeostatis, or by adapting to changing conditions. In synthetic biology, microbial cells such as bacteria and yeasts are to be controlled to produce compounds such as medicines or flavours. Also bioreactors need to be optimised to be cost-effective and give high yields. In this minisymposium, four speakers will present recent results, highlighting state of the art applications of control theory in cellular systems." />
+<meta property="og:description" content="In recent years, there has been much interest in the design and study of control theory in unicellular life. The aims are both fundamental and applied. We wish to understand how cells control themselves, by maintaining homeostatis, or by adapting to changing conditions. In synthetic biology, microbial cells such as bacteria and yeasts are to be controlled to produce compounds such as medicines or flavours. Also bioreactors need to be optimised to be cost-effective and give high yields. In this minisymposium, four speakers will present recent results, highlighting state of the art applications of control theory in cellular systems." />
+<link rel="canonical" href="http://localhost:4000/CDEV/CDEV-MS08.html" />
+<meta property="og:url" content="http://localhost:4000/CDEV/CDEV-MS08.html" />
+<meta property="og:site_name" content="SMB 2021" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-06-17T15:54:54-04:00" />
+<script type="application/ld+json">
+{"description":"In recent years, there has been much interest in the design and study of control theory in unicellular life. The aims are both fundamental and applied. We wish to understand how cells control themselves, by maintaining homeostatis, or by adapting to changing conditions. In synthetic biology, microbial cells such as bacteria and yeasts are to be controlled to produce compounds such as medicines or flavours. Also bioreactors need to be optimised to be cost-effective and give high yields. In this minisymposium, four speakers will present recent results, highlighting state of the art applications of control theory in cellular systems.","author":{"@type":"Person","name":"esmb"},"@type":"BlogPosting","url":"http://localhost:4000/CDEV/CDEV-MS08.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"esmb"},"headline":"Control theory for microbiology","dateModified":"2021-06-17T15:54:54-04:00","datePublished":"2021-06-17T15:54:54-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/CDEV/CDEV-MS08.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
+
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+
+		<!-- Twitter card validator -->
+		<meta name="twitter:card" content="summary_large_image">
+	  <meta name="twitter:site" content="@smb2021">
+		<meta name="twitter:creator" content="@smb2021">
+		<meta name="twitter:title" content="Control theory for microbiology">
+		<meta name="twitter:description" content="The Society for Mathematical Biology annual meeting - 2021.">
+		<meta name="twitter:image" content="http://schedule.smb2021.org/assets/images/twitter.png">
+		
+		<meta name="title" content="Control theory for microbiology" />
+		<meta name="description" content="The Society for Mathematical Biology annual meeting - 2021." />
+		<meta property="og:title" content="Control theory for microbiology" />
+		<meta property="og:description" content="The Society for Mathematical Biology annual meeting - 2021." />
+		<meta property="og:image" content="http://schedule.smb2021.org/assets/images/twitter.png"/>
+
+
+
+    
+
+
+    
+
+		<!-- Bootstrap Modified -->
+		
+			<link rel="stylesheet" href="../assets/css/main.css">
+		
+		
+		<!-- Theme Stylesheet -->
+		
+			<link rel="stylesheet" href="../assets/css/theme.css">
+		
+		
+		<!-- Custom Themes Stylesheet -->
+		
+			<link rel="stylesheet" href="../assets/css/custom.css">
+		
+
+
+
+    <!-- Jquery on header to make sure everything works, the rest  of the scripts in footer for fast loading -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    
+    <script src="/assets/js/custom.js"></script>
+
+
+</head>
+
+<body class="">
+  
+	<nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+	  <div class="container">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		
+		  <div class="collapse navbar-collapse" id="navbarColor02">
+		    <ul class="navbar-nav mr-auto d-flex align-items-center">
+			    <li class="nav-item"> <img src="/assets/images/logo.png" width="65" alt="" class="d-inline-block align-middle mr-2"> </li>
+					<a class="navbar-brand" href="/"><strong>SMB 2021</strong></a>
+		      <!--  Replace menu links here -->
+
+<!-- <li class="nav-item"> <img src="/assets/images/logo.jpg" width="45" alt="" class="d-inline-block align-middle mr-2"> </li> -->
+<!-- <a class="navbar-brand" href="/"><strong>SMB 2021</strong></a> -->
+
+<li class="nav-item"><a class="nav-link" id="strong-nav" href="/">Home</a></li>
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Schedule
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item" style="color:#000000 !important;" href="/">Overview</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/your-smb2021">Plan Your SMB2021</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/pre-conference">Pre-conference</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/americas">Americas</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/europe-africa">Europe/Africa</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/asia-oceania">Asia/Oceania</a>
+		
+  </div>
+</li>
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Search by Name
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item" style="color:#000000 !important;" href="/contributed-speakers">Contributed Talks</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/minisymposia-speakers">Minisymposia</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/plenary">Plenary</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/posters">Posters</a>
+  </div>
+</li>
+
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Subgroup / Theme
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item text-CBBS" style="color:#000000 !important;" href="/CBBS"><span class="text-CBBS">CBBS</span> (Complex Biological and Biomedical Systems)</a>
+		<a class="dropdown-item text-CDEV" style="color:#000000 !important;" href="/CDEV"><span class="text-CDEV">CDEV</span> (Cell and Developmental Biology)</a>
+		<a class="dropdown-item text-DDMB" style="color:#000000 !important;" href="/DDMB"><span class="text-DDMB">DDMB</span> (Data Driven Modeling in Biology)</a>
+		<a class="dropdown-item text-DEI" style="color:#000000 !important;" href="/DEI"><span class="text-DEI">DEI</span> (Diversity, Equity, and Inclusion)</a>
+		<a class="dropdown-item text-ECOP" style="color:#000000 !important;" href="/ECOP"><span class="text-ECOP">ECOP</span> (Population Dynamics & Ecology)</a>
+		<a class="dropdown-item text-EDUC" style="color:#000000 !important;" href="/EDUC"><span class="text-EDUC">EDUC</span> (Education)</a>
+		<a class="dropdown-item text-EVOP" style="color:#000000 !important;" href="/EVOP"><span class="text-EVOP">EVOP</span> (Population Dynamics & Evolution)</a>
+		<a class="dropdown-item text-IMMU" style="color:#000000 !important;" href="/IMMU"><span class="text-IMMU">IMMU</span> (Immunobiology and Infection)</a>
+		<a class="dropdown-item text-MEPI" style="color:#000000 !important;" href="/MEPI"><span class="text-MEPI">MEPI</span> (Mathematical Epidemiology)</a>
+		<a class="dropdown-item text-MFBM" style="color:#000000 !important;" href="/MFBM"><span class="text-MFBM">MFBM</span> (Methods for Biological Modeling)</a>
+		<a class="dropdown-item text-MMPB" style="color:#000000 !important;" href="/MMPB"><span class="text-MMPB">MMPB</span> (Multiscale Modeling in Physiology and Biophysics )</a>
+		<a class="dropdown-item text-NEUR" style="color:#000000 !important;" href="/NEUR"><span class="text-NEUR">NEUR</span> (Mathematical Neuroscience)</a>
+		<a class="dropdown-item text-ONCO" style="color:#000000 !important;" href="/ONCO"><span class="text-ONCO">ONCO</span> (Mathematical Oncology)</a>
+  </div>
+</li>
+<li class="nav-item">
+	<a class="nav-link" href="https://www.smb2021.org/">Return to SMB2021.org</a>
+</li>
+
+		    </ul>
+		    
+		  </div>
+	  </div>
+	</nav>
+	
+
+
+    
+
+    <!-- Search Results -->
+    <div id="lunrsearchresults">
+        <ul class="mb-0"></ul>
+    </div>
+
+    <!-- Content -->
+    <main role="main" class="site-content" style="margin-bottom: 300px;">
+        
+<div class="container">
+<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+		<div class="h-100 tofront">
+			<div class="row  justify-content-center ">
+				<div class=" col-md-8  pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+					<p class="text-uppercase font-weight-bold">
+              <span class="catlist">
+              	<span class="text-CDEV">CDEV-MS08</span>						
+              </span>
+					</p>
+					<h1 class="display-4 mb-4 article-headline">Control theory for microbiology</h1>
+					<h4>Tuesday, June 15 at 11:30am (PDT)</br>Tuesday, June 15 at 07:30pm (BST)</br>Wednesday, June 16 03:30am (KST)</h4>
+					<div class="d-flex align-items-center">
+                        
+                        <img class="rounded-circle" src="../assets/images/logo.jpg" alt="SMB2021" width="70"/>
+                        
+						<small class="ml-3"> SMB2021 <span><a target="_blank" href="https://twitter.com/smb2021" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
+              <span class="text-muted d-block mt-1">Tuesday (Wednesday) during the "MS08" time block.</span>
+						</small>
+						
+					</div>
+				</div>
+				
+        
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<div class="container-lg pt-4 pb-4">
+	<div class="row justify-content-center">
+        
+        <!-- Share -->
+				<div class="col-lg-2 pr-4 mb-4 col-md-12">
+					<div class="sticky-top sticky-top-offset text-center">
+						<div class="text-muted">
+							Share this
+						</div>
+						<div class="share d-inline-block">
+							<!-- AddToAny BEGIN -->
+							<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+								<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+								<a class="a2a_button_facebook"></a>
+								<a class="a2a_button_twitter"></a>
+							</div>
+							<script async src="https://static.addtoany.com/menu/page.js"></script>
+							<!-- AddToAny END -->
+						</div>
+					</div>
+				</div>
+        
+        
+		<div class="col-md-12 col-lg-10">
+			
+			
+			<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem CDEV position-relative">
+		    <div class="pl-4 pr-0 h-100 tofront">
+		        <div class="row justify-content-between">
+		            <div class="col-md-12 pt-6 pb-6 pr-lg-4 align-self-center">
+		                <p><strong>Organizers:</strong></p>
+		                <h4 class="mb-3">Robert Planqué (Vrije Universiteit Amsterdam, Netherlands), Diego Oyarzún (University of Edinburgh, United Kingdom), Mustafa Khammash (ETH Zurich, Switzerland)</h4>
+		                
+		                
+		                	<p><strong>Description</strong>:</p> 
+		                	<p>In recent years, there has been much interest in the design and study of control theory in unicellular life. The aims are both fundamental and applied. We wish to understand how cells control themselves, by maintaining homeostatis, or by adapting to changing conditions. In synthetic biology, microbial cells such as bacteria and yeasts are to be controlled to produce compounds such as medicines or flavours. Also bioreactors need to be optimised to be cost-effective and give high yields. In this minisymposium, four speakers will present recent results, highlighting state of the art applications of control theory in cellular systems.</p>
+			              
+			              
+			              
+		            </div>             
+		        </div>
+		    </div>
+			</div>
+			</br>
+			</br>
+			
+			
+			
+			
+			
+						
+			
+			
+			
+			
+			
+	    	<h4 id="author1">Elisa Franco</h4>
+	    	 
+	    		<em> (University of California Los Angeles, United States)</em>
+	    	
+	    	
+	    	
+	    		
+	    			<h6>"Ultrasensitive feedback controllers for quasi-integral feedback"</h6>
+	    		
+	    	
+	    	
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			Biological organisms regulate many of their properties so they fall in a prescribed range, for example temperature, osmotic pressure, and glucose levels. The capacity to preserve a desired condition is enabled by feedback loops that adjust gene expression or metabolism in response to changes or perturbations in the environment. Theory developed in automation engineering indicates that the best way to reject perturbations in a feedback system is to include components that integrate (maintain memory) of past effects of the disturbances, and are known as integrators. While models of biological networks such as osmoregulation and chemotaxis are known to include integral feedback, a different question is how to build molecular integral control systems from the bottom up. With mathematical modeling I will describe how ultrasensitive components can be helpful within feedback loops to maintain a desired gene expression level. I will also discuss a particular ultrasensitive reaction network that combines molecular sequestration and an activation/deactivation cycle, and could be used not only for maintaining a steady state but also for setting a tunable reference. I will finally provide an overview of ongoing projects in our group focused on the role of ultrasensitivity in the context of molecular computation and non-equilibrium kinetics.
+		    		
+	    		</article>
+	    	
+				
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    	<h4 id="author2">Jorge I. Poveda</h4>
+	    	 
+	    		<em> (University of Colorado, Boulder, United States)</em>
+	    	
+	    	
+	    		
+	    			<h6>"High-Performance Online Optimization of Bioreactor Systems via Non-Smooth and Hybrid Extremizing Feedback Controllers"</h6>
+	    		
+	    	
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			It is well-known that bioreactor systems are highly nonlinear and difficult to model in a precise way by using first principles. Yet, substantial economic benefits can be achieved when the system operates at optimal points, which are difficult to calculate offline. Instead, to achieve this optimal operation in real time, different types of feedback controllers with online adaptation have been developed during the last decades. However, a persistent challenge in most existing approaches is the emergence of prohibitively slow rates of convergence and potentially small basins of attraction, which difficult the tuning of the controller in practical settings. To address these problems, in this talk we will explore a new class of extremizing control algorithms, grounded on ideas from non-smooth control and hybrid control theory, which can overcome some of the limitations of existing approaches based on smooth feedback control laws. We will illustrate our theoretical results via numerical examples in two different types of models of bioreactors.
+		    		
+	    		</article>
+	    	
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    	<h4 id="author3">Mustafa Khammash</h4>
+	    	 
+	    		<em> (ETH Zurich, Switzerland)</em>
+	    	
+	    	
+	    		
+	    			<h6>"Beyond Perfect Adaptation: Biological Antithetic Controllers for Enhanced Transient Performance"</h6>
+	    		
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			Proportional-Integral-Derivative (PID) feedback controllers have been the most widely used controllers in the industry for almost a century due to their simplicity and intuitive operation. Motivated by their success in various engineering disciplines, PID controllers are being explored for use in molecular biology. In this talk, we consider the mathematical realization of PID controllers using biomolecular interactions based on the antithetic controller motif. We propose a simple PID architecture based on a combination of feedback and incoherent feedforward and demonstrate its capability of enhancing the transient dynamics and reducing cell-to-cell variability.
+		    		
+	    		</article>
+	    	
+	    
+	    
+			</br>
+			</br>
+	    
+	    
+	    	<h4 id="author4">Diego Oyarzún</h4>
+	    	 
+	    		<em> (University of Edinburgh, United Kingdom)</em>
+	    	
+	    	
+	    		
+	    			<h6>"Multiobjective optmization of metabolic control systems"</h6>
+	    		
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			Progress in genetic engineering now allows the construction of molecular circuits inside living cells. In this talk I will present our approach to design such systems using multiobjective optimization. We focus on feedback control circuits designed to steer cellular metabolism toward the production of high-value chemicals. Starting from two-timescale ODE model, we pose and solve cost-benefit optimisation problems for control systems built in the literature so far. The results reveal previously unknown trade-offs between optimality, performance and robustness of metabolic control systems. Our results lay the groundwork for the automated design of control circuits in synthetic biology, with applications in the food, energy and pharma sectors.
+		    		
+	    		</article>
+	    	
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    
+	      
+			<!-- Author Box -->
+      				
+			<div class="row mt-5">
+				<div class="col-md-2 align-self-center">
+                       
+                      <img class="rounded-circle" src="../assets/images/logo.jpg" alt="SMB2021" width="90"/>
+                       
+				</div>
+				<div class="col-md-10">		
+                      <h5 class="font-weight-bold">Hosted by SMB2021 <span><a target="_blank" href="https://twitter.com/smb2021" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span></h5>
+					Virtual conference of the Society for Mathematical Biology, 2021.					
+				</div>
+			</div>				
+      
+      
+      <!-- Comments -->
+      
+          <!--  Don't edit anything here. Set your disqus id in _config.yml -->
+
+<div id="comments" class="mt-5">
+    <div id="disqus_thread">
+    </div>
+    <script type="text/javascript">
+        var disqus_shortname = ''; 
+        var disqus_developer = 0;
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = window.location.protocol + '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>
+    Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
+</div>
+      
+            
+		</div>
+        
+        
+	</div>
+</div>
+
+
+
+    </main>
+
+
+    <!-- Scripts: popper, bootstrap, theme, lunr -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+    
+    
+			<script src="../assets/js/theme.js"></script>
+		
+    
+    <!-- All this area goes before </body> closing tag --> 
+
+
+</body>
+
+</html>

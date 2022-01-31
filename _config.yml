@@ -1,0 +1,313 @@
+# Site
+name: 'SMB 2021'
+description: 'The Society for Mathematical Biology - virtual conference 2021.'
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+baseurl: ''
+url:     "https://smbarchive.github.io/2021"
+
+include: ["_pages"]
+permalink: /:title/
+
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  
+authors:
+    esmb:
+      name:           "SMB2021"
+      site:           https://www.smb2021.org
+      avatar:         assets/images/logo.jpg
+      bio:            "Virtual conference of the Society for Mathematical Biology, 2021."
+      twitter:        https://twitter.com/smb2021
+      MS01:           "Monday, June 14 at 09:30am (PDT)</br>Monday, June 14 at 05:30pm (BST)</br>Tuesday, June 15 01:30am (KST)"
+      MS02:           "Monday, June 14 at 11:30am (PDT)</br>Monday, June 14 at 07:30pm (BST)</br>Tuesday, June 15 03:30am (KST)"
+      MS03:           "Monday, June 14 at 5:45pm (PDT)</br>Tuesday, June 15 at 01:45am (BST)</br>Tuesday, June 15 09:45am (KST)"
+      MS04:           "Monday, June 14 at 7:45pm (PDT)</br>Tuesday, June 15 at 03:45am (BST)</br>Tuesday, June 15 11:45am (KST)"
+      MS05:           "Tuesday, June 15 at 02:15am (PDT)</br>Tuesday, June 15 at 10:15am (BST)</br>Tuesday, June 15 06:15pm (KST)"
+      MS06:           "Tuesday, June 15 at 04:15am (PDT)</br>Tuesday, June 15 at 12:15pm (BST)</br>Tuesday, June 15 08:15pm (KST)"
+      MS07:           "Tuesday, June 15 at 09:30am (PDT)</br>Tuesday, June 15 at 05:30pm (BST)</br>Wednesday, June 16 01:30am (KST)"
+      MS08:           "Tuesday, June 15 at 11:30am (PDT)</br>Tuesday, June 15 at 07:30pm (BST)</br>Wednesday, June 16 03:30am (KST)"
+      MS09:           "Tuesday, June 15 at 05:45pm (PDT)</br>Wednesday, June 16 at 01:45am (BST)</br>Wednesday, June 16 09:45am (KST)"
+      MS10:           "Tuesday, June 15 at 07:45pm (PDT)</br>Wednesday, June 16 at 03:45am (BST)</br>Wednesday, June 16 11:45am (KST)"
+      MS11:           "Wednesday, June 16 at 02:15am (PDT)</br>Wednesday, June 16 at 10:15am (BST)</br>Wednesday, June 16 06:15pm (KST)"
+      MS12:           "Wednesday, June 16 at 04:15am (PDT)</br>Wednesday, June 16 at 12:15pm (BST)</br>Wednesday, June 16 08:15pm (KST)"
+      MS13:           "Wednesday, June 16 at 09:30am (PDT)</br>Wednesday, June 16 at 05:30pm (BST)</br>Thursday, June 17 01:30am (KST)"
+      MS14:           "Wednesday, June 16 at 11:30am (PDT)</br>Wednesday, June 16 at 07:30pm (BST)</br>Thursday, June 17 03:30am (KST)"
+      MS15:           "Wednesday, June 16 at 05:45pm (PDT)</br>Thursday, June 17 at 01:45am (BST)</br>Thursday, June 17 09:45am (KST)"
+      MS16:           "Wednesday, June 16 at 07:45pm (PDT)</br>Thursday, June 17 at 03:45am (BST)</br>Thursday, June 17 11:45am (KST)"
+      MS17:           "Thursday, June 17 at 02:15am (PDT)</br>Thursday, June 17 at 10:15am (BST)</br>Thursday, June 17 06:15pm (KST)"
+      MS18:           "Thursday, June 17 at 04:15am (PDT)</br>Thursday, June 17 at 12:15pm (BST)</br>Thursday, June 17 08:15pm (KST)"
+      MS19:           "Thursday, June 17 at 09:30am (PDT)</br>Thursday, June 17 at 05:30pm (BST)</br>Friday, June 18 01:30am (KST)"
+      MS20:           "Thursday, June 17 at 11:30am (PDT)</br>Thursday, June 17 at 07:30pm (BST)</br>Friday, June 18 03:30am (KST)"
+      CT01:           "Monday, June 14 at 03:15pm (PDT)</br>Monday, June 14 at 11:15pm (BST)</br>Tuesday, June 15 07:15am (KST)"
+      CT02:           "Monday, June 14 at 10:30pm (PDT)</br>Tuesday, June 15 at 06:30am (BST)</br>Tuesday, June 15 02:30pm (KST)"
+      CT03:           "Tuesday, June 15 at 06:45am (PDT)</br>Tuesday, June 15 at 02:45pm (BST)</br>Tuesday, June 15 10:45pm (KST)"
+      CT04:           "Tuesday, June 15 at 02:15pm (PDT)</br>Tuesday, June 15 at 10:15pm (BST)</br>Wednesday, June 16 06:15am (KST)"
+      CT05:           "Tuesday, June 15 at 10:30pm (PDT)</br>Wednesday, June 16 at 06:30am (BST)</br>Wednesday, June 16 02:30pm (KST)"
+      CT06:           "Wednesday, June 16 at 06:45am (PDT)</br>Wednesday, June 16 at 02:45pm (BST)</br>Wednesday, June 16 10:45pm (KST)"
+      CT07:           "Wednesday, June 16 at 02:15pm (PDT)</br>Wednesday, June 16 at 10:15pm (BST)</br>Thursday, June 17 06:15am (KST)"
+      CT08:           "Wednesday, June 16 at 10:30pm (PDT)</br>Thursday, June 17 at 06:30am (BST)</br>Thursday, June 17 02:30pm (KST)"
+      CT09:           "Thursday, June 17 at 06:45am (PDT)</br>Thursday, June 17 at 02:45pm (BST)</br>Thursday, June 17 10:45pm (KST)"
+      PS01:           "Monday, June 14 at 11:30pm (PDT)</br>Tuesday, June 15 at 07:30am (BST)</br>Tuesday, June 15 03:30pm (KST)"
+      PS02:           "Tuesday, June 15 at 03:15pm (PDT)</br>Tuesday, June 15 at 11:15pm (BST)</br>Wednesday, June 16 07:15am (KST)"
+      PS03:           "Tuesday, June 15 at 11:30pm (PDT)</br>Wednesday, June 16 at 07:30am (BST)</br>Wednesday, June 16 03:30pm (KST)"
+      PS04:           "Wednesday, June 16 at 03:15pm (PDT)</br>Wednesday, June 16 at 11:15pm (BST)</br>Thursday, June 17 07:15am (KST)"
+      PS05:           "Wednesday, June 16 at 11:30pm (PDT)</br>Thursday, June 17 at 07:30am (BST)</br>Thursday, June 17 03:30pm (KST)"      
+      SIAM1:          "Thursday, June 17 at 02:15pm (PDT)</br>Thursday, June 17 at 10:15pm (BST)</br>Friday, June 18 06:15am (KST)"      
+      MED:            "Thursday, June 17 at 03:45pm (PDT)</br>Thursday, June 17 at 11:45pm (BST)</br>Friday, June 18 07:45am (KST)"      
+
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: sal
+      avatar: /assets/images/avatar1.jpg
+      
+  # all abstracts
+  - scope:
+      path: "_abstracts"
+    values:
+      layout: post
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Paginate
+paginate: 10
+
+collections:
+  Recordings:
+  MS-Speakers:
+  CT-Speakers:
+  PS-Speakers:
+  Plenary:
+    output: true
+    permalink: /plenary/:title.html
+  SIAM:
+    output: true
+    permalink: /SIAM/:title.html
+  MMPB-CT:
+    output: true
+    permalink: /MMPB/:title.html
+  CBBS-CT:
+    output: true
+    permalink: /CBBS/:title.html  
+  CDEV-CT:
+    output: true
+    permalink: /CDEV/:title.html  
+  DDMB-CT:
+    output: true
+    permalink: /DDMB/:title.html
+  ECOP-CT:
+    output: true
+    permalink: /ECOP/:title.html
+  EDUC-CT:
+    output: true
+    permalink: /EDUC/:title.html
+  EVOP-CT:
+    output: true
+    permalink: /EVOP/:title.html
+  IMMU-CT:
+    output: true
+    permalink: /IMMU/:title.html  
+  MEPI-CT:
+    output: true
+    permalink: /MEPI/:title.html  
+  MFBM-CT:
+    output: true
+    permalink: /MFBM/:title.html  
+  NEUR-CT:
+    output: true
+    permalink: /NEUR/:title.html  
+  ONCO-CT:
+    output: true
+    permalink: /ONCO/:title.html
+  POPD-CT:
+    output: true
+    permalink: /POPD/:title.html
+  MMPB:
+    output: true
+    permalink: /MMPB/:title.html
+  CBBS:
+    output: true
+    permalink: /CBBS/:title.html  
+  CDEV:
+    output: true
+    permalink: /CDEV/:title.html  
+  DDMB:
+    output: true
+    permalink: /DDMB/:title.html
+  ECOP:
+    output: true
+    permalink: /ECOP/:title.html
+  EDUC:
+    output: true
+    permalink: /EDUC/:title.html
+  EVOP:
+    output: true
+    permalink: /EVOP/:title.html
+  IMMU:
+    output: true
+    permalink: /IMMU/:title.html  
+  MEPI:
+    output: true
+    permalink: /MEPI/:title.html  
+  MFBM:
+    output: true
+    permalink: /MFBM/:title.html  
+  NEUR:
+    output: true
+    permalink: /NEUR/:title.html  
+  ONCO:
+    output: true
+    permalink: /ONCO/:title.html
+  POPD:
+    output: true
+    permalink: /POPD/:title.html
+  MS01:
+    output: true
+    permalink: /MS01/:title.html
+  MS02:
+    output: true
+    permalink: /MS02/:title.html
+  MS03:
+    output: true
+    permalink: /MS03/:title.html
+  MS04:
+    output: true
+    permalink: /MS04/:title.html
+  MS05:
+    output: true
+    permalink: /MS05/:title.html
+  MS06:
+    output: true
+    permalink: /MS06/:title.html
+  MS07:
+    output: true
+    permalink: /MS07/:title.html
+  MS08:
+    output: true
+    permalink: /MS08/:title.html
+  MS09:
+    output: true
+    permalink: /MS09/:title.html
+  MS10:
+    output: true
+    permalink: /MS10/:title.html
+  MS11:
+    output: true
+    permalink: /MS11/:title.html
+  MS12:
+    output: true
+    permalink: /MS12/:title.html
+  MS13:
+    output: true
+    permalink: /MS13/:title.html
+  MS14:
+    output: true
+    permalink: /MS14/:title.html
+  MS15:
+    output: true
+    permalink: /MS15/:title.html
+  MS16:
+    output: true
+    permalink: /MS16/:title.html
+  MS17:
+    output: true
+    permalink: /MS17/:title.html
+  MS18:
+    output: true
+    permalink: /MS18/:title.html
+  MS19:
+    output: true
+    permalink: /MS19/:title.html
+  MS20:
+    output: true
+    permalink: /MS20/:title.html
+  CT01:
+    output: true
+    permalink: /CT01/:title.html
+  CT02:
+    output: true
+    permalink: /CT02/:title.html
+  CT03:
+    output: true
+    permalink: /CT03/:title.html
+  CT04:
+    output: true
+    permalink: /CT04/:title.html
+  CT05:
+    output: true
+    permalink: /CT05/:title.html
+  CT06:
+    output: true
+    permalink: /CT06/:title.html
+  CT07:
+    output: true
+    permalink: /CT07/:title.html
+  CT08:
+    output: true
+    permalink: /CT08/:title.html
+  CT09:
+    output: true
+    permalink: /CT09/:title.html
+  PS01:
+    output: true
+    permalink: /PS01/:title.html
+  PS02:
+    output: true
+    permalink: /PS02/:title.html
+  PS03:
+    output: true
+    permalink: /PS03/:title.html
+  PS04:
+    output: true
+    permalink: /PS04/:title.html
+  PS05:
+    output: true
+    permalink: /PS05/:title.html
+  CDEV-PS:
+    output: true
+    permalink: /CDEV/:title.html  
+  EDUC-PS:
+    output: true
+    permalink: /EDUC/:title.html  
+  IMMU-PS:
+    output: true
+    permalink: /IMMU/:title.html  
+  MEPI-PS:
+    output: true
+    permalink: /MEPI/:title.html  
+  MFBM-PS:
+    output: true
+    permalink: /MFBM/:title.html  
+  NEUR-PS:
+    output: true
+    permalink: /NEUR/:title.html  
+  ONCO-PS:
+    output: true
+    permalink: /ONCO/:title.html  
+  OTHE-PS:
+    output: true
+    permalink: /CDEV/:title.html  
+  POPD-PS:
+    output: true
+    permalink: /POPD/:title.html  
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]

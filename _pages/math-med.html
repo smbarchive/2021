@@ -1,0 +1,170 @@
+---
+title: "Mathematics and Medicine: Toward a Roadmap"
+layout: default
+pagination:
+    enabled: false
+description: "The Society for Mathematical Biology - e-Conference 2021."
+permalink: /math-in-medicine/
+subgroup: "MATH"
+code: "MED"
+---
+
+{% assign author = site.authors.esmb %}
+<div class="container">
+<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+		<div class="h-100 tofront">
+			<div class="row {% if page.image %} justify-content-between {% else %} justify-content-center {% endif %}">
+				<div class="{% if page.image %} col-md-6 {% else %} col-md-8 {% endif %} pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+					<p class="text-uppercase font-weight-bold">
+              <span class="catlist">
+              	<span class="text-{{page.subgroup}}">{{page.subgroup}}-{{page.code}}</span>						
+              </span>
+					</p>
+					<h1 class="display-4 mb-4 article-headline">{{ page.title }}</h1>
+					<h4>{{site.authors.esmb[page.code]}}</h4>
+					<div class="d-flex align-items-center">
+                        {% if author.avatar %}
+                        <img class="rounded-circle" src="../{{author.avatar}}" alt="{{author.name}}" width="70"/>
+                        {% endif %}
+						<small class="ml-3"> {{ author.name }} <span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
+              <span class="text-muted d-block mt-1">{{ page.day }} during the "Special session 2" time block.</span>
+						</small>
+						
+					</div>
+				</div>
+				
+        {% if page.image %}
+					<div class="col-md-6 pr-0 align-self-center">
+						<img class="rounded" src="../{{ page.image }}" alt="{{ page.title }}">
+					</div>
+        {% endif %}
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-lg pt-4 pb-4">
+	<div class="row justify-content-center">
+        
+        <!-- Share -->
+				<div class="col-lg-2 pr-4 mb-4 col-md-12">
+					<div class="sticky-top sticky-top-offset text-center">
+						<div class="text-muted">
+							Share this
+						</div>
+						<div class="share d-inline-block">
+							<!-- AddToAny BEGIN -->
+							<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+								<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+								<a class="a2a_button_facebook"></a>
+								<a class="a2a_button_twitter"></a>
+							</div>
+							<script async src="https://static.addtoany.com/menu/page.js"></script>
+							<!-- AddToAny END -->
+						</div>
+					</div>
+				</div>
+        
+        
+		<div class="col-md-12 col-lg-10">
+			
+			<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem {{page.subgroup}} position-relative">
+		    <div class="pl-4 pr-0 h-100 tofront">
+		        <div class="row justify-content-between">
+		            <div class="col-md-12 pt-6 pb-6 pr-lg-4 align-self-center">
+		                
+		                <p><strong>Moderator:</strong></p>
+		                <h4 class="mb-3">Reinhard Laubenbacher, Ph.D.</h4>
+		                <h6>Department of Medicine</h6>
+										<h6>University of Florida</h6>
+										<h6>Editor-in-chief, Bulletin of Mathematical Biology</h6>
+										</br>
+										</br>
+		                
+	                	<p><strong>Description</strong>:</p> 
+	                	<p>The last 50 years has seen an explosion of data, from the human genome to brain imaging and electronic patient records that has changed the paradigm of how we approach human health. Precision medicine is one example. During the next 30 years, this data revolution will only speed up and will require new mathematical and quantitative paradigms to harness it. This panel discussion brings together experts from industry and government to discuss the development of a roadmap for the mathematical and computational sciences in the service of medicine and human health. This roadmap will identify long-term needs for human health and the mathematical tools to meet those needs, as well as the required human resources, research funding, and research infrastructure. It can provide the basis for concerted research efforts, new funding opportunities, and new training paradigms.</p>
+	            
+	            
+										<p><strong>Panelists</strong>:</p>
+										
+										<p><strong>Dr. Susan Gregurick</strong></p>
+										<p>Director, Office of Data Science Strategy</p>
+										<p>National Institutes of Health</p>
+										</br>
+										</br>
+										<p><strong>Dr. Mark Palmer, M.D. Ph.D.</strong></p>
+										<p>Distinguished Scientist in Strategic Scientific Operations</p>
+										<p>Lead, Enterprise Modeling&Simulation Working Group</p>
+										<p>Medtronic</p>
+										
+										</br>
+										</br>
+										<p><strong>Dr. Jane PF Bai, A.M., Ph.D.  </strong></p>
+										<p>Regulatory Review Scientist (Systems Pharmacology)</p>
+										<p>Office of Clinical Pharmacology</p>
+										<p>Office of Translational Science</p>
+										<p>Center for Drug Evaluation and Research</p>
+										<p>U.S. Food and Drug Administration</p>
+	            
+										<button id="{{site.baseurl}}/session-recordings#MATH-MED" onclick="passWord(this.id)">Session video recording</button>
+	            
+		                
+		            </div>             
+		        </div>
+		    </div>
+			</div>
+			</br>
+			</br>
+	
+			
+	    
+	      
+			<!-- Author Box -->
+      {% if author %}				
+			<div class="row mt-5">
+				<div class="col-md-2 align-self-center">
+                       {% if author.avatar %}
+                      <img class="rounded-circle" src="../{{author.avatar}}" alt="{{author.name}}" width="90"/>
+                      {% endif %} 
+				</div>
+				<div class="col-md-10">		
+                      <h5 class="font-weight-bold">Hosted by {{ author.name }} {% if author.twitter %}<span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span>{% endif %}</h5>
+					{{ author.bio }}					
+				</div>
+			</div>				
+      {% endif %}
+      
+      <!-- Comments -->
+      {% if page.comments != false %}
+          {% include comments.html %}
+      {% endif %}
+            
+		</div>
+        
+        
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

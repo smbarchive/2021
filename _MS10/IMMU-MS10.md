@@ -1,0 +1,27 @@
+---
+layout: group
+author: esmb
+day: "Tuesday (Wednesday)"
+subgroup: "IMMU"
+title: "Within-host modelling of SARS-CoV-2"
+organizers: "Thomas Hillen (University of Alberta, Canada), Carlos Contreras (University of Alberta, Canada)"
+description: "In this session we consider mathematical models for the within-host dynamics of SARS-CoV-2. A good understanding of the course of the infection inside the body is of great importance for treatment and control of COVID-19. We will discuss the modelling of the immune response, cytokine dynamics, fibrosis and scarring, tissue damage and models to estimate COVID related health risks."
+code: "MS10"
+code2: "MS09"
+author1: "Suzan Farhang Sardroodi"
+inst1: " (York University, Canada)"
+title1: "Analysis of host immunological response of adenovirus-based Covid-19 vaccines"
+abstract1: "The coronavirus disease 2019 (COVID-19) caused by the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) can be mitigated through safe and effective administration of vaccines. In this work, we provide a mathematical framework to investigate the mechanism of vaccine-induced cellular and humoral adaptive immunity. The model uses a system of simple ordinary differential equations to analyze the safety and efficacy of the vaccine. We confront our model to various vaccine doses in an attempt to understand different immunological profiles. An optimum solution is to compute a vaccination strategy of smaller dosage and longer delay that allows the highest efficacy while allowing supply of the vaccine to catch up with the demand. Model parameters are compared to clinical trial data on adenovirus-vectored vaccines against COVID-19 but could be adapted with different vaccine types such as mRNA, protein subunit, or multi-epitope vaccines."
+author2: "Dominik Wodarz"
+inst2: " (UC Irvine, USA)"
+title2: "The impact of viral variants on the immune response during COVID-19"
+abstract2: "N/A"
+author3: "Carlos Contreras"
+inst3: " (University of Alberta, Canada)"
+title3: "Personalized Virus Load Curves of SARS-CoV-2 Infection"
+abstract3: "We introduce an explicit function that describes virus-load curves on a patient-specific level. This function is based on simple and intuitive model parameters. It allows virus load analysis without solving a full virus load dynamic model. We validate our model on data from influenza A as well as SARS-CoV-2 infection data for Macaque monkeys and humans. Further, we compare the virus load function to an established target model of virus dynamics, which shows an excellent fit. Our virus-load function offers a new way to analyse patient virus load data, and it can be used as input to higher level models for the physiological effects of a virus infection, for models of tissue damage, and to estimate patient risks."
+author4: "Jane Heffernan"
+inst4: " (York University, Canada)"
+title4: " A multi-scale model for SARS-CoV-2 infection"
+abstract4: "N/A"
+---

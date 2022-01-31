@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Image Analysis and Machine Learning for Bio-Medical Applications | SMB 2021</title>
+
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Image Analysis and Machine Learning for Bio-Medical Applications | SMB 2021</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Image Analysis and Machine Learning for Bio-Medical Applications" />
+<meta name="author" content="esmb" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Image analysis is common in many bio-medical research applications. In spite of the prevalence of a number of relevant tools, a large part of the analysis is still manual and extremely tedious. This limits the amount of data that can be analyzed and prevents drawing statistically relevant conclusions. The reasons for the existing computational tools to not perform satisfactorily in many applications are often driven by poor image quality, and this calls for developing advanced methods that would be able to overcome these limitations. There has been tremendous progress in image analysis in the last decade, building upon machine learning methods. A pressing question is how do we translate these methods from the computer science fields into application in biomedical domains? This workshop will focus on such issues. Biomedical applications bring their own challenges that these advance computing approaches will need to address. In this workshop, we will focus on a few of these problems, e.g., how to use machine learning when there is limited labeled data, how do we combine physics-driven approaches with data-driven methods, and how do we combine human feedback effortlessly into the learning paradigm." />
+<meta property="og:description" content="Image analysis is common in many bio-medical research applications. In spite of the prevalence of a number of relevant tools, a large part of the analysis is still manual and extremely tedious. This limits the amount of data that can be analyzed and prevents drawing statistically relevant conclusions. The reasons for the existing computational tools to not perform satisfactorily in many applications are often driven by poor image quality, and this calls for developing advanced methods that would be able to overcome these limitations. There has been tremendous progress in image analysis in the last decade, building upon machine learning methods. A pressing question is how do we translate these methods from the computer science fields into application in biomedical domains? This workshop will focus on such issues. Biomedical applications bring their own challenges that these advance computing approaches will need to address. In this workshop, we will focus on a few of these problems, e.g., how to use machine learning when there is limited labeled data, how do we combine physics-driven approaches with data-driven methods, and how do we combine human feedback effortlessly into the learning paradigm." />
+<link rel="canonical" href="http://localhost:4000/DDMB/DDMB-MS16.html" />
+<meta property="og:url" content="http://localhost:4000/DDMB/DDMB-MS16.html" />
+<meta property="og:site_name" content="SMB 2021" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-06-17T15:54:54-04:00" />
+<script type="application/ld+json">
+{"description":"Image analysis is common in many bio-medical research applications. In spite of the prevalence of a number of relevant tools, a large part of the analysis is still manual and extremely tedious. This limits the amount of data that can be analyzed and prevents drawing statistically relevant conclusions. The reasons for the existing computational tools to not perform satisfactorily in many applications are often driven by poor image quality, and this calls for developing advanced methods that would be able to overcome these limitations. There has been tremendous progress in image analysis in the last decade, building upon machine learning methods. A pressing question is how do we translate these methods from the computer science fields into application in biomedical domains? This workshop will focus on such issues. Biomedical applications bring their own challenges that these advance computing approaches will need to address. In this workshop, we will focus on a few of these problems, e.g., how to use machine learning when there is limited labeled data, how do we combine physics-driven approaches with data-driven methods, and how do we combine human feedback effortlessly into the learning paradigm.","author":{"@type":"Person","name":"esmb"},"@type":"BlogPosting","url":"http://localhost:4000/DDMB/DDMB-MS16.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"esmb"},"headline":"Image Analysis and Machine Learning for Bio-Medical Applications","dateModified":"2021-06-17T15:54:54-04:00","datePublished":"2021-06-17T15:54:54-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/DDMB/DDMB-MS16.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
+
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+
+		<!-- Twitter card validator -->
+		<meta name="twitter:card" content="summary_large_image">
+	  <meta name="twitter:site" content="@smb2021">
+		<meta name="twitter:creator" content="@smb2021">
+		<meta name="twitter:title" content="Image Analysis and Machine Learning for Bio-Medical Applications">
+		<meta name="twitter:description" content="The Society for Mathematical Biology annual meeting - 2021.">
+		<meta name="twitter:image" content="http://schedule.smb2021.org/assets/images/twitter.png">
+		
+		<meta name="title" content="Image Analysis and Machine Learning for Bio-Medical Applications" />
+		<meta name="description" content="The Society for Mathematical Biology annual meeting - 2021." />
+		<meta property="og:title" content="Image Analysis and Machine Learning for Bio-Medical Applications" />
+		<meta property="og:description" content="The Society for Mathematical Biology annual meeting - 2021." />
+		<meta property="og:image" content="http://schedule.smb2021.org/assets/images/twitter.png"/>
+
+
+
+    
+
+
+    
+
+		<!-- Bootstrap Modified -->
+		
+			<link rel="stylesheet" href="../assets/css/main.css">
+		
+		
+		<!-- Theme Stylesheet -->
+		
+			<link rel="stylesheet" href="../assets/css/theme.css">
+		
+		
+		<!-- Custom Themes Stylesheet -->
+		
+			<link rel="stylesheet" href="../assets/css/custom.css">
+		
+
+
+
+    <!-- Jquery on header to make sure everything works, the rest  of the scripts in footer for fast loading -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    
+    <script src="/assets/js/custom.js"></script>
+
+
+</head>
+
+<body class="">
+  
+	<nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+	  <div class="container">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		
+		  <div class="collapse navbar-collapse" id="navbarColor02">
+		    <ul class="navbar-nav mr-auto d-flex align-items-center">
+			    <li class="nav-item"> <img src="/assets/images/logo.png" width="65" alt="" class="d-inline-block align-middle mr-2"> </li>
+					<a class="navbar-brand" href="/"><strong>SMB 2021</strong></a>
+		      <!--  Replace menu links here -->
+
+<!-- <li class="nav-item"> <img src="/assets/images/logo.jpg" width="45" alt="" class="d-inline-block align-middle mr-2"> </li> -->
+<!-- <a class="navbar-brand" href="/"><strong>SMB 2021</strong></a> -->
+
+<li class="nav-item"><a class="nav-link" id="strong-nav" href="/">Home</a></li>
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Schedule
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item" style="color:#000000 !important;" href="/">Overview</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/your-smb2021">Plan Your SMB2021</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/pre-conference">Pre-conference</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/americas">Americas</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/europe-africa">Europe/Africa</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/asia-oceania">Asia/Oceania</a>
+		
+  </div>
+</li>
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Search by Name
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item" style="color:#000000 !important;" href="/contributed-speakers">Contributed Talks</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/minisymposia-speakers">Minisymposia</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/plenary">Plenary</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/posters">Posters</a>
+  </div>
+</li>
+
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Subgroup / Theme
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item text-CBBS" style="color:#000000 !important;" href="/CBBS"><span class="text-CBBS">CBBS</span> (Complex Biological and Biomedical Systems)</a>
+		<a class="dropdown-item text-CDEV" style="color:#000000 !important;" href="/CDEV"><span class="text-CDEV">CDEV</span> (Cell and Developmental Biology)</a>
+		<a class="dropdown-item text-DDMB" style="color:#000000 !important;" href="/DDMB"><span class="text-DDMB">DDMB</span> (Data Driven Modeling in Biology)</a>
+		<a class="dropdown-item text-DEI" style="color:#000000 !important;" href="/DEI"><span class="text-DEI">DEI</span> (Diversity, Equity, and Inclusion)</a>
+		<a class="dropdown-item text-ECOP" style="color:#000000 !important;" href="/ECOP"><span class="text-ECOP">ECOP</span> (Population Dynamics & Ecology)</a>
+		<a class="dropdown-item text-EDUC" style="color:#000000 !important;" href="/EDUC"><span class="text-EDUC">EDUC</span> (Education)</a>
+		<a class="dropdown-item text-EVOP" style="color:#000000 !important;" href="/EVOP"><span class="text-EVOP">EVOP</span> (Population Dynamics & Evolution)</a>
+		<a class="dropdown-item text-IMMU" style="color:#000000 !important;" href="/IMMU"><span class="text-IMMU">IMMU</span> (Immunobiology and Infection)</a>
+		<a class="dropdown-item text-MEPI" style="color:#000000 !important;" href="/MEPI"><span class="text-MEPI">MEPI</span> (Mathematical Epidemiology)</a>
+		<a class="dropdown-item text-MFBM" style="color:#000000 !important;" href="/MFBM"><span class="text-MFBM">MFBM</span> (Methods for Biological Modeling)</a>
+		<a class="dropdown-item text-MMPB" style="color:#000000 !important;" href="/MMPB"><span class="text-MMPB">MMPB</span> (Multiscale Modeling in Physiology and Biophysics )</a>
+		<a class="dropdown-item text-NEUR" style="color:#000000 !important;" href="/NEUR"><span class="text-NEUR">NEUR</span> (Mathematical Neuroscience)</a>
+		<a class="dropdown-item text-ONCO" style="color:#000000 !important;" href="/ONCO"><span class="text-ONCO">ONCO</span> (Mathematical Oncology)</a>
+  </div>
+</li>
+<li class="nav-item">
+	<a class="nav-link" href="https://www.smb2021.org/">Return to SMB2021.org</a>
+</li>
+
+		    </ul>
+		    
+		  </div>
+	  </div>
+	</nav>
+	
+
+
+    
+
+    <!-- Search Results -->
+    <div id="lunrsearchresults">
+        <ul class="mb-0"></ul>
+    </div>
+
+    <!-- Content -->
+    <main role="main" class="site-content" style="margin-bottom: 300px;">
+        
+<div class="container">
+<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+		<div class="h-100 tofront">
+			<div class="row  justify-content-center ">
+				<div class=" col-md-8  pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+					<p class="text-uppercase font-weight-bold">
+              <span class="catlist">
+              	<span class="text-DDMB">DDMB-MS16</span>						
+              </span>
+					</p>
+					<h1 class="display-4 mb-4 article-headline">Image Analysis and Machine Learning for Bio-Medical Applications</h1>
+					<h4>Wednesday, June 16 at 07:45pm (PDT)</br>Thursday, June 17 at 03:45am (BST)</br>Thursday, June 17 11:45am (KST)</h4>
+					<div class="d-flex align-items-center">
+                        
+                        <img class="rounded-circle" src="../assets/images/logo.jpg" alt="SMB2021" width="70"/>
+                        
+						<small class="ml-3"> SMB2021 <span><a target="_blank" href="https://twitter.com/smb2021" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
+              <span class="text-muted d-block mt-1">Wednesday (Thursday) during the "MS16" time block.</span>
+						</small>
+						
+					</div>
+				</div>
+				
+					<small class="ml-3">Note: this minisymposia has multiple sessions. The second session is <strong>MS16-DDMB</strong> <a href="../DDMB/DDMB-MS16.html">(click here)</a>. 
+						
+						
+						
+					</small></br></br>
+				
+        
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<div class="container-lg pt-4 pb-4">
+	<div class="row justify-content-center">
+        
+        <!-- Share -->
+				<div class="col-lg-2 pr-4 mb-4 col-md-12">
+					<div class="sticky-top sticky-top-offset text-center">
+						<div class="text-muted">
+							Share this
+						</div>
+						<div class="share d-inline-block">
+							<!-- AddToAny BEGIN -->
+							<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+								<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+								<a class="a2a_button_facebook"></a>
+								<a class="a2a_button_twitter"></a>
+							</div>
+							<script async src="https://static.addtoany.com/menu/page.js"></script>
+							<!-- AddToAny END -->
+						</div>
+					</div>
+				</div>
+        
+        
+		<div class="col-md-12 col-lg-10">
+			
+			
+			<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem DDMB position-relative">
+		    <div class="pl-4 pr-0 h-100 tofront">
+		        <div class="row justify-content-between">
+		            <div class="col-md-12 pt-6 pb-6 pr-lg-4 align-self-center">
+		                <p><strong>Organizers:</strong></p>
+		                <h4 class="mb-3">Amit Roy-Chowdhury (University of California, Riverside), G. Venugopala Reddy (University of California, Riverside)</h4>
+		                
+		                
+		                	<p><strong>Description</strong>:</p> 
+		                	<p>Image analysis is common in many bio-medical research applications. In spite of the prevalence of a number of relevant tools, a large part of the analysis is still manual and extremely tedious. This limits the amount of data that can be analyzed and prevents drawing statistically relevant conclusions. The reasons for the existing computational tools to not perform satisfactorily in many applications are often driven by poor image quality, and this calls for developing advanced methods that would be able to overcome these limitations. There has been tremendous progress in image analysis in the last decade, building upon machine learning methods. A pressing question is how do we translate these methods from the computer science fields into application in biomedical domains? This workshop will focus on such issues. Biomedical applications bring their own challenges that these advance computing approaches will need to address. In this workshop, we will focus on a few of these problems, e.g., how to use machine learning when there is limited labeled data, how do we combine physics-driven approaches with data-driven methods, and how do we combine human feedback effortlessly into the learning paradigm.</p>
+			              
+			              
+			              
+		            </div>             
+		        </div>
+		    </div>
+			</div>
+			</br>
+			</br>
+			
+			
+			
+			
+			
+						
+			
+			
+			
+			
+			
+	    	<h4 id="author1">B. S. Manjunath</h4>
+	    	 
+	    		<em>(University of California, Santa Barbara)</em>
+	    	
+	    	
+	    	
+	    		
+	    			<h6>"3D cell/nuclei segmentation and tracking using deep networks"</h6>
+	    		
+	    	
+	    	
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			Accurate cell/nuclei segmentation and tracking play an important role in time-lapse 3D microscopy image analysis. Features of interest often depend on precise localization of 3D points on the boundary. Towards this, we present a deep network coupled with a conditional random field model for cell segmentation of 3D confocal membrane tagged image stacks, and a supervoxel based segmentation of 3D nuclei tagged images with few annotations. To track these segmented cells/nuclei, a computationally efficient algorithm is proposed that utilizes the relative cell/nuclei location while maintaining tracking accuracy. Detailed experimental results demonstrate the feasibility of the proposed methods on large 3d time-lapse imagery.
+		    		
+	    		</article>
+	    	
+				
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    	<h4 id="author2">Michelle Digman</h4>
+	    	 
+	    		<em>(University of California, Irvine)</em>
+	    	
+	    	
+	    		
+	    			<h6>"Quantifying Spatio-temporal dynamics and Metabolic Alterations of protein upon DNA Damage"</h6>
+	    		
+	    	
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			DNA damage signaling is critical for the maintenance of genome integrity and cell fate decision. Our genome is constantly under assault by various endogenous and environmental agents, exposure of UV rays and even routine DNA replication can cause obstruction of replication or transcription. The DNA damage response is a highly integrated signaling network has a set of mechanism that can detect the type of severity of DNA damage to initiate repair or apoptosis. This talk will describe methodologies used to investigate p53 protein activity and alteration of the metabolic pathway upon DNA damage.  Here we present 2-Photon excitation laser microirradiation to induce different types of DNA damage, the Number and Molecular Brightness (N&B) method to map aggregation, and the phasor approach to FLIM to map metabolic changes upon DNA damage. Overall, our findings demonstrate that by multiplexing these techniques we have the ability to spatially and temporally quantify p53 activation and map p53‚Äôs influence in the metabolic pathway.
+		    		
+	    		</article>
+	    	
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    	<h4 id="author3">Cory Braker	Scott</h4>
+	    	 
+	    		<em>(University of California, Irvine)</em>
+	    	
+	    	
+	    		
+	    			<h6>"Morphological Analysis of Biological Images Using Spectral Graph Theory and Graph Neural Networks"</h6>
+	    		
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			We present a method for learning ``spectrally descriptive'' edge weights for graphs. We generalize a previously known distance measure between graphs (Graph Diffusion Distance), thereby allowing it to be tuned to minimize an arbitrary loss function. Because all steps involved in calculating this modified GDD are differentiable, we demonstrate that it is possible for a small neural network model to learn edge weights to minimize loss. We demonstrate this by applying this metric to two groups of graphs derived from samples from two genotypes of Arabidopsis. GDD by itself cannot distinguish between these two categories of graphs. However, training edge weights and kernel parameters with contrastive loss produces a learned distance metric with large margins between graph categories. We demonstrate this by showing improved performance of a simple k-nearest-neighbors classifier on the learned distance matrix. We also demonstrate further applications of this technique.
+		    		
+	    		</article>
+	    	
+	    
+	    
+			</br>
+			</br>
+	    
+	    
+	    	<h4 id="author4">Kevin	Rodriguez</h4>
+	    	 
+	    		<em>(University of California, Riverside)</em>
+	    	
+	    	
+	    		
+	    			<h6>"Interplay between layer specific chemical signals and mechanical properties maintain the structure and shape of the shoot apical meristem in Arabidopsis"</h6>
+	    		
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			The shoot apical meristem (SAM) is continually derived from a population of stem cells located at the growing tip of the plants. These stem cells shed off populations of daughter cells both radially and basally. As the daughter cells are displaced, they undergo increased cell division rates and changes in gene expression critical to determine the SAM structure and shape.  The cell division rates and changes in gene expression occur at a certain distance along the transcription factor-WUSCHEL and plant hormone cytokinin signaling domains. In addition, the cell division and gene expression are compromised in wuschel and cytokinin signaling mutants, suggesting these chemical signals regulate cell division rates. The changes in cell division rates and displacement of daughter cells affects the structure and shape of local cells and ultimately the SAM as a whole. Through a combination of transient gene expression, quantitative image analysis and biologically-calibrated computational model simulations we test the possible mechanisms regulating cell division to determine the SAM structure.  Our analysis suggests that WUSCHEL, cytokinin, and mechanical stress regulate patterns of cell expansion and cell division plane orientation in a layer specific fashion to maintain the layered structure and shape of SAMs which are critical for stem cell homeostasis.
+		    		
+	    		</article>
+	    	
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    
+	      
+			<!-- Author Box -->
+      				
+			<div class="row mt-5">
+				<div class="col-md-2 align-self-center">
+                       
+                      <img class="rounded-circle" src="../assets/images/logo.jpg" alt="SMB2021" width="90"/>
+                       
+				</div>
+				<div class="col-md-10">		
+                      <h5 class="font-weight-bold">Hosted by SMB2021 <span><a target="_blank" href="https://twitter.com/smb2021" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span></h5>
+					Virtual conference of the Society for Mathematical Biology, 2021.					
+				</div>
+			</div>				
+      
+      
+      <!-- Comments -->
+      
+          <!--  Don't edit anything here. Set your disqus id in _config.yml -->
+
+<div id="comments" class="mt-5">
+    <div id="disqus_thread">
+    </div>
+    <script type="text/javascript">
+        var disqus_shortname = ''; 
+        var disqus_developer = 0;
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = window.location.protocol + '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>
+    Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
+</div>
+      
+            
+		</div>
+        
+        
+	</div>
+</div>
+
+
+
+    </main>
+
+
+    <!-- Scripts: popper, bootstrap, theme, lunr -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+    
+    
+			<script src="../assets/js/theme.js"></script>
+		
+    
+    <!-- All this area goes before </body> closing tag --> 
+
+
+</body>
+
+</html>

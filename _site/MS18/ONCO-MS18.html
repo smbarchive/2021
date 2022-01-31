@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Measuring and modeling the cell-state transitions in cancer progression and treatment | SMB 2021</title>
+
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Measuring and modeling the cell-state transitions in cancer progression and treatment | SMB 2021</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Measuring and modeling the cell-state transitions in cancer progression and treatment" />
+<meta name="author" content="esmb" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Cancer, the process of uncontrolled growth and invasion of cells within the body, is emergent from a complex interaction of adaptive processes, including evasion of cell growth suppression, immune evasion, metabolic adaptation and so on. Each of these adaptations are associated with one or more changes in cancer cell state. While traditionally, genetic mechanisms were believed to be the cause of such adaptations, recent emergence of high throughput data consistently supports the important role of non-genetic mechanisms of adaptation. Especially in key aspects of cancer such as stemness, metastasis and drug resistance, non-genetic mechanisms are seen to play a crucial role. At this early stage of development of the field, it is important maintain a healthy interaction between experimental and mathematical models to gain a swift understanding of these processes. A major focus of the minisymposium is to understand and prevent the emergence of drug-tolerant persisters which is an important challenge for clinicians today. No existing therapy currently targets persisters specifically in either killing them or differentiating them into a drug-sensitive state. Thus, a better understanding of their dynamics can inform strategies to contain the effect of these persisters, directly contributing to developing more effective therapies." />
+<meta property="og:description" content="Cancer, the process of uncontrolled growth and invasion of cells within the body, is emergent from a complex interaction of adaptive processes, including evasion of cell growth suppression, immune evasion, metabolic adaptation and so on. Each of these adaptations are associated with one or more changes in cancer cell state. While traditionally, genetic mechanisms were believed to be the cause of such adaptations, recent emergence of high throughput data consistently supports the important role of non-genetic mechanisms of adaptation. Especially in key aspects of cancer such as stemness, metastasis and drug resistance, non-genetic mechanisms are seen to play a crucial role. At this early stage of development of the field, it is important maintain a healthy interaction between experimental and mathematical models to gain a swift understanding of these processes. A major focus of the minisymposium is to understand and prevent the emergence of drug-tolerant persisters which is an important challenge for clinicians today. No existing therapy currently targets persisters specifically in either killing them or differentiating them into a drug-sensitive state. Thus, a better understanding of their dynamics can inform strategies to contain the effect of these persisters, directly contributing to developing more effective therapies." />
+<link rel="canonical" href="http://localhost:4000/MS18/ONCO-MS18.html" />
+<meta property="og:url" content="http://localhost:4000/MS18/ONCO-MS18.html" />
+<meta property="og:site_name" content="SMB 2021" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-06-17T15:54:54-04:00" />
+<script type="application/ld+json">
+{"description":"Cancer, the process of uncontrolled growth and invasion of cells within the body, is emergent from a complex interaction of adaptive processes, including evasion of cell growth suppression, immune evasion, metabolic adaptation and so on. Each of these adaptations are associated with one or more changes in cancer cell state. While traditionally, genetic mechanisms were believed to be the cause of such adaptations, recent emergence of high throughput data consistently supports the important role of non-genetic mechanisms of adaptation. Especially in key aspects of cancer such as stemness, metastasis and drug resistance, non-genetic mechanisms are seen to play a crucial role. At this early stage of development of the field, it is important maintain a healthy interaction between experimental and mathematical models to gain a swift understanding of these processes. A major focus of the minisymposium is to understand and prevent the emergence of drug-tolerant persisters which is an important challenge for clinicians today. No existing therapy currently targets persisters specifically in either killing them or differentiating them into a drug-sensitive state. Thus, a better understanding of their dynamics can inform strategies to contain the effect of these persisters, directly contributing to developing more effective therapies.","author":{"@type":"Person","name":"esmb"},"@type":"BlogPosting","url":"http://localhost:4000/MS18/ONCO-MS18.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"esmb"},"headline":"Measuring and modeling the cell-state transitions in cancer progression and treatment","dateModified":"2021-06-17T15:54:54-04:00","datePublished":"2021-06-17T15:54:54-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/MS18/ONCO-MS18.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
+
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+
+		<!-- Twitter card validator -->
+		<meta name="twitter:card" content="summary_large_image">
+	  <meta name="twitter:site" content="@smb2021">
+		<meta name="twitter:creator" content="@smb2021">
+		<meta name="twitter:title" content="Measuring and modeling the cell-state transitions in cancer progression and treatment">
+		<meta name="twitter:description" content="The Society for Mathematical Biology annual meeting - 2021.">
+		<meta name="twitter:image" content="http://schedule.smb2021.org/assets/images/twitter.png">
+		
+		<meta name="title" content="Measuring and modeling the cell-state transitions in cancer progression and treatment" />
+		<meta name="description" content="The Society for Mathematical Biology annual meeting - 2021." />
+		<meta property="og:title" content="Measuring and modeling the cell-state transitions in cancer progression and treatment" />
+		<meta property="og:description" content="The Society for Mathematical Biology annual meeting - 2021." />
+		<meta property="og:image" content="http://schedule.smb2021.org/assets/images/twitter.png"/>
+
+
+
+    
+
+
+    
+
+		<!-- Bootstrap Modified -->
+		
+			<link rel="stylesheet" href="../assets/css/main.css">
+		
+		
+		<!-- Theme Stylesheet -->
+		
+			<link rel="stylesheet" href="../assets/css/theme.css">
+		
+		
+		<!-- Custom Themes Stylesheet -->
+		
+			<link rel="stylesheet" href="../assets/css/custom.css">
+		
+
+
+
+    <!-- Jquery on header to make sure everything works, the rest  of the scripts in footer for fast loading -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    
+    <script src="/assets/js/custom.js"></script>
+
+
+</head>
+
+<body class="">
+  
+	<nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+	  <div class="container">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		
+		  <div class="collapse navbar-collapse" id="navbarColor02">
+		    <ul class="navbar-nav mr-auto d-flex align-items-center">
+			    <li class="nav-item"> <img src="/assets/images/logo.png" width="65" alt="" class="d-inline-block align-middle mr-2"> </li>
+					<a class="navbar-brand" href="/"><strong>SMB 2021</strong></a>
+		      <!--  Replace menu links here -->
+
+<!-- <li class="nav-item"> <img src="/assets/images/logo.jpg" width="45" alt="" class="d-inline-block align-middle mr-2"> </li> -->
+<!-- <a class="navbar-brand" href="/"><strong>SMB 2021</strong></a> -->
+
+<li class="nav-item"><a class="nav-link" id="strong-nav" href="/">Home</a></li>
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Schedule
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item" style="color:#000000 !important;" href="/">Overview</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/your-smb2021">Plan Your SMB2021</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/pre-conference">Pre-conference</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/americas">Americas</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/europe-africa">Europe/Africa</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/asia-oceania">Asia/Oceania</a>
+		
+  </div>
+</li>
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Search by Name
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item" style="color:#000000 !important;" href="/contributed-speakers">Contributed Talks</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/minisymposia-speakers">Minisymposia</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/plenary">Plenary</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/posters">Posters</a>
+  </div>
+</li>
+
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Subgroup / Theme
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item text-CBBS" style="color:#000000 !important;" href="/CBBS"><span class="text-CBBS">CBBS</span> (Complex Biological and Biomedical Systems)</a>
+		<a class="dropdown-item text-CDEV" style="color:#000000 !important;" href="/CDEV"><span class="text-CDEV">CDEV</span> (Cell and Developmental Biology)</a>
+		<a class="dropdown-item text-DDMB" style="color:#000000 !important;" href="/DDMB"><span class="text-DDMB">DDMB</span> (Data Driven Modeling in Biology)</a>
+		<a class="dropdown-item text-DEI" style="color:#000000 !important;" href="/DEI"><span class="text-DEI">DEI</span> (Diversity, Equity, and Inclusion)</a>
+		<a class="dropdown-item text-ECOP" style="color:#000000 !important;" href="/ECOP"><span class="text-ECOP">ECOP</span> (Population Dynamics & Ecology)</a>
+		<a class="dropdown-item text-EDUC" style="color:#000000 !important;" href="/EDUC"><span class="text-EDUC">EDUC</span> (Education)</a>
+		<a class="dropdown-item text-EVOP" style="color:#000000 !important;" href="/EVOP"><span class="text-EVOP">EVOP</span> (Population Dynamics & Evolution)</a>
+		<a class="dropdown-item text-IMMU" style="color:#000000 !important;" href="/IMMU"><span class="text-IMMU">IMMU</span> (Immunobiology and Infection)</a>
+		<a class="dropdown-item text-MEPI" style="color:#000000 !important;" href="/MEPI"><span class="text-MEPI">MEPI</span> (Mathematical Epidemiology)</a>
+		<a class="dropdown-item text-MFBM" style="color:#000000 !important;" href="/MFBM"><span class="text-MFBM">MFBM</span> (Methods for Biological Modeling)</a>
+		<a class="dropdown-item text-MMPB" style="color:#000000 !important;" href="/MMPB"><span class="text-MMPB">MMPB</span> (Multiscale Modeling in Physiology and Biophysics )</a>
+		<a class="dropdown-item text-NEUR" style="color:#000000 !important;" href="/NEUR"><span class="text-NEUR">NEUR</span> (Mathematical Neuroscience)</a>
+		<a class="dropdown-item text-ONCO" style="color:#000000 !important;" href="/ONCO"><span class="text-ONCO">ONCO</span> (Mathematical Oncology)</a>
+  </div>
+</li>
+<li class="nav-item">
+	<a class="nav-link" href="https://www.smb2021.org/">Return to SMB2021.org</a>
+</li>
+
+		    </ul>
+		    
+		  </div>
+	  </div>
+	</nav>
+	
+
+
+    
+
+    <!-- Search Results -->
+    <div id="lunrsearchresults">
+        <ul class="mb-0"></ul>
+    </div>
+
+    <!-- Content -->
+    <main role="main" class="site-content" style="margin-bottom: 300px;">
+        
+<div class="container">
+<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+		<div class="h-100 tofront">
+			<div class="row  justify-content-center ">
+				<div class=" col-md-8  pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+					<p class="text-uppercase font-weight-bold">
+              <span class="catlist">
+              	<span class="text-ONCO">ONCO-MS18</span>						
+              </span>
+					</p>
+					<h1 class="display-4 mb-4 article-headline">Measuring and modeling the cell-state transitions in cancer progression and treatment</h1>
+					<h4>Thursday, June 17 at 04:15am (PDT)</br>Thursday, June 17 at 12:15pm (BST)</br>Thursday, June 17 08:15pm (KST)</h4>
+					<div class="d-flex align-items-center">
+                        
+                        <img class="rounded-circle" src="../assets/images/logo.jpg" alt="SMB2021" width="70"/>
+                        
+						<small class="ml-3"> SMB2021 <span><a target="_blank" href="https://twitter.com/smb2021" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
+              <span class="text-muted d-block mt-1">Wednesday (Thursday) during the "MS18" time block.</span>
+						</small>
+						
+					</div>
+				</div>
+				
+					<small class="ml-3">Note: this minisymposia has multiple sessions. The second session is <strong>MS19-ONCO</strong> <a href="../ONCO/ONCO-MS19.html">(click here)</a>. 
+						
+						
+						
+					</small></br></br>
+				
+        
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<div class="container-lg pt-4 pb-4">
+	<div class="row justify-content-center">
+        
+        <!-- Share -->
+				<div class="col-lg-2 pr-4 mb-4 col-md-12">
+					<div class="sticky-top sticky-top-offset text-center">
+						<div class="text-muted">
+							Share this
+						</div>
+						<div class="share d-inline-block">
+							<!-- AddToAny BEGIN -->
+							<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+								<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+								<a class="a2a_button_facebook"></a>
+								<a class="a2a_button_twitter"></a>
+							</div>
+							<script async src="https://static.addtoany.com/menu/page.js"></script>
+							<!-- AddToAny END -->
+						</div>
+					</div>
+				</div>
+        
+        
+		<div class="col-md-12 col-lg-10">
+			
+			
+			<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem ONCO position-relative">
+		    <div class="pl-4 pr-0 h-100 tofront">
+		        <div class="row justify-content-between">
+		            <div class="col-md-12 pt-6 pb-6 pr-lg-4 align-self-center">
+		                <p><strong>Organizers:</strong></p>
+		                <h4 class="mb-3">Mohit Kumar Jolly ( Assistant Professor, Center for Biosystems Science and Engineering, Indian Institute of Sceince Bengaluru, India), Kishore Hari (PhD Student, Center for Biosystems Science and Engineering, Indian Institute of Sceince Bengaluru, India)</h4>
+		                
+		                
+		                	<p><strong>Description</strong>:</p> 
+		                	<p>Cancer, the process of uncontrolled growth and invasion of cells within the body, is emergent from a complex interaction of adaptive processes, including evasion of cell growth suppression, immune evasion, metabolic adaptation and so on. Each of these adaptations are associated with one or more changes in cancer cell state. While traditionally, genetic mechanisms were believed to be the cause of such adaptations, recent emergence of high throughput data consistently supports the important role of non-genetic mechanisms of adaptation. Especially in key aspects of cancer such as stemness, metastasis and drug resistance, non-genetic mechanisms are seen to play a crucial role. At this early stage of development of the field, it is important maintain a healthy interaction between experimental and mathematical models to gain a swift understanding of these processes. A major focus of the minisymposium is to understand and prevent the emergence of drug-tolerant persisters which is an important challenge for clinicians today. No existing therapy currently targets persisters specifically in either killing them or differentiating them into a drug-sensitive state. Thus, a better understanding of their dynamics can inform strategies to contain the effect of these persisters, directly contributing to developing more effective therapies.</p>
+			              
+			              
+			              
+		            </div>             
+		        </div>
+		    </div>
+			</div>
+			</br>
+			</br>
+			
+			
+			
+			
+			
+						
+			
+			
+			
+			
+			
+	    	<h4 id="author1">Caterina AM La Porta</h4>
+	    	 
+	    		<em> (Professor of General Pathology Department of Environmental Science and Policy, University of Milan; CEO ComplexData SRL, Italy)</em>
+	    	
+	    	
+	    	
+	    		
+	    			<h6>"Explaining the dynamics of melanoma aggressiveness: at the crossroads between biology and artificial intelligence"</h6>
+	    		
+	    	
+	    	
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			Melanoma is one of the most aggressive and highly resistant tumor. Cell plasticity in
+melanoma is one the main reason behind its metastatic capacity. I will discuss the recent
+results obtained by our group on cellular plasticity and CSCs in melanoma. The detailed
+molecular mechanisms controlling melanoma plasticity are still not completely understood.
+We combine mathematical models of phenotypic switching with experiments on IgR39
+human melanoma cell line to identify possible key targets to impair phenotypic switching.
+Our results shed new light on melanoma plasticity providing a potential target and guidance
+for therapeutic studies
+		    		
+	    		</article>
+	    	
+				
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    	<h4 id="author2">Shensi Shen</h4>
+	    	 
+	    		<em> (West China Hospital, Sichuan University, Chengdu, China;  Gustave Roussy Cancer Campus, Villejuif, France, China)</em>
+	    	
+	    	
+	    		
+	    			<h6>"Persistent cancer cells : blazing the trail with metastatic melanoma"</h6>
+	    		
+	    	
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			The probability to achieve an objective response with anti-BRAF+MEK therapy in patients with BRAFV600E/K mutant melanoma is around 70% . However, after one year, half of the patients who initially responded to this combined therapy develops secondary resistance. Among these patients, some also resist to anti-PD1 immunotherapy as single agent or in combination with anti-CTLA4. For these patients, the medical needs are huge since there is presently no effective alternative treatment. Resistance to targeted agents can be due to the presence of pre-existing rare resistant clones in heterogeneous tumor cell population or the stochastic acquisitions of drug resistance through genetic mutations under therapeutic selective pressures. The latter case is the most frequent, wherein some cells of an isogenic tumor cell-population survive in spite of the presence of anticancer drug(s). Such cells are defined as 'persistent cancer cells' and their survival capability is dependent on the presence of anticancer agents. I will discuss how persistent melanoma cells adaptively tolerate the treatment from the aspect of reversible mRNA translational reprogramming and accompanying metabolic rewiring, eventually how these aspects can be modelled in an agent-based stochastic modeling.
+		    		
+	    		</article>
+	    	
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    	<h4 id="author3">Michael P H Stumpf</h4>
+	    	 
+	    		<em> (Professor of Systems Biology, School of BioSciences, University of Melbourne, Australia)</em>
+	    	
+	    	
+	    		
+	    			<h6>"  Stochastic Dynamics and Cell Fate Decision Dynamics in Development and Cancer"</h6>
+	    		
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			The metaphor of the Waddington epigenetic landscape has become an iconic representation of the cellular differentiation process, in both health and disease. Recent accessibility of single-cell transcriptomic data has provided new opportunities for quantifying this originally conceptual tool that could offer insight into the gene regulatory networks underlying cellular development. Here, we highlight the complexities and limitations that arise when reconstructing the potential landscape in the presence of stochastic fluctuations. We consider how the landscape changes in accordance with different stochastic systems, and show that it is the subtle interplay between the deterministic and stochastic components of the system that ultimately shapes the landscape.
+		    		
+	    		</article>
+	    	
+	    
+	    
+			</br>
+			</br>
+	    
+	    
+	    	<h4 id="author4">Kishore Hari</h4>
+	    	 
+	    		<em> (PhD Student, Center for Biosystems Sceince and Engineering, Indian Institute of Science Bengaluru, India)</em>
+	    	
+	    	
+	    		
+	    			<h6>"Mechanisms of phenotypic plasticity in Metastasis, a network topology perspective"</h6>
+	    		
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			Metastasis, the process of cancerous cells invading multiple organs of the body, causes more than 90% of cancer-related deaths. No unique mutations could be associated with metastasis, and no cancer treatment so far can target metastasis. Recent studies suggest that metastasis is driven mainly by multiple interdependent axes of phenotypic plasticity, such as metabolic plasticity, drug resistance, dormancy, stemness, and Epithelial-mesenchymal plasticity (EMP). In particular, EMP – a developmental axis of phenotypic plasticity – is believed to be crucial for metastasis as it imparts the adherence and migratory characteristics to cancerous cells. Despite extensive physicochemical investigations, the mechanisms of the emergence of such phenotypic plasticity are still not understood. To understand these mechanisms, we take a two-pronged approach. On the one hand, we study the regulatory network topologies underlying EMP to identify characteristics that can give rise to plasticity. On the other hand, we construct models based on population dynamics data to understand the dynamics of switching and infer phenotypic plasticity mechanisms other than network topology, such as stochasticity, ecological interactions between various EMP phenotypes, and epigenetics. Our results suggest that the EMP networks have a high fraction of positive feedback loops, which can give rise to phenotypic plasticity. Furthermore, small perturbations that reduce the number of positive feedback loops and increase the number of negative feedback loops can reduce phenotypic plasticity over a large parameter space.
+		    		
+	    		</article>
+	    	
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    
+	      
+			<!-- Author Box -->
+      				
+			<div class="row mt-5">
+				<div class="col-md-2 align-self-center">
+                       
+                      <img class="rounded-circle" src="../assets/images/logo.jpg" alt="SMB2021" width="90"/>
+                       
+				</div>
+				<div class="col-md-10">		
+                      <h5 class="font-weight-bold">Hosted by SMB2021 <span><a target="_blank" href="https://twitter.com/smb2021" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span></h5>
+					Virtual conference of the Society for Mathematical Biology, 2021.					
+				</div>
+			</div>				
+      
+      
+      <!-- Comments -->
+      
+          <!--  Don't edit anything here. Set your disqus id in _config.yml -->
+
+<div id="comments" class="mt-5">
+    <div id="disqus_thread">
+    </div>
+    <script type="text/javascript">
+        var disqus_shortname = ''; 
+        var disqus_developer = 0;
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = window.location.protocol + '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>
+    Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
+</div>
+      
+            
+		</div>
+        
+        
+	</div>
+</div>
+
+
+
+    </main>
+
+
+    <!-- Scripts: popper, bootstrap, theme, lunr -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+    
+    
+			<script src="../assets/js/theme.js"></script>
+		
+    
+    <!-- All this area goes before </body> closing tag --> 
+
+
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+---
+layout: group
+author: esmb
+day: "Wednesday (Thursday)"
+subgroup: "MEPI"
+title: "Models of COVID-19 Vaccination, Non-Pharmaceutical Interventions, and Relaxation"
+organizers: "Jane Heffernan (York University, Canada), Miranda Teboh Ewungkem (Lehigh University, USA), Zhilan Feng (Purdue University, USA), John Glasser (Centres for Disease Control, USA)"
+description: "At present, health policymakers are focused on allocating available vaccine among healthcare, other essential workers, and vulnerable segments of their populations. As immunity to SARS-CoV-2 increases, however, their attention will turn increasingly to assessments of the relative effectiveness of non-pharmaceutical interventions so that the least effective ones, especially those with adverse economic impact, and possibly eventually all, can be relaxed. As transmission modeling can inform such decisions, we will invite several speakers to share their recent work to address question on vaccination, NPI interventions, and relaxation."
+code: "MS20"
+code2: "MS11"
+code3: "MS16"
+author1: "Melanie Prague"
+inst1: " (University of Bordeaux, France)"
+title1: "Multi-level modeling of COVID-19 epidemic dynamics in French regions, estimating the combined effects of multiple non-pharmaceutical interventions"
+abstract1: "We developed a multi-level model of the French COVID-19 epidemic at the regional level. We rely on a global extended Susceptible-Exposed-Infectious-Recovered (SEIR) mechanistic model as a simplified representation of the average epidemic process, with the addition of region specific random effects. We estimate region-specific key parameters of epidemics dynamics such as the transmission rate conditionally on the mechanistic model through Stochastic Approximation Expectation Maximization (SAEM) optimization using Monolix software. Using French dataset of hospitalisation in France over a course of one year, we estimate the effect of non-pharmaceutical interventions adjusting for weather, vaccination and apparition of more transmissible variants. The proposed novel methodology, consisting in using population approach to compartmental epidemic models, allows to compare with satisfactory efficiency the different effects of intervention and derive informative epidemics parameters such as region-specific effective reproductive numbers and attack rates."
+author2: "Gerardo Chowell"
+inst2: " (Georgia State University, USA)"
+title2: "Ensemble modeling approaches for forecasting infectious disease spread"
+abstract2: "The ongoing COVID-19 pandemic presents with an unprecedented opportunity to evaluate the performance of mathematical modeling frameworks for forecasting the trajectory of the pandemic at different spatial and temporal scales. I will present new ensemble modeling approaches that can outperform individual models in short-term forecasts without substantially increasing model complexity."
+author3: "Iain Moyles"
+inst3: "(York University, Canada)"
+title3: "Cost and Social Distancing Dynamics in a Mathematical Model of COVID-19"
+abstract3: "We present an SEIAR mathematical model of COVID-19 which includes social distancing and relaxation. Our model has a dynamic behavioural influence where the decision for susceptible people to isolate is a function of the total and active cases, but the decision to stop isolating is a function of the perceived cost of isolation. Along with this social distancing cost, we define an overburden healthcare cost due to the strain placed on the healthcare system with a high caseload. We demonstrate that, non-intuitively, increasing either isolation activity or incentive to isolate do not always lead to optimal health outcomes. We further demonstrate that an increase in the frequency of isolation events, each of shorter duration, can lead to improved outcomes compared to sustained isolation activity."
+author4: "Seyed Moghadas"
+inst4: " (York University, Canada)"
+title4: "Effectiveness of COVID-19 Vaccines in the Context of Emerging Variants"
+abstract4: "Newly emerged SARS-CoV-2 variants represent a challenge for current vaccines as preliminary results suggest increased transmissibility as well as variable levels of cross-reaction depending on the viral strain. These selection advantages along with constraints in vaccine supply and distribution may drive certain immune escape variants to dominance in the near future, hampering the ability of vaccination to control the pandemic. In our research, we utilize dynamic transmission models to evaluate COVID-19 vaccination strategies including evaluating the effects of a delayed second dose and projected the shifting dynamics of viral circulation in the presence of emerging variants."
+---

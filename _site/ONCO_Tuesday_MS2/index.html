@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Data-based modeling in cancer research with focus on clinical applications | SMB 2021</title>
+
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Data-based modeling in cancer research with focus on clinical applications | SMB 2021</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Data-based modeling in cancer research with focus on clinical applications" />
+<meta name="author" content="esmb" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="While the understanding of cancer development has dramatically increased during the last years, key questions with immediate implications for clinical management and prevention strategies remain still unanswered. Mathematical oncology helps answering these questions by using mathematical modeling approaches. It incorporates different aspects: First, the increasing amount of molecular data, particularly whole genome and exome data, provide new possibilities that allow studying the evolution and biology of tumors at an unprecedented accuracy and variability. However, managing this huge amount of data requires dedicated mathematical techniques. Furthermore, mathematical models can be used to evaluate hypotheses about tumor evolution, which in turn can be used to analyze and optimize different clinical approaches including tumor prevention, diagnosis and treatment." />
+<meta property="og:description" content="While the understanding of cancer development has dramatically increased during the last years, key questions with immediate implications for clinical management and prevention strategies remain still unanswered. Mathematical oncology helps answering these questions by using mathematical modeling approaches. It incorporates different aspects: First, the increasing amount of molecular data, particularly whole genome and exome data, provide new possibilities that allow studying the evolution and biology of tumors at an unprecedented accuracy and variability. However, managing this huge amount of data requires dedicated mathematical techniques. Furthermore, mathematical models can be used to evaluate hypotheses about tumor evolution, which in turn can be used to analyze and optimize different clinical approaches including tumor prevention, diagnosis and treatment." />
+<link rel="canonical" href="http://localhost:4000/ONCO_Tuesday_MS2/" />
+<meta property="og:url" content="http://localhost:4000/ONCO_Tuesday_MS2/" />
+<meta property="og:site_name" content="SMB 2021" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-08-01T00:00:00-04:00" />
+<script type="application/ld+json">
+{"description":"While the understanding of cancer development has dramatically increased during the last years, key questions with immediate implications for clinical management and prevention strategies remain still unanswered. Mathematical oncology helps answering these questions by using mathematical modeling approaches. It incorporates different aspects: First, the increasing amount of molecular data, particularly whole genome and exome data, provide new possibilities that allow studying the evolution and biology of tumors at an unprecedented accuracy and variability. However, managing this huge amount of data requires dedicated mathematical techniques. Furthermore, mathematical models can be used to evaluate hypotheses about tumor evolution, which in turn can be used to analyze and optimize different clinical approaches including tumor prevention, diagnosis and treatment.","author":{"@type":"Person","name":"esmb"},"@type":"BlogPosting","url":"http://localhost:4000/ONCO_Tuesday_MS2/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"esmb"},"headline":"Data-based modeling in cancer research with focus on clinical applications","dateModified":"2020-08-01T00:00:00-04:00","datePublished":"2020-08-01T00:00:00-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/ONCO_Tuesday_MS2/"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
+
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+
+		<!-- Twitter card validator -->
+		<meta name="twitter:card" content="summary_large_image">
+	  <meta name="twitter:site" content="@smb2021">
+		<meta name="twitter:creator" content="@smb2021">
+		<meta name="twitter:title" content="Data-based modeling in cancer research with focus on clinical applications">
+		<meta name="twitter:description" content="The Society for Mathematical Biology annual meeting - 2021.">
+		<meta name="twitter:image" content="http://schedule.smb2021.org/assets/images/twitter.png">
+		
+		<meta name="title" content="Data-based modeling in cancer research with focus on clinical applications" />
+		<meta name="description" content="The Society for Mathematical Biology annual meeting - 2021." />
+		<meta property="og:title" content="Data-based modeling in cancer research with focus on clinical applications" />
+		<meta property="og:description" content="The Society for Mathematical Biology annual meeting - 2021." />
+		<meta property="og:image" content="http://schedule.smb2021.org/assets/images/twitter.png"/>
+
+
+
+    
+
+
+    
+
+		<!-- Bootstrap Modified -->
+		
+			<link rel="stylesheet" href="../assets/css/main.css">
+		
+		
+		<!-- Theme Stylesheet -->
+		
+			<link rel="stylesheet" href="../assets/css/theme.css">
+		
+		
+		<!-- Custom Themes Stylesheet -->
+		
+			<link rel="stylesheet" href="../assets/css/custom.css">
+		
+
+
+
+    <!-- Jquery on header to make sure everything works, the rest  of the scripts in footer for fast loading -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    
+    <script src="/assets/js/custom.js"></script>
+
+
+</head>
+
+<body class="">
+  
+	<nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+	  <div class="container">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		
+		  <div class="collapse navbar-collapse" id="navbarColor02">
+		    <ul class="navbar-nav mr-auto d-flex align-items-center">
+			    <li class="nav-item"> <img src="/assets/images/logo.png" width="65" alt="" class="d-inline-block align-middle mr-2"> </li>
+					<a class="navbar-brand" href="/"><strong>SMB 2021</strong></a>
+		      <!--  Replace menu links here -->
+
+<!-- <li class="nav-item"> <img src="/assets/images/logo.jpg" width="45" alt="" class="d-inline-block align-middle mr-2"> </li> -->
+<!-- <a class="navbar-brand" href="/"><strong>SMB 2021</strong></a> -->
+
+<li class="nav-item"><a class="nav-link" id="strong-nav" href="/">Home</a></li>
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Schedule
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item" style="color:#000000 !important;" href="/">Overview</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/your-smb2021">Plan Your SMB2021</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/pre-conference">Pre-conference</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/americas">Americas</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/europe-africa">Europe/Africa</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/asia-oceania">Asia/Oceania</a>
+		
+  </div>
+</li>
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Search by Name
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item" style="color:#000000 !important;" href="/contributed-speakers">Contributed Talks</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/minisymposia-speakers">Minisymposia</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/plenary">Plenary</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/posters">Posters</a>
+  </div>
+</li>
+
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Subgroup / Theme
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item text-CBBS" style="color:#000000 !important;" href="/CBBS"><span class="text-CBBS">CBBS</span> (Complex Biological and Biomedical Systems)</a>
+		<a class="dropdown-item text-CDEV" style="color:#000000 !important;" href="/CDEV"><span class="text-CDEV">CDEV</span> (Cell and Developmental Biology)</a>
+		<a class="dropdown-item text-DDMB" style="color:#000000 !important;" href="/DDMB"><span class="text-DDMB">DDMB</span> (Data Driven Modeling in Biology)</a>
+		<a class="dropdown-item text-DEI" style="color:#000000 !important;" href="/DEI"><span class="text-DEI">DEI</span> (Diversity, Equity, and Inclusion)</a>
+		<a class="dropdown-item text-ECOP" style="color:#000000 !important;" href="/ECOP"><span class="text-ECOP">ECOP</span> (Population Dynamics & Ecology)</a>
+		<a class="dropdown-item text-EDUC" style="color:#000000 !important;" href="/EDUC"><span class="text-EDUC">EDUC</span> (Education)</a>
+		<a class="dropdown-item text-EVOP" style="color:#000000 !important;" href="/EVOP"><span class="text-EVOP">EVOP</span> (Population Dynamics & Evolution)</a>
+		<a class="dropdown-item text-IMMU" style="color:#000000 !important;" href="/IMMU"><span class="text-IMMU">IMMU</span> (Immunobiology and Infection)</a>
+		<a class="dropdown-item text-MEPI" style="color:#000000 !important;" href="/MEPI"><span class="text-MEPI">MEPI</span> (Mathematical Epidemiology)</a>
+		<a class="dropdown-item text-MFBM" style="color:#000000 !important;" href="/MFBM"><span class="text-MFBM">MFBM</span> (Methods for Biological Modeling)</a>
+		<a class="dropdown-item text-MMPB" style="color:#000000 !important;" href="/MMPB"><span class="text-MMPB">MMPB</span> (Multiscale Modeling in Physiology and Biophysics )</a>
+		<a class="dropdown-item text-NEUR" style="color:#000000 !important;" href="/NEUR"><span class="text-NEUR">NEUR</span> (Mathematical Neuroscience)</a>
+		<a class="dropdown-item text-ONCO" style="color:#000000 !important;" href="/ONCO"><span class="text-ONCO">ONCO</span> (Mathematical Oncology)</a>
+  </div>
+</li>
+<li class="nav-item">
+	<a class="nav-link" href="https://www.smb2021.org/">Return to SMB2021.org</a>
+</li>
+
+		    </ul>
+		    
+		  </div>
+	  </div>
+	</nav>
+	
+
+
+    
+
+    <!-- Search Results -->
+    <div id="lunrsearchresults">
+        <ul class="mb-0"></ul>
+    </div>
+
+    <!-- Content -->
+    <main role="main" class="site-content" style="margin-bottom: 300px;">
+        
+<div class="container">
+<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+		<div class="h-100 tofront">
+			<div class="row  justify-content-center ">
+				<div class=" col-md-8  pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+					<p class="text-uppercase font-weight-bold">
+              <span class="catlist">
+              	<span class="text-ONCO">ONCO-</span>						
+              </span>
+					</p>
+					<h1 class="display-4 mb-4 article-headline">Data-based modeling in cancer research with focus on clinical applications</h1>
+					<h4></h4>
+					<div class="d-flex align-items-center">
+                        
+                        <img class="rounded-circle" src="../assets/images/logo.jpg" alt="SMB2021" width="70"/>
+                        
+						<small class="ml-3"> SMB2021 <span><a target="_blank" href="https://twitter.com/smb2021" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
+              <span class="text-muted d-block mt-1">Tuesday during the "" time block.</span>
+						</small>
+						
+					</div>
+				</div>
+				
+        
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<div class="container-lg pt-4 pb-4">
+	<div class="row justify-content-center">
+        
+        <!-- Share -->
+				<div class="col-lg-2 pr-4 mb-4 col-md-12">
+					<div class="sticky-top sticky-top-offset text-center">
+						<div class="text-muted">
+							Share this
+						</div>
+						<div class="share d-inline-block">
+							<!-- AddToAny BEGIN -->
+							<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+								<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+								<a class="a2a_button_facebook"></a>
+								<a class="a2a_button_twitter"></a>
+							</div>
+							<script async src="https://static.addtoany.com/menu/page.js"></script>
+							<!-- AddToAny END -->
+						</div>
+					</div>
+				</div>
+        
+        
+		<div class="col-md-12 col-lg-10">
+			
+			
+			<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem ONCO position-relative">
+		    <div class="pl-4 pr-0 h-100 tofront">
+		        <div class="row justify-content-between">
+		            <div class="col-md-12 pt-6 pb-6 pr-lg-4 align-self-center">
+		                <p><strong>Organizers:</strong></p>
+		                <h4 class="mb-3">Saskia Haupt and Vincent Heuveline</h4>
+		                
+		                
+		                	<p><strong>Description</strong>:</p> 
+		                	<p>While the understanding of cancer development has dramatically increased during the last years, key questions with immediate implications for clinical management and prevention strategies remain still unanswered. Mathematical oncology helps answering these questions by using mathematical modeling approaches. It incorporates different aspects: First, the increasing amount of molecular data, particularly whole genome and exome data, provide new possibilities that allow studying the evolution and biology of tumors at an unprecedented accuracy and variability. However, managing this huge amount of data requires dedicated mathematical techniques. Furthermore, mathematical models can be used to evaluate hypotheses about tumor evolution, which in turn can be used to analyze and optimize different clinical approaches including tumor prevention, diagnosis and treatment.</p>
+			              
+			              
+			              
+		            </div>             
+		        </div>
+		    </div>
+			</div>
+			</br>
+			</br>
+			
+			
+			
+			
+			
+						
+			
+			
+			
+			
+			
+	    	<h4 id="author1">David Cheek</h4>
+	    	 
+	    		<em>Program for Evolutionary Dynamics, Harvard University</em>
+	    	
+	    	
+	    	
+	    		
+	    			<h6>"DNA sequence evolution in the Yule process"</h6>
+	    		
+	    	
+	    	
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			We study a fundamental model of DNA evolution in a growing population of cells: cell divisions follow the Yule process, and each cell contains a sequence of nucleotides which can mutate at cell division. Following typical parameter values in bacteria and cancer cell populations, we take the mutation rate to zero and the final number of cells to infinity. We prove that almost every site (entry of the sequence) is mutated in only a finite number of cells, and these numbers are independent across sites. However independence breaks down for the rare sites which are mutated in a positive fraction of the population. The model is free from the popular but disputed infinite sites assumption. Violations of the infinite sites assumption are widespread while their impact on mutation frequencies is negligible at the scale of population fractions. Some results are generalised to allow for cell death, selection, and site- specific mutation rates. To illustrate our results we estimate mutation rates in a lung adenocarcinoma.
+		    		
+	    		</article>
+	    	
+				
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    	<h4 id="author2">Christoph Engel</h4>
+	    	 
+	    		<em>Institute for Medical Informatics, Statistics and Epidemiology (IMISE), University of Leipzig</em>
+	    	
+	    	
+	    		
+	    			<h6>"Utility of specialized clinical registries for knowledge-generating care in oncology: Results from two large German consortia on hereditary cancer predisposition syndromes"</h6>
+	    		
+	    	
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			Colon and breast cancer are among the most common cancers. An estimated 5% of these cancers are due to a hereditary cancer disposition caused by germline mutations in DNA repair genes. Mutation carriers have a greatly increased risk of developing cancer and therefore require intensified early detection measures. In order to precisely quantify the underlying cancer risks, to identify risk factors and to evaluate the benefit of early detection measures, two multi-centre interdisciplinary clinical registry studies have been established in Germany, which collect and analyse quality-controlled care data in a standardised manner. I will present selected results from the “German Consortium for Familial Intestinal Cancer” and the “German Consortium for Hereditary Breast and Ovarian Cancer” which had a direct impact on future patient care. Example 1: Individuals with Lynch syndrome (LS) are at highly increased risk for colorectal cancer (CRC). Regular colonoscopic surveillance is recommended, but there is no international consensus on the appropriate interval. Comparing prospective data from three countries with different surveillance policies (annually, 1–2-yearly, 2–3-yearly), we found that a policy of strict annual colonoscopies was not associated with lower CRC incidence or stage. However, we could identify several factors suitable for risk stratification. This study led us to change our recommendations for colonoscopic surveillance of LS patients in Germany. Example 2: Individuals with high breast cancer risk are recommended to participate in an intensified multimodal breast imaging program. Using cohort data from 10 years of prospective surveillance we could confirm the importance of MRI in high-risk screening, compared with mammography and ultrasound. However, the efficacy of the program was limited with regard to high-risk patients without a predisposing germline mutation. Moreover, both from retrospective and prospective registry data we determined age-dependent breast cancer risks in different risk groups. As in example 1, these results also led to modifications of future clinical decision strategies. In conclusion, these examples demonstrate that specialized clinical- epidemiological registries provide an important means to generate evidence for the further development of risk-adapted early cancer de- tection strategies. The registries are also a valuable basis for planning and conducting controlled clinical trials.
+		    		
+	    		</article>
+	    	
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    	<h4 id="author3">Saskia Haupt </h4>
+	    	 
+	    		<em>Engineering Mathematics and Computing Lab (EMCL), Interdisciplinary Center for Scientific Computing (IWR), Heidelberg University</em>
+	    	
+	    	
+	    		
+	    			<h6>"Modeling multiple pathways in hereditary colorectal cancer development"</h6>
+	    		
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			Lynch syndrome is the most common inherited colorectal cancer syndrome and accounts for 5–10% of the overall colorectal cancer burden. Like many other tumors, Lynch syndrome cancers develop through multiple pathways incorporating different driver mutations. However, a comprehensive understanding of LS tumor evolution which allows for tailored clinical interventions for treatment and even prevention is still lacking. We suggest a system of coupled ordinary differential equations modeling the evolution of the different pathways in order to address some of the most relevant unanswered questions in LS management. It is based on existing data on Lynch syndrome cancer incidence as well as mutational and molecular data for the individual pathways. The ansatz strikes a balance between being expressible on the one hand and not being too complex on the other hand. This yields an explainable and predictive behavior and makes the model amenable to a thorough mathematical analysis. It can be extended in a straightforward manner to include more mutated genes or to take new and improved measurements of mutation probabilities into account.
+		    		
+	    		</article>
+	    	
+	    
+	    
+			</br>
+			</br>
+	    
+	    
+	    	<h4 id="author4">Matthias Kloor</h4>
+	    	 
+	    		<em>Department of Applied Tumor Biology, Heidelberg University Hospital</em>
+	    	
+	    	
+	    		
+	    			<h6>"From disease models to clinical applications — lessons from Lynch syndrome colorectal cancer"</h6>
+	    		
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			Lynch syndrome is caused by heterozygous germ line mutations of the DNA mismatch repair (MMR) genes. During life, somatic mutation events (second hits) lead to loss of MMR function in multiple crypts within the colonic mucosa. From thousands of such MMR-deficient crypt foci, however, only a very small part develops into clinically manifest cancers. These cancers are mostly diploid, but characterized by the microsatellite instability (MSI) phenotype, i.e. the accumulation of numerous insertion/deletion muta- tions at repetitive microsatellite sequences. Mutations affecting microsatellites in genes coding for tumor suppressor genes promote MSI tumor development in Lynch syndrome. Using a bioinformatics-based model, we have predicted a set of coding microsatellite mutations with likely driver function in Lynch syndrome. These mutations also lead to shifts of the translational reading frame and to the generation of MMR deficiency-related frameshift peptides (FSPs). The well-defined pattern of MMR deficiency- induced mutations and neoantigens has wide-ranging implications on the clinical course of the disease: as exactly the same mutations recurrently occur in exactly the same tumor suppressor genes, Lynch syndrome cancers share a small and predictable set of highly immunogenic FSP neoantigens. Immune responses against these FSP neoantigens can already be detected in tumor-free Lynch syndrome mutation carriers, suggesting that there is a lifelong interaction between the immune system and emerging precan- cerous cell clones. This is also reflected by the fact that immune-mediated elimination of immunogenic tumor cells leaves traces in manifest MSI cancers, a process termed immunoediting. We will discuss how bioinformatics approaches and mathematical modeling can help unraveling fundamental processes of cancer evolution, and how this information can be used to design novel, innovative approaches for cancer therapy and even prevention.
+		    		
+	    		</article>
+	    	
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    
+	      
+			<!-- Author Box -->
+      				
+			<div class="row mt-5">
+				<div class="col-md-2 align-self-center">
+                       
+                      <img class="rounded-circle" src="../assets/images/logo.jpg" alt="SMB2021" width="90"/>
+                       
+				</div>
+				<div class="col-md-10">		
+                      <h5 class="font-weight-bold">Hosted by SMB2021 <span><a target="_blank" href="https://twitter.com/smb2021" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span></h5>
+					Virtual conference of the Society for Mathematical Biology, 2021.					
+				</div>
+			</div>				
+      
+      
+      <!-- Comments -->
+      
+          <!--  Don't edit anything here. Set your disqus id in _config.yml -->
+
+<div id="comments" class="mt-5">
+    <div id="disqus_thread">
+    </div>
+    <script type="text/javascript">
+        var disqus_shortname = ''; 
+        var disqus_developer = 0;
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = window.location.protocol + '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>
+    Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
+</div>
+      
+            
+		</div>
+        
+        
+	</div>
+</div>
+
+
+
+    </main>
+
+
+    <!-- Scripts: popper, bootstrap, theme, lunr -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+    
+    
+			<script src="../assets/js/theme.js"></script>
+		
+    
+    <!-- All this area goes before </body> closing tag --> 
+
+
+</body>
+
+</html>

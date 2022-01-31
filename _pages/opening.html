@@ -1,0 +1,114 @@
+---
+title: "Opening remarks & welcome"
+layout: default
+pagination:
+    enabled: false
+description: "The Society for Mathematical Biology - e-Conference 2021."
+permalink: /opening-remarks/
+---
+
+
+<div class="container">
+	
+	<div class="col-md-12 main-loop">
+	    <div class="row">
+	        <div class="col-md-12  text-center">
+		        {% include banner.html %}
+		        <h1 class="mb-3">{{page.title}}</h1>
+
+	        </div>
+	    </div>
+	</div>
+
+
+	<div class="row justify-content-center">
+        
+        <!-- Share -->
+				<div class="col-lg-2 pr-4 mb-4 col-md-12">
+					<div class="sticky-top sticky-top-offset text-center">
+						<div class="text-muted">
+							Share this
+						</div>
+						<div class="share d-inline-block">
+							<!-- AddToAny BEGIN -->
+							<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+								<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+								<a class="a2a_button_facebook"></a>
+								<a class="a2a_button_twitter"></a>
+							</div>
+							<script async src="https://static.addtoany.com/menu/page.js"></script>
+							<!-- AddToAny END -->
+						</div>
+					</div>
+				</div>
+        
+        
+		<div class="col-md-12 col-lg-10">
+			
+			<h4>Opening remarks & welcome</h4>
+			
+			<ol>
+				<li>Mark Alber, Chair of the SMB2021 Organizing Committee, Distinguished Professor of Mathematics, UC Riverside, USA</li>
+				<li>Elizabeth Watkins, Provost and Executive Vice Chancellor,  UC Riverside,  USA </li>
+				<li>Rodolfo H. Torres, Vice Chancellor for Research and Economic Development,  UC Riverside,  USA</li>
+				<li>Kathryn Uhrich, Dean, CNAS, UC Riverside,    USA </li>
+				<li>Juan C. Meza, Division Director, Division of Mathematical Sciences, National Science Foundation, USA </li>
+				<li>Ellen Baake, President of the European Society of Mathematical and Theoretical Biology, Germany</li>
+				<li>Alexander Anderson, President of the Society for Mathematical Biology, USA</li>
+			</ol>
+						      
+											      
+			<!-- Author Box -->
+      {% if page.author %}				
+			<div class="row mt-5">
+				<div class="col-md-2 align-self-center">
+                       {% if author.avatar %}
+                      <img class="rounded-circle" src="../{{author.avatar}}" alt="{{author.name}}" width="90"/>
+                      {% endif %} 
+				</div>
+				<div class="col-md-10">		
+                      <h5 class="font-weight-bold">Hosted by {{ author.name }} {% if author.twitter %}<span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span>{% endif %}</h5>
+					{{ author.bio }}					
+				</div>
+			</div>				
+      {% endif %}
+      
+      <!-- Comments -->
+      {% if page.comments != false %}
+          {% include comments.html %}
+      {% endif %}
+            
+		</div>
+	</div>
+</div>
+
+
+<div class="alertbar">
+    <div class="container">
+        <div class="row prevnextlinks small font-weight-bold">
+	            <div class="col-12 text-center pl-0">		            
+									<span class="click-legend" id="switch-text" onclick="abstractsHide()">
+					Click to show abstracts
+									</span>		            
+	            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

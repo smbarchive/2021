@@ -1,0 +1,37 @@
+---
+layout: group
+author: esmb
+day: "Tuesday (Wednesday)"
+subgroup: "MMPB"
+title: "Dynamics of hematopoiesis in health and disease - from governing principles to clinical implications"
+organizers: "Peter Ashcroft (ETH Zurich, Switzerland), Tony Humphries (McGill University, Canada), Morten Andersen (Roskilde University, Denmark)"
+description: "Blood cells dominate cell turnover in the human body. This advocates for strong regulating mechanisms of blood production (hematopoiesis). Many diseases of the hematopoietic system can be diagnosed from blood samples while the malfunction itself may be located at the less-accessible stem cell level in the bone marrow – the breeding ground for blood cells. This calls for mechanism-based mathematical modelling and analysis bridging biological knowledge and data from the stem cell level to mature blood cells.
+
+In this minisymposium the precise language of mathematics is used to formulate the governing principles of hematopoiesis. Difficult problems arise, such as including nonlinear feedback mechanisms, interaction of hematopoiesis with the immune system and dealing with heterogeneous subclone formation in the case of blood cancers. The use of mathematical modelling for diagnosis and patient-specific treatment protocols for blood malignancies will be explored."
+code: "MS12"
+code2: "MS13"
+author1: "Nathaniel Mon Père"
+inst1: " (Queen Mary University of London and Barts Cancer Institute, UK)"
+title1: "Somatic evolution in healthy hematopoietic stem cells"
+abstract1: "The production of blood cells is known to be driven by a relatively small group of hematopoietic stem cells (HSCs) which both self-renew and provide lineage progenitors throughout the entirety of an individual’s lifetime. However, many properties of these dynamics are still debated or unknown, in part due to the difficulty of studying HSC behaviour in vivo. Because the stem cell pool self-renews it acquires somatic mutations which are subject to evolutionary pressures and stochastic drift. We show that information on the underlying dynamics is encoded in observations of this mutational landscape, which in turn can be obtained by modern sequencing methods. In particular we use observations of the distribution of mutational burdens and the variant allele frequency spectrum to estimate fundamental quantities such as the per division mutation rate, the size of the HSC pool, and the proportion of asymmetric divisions."
+author2: "Gladys Poon"
+inst2: " (University of Cambridge, UK)"
+title2: "Synonymous mutations reveal genome-wide levels of positive selection in healthy tissues"
+abstract2: "Genetic alterations under positive selection in ostensibly healthy tissues have implications for cancer risk. However, total levels of positive selection across the genome remain unknown. How much positive selection elsewhere in the genome is missed by gene-focused sequencing panels? Synonymous passenger mutations that hitchhike to high variant allele frequency are influenced by any driver mutation, regardless of type or location in the genome, and can therefore be used to estimate total levels of positive selection in healthy tissues. By comparing observed numbers of synonymous passengers to the numbers expected due to driver mutations in canonical cancer genes, we show that it is possible to quantify missing selection left to be explained by unobserved drivers elsewhere in the genome. Here we analyse the variant allele frequency spectrum of synonymous mutations from physiologically healthy blood and oesophagus to quantify levels of missing positive selection. In blood we find that only 20% of synonymous passengers can be explained by SNVs in canonical driver genes, suggesting high levels of positive selection for other mutations elsewhere in the genome. In contrast, approximately half of all synonymous passengers in the oesophagus can be explained by just the two driver genes NOTCH1 and TP53, suggesting little positive selection elsewhere. In tissues with high levels of ‘missing’ selection, we show that our framework can be used to guide targeted driver mutation discovery."
+author3: "Thomas Stiehl"
+inst3: " (RWTH Aachen University, Germany)"
+title3: "Relating competition in the stem cell niche to biomarkers of acute myeloid leukemia progression - Insights from mathematical modeling"
+abstract3: "Acute myeloid leukemia (AML) is one of the most aggressive cancers of the blood forming (hematopoietic) system. The disease is driven by a small population of leukemic stem cells (LSC). LSC give rise to the malignant cell bulk and out-compete hematopoietic stem cells (HSC) which are required to maintain healthy blood cell formation. HSC depend on a specific supportive micro-environment, the so-called stem cell niche, to fulfil their function. Based on recent experimental evidence we propose a mathematical model to quantitatively describe the competition of HSC and LSC for spaces in the stem cell niche. We calibrate the model to patient data and provide insights in the following questions:
+• Why and how can we use HSC counts as a prognostic biomarker in AML?
+• What can HSC counts at the time of diagnosis tell us about disease dynamics of individual patients?
+• Can measurements of HSC counts reveal information about LSC properties?
+• How can we use the mathematical model as a tool for risk-stratification and which additional information does it provide compared to clinical approaches?
+• For which subsets of AML patients is the model-based risk-stratification superior to the clinically established approach?
+• How can we simplify the model-based approach to render it more accessible to practitioners?"
+author4: "Johnny T. Ottesen"
+inst4: " (Roskilde University, Denmark)"
+title4: "Dynamics of Hematological Cancer-Infection Comorbidities – an in silico study"
+abstract4: "Background: The immune system attacks threats like an emerging cancer or infections like COVID-19. Malignant cells may be in a dormant state or escape the immune system resulting in uncontrolled growth and cancer progression. If the immune system is busy fighting a cancer, a sudden severe infection may compromise the immunoediting and the comorbidity may be too taxing to control. 
+Method: A novel mechanism based computational model coupling a cancer-infection development to the adaptive immune system is presented and analyzed. We used the model to investigate outcomes of two immunotherapies, interferon-alpha and CAR T-cell therapy as mono therapies as well as in combination with antibiotics. The model maps the outcome to the underlying physiological mechanisms and agree with numerous evidence based medical observations.
+Results and Conclusions: Progression of a cancer and the effect of treatments depend on the cancer size, the level of infection, and on the efficiency of the adaptive immune system. The model exhibits bi-stability, i.e. virtual patient trajectories gravitate towards one of the two stable steady states: a dormant state or a full-blown cancer-infection disease state. An infectious threshold curve exists and if infection exceed this separatrix for sufficiently long time cancer escapes and progresses. Thus, early treatment is vital for remission and severe infections may instigate cancer escape. Immunotherapy may sufficiently control cancer progression back into a dormant state but the therapy gains efficiency in combination with antibiotics."
+---

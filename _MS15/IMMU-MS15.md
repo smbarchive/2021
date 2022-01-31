@@ -1,0 +1,26 @@
+---
+layout: group
+author: esmb
+day: "Wednesday (Thursday)"
+subgroup: "IMMU"
+title: "Modelling the combination of vaccination and Non-pharmaceutical interventions strategies to control COVID-19 propagation"
+organizers: "Jacques Bélair (Université de Montréal, Canada) & Elena Aruffo (York University, Canada)"
+description: "Over the past year COVID-19 has been a threat to the economy and health care systems globally. Non-pharmaceutical interventions (NPIs), most prominently stay-at-home policy, mask wearing and closure of public spaces, have been widely used as first response to control the spread of the infection. Although these measures significantly influenced the disease’s dynamic, by successfully flattening the curve as the slogan went, vaccination is still considered a more efficient control measure, both clinically and economically. At the turn of the year, a number of countries initiated a COVID-19 vaccination campaign. However, many aspects of the different novel vaccines, such as efficacy and waning properties, are still not entirely known. It is thus important to understand if, and when, NPIs can be relaxed, or even suspended, once vaccine starts to be administered to the public. In this mini-symposium, researchers will share their work on modelling COVID-19 vaccination strategies. In particular, they will present models that capture the combination of control strategies involving vaccine and use of NPIs, and that are able to provide suggestions to public health on the best procedures to ensure safe reopening and relaxation of NPIs."
+code: "MS15"
+author1: "Matthew Betti"
+inst1: "(Mount Allison University)"
+title1: "Combining data forecasting with scenario-based modeling for insights into a rapidly changing outbreak situation"
+abstract1: "We present a simple, modified SIR model with the intended use of bridging the gap betweeen data-fitted forecasts and modeled scenario-based forecasting. Using a combination of data-driven forecasting, simple model structures, and ensemble fitting we are able to determine mid-range predictions for rapidly changing situations. Using results over the past year on COVID-19 we will highlight the strengths of such an approach when it comes to forecasting trajectories and how this can be used to help policy and decision making."
+author2: "Marina Mancuso"
+inst2: "(Arizona State University)"
+title2: "Will Cross-Immunity Protect the Community Against COVID-19 Variants ?"
+abstract2: "Several effective vaccines are currently being deployed to combat the COVID-19 pandemic (caused by SARS-CoV-2) around the world, resulting in significant reduction in the burden of the pandemic in places with high enough coverage. The effectiveness of COVID-19 vaccination programs is, however, significantly threatened by the emergence of new SARS-COV-2 variants that, in addition to being more transmissible and potentially more virulent than the resident strains, may at least partially evade existing vaccines. This talk is based on the use of a new multigroup and multi-strain mechanistic mathematical model for assessing the impact of the vaccine-induced cross-protective efficacy on the spread of the COVID-19 pandemic in the United States. In addition to estimating the vaccine-derived herd immunity threshold for the US, I will discuss conditions for which a new SARS-CoV-2 variant can fail to, or have the potential to, cause a significant surge in the US."
+author3: "Elena Aruffo"
+inst3: "(York University)"
+title3: "Vaccination rollout and relaxation of non-pharmaceutical interventions: a combined approach"
+abstract3: "After months of implementation of non-pharmaceutical interventions to control the spread of SARS-CoV-2 infection, in December 2020 many countries began COVID-19 vaccination campaigns. Over the past few months, the vaccination coverage in Toronto, Canada increased visibly, leading to high immunization levels among certain age groups. In collaboration with Toronto Public Health, the Canadian Centre for Disease Modeling modeling group employed a deterministic structured compartmental model to investigate the current immunization status in Toronto and explore potential strategies for safe reopening, given various degrees of vaccine coverage by age group, in order to maximize reductions in cases, hospitalizations and deaths. We further examined the impact of different time intervals between the first and second vaccine dose on the aforementioned outcomes."
+author4: "Nicola Perra"
+inst4: "(University of Greenwich)"
+title4: "Modelling the COVID-19 pandemic at different spatio-temporal scales"
+abstract4: "In the talk, I will provide an overview of different approaches I have applied to model the unfolding of the COVID-19 pandemic and its effects. In doing so, I will discuss the insights obtained by studying the initial phases of the pandemic, the first wave, and the vaccine rollout in the USA, Europe as well as Latin America. I will also discuss the key role of non-pharmaceutical interventions."
+---

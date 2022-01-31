@@ -1,0 +1,27 @@
+---
+layout: group
+author: esmb
+day: "Monday (Tuesday)"
+subgroup: "CBBS"
+title: "Mathematical modeling of emergent phenomena in cell colonies"
+organizers: "Shawn D. Ryan (Cleveland State University, United States), Mykhailo Potomkin (UC Riverside, United States), Jia Gou (UC Riverside, United States)"
+description: "Biological systems are complex, they typically consist of a vast number of interacting components, which may exhibit an emergent behavior. Though phenomena occur at the macroscale, it is the result of spontaneous cooperation between the components at the microscale. Examples are collective swimming of bacteria changing the rheology of a bacterial suspension, and steady cell motility originated from molecular motors moving inside a cell. How collective nonlinear interactions at the microscale result in observable behavior at the macroscale is a challenging question. The goal of this special session is to gather experts in mathematical models capable of describing emergent behavior in various biological contexts with the focus on microorganisms and their colonies."
+code: "MS01"
+code2: "MS02"
+author1: "Gil Ariel"
+inst1: " (Bar Ilan University, Israel)"
+title1: "A Phase Diagram for Bacterial Swarming"
+abstract1: "Bacterial swarming is a mode of motion in which dense collectives of rod-shaped flagellated cells migrate rapidly on surfaces. The transition into swarming involves several cellular processes, including changes in cell aspect ratio, suggesting that bacteria manipulate these properties in order to promote physical conditions that are favorable for swarming. New results with monolayer swarms of Bacillus subtilis with different aspect ratios were analyzed at different cell-densities. A comprehensive analysis of the individual and collective dynamics of bacteria in a swarm brings forth a phase diagram, showing sharp transitions between phases corresponding to qualitatively different swarm statistics. From a biological perspective, we find that under standard conditions bacteria inhabit a region of phase space in which the swarm dynamics is highly robust and insensitive to fluctuations. In this regime, bacteria do not form very large clusters and lack global orientational order, properties which may reduce the colony's ability to expand rapidly in the absence of external directional cues."
+author2: "Fernando Peruani"
+inst2: " (CY Cergy Paris University, France)"
+title2: "A mathematical approach to bacterial infections: models for bacterial exploration, aggregation, and infection"
+abstract2: "Combining mathematical models and bacterial experiments, we have learned how pathogenic bacteria explore surfaces, form early aggregates, and infect cells. I will provide a brief summary of main challenges behind these bacterial phenomena. References: Perez Ipina et al., Nature Physics 15, 610-615 (2019); Otte et al., Nature Communications 12, 1-9 (2021)"
+author3: "Silke Henkes"
+inst3: " (University of Bristol, United Kingdom)"
+title3: "Flow, fluctuate, freeze: Cell sheets as soft active matter"
+abstract3: ""
+author4: "Kevin Painter"
+inst4: " (Politecnico di Torino, Italy)"
+title4: "Sticking together by going against the flow"
+abstract4: "Forming colonies, swarms, schools, flocks, herds, etc is a classical example of self organization, with the benefits of forming a high density group ranging from efficient migration to higher  fecundity. Often, groups form through a mechanism of chemical signaling between population members, an evolutionary ancient communication used by both microscopic and macroscopic species. Populations in fluid environments, though, must contend with complex and turbulent flows, potentially detrimental (e.g. splitting up groups) or beneficial (e.g. coalescing individuals) to the formation and maintenance of a group. As a counter to flow, rheotaxis describes a behavior in which individuals orient their body axis with respect to the current and is observed in both unicellular and multicellular organisms. Here we investigate the extent to which rheotaxis and flow impact on chemically-mediated aggregation, revealing these can impact both negatively and positively according to the population state and flow conditions. A hypothesized density-dependent rheotaxis appears capable of optimizing group formation and maintenance, exploiting the positive benefits from each of flow and rheotaxis."
+---

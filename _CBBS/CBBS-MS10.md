@@ -1,0 +1,27 @@
+---
+layout: group
+author: esmb
+day: "Tuesday (Wednesday)"
+subgroup: "CBBS"
+title: "Modeling and data analysis of dynamics from molecules, cells to populations"
+organizers: "Lei Zhang (Peking University, China)"
+description: "The systems biology approach integrating heterogeneous biological data in quantitative mathematical models has promised to facilitate the comprehensive understanding of complex biological systems. This A3 (China-Japan-Korea) minisymposium is to bring together asian mathematicians working in the field of mathematical modeling and data analysis of dynamic phenomena at all kinds of levels on molecules, cells to populations."
+code: "MS10"
+code2: "MS09"
+author1: "Lei Zhang"
+inst1: "(Peking University, China)"
+title1: "Computable Early C. elegans Embryo with a Data-driven Phase Field Model"
+abstract1: "Morphogenesis is a precise and robust dynamic process during metazoan embryogenesis consisting of both cell proliferation and cell migration. However, unlike the progress in discovering molecular activity that regulate morphogenesis, general and extensible in silico model based on cell-level interaction has not been well established yet, especially for comprehensive reconstruction and prediction on morphological features observed in live embryo (e.g., cell shape, cell-cell contact relationship). In this talk, using Caenorhabditis elegans as model animal, we present a data-driven phase field model to simulate the morphogenesis procedure within a confined compressed eggshell. We first collected three-dimensional time-lapse (4D) cellular morphological information from the in vivo imaging experiments. Based on the developmental properties obtained, we not only successfully reconstructed the evolution of cell location, cell morphology and cell-cell contact relationship observed in real embryo, but also provided mechanical perspectives on several significant developmental events such as Wnt signaling from P2 to EMS, establishment of the three orthogonal body axes and spatial robustness against external compression."
+author2: "Masakazu Akiyama"
+inst2: " (Meiji University, Japan)"
+title2: "A three-dimensional vertex dynamics model for understanding the twisting phenomenon of the hindgut of Drosophila"
+abstract2: "Epithelial tissue morphogenesis requires morphologic changes such as migration or deformation of individual epithelial cells constituting the tissue. To reveal 3D morphologic changes of the cells contributing to the tissue deformation, we constructed a 3D vertex dynamics model in which the hindgut epithelial cells were represented by hexagonal cylinders. Numerical simulations suggested that twisting of individual cells along apico-basal axes can induce the directional tube twist. To see whether the cell twisting predicted by the simulation occurs in vivo, we quantified the cell shape change using time-lapse imaging of the whole hindgut. As a result, the hindgut epithelial cells directionally twist before and during the twisting."
+author3: "Chunhe Li"
+inst3: " (Fudan University, China)"
+title3: "A Dimension Reduction Approach for Energy Landscape"
+abstract3: "Dimension reduction is a challenging problem in complex dynamical systems. We propose a dimension reduction approach of landscape (DRL) for complex dynamical systems, by mapping a high-dimensional system on a low-dimensional energy landscape. The DRL approach is applied to three biological networks, which validates that new reduced dimensions preserve the major information of stability and transition of original high-dimensional systems. The consistency of barrier heights calculated from the low-dimensional landscape and transition actions calculated from the high-dimensional system further shows that the landscape after dimension reduction can quantify the global stability of the system. The epithelial-mesenchymal transitions (EMT) and abnormal metabolism are two hallmarks of cancers. With the DRL approach, a quadrastable landscape for EMT-metabolism network is identified, including epithelial (E), abnormal metabolic (A), hybrid E/M (H), and mesenchymal (M) cell states. The quantified energy landscape and kinetic transition paths suggest that for the EMT process the cells at E state need to first change their metabolism, then enter the M state. This work proposes a general framework for the dimension reduction of a stochastic dynamical system, and advances the mechanistic understanding of the underlying relationship between EMT and cellular metabolism."
+author4: "Chansoo Kim"
+inst4: " (Korea Institute of Science and Technology, Korea)"
+title4: "Kinetic Monte Carlo and the infectious disease dynamics with age and region"
+abstract4: ""
+---

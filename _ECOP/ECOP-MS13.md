@@ -1,0 +1,26 @@
+---
+layout: group
+author: esmb
+day: "Wednesday (Thursday)"
+subgroup: "ECOP"
+title: "Ecological models at the interface of empirical and theoretical research"
+organizers: "Amanda Laubmeier (Texas Tech University, United States), Kyle Dahlin (University of Georgia, United States)"
+description: "Research in mathematical ecology is informed, both directly and indirectly, by empirical studies. Empirical work produces data necessary for model parameterization and also tests the biological hypotheses which drive highly theoretical work. At the same time, questions arising from empirical studies propel us to employ new and innovative mathematical methods which can address application-level concerns. In this session, we showcase a variety of speakers who are connected by the incorporation of empirical work and mathematical methods in their research. They integrate biological expertise, data, and models in a myriad of ways, highlighting the different aspects of research in this area. We hope the audience will appreciate how empirical and theoretical approaches complement one another and come away with ideas to use similar methods in their own work."
+code: "MS13"
+author1: "TBD TBD"
+inst1: " (TBD, TBD)"
+title1: "TBD"
+abstract1: ""
+author2: "Annabel Meade"
+inst2: " (North Carolina State University, United States)"
+title2: "Population model for the invasive insect Homalodisca vitripennis and the egg parasitoid Cosmocomoidea ashmeadi"
+abstract2: "The glassy-winged sharpshooter, Homalodisca vitripennis, is an invasive pest which presents a major economic threat to the grape industries in California by spreading a disease-causing bacteria, Xylella fastidiosa. Recently a common enemy of H. vitripennis, certain mymarid parasitoid species including Cosmocomoidea ashmeadi and Cosmocomoidea morrilli, have been studied to use in place of insecticides as a control method. We create a time and temperature dependent mathematical model to analyze data and answer the question: Does the implementation of C. ashmeadi as a biological control method cause a significant decrease in the population of H. vitripennis?"
+author3: "Sofya Zaytseva"
+inst3: " (University of Georgia, United States)"
+title3: "Pattern Formation in Intertidal Oyster Reefs"
+abstract3: "The Eastern oyster population has plummeted over the last century due to unregulated harvesting, effects of pollution and prevalence of disease, making reef restoration of critical importance. While various aspects of reef development have been studied in the past, the importance of water flow and geophysical processes on oyster reef development remains not well understood. This becomes particularly important in reef restoration and can help determine suitable locations and optimal configurations for the construction of artificial reefs. We use drone imagery of an extensive intertidal reef network to investigate the relationships between topography, flow, and reef geometry. This talk will focus on some recent results from our analysis exploring these relationships."
+author4: "Shandelle Henson"
+inst4: " (Andrews University, United States)"
+title4: "Climate Change and Tipping Points for Seabird Colonies in the North American Pacific Northwest"
+abstract4: "Changes in sea surface temperatures in the Pacific Northwest are associated with changes in reproductive and feeding tactics in colonial seabirds. Warm years in the El Niño–Southern Oscillation are associated with short-term “lifeboat” tactics such as egg cannibalism that are not sustainable over the long term. Mathematical models suggest that prolonged rises in SST can create tipping points that allow colony collapse."
+---

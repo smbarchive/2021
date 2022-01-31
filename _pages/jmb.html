@@ -1,0 +1,105 @@
+---
+title: "Journal of Mathematical Biology Info Session"
+layout: default
+pagination:
+    enabled: false
+description: "The Society for Mathematical Biology - e-Conference 2021."
+permalink: /jmb/
+---
+
+
+<div class="container">
+	
+	<div class="col-md-12 main-loop">
+	    <div class="row">
+	        <div class="col-md-12  text-center">
+		        {% include banner.html %}
+		        <h1 class="mb-3">{{page.title}}</h1>
+
+	        </div>
+	    </div>
+	</div>
+
+
+	<div class="row justify-content-center">
+        
+        <!-- Share -->
+				<div class="col-lg-2 pr-4 mb-4 col-md-12">
+					<div class="sticky-top sticky-top-offset text-center">
+						<div class="text-muted">
+							Share this
+						</div>
+						<div class="share d-inline-block">
+							<!-- AddToAny BEGIN -->
+							<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+								<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+								<a class="a2a_button_facebook"></a>
+								<a class="a2a_button_twitter"></a>
+							</div>
+							<script async src="https://static.addtoany.com/menu/page.js"></script>
+							<!-- AddToAny END -->
+						</div>
+					</div>
+				</div>
+        
+        
+		<div class="col-md-12 col-lg-10">
+			
+			<h4>Journal of Mathematical Biology Info Session</h4>
+			
+			<p>The Editors of the Journal of Mathematical Biology will present a special session which will cover how to submit, the usual pitfalls to avoid, what sort of papers the journal is interested in receiving. This session is aimed at prospective authors.</p>
+			
+			<p>There will be two sessions:</p>
+			<ul>				
+				<li>7:45am on Wednesday June 16 (PDT), 03:45pm on Wednesday June 16 (BST), 11:45pm on Thursday June 17 (KST)</li>
+				<li>11:00am on Thursday June 17 (PDT), 07:00pm on Thursday June 17 (BST), 03:00am on Friday June 18 (KST)</li>						
+			</ul>			
+			
+		</br>
+		</br>
+		
+		<button id="{{site.baseurl}}/session-recordings#JoMB-JoMB" onclick="passWord(this.id)">Session video recording</button>
+					      
+											      
+			<!-- Author Box -->
+      {% if page.author %}				
+			<div class="row mt-5">
+				<div class="col-md-2 align-self-center">
+                       {% if author.avatar %}
+                      <img class="rounded-circle" src="../{{author.avatar}}" alt="{{author.name}}" width="90"/>
+                      {% endif %} 
+				</div>
+				<div class="col-md-10">		
+                      <h5 class="font-weight-bold">Hosted by {{ author.name }} {% if author.twitter %}<span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span>{% endif %}</h5>
+					{{ author.bio }}					
+				</div>
+			</div>				
+      {% endif %}
+      
+      <!-- Comments -->
+      {% if page.comments != false %}
+          {% include comments.html %}
+      {% endif %}
+            
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

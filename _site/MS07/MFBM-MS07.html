@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>From Machine Learning to Deep Learning Methods in Biology | SMB 2021</title>
+
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>From Machine Learning to Deep Learning Methods in Biology | SMB 2021</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="From Machine Learning to Deep Learning Methods in Biology" />
+<meta name="author" content="esmb" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="As biological data becomes more detailed and ubiquitous, statistical and machine learning methods are needed to process and understand relationships in big data or to incorporate this data into existing mechanistic modeling frameworks. Here we present recent advances for machine learning and deep learning methodologies applied to a variety of biological processes, from single cell genomic analysis to population-wide disease spread. Methods of interest include biomedical image analysis via convolutional neural networks (CNNs), learning equations from data, and many more. The methods developed and discussed in this minisymposium span the range from purely statistical and machine learning models to hybridized mechanistic/machine learning models to data-driven mechanistic modeling." />
+<meta property="og:description" content="As biological data becomes more detailed and ubiquitous, statistical and machine learning methods are needed to process and understand relationships in big data or to incorporate this data into existing mechanistic modeling frameworks. Here we present recent advances for machine learning and deep learning methodologies applied to a variety of biological processes, from single cell genomic analysis to population-wide disease spread. Methods of interest include biomedical image analysis via convolutional neural networks (CNNs), learning equations from data, and many more. The methods developed and discussed in this minisymposium span the range from purely statistical and machine learning models to hybridized mechanistic/machine learning models to data-driven mechanistic modeling." />
+<link rel="canonical" href="http://localhost:4000/MS07/MFBM-MS07.html" />
+<meta property="og:url" content="http://localhost:4000/MS07/MFBM-MS07.html" />
+<meta property="og:site_name" content="SMB 2021" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-06-17T15:54:54-04:00" />
+<script type="application/ld+json">
+{"description":"As biological data becomes more detailed and ubiquitous, statistical and machine learning methods are needed to process and understand relationships in big data or to incorporate this data into existing mechanistic modeling frameworks. Here we present recent advances for machine learning and deep learning methodologies applied to a variety of biological processes, from single cell genomic analysis to population-wide disease spread. Methods of interest include biomedical image analysis via convolutional neural networks (CNNs), learning equations from data, and many more. The methods developed and discussed in this minisymposium span the range from purely statistical and machine learning models to hybridized mechanistic/machine learning models to data-driven mechanistic modeling.","author":{"@type":"Person","name":"esmb"},"@type":"BlogPosting","url":"http://localhost:4000/MS07/MFBM-MS07.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"esmb"},"headline":"From Machine Learning to Deep Learning Methods in Biology","dateModified":"2021-06-17T15:54:54-04:00","datePublished":"2021-06-17T15:54:54-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/MS07/MFBM-MS07.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
+
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+
+		<!-- Twitter card validator -->
+		<meta name="twitter:card" content="summary_large_image">
+	  <meta name="twitter:site" content="@smb2021">
+		<meta name="twitter:creator" content="@smb2021">
+		<meta name="twitter:title" content="From Machine Learning to Deep Learning Methods in Biology">
+		<meta name="twitter:description" content="The Society for Mathematical Biology annual meeting - 2021.">
+		<meta name="twitter:image" content="http://schedule.smb2021.org/assets/images/twitter.png">
+		
+		<meta name="title" content="From Machine Learning to Deep Learning Methods in Biology" />
+		<meta name="description" content="The Society for Mathematical Biology annual meeting - 2021." />
+		<meta property="og:title" content="From Machine Learning to Deep Learning Methods in Biology" />
+		<meta property="og:description" content="The Society for Mathematical Biology annual meeting - 2021." />
+		<meta property="og:image" content="http://schedule.smb2021.org/assets/images/twitter.png"/>
+
+
+
+    
+
+
+    
+
+		<!-- Bootstrap Modified -->
+		
+			<link rel="stylesheet" href="../assets/css/main.css">
+		
+		
+		<!-- Theme Stylesheet -->
+		
+			<link rel="stylesheet" href="../assets/css/theme.css">
+		
+		
+		<!-- Custom Themes Stylesheet -->
+		
+			<link rel="stylesheet" href="../assets/css/custom.css">
+		
+
+
+
+    <!-- Jquery on header to make sure everything works, the rest  of the scripts in footer for fast loading -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    
+    <script src="/assets/js/custom.js"></script>
+
+
+</head>
+
+<body class="">
+  
+	<nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+	  <div class="container">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		
+		  <div class="collapse navbar-collapse" id="navbarColor02">
+		    <ul class="navbar-nav mr-auto d-flex align-items-center">
+			    <li class="nav-item"> <img src="/assets/images/logo.png" width="65" alt="" class="d-inline-block align-middle mr-2"> </li>
+					<a class="navbar-brand" href="/"><strong>SMB 2021</strong></a>
+		      <!--  Replace menu links here -->
+
+<!-- <li class="nav-item"> <img src="/assets/images/logo.jpg" width="45" alt="" class="d-inline-block align-middle mr-2"> </li> -->
+<!-- <a class="navbar-brand" href="/"><strong>SMB 2021</strong></a> -->
+
+<li class="nav-item"><a class="nav-link" id="strong-nav" href="/">Home</a></li>
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Schedule
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item" style="color:#000000 !important;" href="/">Overview</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/your-smb2021">Plan Your SMB2021</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/pre-conference">Pre-conference</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/americas">Americas</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/europe-africa">Europe/Africa</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/asia-oceania">Asia/Oceania</a>
+		
+  </div>
+</li>
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Search by Name
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item" style="color:#000000 !important;" href="/contributed-speakers">Contributed Talks</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/minisymposia-speakers">Minisymposia</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/plenary">Plenary</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/posters">Posters</a>
+  </div>
+</li>
+
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Subgroup / Theme
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item text-CBBS" style="color:#000000 !important;" href="/CBBS"><span class="text-CBBS">CBBS</span> (Complex Biological and Biomedical Systems)</a>
+		<a class="dropdown-item text-CDEV" style="color:#000000 !important;" href="/CDEV"><span class="text-CDEV">CDEV</span> (Cell and Developmental Biology)</a>
+		<a class="dropdown-item text-DDMB" style="color:#000000 !important;" href="/DDMB"><span class="text-DDMB">DDMB</span> (Data Driven Modeling in Biology)</a>
+		<a class="dropdown-item text-DEI" style="color:#000000 !important;" href="/DEI"><span class="text-DEI">DEI</span> (Diversity, Equity, and Inclusion)</a>
+		<a class="dropdown-item text-ECOP" style="color:#000000 !important;" href="/ECOP"><span class="text-ECOP">ECOP</span> (Population Dynamics & Ecology)</a>
+		<a class="dropdown-item text-EDUC" style="color:#000000 !important;" href="/EDUC"><span class="text-EDUC">EDUC</span> (Education)</a>
+		<a class="dropdown-item text-EVOP" style="color:#000000 !important;" href="/EVOP"><span class="text-EVOP">EVOP</span> (Population Dynamics & Evolution)</a>
+		<a class="dropdown-item text-IMMU" style="color:#000000 !important;" href="/IMMU"><span class="text-IMMU">IMMU</span> (Immunobiology and Infection)</a>
+		<a class="dropdown-item text-MEPI" style="color:#000000 !important;" href="/MEPI"><span class="text-MEPI">MEPI</span> (Mathematical Epidemiology)</a>
+		<a class="dropdown-item text-MFBM" style="color:#000000 !important;" href="/MFBM"><span class="text-MFBM">MFBM</span> (Methods for Biological Modeling)</a>
+		<a class="dropdown-item text-MMPB" style="color:#000000 !important;" href="/MMPB"><span class="text-MMPB">MMPB</span> (Multiscale Modeling in Physiology and Biophysics )</a>
+		<a class="dropdown-item text-NEUR" style="color:#000000 !important;" href="/NEUR"><span class="text-NEUR">NEUR</span> (Mathematical Neuroscience)</a>
+		<a class="dropdown-item text-ONCO" style="color:#000000 !important;" href="/ONCO"><span class="text-ONCO">ONCO</span> (Mathematical Oncology)</a>
+  </div>
+</li>
+<li class="nav-item">
+	<a class="nav-link" href="https://www.smb2021.org/">Return to SMB2021.org</a>
+</li>
+
+		    </ul>
+		    
+		  </div>
+	  </div>
+	</nav>
+	
+
+
+    
+
+    <!-- Search Results -->
+    <div id="lunrsearchresults">
+        <ul class="mb-0"></ul>
+    </div>
+
+    <!-- Content -->
+    <main role="main" class="site-content" style="margin-bottom: 300px;">
+        
+<div class="container">
+<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+		<div class="h-100 tofront">
+			<div class="row  justify-content-center ">
+				<div class=" col-md-8  pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+					<p class="text-uppercase font-weight-bold">
+              <span class="catlist">
+              	<span class="text-MFBM">MFBM-MS07</span>						
+              </span>
+					</p>
+					<h1 class="display-4 mb-4 article-headline">From Machine Learning to Deep Learning Methods in Biology</h1>
+					<h4>Tuesday, June 15 at 09:30am (PDT)</br>Tuesday, June 15 at 05:30pm (BST)</br>Wednesday, June 16 01:30am (KST)</h4>
+					<div class="d-flex align-items-center">
+                        
+                        <img class="rounded-circle" src="../assets/images/logo.jpg" alt="SMB2021" width="70"/>
+                        
+						<small class="ml-3"> SMB2021 <span><a target="_blank" href="https://twitter.com/smb2021" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
+              <span class="text-muted d-block mt-1">Tuesday (Wednesday) during the "MS07" time block.</span>
+						</small>
+						
+					</div>
+				</div>
+				
+					<small class="ml-3">Note: this minisymposia has multiple sessions. The second session is <strong>MS08-MFBM</strong> <a href="../MFBM/MFBM-MS08.html">(click here)</a>. 
+						
+						
+						
+					</small></br></br>
+				
+        
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<div class="container-lg pt-4 pb-4">
+	<div class="row justify-content-center">
+        
+        <!-- Share -->
+				<div class="col-lg-2 pr-4 mb-4 col-md-12">
+					<div class="sticky-top sticky-top-offset text-center">
+						<div class="text-muted">
+							Share this
+						</div>
+						<div class="share d-inline-block">
+							<!-- AddToAny BEGIN -->
+							<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+								<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+								<a class="a2a_button_facebook"></a>
+								<a class="a2a_button_twitter"></a>
+							</div>
+							<script async src="https://static.addtoany.com/menu/page.js"></script>
+							<!-- AddToAny END -->
+						</div>
+					</div>
+				</div>
+        
+        
+		<div class="col-md-12 col-lg-10">
+			
+			
+			<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem MFBM position-relative">
+		    <div class="pl-4 pr-0 h-100 tofront">
+		        <div class="row justify-content-between">
+		            <div class="col-md-12 pt-6 pb-6 pr-lg-4 align-self-center">
+		                <p><strong>Organizers:</strong></p>
+		                <h4 class="mb-3">Erica Rutter (University of California, Merced, United States), Suzanne Sindi (University of California, Merced, United States)</h4>
+		                
+		                
+		                	<p><strong>Description</strong>:</p> 
+		                	<p>As biological data becomes more detailed and ubiquitous, statistical and machine learning methods are needed to process and understand relationships in big data or to incorporate this data into existing mechanistic modeling frameworks. Here we present recent advances for machine learning and deep learning methodologies applied to a variety of biological processes, from single cell genomic analysis to population-wide disease spread. Methods of interest include biomedical image analysis via convolutional neural networks (CNNs), learning equations from data, and many more. The methods developed and discussed in this minisymposium span the range from purely statistical and machine learning models to hybridized mechanistic/machine learning models to data-driven mechanistic modeling.</p>
+			              
+			              
+			              
+		            </div>             
+		        </div>
+		    </div>
+			</div>
+			</br>
+			</br>
+			
+			
+			
+			
+			
+						
+			
+			
+			
+			
+			
+	    	<h4 id="author1">Emilia Kozlowska</h4>
+	    	 
+	    		<em> (Departement of Systems Biology and Engineering, Silesian University of Technology, Poland)</em>
+	    	
+	    	
+	    	
+	    		
+	    			<h6>"Application of mechanistic and machine learning modeling to predict long-term response to treatment for cancer patients"</h6>
+	    		
+	    	
+	    	
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			The most common subtype of lung cancer is non-small cell lung cancer (NSCLC) that constitutes 80% of all lung cancer cases. NSCLC is usually diagnosed at an advanced stage because of non-specific symptoms, leading to high mortality. The standard treatment for NSCLC patients is a combination of chemotherapy and radiotherapy and, as an emerging type of treatment, immunotherapy.
+We collected clinical data from over 500 patients with non-small cell lung cancer. From the cohort, we extracted 50 patients who were treated only with platinum-based chemotherapy with palliative intent i.e., under the assumption of failed cure. The clinical data including, among others, short and long-term response to chemotherapy and amount of chemotherapy cycles, were applied to calibrate the mechanistic model using a machine learning approach.
+We developed a computational platform to find the best protocol for the administration of platinum-doublet chemotherapy in the palliative setting. The core of the platform is the mathematical model, in the form of a system of ordinary differential equations, describing dynamics of platinum-sensitive and platinum-resistant cancer cells and interactions reflecting competition for space and resources. The model is simulated stochastically by sampling the parameter values from a joint probability distribution.
+The model simulations faithfully reproduce the clinical cohort at three levels, long-term response (OS), initial response, and the relationship between the number of chemotherapy cycles and time between two consecutive chemotherapy cycles. In addition, we investigated the relationship between initial and long-term responses. We showed that these two variables do not correlate, which means that we cannot predict patient survival based solely on the initial response. We also tested several chemotherapy schedules to find the best one for patients treated with palliative intent. We found that optimal treatment schedule depends, among others, on the strength of competition among sensitive and resistant subclones in a tumor.
+		    		
+	    		</article>
+	    	
+				
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    	<h4 id="author2">Sara Ranjbar</h4>
+	    	 
+	    		<em> (Mathematical NeuroOncology Lab, Precision Neurotherapeutics Program, Mayo Clinic, Arizona, United States)</em>
+	    	
+	    	
+	    		
+	    			<h6>"MRI-based estimation of the abundance of immunohistochemistry markers in GBM brain using deep learning"</h6>
+	    		
+	    	
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			Glioblastoma (GBM) is a devastating primary brain tumor known for its heterogeneity and invasion. Despite uniformly aggressive therapies including surgery, radiation, and chemotherapy, the median survival rate remains about 15 months. There are many targeted therapies in clinical trials; however, the eloquence of the location makes both the drug delivery and the local efficacy of any drug difficult to assess. Clinical imaging remains the primary modality to assess tumor response, but it is an obscured lens through which it is nearly impossible to distinguish between actual tumor growth and tumor cell death from a large immune response. Over the past decade, MRI has been suggested by many studies to reflect the underlying tumor biology. In this talk, we will discuss our groups’ approach to building a robust deep learning model to connect MRI patterns at GBM biopsied locations with cell proliferation abundance measured by immunohistochemistry staining. If successful, this model can provide a non-invasive readout of cell proliferation and reveal the effectiveness of a given cytotoxic therapy including standard-of-care radiotherapy that targets cell proliferation.
+		    		
+	    		</article>
+	    	
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    	<h4 id="author3">Joan Ponce</h4>
+	    	 
+	    		<em> (UCLA, United States)</em>
+	    	
+	    	
+	    		
+	    			<h6>"An integrated framework for building trustworthy data-driven epidemiological models: Application to the COVID-19 outbreak in New York City"</h6>
+	    		
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			Epidemiological models can provide the dynamic evolution of a pandemic but they are based on many assumptions and parameters that have to be adjusted over the time when the pandemic lasts. However, often the available data are not sufficient to identify the model parameters and hence infer the unobserved dynamics. Here, we develop a general framework for building a trustworthy data-driven epidemiological model, consisting of a workflow that integrates data acquisition and event timeline, model development, identifiability analysis, sensitivity analysis, model calibration, model robustness analysis, and forecasting with uncertainties in different scenarios. In particular, we apply this framework to propose a modified susceptible–exposed–infectious–recovered (SEIR) model, including new compartments and model vaccination in order to forecast the transmission dynamics of COVID-19 in New York City (NYC). We find that we can uniquely estimate the model parameters and accurately predict the daily new infection cases, hospitalizations, and deaths, in agreement with the available data from NYC's government's website. In addition, we employ the calibrated data-driven model to study the effects of vaccination and timing of reopening indoor dining in NYC.
+		    		
+	    		</article>
+	    	
+	    
+	    
+			</br>
+			</br>
+	    
+	    
+	    	<h4 id="author4">Emily Zhang</h4>
+	    	 
+	    		<em> (North Carolina State University, USA)</em>
+	    	
+	    	
+	    		
+	    			<h6>"Deep Learning and Regression Approaches to Forecasting Blood Glucose Levels for Type 1 Diabetes"</h6>
+	    		
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			Controlling blood glucose in the euglycemic range is the main goal of developing sensor-augmented pump therapy for type 1 diabetes patients. The pump therapy delivers the amount of insulin dose determined by glucose predictions through the use of computational algorithms. A computationally efficient and accurate model that can capture the physiological nonlinear dynamics is critical for developing an accurate therapy device. Four data-driven models are compared, including different neural network architectures, a reservoir computing model, and a novel linear regression approach. Model predictions are evaluated over continuous 30 and 60 minute time horizons using real-world data from wearable sensor measurements, a continuous glucose monitor, and self-reported events through mobile applications. The four data-driven models are trained on 12 data contributors for around 32 days, 8 days of data are used for validation, with an additional 10 days of data for out-of-sample testing. Model performance was evaluated by the root mean squared error and the mean absolute error. A neural network model using an encoder-decoder architecture has the most stable performance and is able to recover missing dynamics in short time intervals. Regression models performed better at long-time prediction horizons (i.e., 60 minutes) and with lower computational costs. The performance of several distinct models was tested for individual-level data from a type 1 diabetes data set. These results may enable a feasible solution with low computational costs for the time-dependent adjustment of pump therapy for diabetes patients.
+		    		
+	    		</article>
+	    	
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    
+	      
+			<!-- Author Box -->
+      				
+			<div class="row mt-5">
+				<div class="col-md-2 align-self-center">
+                       
+                      <img class="rounded-circle" src="../assets/images/logo.jpg" alt="SMB2021" width="90"/>
+                       
+				</div>
+				<div class="col-md-10">		
+                      <h5 class="font-weight-bold">Hosted by SMB2021 <span><a target="_blank" href="https://twitter.com/smb2021" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span></h5>
+					Virtual conference of the Society for Mathematical Biology, 2021.					
+				</div>
+			</div>				
+      
+      
+      <!-- Comments -->
+      
+          <!--  Don't edit anything here. Set your disqus id in _config.yml -->
+
+<div id="comments" class="mt-5">
+    <div id="disqus_thread">
+    </div>
+    <script type="text/javascript">
+        var disqus_shortname = ''; 
+        var disqus_developer = 0;
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = window.location.protocol + '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>
+    Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
+</div>
+      
+            
+		</div>
+        
+        
+	</div>
+</div>
+
+
+
+    </main>
+
+
+    <!-- Scripts: popper, bootstrap, theme, lunr -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+    
+    
+			<script src="../assets/js/theme.js"></script>
+		
+    
+    <!-- All this area goes before </body> closing tag --> 
+
+
+</body>
+
+</html>

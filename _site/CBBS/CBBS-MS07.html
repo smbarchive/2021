@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Wave propagation and pattern formation phenomena in     biological models | SMB 2021</title>
+
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Wave propagation and pattern formation phenomena in biological models | SMB 2021</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Wave propagation and pattern formation phenomena in biological models" />
+<meta name="author" content="esmb" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Pattern formation is a fundamental phenomenon ubiquitous in many branches of natural sciences, like physics, chemistry, geography, biology, and also in social sciences. It is a paradigm that pattern formation processes are a sine qua non condition for life origin, because they enable the formation of germ layers, tissues and then highly specified organs, like skin, bones, brain or heart. Moreover, similar spatial patterning occur inside cells as a result of, e.g. response to external stimuli. It is thus extremely intriguing to design mathematical models which are able to explain, how (and under what conditions) the spatial patterns can be developed. Very often the patterning phenomena are carried out via traveling waves, which can be pinned (stopped), in particular, due to geometrical properties, like a local curvature of the boundary or growth of the region. Biological models leading to formation of patterns and/or wave propagation can shed an explanatory light and provide a lot information about the evolution and the final (asymptotic) states of the systems corresponding to many phenomena in embryology, virus spreading or tumour dynamics." />
+<meta property="og:description" content="Pattern formation is a fundamental phenomenon ubiquitous in many branches of natural sciences, like physics, chemistry, geography, biology, and also in social sciences. It is a paradigm that pattern formation processes are a sine qua non condition for life origin, because they enable the formation of germ layers, tissues and then highly specified organs, like skin, bones, brain or heart. Moreover, similar spatial patterning occur inside cells as a result of, e.g. response to external stimuli. It is thus extremely intriguing to design mathematical models which are able to explain, how (and under what conditions) the spatial patterns can be developed. Very often the patterning phenomena are carried out via traveling waves, which can be pinned (stopped), in particular, due to geometrical properties, like a local curvature of the boundary or growth of the region. Biological models leading to formation of patterns and/or wave propagation can shed an explanatory light and provide a lot information about the evolution and the final (asymptotic) states of the systems corresponding to many phenomena in embryology, virus spreading or tumour dynamics." />
+<link rel="canonical" href="http://localhost:4000/CBBS/CBBS-MS07.html" />
+<meta property="og:url" content="http://localhost:4000/CBBS/CBBS-MS07.html" />
+<meta property="og:site_name" content="SMB 2021" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-06-17T15:54:54-04:00" />
+<script type="application/ld+json">
+{"description":"Pattern formation is a fundamental phenomenon ubiquitous in many branches of natural sciences, like physics, chemistry, geography, biology, and also in social sciences. It is a paradigm that pattern formation processes are a sine qua non condition for life origin, because they enable the formation of germ layers, tissues and then highly specified organs, like skin, bones, brain or heart. Moreover, similar spatial patterning occur inside cells as a result of, e.g. response to external stimuli. It is thus extremely intriguing to design mathematical models which are able to explain, how (and under what conditions) the spatial patterns can be developed. Very often the patterning phenomena are carried out via traveling waves, which can be pinned (stopped), in particular, due to geometrical properties, like a local curvature of the boundary or growth of the region. Biological models leading to formation of patterns and/or wave propagation can shed an explanatory light and provide a lot information about the evolution and the final (asymptotic) states of the systems corresponding to many phenomena in embryology, virus spreading or tumour dynamics.","author":{"@type":"Person","name":"esmb"},"@type":"BlogPosting","url":"http://localhost:4000/CBBS/CBBS-MS07.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"esmb"},"headline":"Wave propagation and pattern formation phenomena in biological models","dateModified":"2021-06-17T15:54:54-04:00","datePublished":"2021-06-17T15:54:54-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/CBBS/CBBS-MS07.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
+
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+
+		<!-- Twitter card validator -->
+		<meta name="twitter:card" content="summary_large_image">
+	  <meta name="twitter:site" content="@smb2021">
+		<meta name="twitter:creator" content="@smb2021">
+		<meta name="twitter:title" content=" Wave propagation and pattern formation phenomena in     biological models">
+		<meta name="twitter:description" content="The Society for Mathematical Biology annual meeting - 2021.">
+		<meta name="twitter:image" content="http://schedule.smb2021.org/assets/images/twitter.png">
+		
+		<meta name="title" content=" Wave propagation and pattern formation phenomena in     biological models" />
+		<meta name="description" content="The Society for Mathematical Biology annual meeting - 2021." />
+		<meta property="og:title" content=" Wave propagation and pattern formation phenomena in     biological models" />
+		<meta property="og:description" content="The Society for Mathematical Biology annual meeting - 2021." />
+		<meta property="og:image" content="http://schedule.smb2021.org/assets/images/twitter.png"/>
+
+
+
+    
+
+
+    
+
+		<!-- Bootstrap Modified -->
+		
+			<link rel="stylesheet" href="../assets/css/main.css">
+		
+		
+		<!-- Theme Stylesheet -->
+		
+			<link rel="stylesheet" href="../assets/css/theme.css">
+		
+		
+		<!-- Custom Themes Stylesheet -->
+		
+			<link rel="stylesheet" href="../assets/css/custom.css">
+		
+
+
+
+    <!-- Jquery on header to make sure everything works, the rest  of the scripts in footer for fast loading -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    
+    <script src="/assets/js/custom.js"></script>
+
+
+</head>
+
+<body class="">
+  
+	<nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+	  <div class="container">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		
+		  <div class="collapse navbar-collapse" id="navbarColor02">
+		    <ul class="navbar-nav mr-auto d-flex align-items-center">
+			    <li class="nav-item"> <img src="/assets/images/logo.png" width="65" alt="" class="d-inline-block align-middle mr-2"> </li>
+					<a class="navbar-brand" href="/"><strong>SMB 2021</strong></a>
+		      <!--  Replace menu links here -->
+
+<!-- <li class="nav-item"> <img src="/assets/images/logo.jpg" width="45" alt="" class="d-inline-block align-middle mr-2"> </li> -->
+<!-- <a class="navbar-brand" href="/"><strong>SMB 2021</strong></a> -->
+
+<li class="nav-item"><a class="nav-link" id="strong-nav" href="/">Home</a></li>
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Schedule
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item" style="color:#000000 !important;" href="/">Overview</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/your-smb2021">Plan Your SMB2021</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/pre-conference">Pre-conference</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/americas">Americas</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/europe-africa">Europe/Africa</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/asia-oceania">Asia/Oceania</a>
+		
+  </div>
+</li>
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Search by Name
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item" style="color:#000000 !important;" href="/contributed-speakers">Contributed Talks</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/minisymposia-speakers">Minisymposia</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/plenary">Plenary</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/posters">Posters</a>
+  </div>
+</li>
+
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Subgroup / Theme
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item text-CBBS" style="color:#000000 !important;" href="/CBBS"><span class="text-CBBS">CBBS</span> (Complex Biological and Biomedical Systems)</a>
+		<a class="dropdown-item text-CDEV" style="color:#000000 !important;" href="/CDEV"><span class="text-CDEV">CDEV</span> (Cell and Developmental Biology)</a>
+		<a class="dropdown-item text-DDMB" style="color:#000000 !important;" href="/DDMB"><span class="text-DDMB">DDMB</span> (Data Driven Modeling in Biology)</a>
+		<a class="dropdown-item text-DEI" style="color:#000000 !important;" href="/DEI"><span class="text-DEI">DEI</span> (Diversity, Equity, and Inclusion)</a>
+		<a class="dropdown-item text-ECOP" style="color:#000000 !important;" href="/ECOP"><span class="text-ECOP">ECOP</span> (Population Dynamics & Ecology)</a>
+		<a class="dropdown-item text-EDUC" style="color:#000000 !important;" href="/EDUC"><span class="text-EDUC">EDUC</span> (Education)</a>
+		<a class="dropdown-item text-EVOP" style="color:#000000 !important;" href="/EVOP"><span class="text-EVOP">EVOP</span> (Population Dynamics & Evolution)</a>
+		<a class="dropdown-item text-IMMU" style="color:#000000 !important;" href="/IMMU"><span class="text-IMMU">IMMU</span> (Immunobiology and Infection)</a>
+		<a class="dropdown-item text-MEPI" style="color:#000000 !important;" href="/MEPI"><span class="text-MEPI">MEPI</span> (Mathematical Epidemiology)</a>
+		<a class="dropdown-item text-MFBM" style="color:#000000 !important;" href="/MFBM"><span class="text-MFBM">MFBM</span> (Methods for Biological Modeling)</a>
+		<a class="dropdown-item text-MMPB" style="color:#000000 !important;" href="/MMPB"><span class="text-MMPB">MMPB</span> (Multiscale Modeling in Physiology and Biophysics )</a>
+		<a class="dropdown-item text-NEUR" style="color:#000000 !important;" href="/NEUR"><span class="text-NEUR">NEUR</span> (Mathematical Neuroscience)</a>
+		<a class="dropdown-item text-ONCO" style="color:#000000 !important;" href="/ONCO"><span class="text-ONCO">ONCO</span> (Mathematical Oncology)</a>
+  </div>
+</li>
+<li class="nav-item">
+	<a class="nav-link" href="https://www.smb2021.org/">Return to SMB2021.org</a>
+</li>
+
+		    </ul>
+		    
+		  </div>
+	  </div>
+	</nav>
+	
+
+
+    
+
+    <!-- Search Results -->
+    <div id="lunrsearchresults">
+        <ul class="mb-0"></ul>
+    </div>
+
+    <!-- Content -->
+    <main role="main" class="site-content" style="margin-bottom: 300px;">
+        
+<div class="container">
+<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+		<div class="h-100 tofront">
+			<div class="row  justify-content-center ">
+				<div class=" col-md-8  pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+					<p class="text-uppercase font-weight-bold">
+              <span class="catlist">
+              	<span class="text-CBBS">CBBS-MS07</span>						
+              </span>
+					</p>
+					<h1 class="display-4 mb-4 article-headline"> Wave propagation and pattern formation phenomena in     biological models</h1>
+					<h4>Tuesday, June 15 at 09:30am (PDT)</br>Tuesday, June 15 at 05:30pm (BST)</br>Wednesday, June 16 01:30am (KST)</h4>
+					<div class="d-flex align-items-center">
+                        
+                        <img class="rounded-circle" src="../assets/images/logo.jpg" alt="SMB2021" width="70"/>
+                        
+						<small class="ml-3"> SMB2021 <span><a target="_blank" href="https://twitter.com/smb2021" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
+              <span class="text-muted d-block mt-1">Tuesday (Wednesday) during the "MS07" time block.</span>
+						</small>
+						
+					</div>
+				</div>
+				
+        
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<div class="container-lg pt-4 pb-4">
+	<div class="row justify-content-center">
+        
+        <!-- Share -->
+				<div class="col-lg-2 pr-4 mb-4 col-md-12">
+					<div class="sticky-top sticky-top-offset text-center">
+						<div class="text-muted">
+							Share this
+						</div>
+						<div class="share d-inline-block">
+							<!-- AddToAny BEGIN -->
+							<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+								<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+								<a class="a2a_button_facebook"></a>
+								<a class="a2a_button_twitter"></a>
+							</div>
+							<script async src="https://static.addtoany.com/menu/page.js"></script>
+							<!-- AddToAny END -->
+						</div>
+					</div>
+				</div>
+        
+        
+		<div class="col-md-12 col-lg-10">
+			
+			
+			<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem CBBS position-relative">
+		    <div class="pl-4 pr-0 h-100 tofront">
+		        <div class="row justify-content-between">
+		            <div class="col-md-12 pt-6 pb-6 pr-lg-4 align-self-center">
+		                <p><strong>Organizers:</strong></p>
+		                <h4 class="mb-3">Bogdan Kazmierczak (Institute of Fundamental Technological Research, Polish Academy of Sciences, Poland), Je-Chiang Tsai (Department of Mathematics, National Tsing Hua University, Taiwan)</h4>
+		                
+		                
+		                	<p><strong>Description</strong>:</p> 
+		                	<p>Pattern formation is a fundamental phenomenon ubiquitous in many branches of natural sciences, like physics, chemistry, geography, biology, and also in social sciences. It is a paradigm that pattern formation processes are a sine qua non condition for life origin, because they enable the formation of germ layers, tissues and then highly specified organs, like skin, bones, brain or heart. Moreover, similar spatial patterning occur inside cells as a result of, e.g. response to external stimuli. It is thus extremely intriguing to design mathematical models which are able to explain, how (and under what conditions) the spatial patterns can be developed. Very often the patterning phenomena  are carried out via traveling waves, which can be pinned (stopped), in particular, due to geometrical properties, like a local curvature of the boundary or growth of the region.
+Biological models leading to formation of patterns and/or  wave propagation can shed an explanatory light and provide a lot information about the evolution and the final (asymptotic) states of the systems corresponding  to many phenomena in  embryology, virus spreading or tumour dynamics.</p>
+			              
+			              
+			              
+		            </div>             
+		        </div>
+		    </div>
+			</div>
+			</br>
+			</br>
+			
+			
+			
+			
+			
+						
+			
+			
+			
+			
+			
+	    	<h4 id="author1">Hirofumi Izuhara</h4>
+	    	 
+	    		<em> (University of Miyazaki, Japan)</em>
+	    	
+	    	
+	    	
+	    		
+	    			<h6>"On the spreading front arising in mathematical models of population dynamics"</h6>
+	    		
+	    	
+	    	
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			Understanding the invasion processes of biological species is a fundamental issue in ecology. Several mathematical models have been proposed to estimate the spreading speed of species. In recent decades, it was reported that some mathematical models of population dynamics have an explicit form of the evolution equations for the spreading front, which are represented by free boundary problems such as the Stefan-like problem. To understand the formation of the spreading front, we consider the singular limit of reaction-diffusion models and give some interpretations for spreading front from the viewpoint of modeling.
+		    		
+	    		</article>
+	    	
+				
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    	<h4 id="author2">Dariusz Wrzosek</h4>
+	    	 
+	    		<em> (University of Warsaw, Poland)</em>
+	    	
+	    	
+	    		
+	    			<h6>"Chemical signalling and pattern formation in predator-prey models"</h6>
+	    		
+	    	
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			Chemical signalling is an ubiquitous  mechanism which impacts distribution of species in space and time . Its role seems to be crucial in  the case of  patterning  in homogeneous landscapes. Many chemicals (e.g. pheromones,  kairomones)  released  by plants and animals are used as means of inter and intraspecific communication. Olfaction is a primary means by which prey detect predators  and trigger anti-predator responses. In this talk based on joint papers with Purnedu Mishra we consider the role of repulsive chemotaxis in predator-prey models and using qualitative analytical methods and simulations show complex behaviour of solutions depending on model structure and parameters.
+		    		
+	    		</article>
+	    	
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    	<h4 id="author3">Tomasz Lipniacki</h4>
+	    	 
+	    		<em> (Institute of Fundamental Technological Research, Polish Academy of Sciences, Poland)</em>
+	    	
+	    	
+	    		
+	    			<h6>"Traveling and standing fronts on curved surfaces"</h6>
+	    		
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			We analyze heteroclinic traveling waves propagating on two dimensional manifolds to show that the geometric modification of the front velocity is proportional to the geodesic curvature of the front line. As a result, on surfaces of concave domains, stable standing fronts can be formed on lines of constant geodesic curvature. These lines minimize the geometric functional describing the system’s energy, consisting of terms proportional to the front line-length and to the inclosed surface area. Front stabilization at portions of surface with negative Gaussian curvature, provides a mechanism of pattern formation. In contrast to the mechanism associated with the Turing instability, the proposed mechanism requires only a single scalar bistable reaction–diffusion equation and connects the intrinsic surface geometry with the arising pattern. By considering a system of equations modeling boundary-volume interactions, we show that polarization of the boundary may induce a corresponding polarization in the volume.
+		    		
+	    		</article>
+	    	
+	    
+	    
+			</br>
+			</br>
+	    
+	    
+	    	<h4 id="author4">Tilmann Glimm</h4>
+	    	 
+	    		<em> (Western Washington University, USA)</em>
+	    	
+	    	
+	    		
+	    			<h6>"Modeling interplay of pattern formation and cell phenotype transitions during limb cartilage formation"</h6>
+	    		
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			A regulatory network consisting of two  galactoside-binding proteins, galectins  Gal-1A and Gal-8 and their counterreceptors, mediates the spatial patterning  of the avian limb skeleton through the patterned morphogenesis of mesenchymal  condensations. Formation of the pattern can be modeled as a reaction-diffusion-adhesion process, wherein the galectins form a mutually self-enhancing expression network via the respective counterreceptors, while their diffusion, Gal-1A-mediated cell adhesion and its antagonism  by Gal-8 determines the spatial separation of mesenchymal protocondensations. A mathematical consists of a system of parabolic PDEs with nonlocal advection terms that model cell-cell adhesion. Apart from generating spatial patterns, the dynamical system of the underlying galectin reaction network is interesting in its own right and can be completely examined with analytical means. We identify two stable steady states: where the concentrations of both the galectins are respectively, negligible and very high.  We give an explicit Lyapunov function, which shows that there are no periodic solutions. Our model therefore predicts that the galectin network may exist in low expression and high expression states separated in space or time without any intermediate states.  We verify these predictions in experiments  performed with high density micromass cultures of chick limb mesenchymal cells and observe that cells inside and outside the precartilage protocondensations exhibit distinct behaviors with respect to galectin expression, motility, and spreading. The interactional complexity of the Gal-1 and -8-based  patterning network is therefore sufficient to partition the mesenchymal cell population into two discrete cell-types, which can be spatially patterned when incorporated into a diffusion-enabled system.
+		    		
+	    		</article>
+	    	
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    
+	      
+			<!-- Author Box -->
+      				
+			<div class="row mt-5">
+				<div class="col-md-2 align-self-center">
+                       
+                      <img class="rounded-circle" src="../assets/images/logo.jpg" alt="SMB2021" width="90"/>
+                       
+				</div>
+				<div class="col-md-10">		
+                      <h5 class="font-weight-bold">Hosted by SMB2021 <span><a target="_blank" href="https://twitter.com/smb2021" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span></h5>
+					Virtual conference of the Society for Mathematical Biology, 2021.					
+				</div>
+			</div>				
+      
+      
+      <!-- Comments -->
+      
+          <!--  Don't edit anything here. Set your disqus id in _config.yml -->
+
+<div id="comments" class="mt-5">
+    <div id="disqus_thread">
+    </div>
+    <script type="text/javascript">
+        var disqus_shortname = ''; 
+        var disqus_developer = 0;
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = window.location.protocol + '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>
+    Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
+</div>
+      
+            
+		</div>
+        
+        
+	</div>
+</div>
+
+
+
+    </main>
+
+
+    <!-- Scripts: popper, bootstrap, theme, lunr -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+    
+    
+			<script src="../assets/js/theme.js"></script>
+		
+    
+    <!-- All this area goes before </body> closing tag --> 
+
+
+</body>
+
+</html>

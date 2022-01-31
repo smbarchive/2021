@@ -1,0 +1,27 @@
+---
+layout: group
+author: esmb
+day: "Monday (Tuesday)"
+subgroup: "MFBM"
+title: "Generalized Boolean network models and the concept of canalization"
+organizers: "Claus Kadelka (Iowa State University, United States)"
+description: "Boolean network models are a particular type of finite dynamic system, which is widely used in biological systems such as gene regulation networks. In this minisymposium, we will look at the design and analysis of generalized Boolean network models with a particular focus on the biologically important concept of canalization."
+code: "MS02"
+code2: "MS03"
+author1: "Gleb Pogudin"
+inst1: " (LIX, CNRS, Ecole Polytechnique, Institute Polytechnique de Paris, France)"
+title1: "Attractor stucture of Boolean networks of small canalizing depth"
+abstract1: "Canalization property often occurs in Boolean networks used in systems biology literature. I will describe our computational experiments and mathematical results that indicate that the attractor structure of a random Boolean network with this property differs significantly from the attractor structure of a completely random Boolean network. In particular, there are usually less attractors and they are smaller. These properties turn out to be relevant to many biological applications. I will also discuss how further increase of canalization of a network impacts the attractor structure."
+author2: "S. S. Ravi"
+inst2: " (Biocomplexity Institute & Initiative, University of Virginia, and Department of Computer Science, University at Albany, United States)"
+title2: "Efficient Algorithms for Boolean Nested Canalyzing Functions"
+abstract2: "We study several computational problems for Boolean nested canalyzing functions (NCFs). We show that unlike general Boolean functions, there are simple algorithms for many computational problems for NCFs (e.g., equivalence & implication of NCFs, computing the probability of satisfying a given NCF, computing the sensitivity and expected sensitivity of a given NCF). The running times of these algorithms are O(n) or O(n log n), where n is the number of variables in the input function. We also present a linear time algorithm that converts any given NCF into an equivalent weighted threshold function, thus showing that weighted threshold functions generalize the class of NCFs."
+author3: "Daniel Rosenkrantz"
+inst3: " (Biocomplexity Institute & Initiative, University of Virginia, and Department of Computer Science, University at Albany, United States)"
+title3: "Testing Phase Space Properties of Synchronous Dynamical Systems with Nested Canalyzing Local Functions: Complexity Results and Algorithms"
+abstract3: "Discrete graphical dynamical systems serve as effective formal models in many contexts, including simulations of agent-based models, propagation of contagions in social networks and study of bio- logical phenomena. Motivated by the biological applications of nested canalyzing functions (NCFs), we study a variety of analysis problems for synchronous graphical dynamical systems (SyDSs) over the Boolean domain, where each local function is an NCF. Each analysis problem involves testing whether the phase space of a given SyDS satisfies a certain property. Problems considered include reachability, predecessor existence, fixed point existence and garden of Eden existence. We present intractability results for some properties as well as efficient algorithms for others. In several cases, our results clearly delineate intractable and efficiently solvable versions of problems."
+author4: "Matthew Wheeler"
+inst4: " (Department of Medicine, University of Florida, United States)"
+title4: "Reducibility of Boolean Networks: Toward a Theory of Modularity"
+abstract4: "Modularity is believed to be a fundamental characteristic of biological systems.  As such, any model built to represent such a system should also exhibit some form of modularity.  One common and powerful way of modeling biological systems is through Boolean networks.  In this direction, we introduce the concept of Boolean network extensions. We will discuss what these extensions are and how these extensions relate to the concept of modularity."
+---

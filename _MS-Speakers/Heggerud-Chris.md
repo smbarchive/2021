@@ -1,0 +1,6 @@
+---
+name: "Heggerud, Chris"
+subgroup: "ECOP"
+tag: "Minisymposia Speaker"
+code: "MS08"
+---

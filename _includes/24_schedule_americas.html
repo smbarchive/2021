@@ -1,0 +1,189 @@
+{% assign plenary_speakers = site.Plenary | sort: 'numbering' %}
+
+
+<h1 class="mb-3 text-left">Conference Schedule</h1>
+
+<div class="table-responsive text-left" id="full-table">
+  <table class="table table-sm table-bordered table-hover text-left main-schedule-table">
+  <thead>
+    <tr>
+      <th style="width: 8%" class="default-cols time-header-cols" align="center"><strong>Local</strong></br>
+	      <script type = "text/javascript">
+					document.write("("+new Date().toLocaleTimeString('en-us',{timeZoneName:'short'}).split(' ')[2]+")");
+	      </script>
+      </th>
+      <th style="width: 8%" class="default-cols time-header-cols" align="center"><strong>Americas</strong></br>(PDT)</td>
+      <th style="width: 21%" class="default-cols time-header-cols" align="center"><strong>Day 1 (June 14)</strong></br>Mon. (Americas)</th>
+      <th style="width: 21%" class="default-cols time-header-cols" align="center"><strong>Day 2 (June 15)</strong></br>Tues. (Americas)</th>
+      <th style="width: 21%" class="default-cols time-header-cols" align="center"><strong>Day 3 (June 16)</strong></br>Wed. (Americas)</th>
+      <th style="width: 21%" class="default-cols time-header-cols" align="center"><strong>Day 4 (June 17)</strong></br>Thurs. (Americas)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+			{% include time_zone_block_americas.html hoursToAdd=0 minutesToAdd=0 %}
+      <td class="default-cols"><a href="{{site.baseurl}}/opening-remarks"><strong>Opening & welcome</strong></a></td>
+      <td class="default-cols"><a href="{{site.baseurl}}/NSF"><strong>NSF Mathematical Biology</strong></a></td>
+      <td class="default-cols"><a href="{{site.baseurl}}/jmb"><strong>Journal of Mathematical Biology Info Session</strong></a></td>
+      <td class="default-cols"><a href="{{site.baseurl}}/bmb"><strong>Bulletin of Mathematical Biology Info Session</strong></a></td>
+    </tr>
+    <tr>
+			{% include time_zone_block_americas.html hoursToAdd=0 minutesToAdd=30 %}
+      <td class="default-cols plenaries"><a href="{{site.baseurl}}/plenary/plenary-1"><span><strong>Plenary 1</strong></br>{{plenary_speakers[0].speaker}}</span></a></td>
+      <td class="default-cols plenaries"><a href="{{site.baseurl}}/plenary/plenary-4"><strong>Plenary 4</strong></br>{{plenary_speakers[3].speaker}}</td>
+      <td class="default-cols plenaries"><a href="{{site.baseurl}}/plenary/plenary-7"><strong>Plenary 7</strong></br>{{plenary_speakers[6].speaker}}</td>
+      <td class="default-cols plenaries"><a href="{{site.baseurl}}/plenary/plenary-10"><strong>Plenary 10</strong></br>{{plenary_speakers[9].speaker}}</td>
+    </tr>
+    <tr>
+			{% include time_zone_block_americas.html hoursToAdd=1 minutesToAdd=45 %}
+      <td class="default-cols minisymposia"><a href="{{site.baseurl}}/MS01"><strong>Minisymposium 1 </strong></a></td>
+	    <td class="default-cols minisymposia"><a href="{{site.baseurl}}/MS07"><strong>Minisymposium 7 </strong></a></td>
+	    <td class="default-cols minisymposia"><a href="{{site.baseurl}}/MS13"><strong>Minisymposium 13 </strong></a></td>
+	    <td class="default-cols minisymposia"><a href="{{site.baseurl}}/MS19"><strong>Minisymposium 19 </strong></a></td>	    
+    </tr>
+    <tr>
+      {% include time_zone_block_americas.html hoursToAdd=3 minutesToAdd=15 %}
+			<td class="default-cols"><a href="{{site.baseurl}}/NSF"><strong>NSF Mathematical Biology</strong></a></td>
+      <td class="default-cols"><a href="{{site.baseurl}}/bmb"><strong>Bulletin of Mathematical Biology Info Session</strong></a></td>
+      <td class="default-cols"><strong>Break (30 minutes)</strong></td>
+      <td class="default-cols"><a href="{{site.baseurl}}/jmb"><strong>Journal of Mathematical Biology Info Session</strong></a></td>
+    </tr>
+    <tr>
+			{% include time_zone_block_americas.html hoursToAdd=3 minutesToAdd=45 %}
+      <td class="default-cols minisymposia"><a href="{{site.baseurl}}/MS02"><strong>Minisymposium 2</strong></a></td>
+	    <td class="default-cols minisymposia"><a href="{{site.baseurl}}/MS08"><strong>Minisymposium 8</strong></a></td>
+	    <td class="default-cols minisymposia"><a href="{{site.baseurl}}/MS14"><strong>Minisymposium 14</strong></a></td>
+	    <td class="default-cols minisymposia"><a href="{{site.baseurl}}/MS20"><strong>Minisymposium 20</strong></a></td>
+    </tr>
+    
+    
+    <tr>
+      {% include time_zone_block_americas.html hoursToAdd=5 minutesToAdd=15 %}
+      <td class="default-cols"><strong>Mentoring luncheon (Americas)</strong></td>
+      <td class="default-cols"><strong>Subgroup meetings</strong></td>
+      <td class="default-cols"><strong>SMB meeting</strong></td>
+      <td class="default-cols"><a href="{{site.baseurl}}/career-fair"><strong>Career fair</strong></a></br>&</br><a href="{{site.baseurl}}/DEI-celebration"><strong>DEI Discussions</strong></a></td>
+    </tr>
+    
+    <tr>
+      {% include time_zone_block_americas.html hoursToAdd=6 minutesToAdd=30 %}
+      <td class="default-cols DEI"><a href="{{site.baseurl}}/DEI-panel"><strong>DEI panel</strong></a></td>
+	    <td class="default-cols contributeds"><a href="{{site.baseurl}}/CT04"><strong>Contributed talks 4</strong></a></td>
+	    <td class="default-cols contributeds"><a href="{{site.baseurl}}/CT07"><strong>Contributed talks 7</strong></a></td>
+    	<td rowspan="3" class="default-cols minisymposia">
+	    	<a href="{{site.baseurl}}/SIAM/SIAM-SIAM1.html"><strong>Special session 1:</strong></br>Mathematical Biology </br>in Industry,</br>SIAM (1.5hrs) </a></br></br>
+	    	<a href="{{site.baseurl}}/math-in-medicine/"><strong>Special session 2:</strong></br>Mathematics </br>in Medicine (1.5hrs)</a>
+	    </th>
+
+    
+    </tr>
+    
+    <tr>
+      {% include time_zone_block_americas.html hoursToAdd=7 minutesToAdd=30 %}
+      <td class="default-cols contributeds"><a href="{{site.baseurl}}/CT01"><strong>Contributed talks 1</strong></a></td>
+      <td class="default-cols posters"><a href="{{site.baseurl}}/PS02"><strong>Poster session 2</strong></a></td>
+      <td class="default-cols posters"><a href="{{site.baseurl}}/PS04"><strong>Poster session 4</strong></a></td>
+    </tr>
+    
+    
+    
+    <tr>
+			{% include time_zone_block_americas.html hoursToAdd=8 minutesToAdd=30 %}
+      <td class="default-cols plenaries"><a href="{{site.baseurl}}/plenary/plenary-2"><strong>Plenary 2</strong></br>{{plenary_speakers[1].speaker}}</a></td>
+      <td class="default-cols plenaries"><a href="{{site.baseurl}}/plenary/plenary-5"><strong>Plenary 5</strong></br>{{plenary_speakers[4].speaker}}</a></td>
+      <td class="default-cols plenaries"><a href="{{site.baseurl}}/plenary/plenary-8"><strong>Plenary 8</strong></br>{{plenary_speakers[7].speaker}}</a></td>
+    </tr>
+    
+    <tr>
+      {% include time_zone_block_americas.html hoursToAdd=9 minutesToAdd=30 %}
+      <td class="default-cols" colspan="3"><strong>Break (30 minutes)</strong></td>
+      <td class="default-cols" colspan="1"><a href="{{site.baseurl}}/closing-remarks"><strong>Awards Ceremony & Closing Remarks</strong></a></td>
+    </tr>
+    
+    
+    <tr>
+      {% include time_zone_block_americas.html hoursToAdd=10 minutesToAdd=0 %}
+      <td class="default-cols minisymposia"><a href="{{site.baseurl}}/MS03"><strong>Minisymposium 3</strong></a></td>
+	    <td class="default-cols minisymposia"><a href="{{site.baseurl}}/MS09"><strong>Minisymposium 9</strong></a></td>
+	    <td class="default-cols minisymposia"><a href="{{site.baseurl}}/MS15"><strong>Minisymposium 15</strong></a></td>
+    </tr>
+    
+    <tr>
+			{% include time_zone_block_americas.html hoursToAdd=11 minutesToAdd=30 %}
+      <td class="default-cols" colspan="3"><strong>Break (30 minutes)</strong></td>
+    </tr>
+    
+    <tr>
+      {% include time_zone_block_americas.html hoursToAdd=12 minutesToAdd=0 %}
+      <td class="default-cols minisymposia"><a href="{{site.baseurl}}/MS04"><strong>Minisymposium 4</strong></a></td>
+	    <td class="default-cols minisymposia"><a href="{{site.baseurl}}/MS10"><strong>Minisymposium 10</strong></a></td>
+	    <td class="default-cols minisymposia"><a href="{{site.baseurl}}/MS16"><strong>Minisymposium 16</strong></a></td>
+    </tr>
+    
+    <tr>
+      {% include time_zone_block_americas.html hoursToAdd=13 minutesToAdd=30 %}
+      <td class="default-cols"><strong>Mentoring luncheon (Asia/Oceania)</strong></td>
+      <td class="default-cols"><strong>Subgroup meeting (replayed)</strong></td>
+      <td class="default-cols"><strong>SMB meeting (replayed)</strong></td>
+    </tr>
+    
+    <tr>
+			{% include time_zone_block_americas.html hoursToAdd=14 minutesToAdd=45 %}
+      <td class="default-cols contributeds"><a href="{{site.baseurl}}/CT02"><strong>Contributed talks 2</strong></a></td>
+	    <td class="default-cols contributeds"><a href="{{site.baseurl}}/CT05"><strong>Contributed talks 5</strong></a></td>
+	    <td class="default-cols contributeds"><a href="{{site.baseurl}}/CT08"><strong>Contributed talks 8</strong></a></td>
+    </tr>
+    
+    <tr>
+			{% include time_zone_block_americas.html hoursToAdd=15 minutesToAdd=45 %}
+      <td class="default-cols posters"><a href="{{site.baseurl}}/PS01"><strong>Poster session 1</strong></a></td>
+      <td class="default-cols posters"><a href="{{site.baseurl}}/PS03"><strong>Poster session 3</strong></a></td>
+      <td class="default-cols posters"><a href="{{site.baseurl}}/PS05"><strong>Poster session 5</strong></a></td>
+    </tr>
+    
+    <tr>
+      {% include time_zone_block_americas.html hoursToAdd=17 minutesToAdd=30 %}
+      <td class="default-cols plenaries"><a href="{{site.baseurl}}/plenary/plenary-3"><strong>Plenary 3</strong></br>{{plenary_speakers[2].speaker}}</a></td>
+      <td class="default-cols plenaries"><a href="{{site.baseurl}}/plenary/plenary-6"><strong>Plenary 6</strong></br>{{plenary_speakers[5].speaker}}</a></td>
+      <td class="default-cols plenaries"><a href="{{site.baseurl}}/plenary/plenary-9"><strong>Plenary 9</strong></br>{{plenary_speakers[8].speaker}}</a></td>
+    </tr>
+        
+    <tr>
+      {% include time_zone_block_americas.html hoursToAdd=18 minutesToAdd=30 %}
+      <td class="default-cols minisymposia"><a href="{{site.baseurl}}/MS05"><strong>Minisymposium 5</strong></a></td>
+	    <td class="default-cols minisymposia"><a href="{{site.baseurl}}/MS11"><strong>Minisymposium 11</strong></a></td>
+	    <td class="default-cols minisymposia"><a href="{{site.baseurl}}/MS17"><strong>Minisymposium 17</strong></a></td>
+    </tr>
+    
+    <tr>
+      {% include time_zone_block_americas.html hoursToAdd=20 minutesToAdd=00 %}
+      <td class="default-cols" colspan="3"><strong>Break (30 minutes)</strong></td>
+    </tr>
+    
+    <tr>
+			{% include time_zone_block_americas.html hoursToAdd=20 minutesToAdd=30 %}
+      <td class="default-cols minisymposia"><a href="{{site.baseurl}}/MS06"><strong>Minisymposium 6</strong></a></td>
+	    <td class="default-cols minisymposia"><a href="{{site.baseurl}}/MS12"><strong>Minisymposium 12</strong></a></td>
+	    <td class="default-cols minisymposia"><a href="{{site.baseurl}}/MS18"><strong>Minisymposium 18</strong></a></td>
+    </tr>
+    
+    <tr>
+      {% include time_zone_block_americas.html hoursToAdd=22 minutesToAdd=00 %}
+      <td class="default-cols"><strong>Mentoring luncheon (Europe/Africa)</strong></td>
+      <td class="default-cols"><strong>Subgroup meeting (replayed)</strong></td>
+      <td class="default-cols"><a href="{{site.baseurl}}/book-publishing-springer"><strong>Book Publishing @ Springer</strong></a></td>
+    </tr>
+    
+    <tr>
+			{% include time_zone_block_americas.html hoursToAdd=23 minutesToAdd=00 %}
+      <td class="default-cols contributeds"><a href="{{site.baseurl}}/CT03"><strong>Contributed talks 3</strong></a></td>
+	    <td class="default-cols contributeds"><a href="{{site.baseurl}}/CT06"><strong>Contributed talks 6</strong></a></td>
+	    <td class="default-cols contributeds"><a href="{{site.baseurl}}/CT09"><strong>Contributed talks 9</strong></a></td>
+    </tr>
+    
+        
+  </tbody>
+</table>
+</div>
+
+

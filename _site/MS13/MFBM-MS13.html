@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Data-driven methods for biological modeling in industry | SMB 2021</title>
+
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Data-driven methods for biological modeling in industry | SMB 2021</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Data-driven methods for biological modeling in industry" />
+<meta name="author" content="esmb" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="This minisymposium highlights recent advances in data-driven mathematical modeling for biology in industry, including parameter estimation, uncertainty quantification, machine learning, and image analysis. In particular, the emphasis is on the development of methods for overcoming practical challenges encountered with real-world data from industrial applications, such as high levels of observation error, model bias, and intra- as well as inter-individual or experimental heterogeneity. Topics include optimization of clinical dose regimens, optimal sample collection, forecasting, hypothesis testing and/or model selection, and the integration of heterogeneous sources of data from multiple scales and data acquisition platforms." />
+<meta property="og:description" content="This minisymposium highlights recent advances in data-driven mathematical modeling for biology in industry, including parameter estimation, uncertainty quantification, machine learning, and image analysis. In particular, the emphasis is on the development of methods for overcoming practical challenges encountered with real-world data from industrial applications, such as high levels of observation error, model bias, and intra- as well as inter-individual or experimental heterogeneity. Topics include optimization of clinical dose regimens, optimal sample collection, forecasting, hypothesis testing and/or model selection, and the integration of heterogeneous sources of data from multiple scales and data acquisition platforms." />
+<link rel="canonical" href="http://localhost:4000/MS13/MFBM-MS13.html" />
+<meta property="og:url" content="http://localhost:4000/MS13/MFBM-MS13.html" />
+<meta property="og:site_name" content="SMB 2021" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-06-17T15:54:54-04:00" />
+<script type="application/ld+json">
+{"description":"This minisymposium highlights recent advances in data-driven mathematical modeling for biology in industry, including parameter estimation, uncertainty quantification, machine learning, and image analysis. In particular, the emphasis is on the development of methods for overcoming practical challenges encountered with real-world data from industrial applications, such as high levels of observation error, model bias, and intra- as well as inter-individual or experimental heterogeneity. Topics include optimization of clinical dose regimens, optimal sample collection, forecasting, hypothesis testing and/or model selection, and the integration of heterogeneous sources of data from multiple scales and data acquisition platforms.","author":{"@type":"Person","name":"esmb"},"@type":"BlogPosting","url":"http://localhost:4000/MS13/MFBM-MS13.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"esmb"},"headline":"Data-driven methods for biological modeling in industry","dateModified":"2021-06-17T15:54:54-04:00","datePublished":"2021-06-17T15:54:54-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/MS13/MFBM-MS13.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
+
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+
+		<!-- Twitter card validator -->
+		<meta name="twitter:card" content="summary_large_image">
+	  <meta name="twitter:site" content="@smb2021">
+		<meta name="twitter:creator" content="@smb2021">
+		<meta name="twitter:title" content=" Data-driven methods for biological modeling in industry">
+		<meta name="twitter:description" content="The Society for Mathematical Biology annual meeting - 2021.">
+		<meta name="twitter:image" content="http://schedule.smb2021.org/assets/images/twitter.png">
+		
+		<meta name="title" content=" Data-driven methods for biological modeling in industry" />
+		<meta name="description" content="The Society for Mathematical Biology annual meeting - 2021." />
+		<meta property="og:title" content=" Data-driven methods for biological modeling in industry" />
+		<meta property="og:description" content="The Society for Mathematical Biology annual meeting - 2021." />
+		<meta property="og:image" content="http://schedule.smb2021.org/assets/images/twitter.png"/>
+
+
+
+    
+
+
+    
+
+		<!-- Bootstrap Modified -->
+		
+			<link rel="stylesheet" href="../assets/css/main.css">
+		
+		
+		<!-- Theme Stylesheet -->
+		
+			<link rel="stylesheet" href="../assets/css/theme.css">
+		
+		
+		<!-- Custom Themes Stylesheet -->
+		
+			<link rel="stylesheet" href="../assets/css/custom.css">
+		
+
+
+
+    <!-- Jquery on header to make sure everything works, the rest  of the scripts in footer for fast loading -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    
+    <script src="/assets/js/custom.js"></script>
+
+
+</head>
+
+<body class="">
+  
+	<nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+	  <div class="container">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		
+		  <div class="collapse navbar-collapse" id="navbarColor02">
+		    <ul class="navbar-nav mr-auto d-flex align-items-center">
+			    <li class="nav-item"> <img src="/assets/images/logo.png" width="65" alt="" class="d-inline-block align-middle mr-2"> </li>
+					<a class="navbar-brand" href="/"><strong>SMB 2021</strong></a>
+		      <!--  Replace menu links here -->
+
+<!-- <li class="nav-item"> <img src="/assets/images/logo.jpg" width="45" alt="" class="d-inline-block align-middle mr-2"> </li> -->
+<!-- <a class="navbar-brand" href="/"><strong>SMB 2021</strong></a> -->
+
+<li class="nav-item"><a class="nav-link" id="strong-nav" href="/">Home</a></li>
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Schedule
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item" style="color:#000000 !important;" href="/">Overview</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/your-smb2021">Plan Your SMB2021</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/pre-conference">Pre-conference</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/americas">Americas</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/europe-africa">Europe/Africa</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/asia-oceania">Asia/Oceania</a>
+		
+  </div>
+</li>
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Search by Name
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item" style="color:#000000 !important;" href="/contributed-speakers">Contributed Talks</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/minisymposia-speakers">Minisymposia</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/plenary">Plenary</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/posters">Posters</a>
+  </div>
+</li>
+
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Subgroup / Theme
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item text-CBBS" style="color:#000000 !important;" href="/CBBS"><span class="text-CBBS">CBBS</span> (Complex Biological and Biomedical Systems)</a>
+		<a class="dropdown-item text-CDEV" style="color:#000000 !important;" href="/CDEV"><span class="text-CDEV">CDEV</span> (Cell and Developmental Biology)</a>
+		<a class="dropdown-item text-DDMB" style="color:#000000 !important;" href="/DDMB"><span class="text-DDMB">DDMB</span> (Data Driven Modeling in Biology)</a>
+		<a class="dropdown-item text-DEI" style="color:#000000 !important;" href="/DEI"><span class="text-DEI">DEI</span> (Diversity, Equity, and Inclusion)</a>
+		<a class="dropdown-item text-ECOP" style="color:#000000 !important;" href="/ECOP"><span class="text-ECOP">ECOP</span> (Population Dynamics & Ecology)</a>
+		<a class="dropdown-item text-EDUC" style="color:#000000 !important;" href="/EDUC"><span class="text-EDUC">EDUC</span> (Education)</a>
+		<a class="dropdown-item text-EVOP" style="color:#000000 !important;" href="/EVOP"><span class="text-EVOP">EVOP</span> (Population Dynamics & Evolution)</a>
+		<a class="dropdown-item text-IMMU" style="color:#000000 !important;" href="/IMMU"><span class="text-IMMU">IMMU</span> (Immunobiology and Infection)</a>
+		<a class="dropdown-item text-MEPI" style="color:#000000 !important;" href="/MEPI"><span class="text-MEPI">MEPI</span> (Mathematical Epidemiology)</a>
+		<a class="dropdown-item text-MFBM" style="color:#000000 !important;" href="/MFBM"><span class="text-MFBM">MFBM</span> (Methods for Biological Modeling)</a>
+		<a class="dropdown-item text-MMPB" style="color:#000000 !important;" href="/MMPB"><span class="text-MMPB">MMPB</span> (Multiscale Modeling in Physiology and Biophysics )</a>
+		<a class="dropdown-item text-NEUR" style="color:#000000 !important;" href="/NEUR"><span class="text-NEUR">NEUR</span> (Mathematical Neuroscience)</a>
+		<a class="dropdown-item text-ONCO" style="color:#000000 !important;" href="/ONCO"><span class="text-ONCO">ONCO</span> (Mathematical Oncology)</a>
+  </div>
+</li>
+<li class="nav-item">
+	<a class="nav-link" href="https://www.smb2021.org/">Return to SMB2021.org</a>
+</li>
+
+		    </ul>
+		    
+		  </div>
+	  </div>
+	</nav>
+	
+
+
+    
+
+    <!-- Search Results -->
+    <div id="lunrsearchresults">
+        <ul class="mb-0"></ul>
+    </div>
+
+    <!-- Content -->
+    <main role="main" class="site-content" style="margin-bottom: 300px;">
+        
+<div class="container">
+<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+		<div class="h-100 tofront">
+			<div class="row  justify-content-center ">
+				<div class=" col-md-8  pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+					<p class="text-uppercase font-weight-bold">
+              <span class="catlist">
+              	<span class="text-MFBM">MFBM-MS13</span>						
+              </span>
+					</p>
+					<h1 class="display-4 mb-4 article-headline"> Data-driven methods for biological modeling in industry</h1>
+					<h4>Wednesday, June 16 at 09:30am (PDT)</br>Wednesday, June 16 at 05:30pm (BST)</br>Thursday, June 17 01:30am (KST)</h4>
+					<div class="d-flex align-items-center">
+                        
+                        <img class="rounded-circle" src="../assets/images/logo.jpg" alt="SMB2021" width="70"/>
+                        
+						<small class="ml-3"> SMB2021 <span><a target="_blank" href="https://twitter.com/smb2021" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
+              <span class="text-muted d-block mt-1">Wednesday (Thursday) during the "MS13" time block.</span>
+						</small>
+						
+					</div>
+				</div>
+				
+					<small class="ml-3">Note: this minisymposia has multiple sessions. The second session is <strong>MS14-MFBM</strong> <a href="../MFBM/MFBM-MS14.html">(click here)</a>. 
+						
+						
+						
+					</small></br></br>
+				
+        
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<div class="container-lg pt-4 pb-4">
+	<div class="row justify-content-center">
+        
+        <!-- Share -->
+				<div class="col-lg-2 pr-4 mb-4 col-md-12">
+					<div class="sticky-top sticky-top-offset text-center">
+						<div class="text-muted">
+							Share this
+						</div>
+						<div class="share d-inline-block">
+							<!-- AddToAny BEGIN -->
+							<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+								<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+								<a class="a2a_button_facebook"></a>
+								<a class="a2a_button_twitter"></a>
+							</div>
+							<script async src="https://static.addtoany.com/menu/page.js"></script>
+							<!-- AddToAny END -->
+						</div>
+					</div>
+				</div>
+        
+        
+		<div class="col-md-12 col-lg-10">
+			
+			
+			<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem MFBM position-relative">
+		    <div class="pl-4 pr-0 h-100 tofront">
+		        <div class="row justify-content-between">
+		            <div class="col-md-12 pt-6 pb-6 pr-lg-4 align-self-center">
+		                <p><strong>Organizers:</strong></p>
+		                <h4 class="mb-3">Kevin Flores (North Carolina State University, USA)</h4>
+		                
+		                
+		                	<p><strong>Description</strong>:</p> 
+		                	<p>This minisymposium highlights recent advances in data-driven mathematical modeling for biology in industry, including parameter estimation, uncertainty quantification, machine learning, and image analysis. In particular, the emphasis is on the development of methods for overcoming practical challenges encountered with real-world data from industrial applications, such as high levels of observation error, model bias, and intra- as well as inter-individual or experimental heterogeneity. Topics include optimization of clinical dose regimens, optimal sample collection, forecasting, hypothesis testing and/or model selection, and the integration of heterogeneous sources of data from multiple scales and data acquisition platforms.</p>
+			              
+			              
+			              
+		            </div>             
+		        </div>
+		    </div>
+			</div>
+			</br>
+			</br>
+			
+			
+			
+			
+			
+						
+			
+			
+			
+			
+			
+	    	<h4 id="author1">Anna Sher</h4>
+	    	 
+	    		<em> (Pfizer, USA)</em>
+	    	
+	    	
+	    	
+	    		
+	    			<h6>"Quantitative Systems Pharmacology (QSP) in cardiovascular disease: Preclinical case studies with real-world data"</h6>
+	    		
+	    	
+	    	
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			Many pharmaceutical companies are starting to utilize mechanistic modeling of physiological systems, in particular Quantitative Systems Pharmacology (QSP) modeling, at all stages of drug discovery and development, including exploratory, preclinical, and clinical studies. At Pfizer, ongoing efforts in cardiovascular and metabolic programs involve investigating target rationale,  preclinical to clinical translation, drug efficacy and safety using systems modeling and simulations of various aspects of cardiometabolic abnormalities. I will discuss modeling and simulation techniques used in these efforts and highlight challenges related to the incorporation of real-world data preclinically. Examples will include Metabolic Flux Analysis as well as translation from cellular to whole heart mechanical function studies.
+		    		
+	    		</article>
+	    	
+				
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    	<h4 id="author2">Doris Fuertinger</h4>
+	    	 
+	    		<em> (Fresenius Medical Care, Germany)</em>
+	    	
+	    	
+	    		
+	    			<h6>"1 year of precision therapy: Experiences in optimal drug administration based on an  individualized biomathematical anemia model"</h6>
+	    		
+	    	
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			The majority of patients suffering from end-stage kidney disease develop anemia at some point. Management of anemia with erythropoiesis stimulating agents (ESA) has been established more than three decades ago, however, it remains difficult to stabilize hemoglobin levels within the desired target range.
+We developed a comprehensive mathematical model that describes the reproduction of red blood cells and the effect of ESAs on it. The resulting system of hyperbolic partial differential equations is adapted to individual patients using routine clinical data by estimating a set of key parameters on the individual level. A nonlinear model predictive controller was designed around the PDE model incorporating several techniques used to create robust and adaptive feedback control systems. The resulting software solution is currently used in a randomized clinical trial.
+Challenges around adapting a complex PDE system to noisy and missing data will be addressed and interim results from the clinical study presented.
+		    		
+	    		</article>
+	    	
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    	<h4 id="author3">Alhaji Cherif</h4>
+	    	 
+	    		<em> (Renal Research Institute, USA)</em>
+	    	
+	    	
+	    		
+	    			<h6>"Bone and mineral disturbances in uremic patients"</h6>
+	    		
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			Reduced renal function has a significant impact on a myriad of interlinked secondary pathophysiological abnormalities, including metabolic acidemia, and mineral and bone disorder (CKD-MBD), which comprise secondary hyperparathyroidism (SHPT) and vascular calcification. These sequelae contribute to increased morbidity and mortality in patients with chronic kidney and end-stage renal diseases.  We developed a multi-scale comprehensive physiology-based mathematical model describing bone remodeling and mineral homeostasis that enables in silico exploration of the ramifications of disease- and therapy-induced disturbances  Using a multi-scale mechanistic physiology-based model quantitating the interrelations of osteoclasts, osteoblasts, and osteocytes on bone remodeling, we incorporate intercellular and intracellular signaling pathways, cytokines, parathyroid hormone (PTH), sclerostin, and endocrine and paracrine feedbacks (Cherif et al., ΝDΤ 2018, 33 (Suppl. 1): 165–166).  The predictions of the model are demonstrated by comparing model results of different pathologies (e.g., primary hyperparathyroidism (PHPT) and SHPT, chronic metabolic acidemia, uremia) to clinical observations. In addition, we explore the effect of altered PTH (teriparatide) administration regimen (e.g., dosing frequency and amplitude) on bone catabolism and anabolism, respectively.  Our model correctly predicts clinically observed responses to induced primary and secondary hyperparathyroidism, metabolic acidosis, and their impact on extracellular calcium (Ca) and phosphate (PO4) levels and bone mineral density (BMD). In particular, the model predicts the catabolic effect of metabolic acidosis on bone remodeling, including decreased bone mineral density, and increased efflux of Ca and PO4 from the bone. The model shows the differential responses of osteo-anabolic and catabolic effects of continuously and intermittently elevated levels of PTH (teriparatide), respectively. Furthermore, we observe that intermittent administration of PTH with a high frequency and amplitude induces bone catabolism similar to that seen in pathologies with continuously elevated PTH (i.e., PHT, or SHPT). Low PTH frequency with high dosing amplitude induces both osteoclastic and osteoblastic activities, but the net result is bone anabolism.  Our results suggest that both frequency and amplitude of PTH (teriparatide) cycling affect the balance of osteo-catabolic and -anabolic effects, and there exists optimal PTH (teriparatide) frequency-amplitude combinations that enhance anabolic gains.  The model provides an opportunity to investigate the effects of reduced renal function on the complex interlinked pathophysiological processes of CKD-MBD. The in-silico assessment can serve as a complementary tool for (1) gaining further insights into the features of bone and mineral metabolism, (2) exploring optimal therapeutic modalities for patients with metabolic bone diseases, and minimize unintended disease-specific outcomes, and (3) performing virtual clinical trials for newly emerging and off-label therapeutic options.
+		    		
+	    		</article>
+	    	
+	    
+	    
+			</br>
+			</br>
+	    
+	    
+	    	<h4 id="author4">Malidi Ahamadi</h4>
+	    	 
+	    		<em> (Amgen, USA)</em>
+	    	
+	    	
+	    		
+	    			<h6>"Disease progression platform for Leucine-Rich Repeat Kinase 2 in Parkinson's Disease to Inform Clinical Trial Designs"</h6>
+	    		
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			Drug discovery and development of new therapeutics for Parkinson’s Disease (PD) has a high attrition rate which has been attributed to incomplete understanding of the complex pathophysiology of neurodegenerative disorders and difficulties in designing efficient clinical trials to develop new disease modifying agents among other several factors. Clinical assessments (e.g., disability or quality of life scales) are affected/confounded by symptomatic effects of therapy and are unable to differentiate this effect from disease-modification, at least in the short-term. A quantitative assessment of patient characteristics and patient enrichment is one of valuable tools to improve clinical trial efficiency. A disease progression model1,2, identifying relevant patient characteristics impacting the temporal change in disease status assessed using Movement Disorder Society-Unified Parkinson's disease rating scale, was developed to evaluate optimal study designs. Results showed that the progression rate in motor symptoms in individuals with PD who carry a leucine-rich repeat kinase 2 (LRRK2) mutation was slightly slower (~0.170 points/month) compared to idiopathic PD patients (~0.222 points/month). Trial simulations showed that for a non-enriched placebo-controlled clinical trial approximately 70 subjects/arm would be required to detect a drug effect of 50% reduction in the progression rate with 80% probability. Whereas 85, 93 and 100 subjects/arm would be required for an enriched clinical trial with 30%, 50% and 70% subjects with LRRK2 mutations, respectively, to detect a 50% drug effect with 80% power. These findings are expected to play an important role in designing long-term trials for PD programs. Reference 1. Malidi Ahamadi et al., Development of a Disease Progression Model for Leucine-Rich Repeat Kinase 2 in Parkinson's Disease to Inform Clinical Trial Designs, Clin Pharmacol Ther, Volume 107, Number 3, March 2020. 2. Malidi Ahamadi et al., A disease progression model to quantify the non‐motor symptoms of Parkinson’s disease in participants with leucine‐rich repeat kinase 2 mutation, Clin Pharmacol Ther., 2021 Apr 24. doi: 10.1002/cpt.2277.
+		    		
+	    		</article>
+	    	
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    
+	      
+			<!-- Author Box -->
+      				
+			<div class="row mt-5">
+				<div class="col-md-2 align-self-center">
+                       
+                      <img class="rounded-circle" src="../assets/images/logo.jpg" alt="SMB2021" width="90"/>
+                       
+				</div>
+				<div class="col-md-10">		
+                      <h5 class="font-weight-bold">Hosted by SMB2021 <span><a target="_blank" href="https://twitter.com/smb2021" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span></h5>
+					Virtual conference of the Society for Mathematical Biology, 2021.					
+				</div>
+			</div>				
+      
+      
+      <!-- Comments -->
+      
+          <!--  Don't edit anything here. Set your disqus id in _config.yml -->
+
+<div id="comments" class="mt-5">
+    <div id="disqus_thread">
+    </div>
+    <script type="text/javascript">
+        var disqus_shortname = ''; 
+        var disqus_developer = 0;
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = window.location.protocol + '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>
+    Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
+</div>
+      
+            
+		</div>
+        
+        
+	</div>
+</div>
+
+
+
+    </main>
+
+
+    <!-- Scripts: popper, bootstrap, theme, lunr -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+    
+    
+			<script src="../assets/js/theme.js"></script>
+		
+    
+    <!-- All this area goes before </body> closing tag --> 
+
+
+</body>
+
+</html>

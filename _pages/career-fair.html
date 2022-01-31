@@ -1,0 +1,100 @@
+---
+title: "SMB2021 Career Fair"
+layout: default
+pagination:
+    enabled: false
+description: "The Society for Mathematical Biology - e-Conference 2021."
+permalink: /career-fair/
+---
+
+
+<div class="container">
+	
+	<div class="col-md-12 main-loop">
+	    <div class="row">
+	        <div class="col-md-12  text-center">
+		        {% include banner.html %}
+		        <h1 class="mb-3">{{page.title}}</h1>
+
+	        </div>
+	    </div>
+	</div>
+
+
+	<div class="row justify-content-center">
+        
+        <!-- Share -->
+				<div class="col-lg-2 pr-4 mb-4 col-md-12">
+					<div class="sticky-top sticky-top-offset text-center">
+						<div class="text-muted">
+							Share this
+						</div>
+						<div class="share d-inline-block">
+							<!-- AddToAny BEGIN -->
+							<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+								<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+								<a class="a2a_button_facebook"></a>
+								<a class="a2a_button_twitter"></a>
+							</div>
+							<script async src="https://static.addtoany.com/menu/page.js"></script>
+							<!-- AddToAny END -->
+						</div>
+					</div>
+				</div>
+        
+        
+		<div class="col-md-12 col-lg-10">
+			
+			
+			<p>The SMB2021 Career Fair will be held exclusively in Sococo:</p>
+				
+				
+			<ul>
+				<li><strong>Meet with Industry Sponsors</strong>: Check out their Sococo booths on the 'SMB Welcome/Industry' floor.</li>
+				<li><strong>Looking for a job or internship?</strong> Check out job postings on the 'SMB Social/Career Fair' floor.</li>
+				<li><strong>Looking to hire?</strong> Check out the CVs submitted by registrants on the 'SMB Social/Career Fair' floor</li>
+			</ul>				
+			
+		<p>The event will be held Thursday June 17 at 01:00pm (PDT), Thursday June 17 at 09:00pm (BST), or Friday June 18 at 05:00am (KST).</p>   
+											      
+			<!-- Author Box -->
+      {% if page.author %}				
+			<div class="row mt-5">
+				<div class="col-md-2 align-self-center">
+                       {% if author.avatar %}
+                      <img class="rounded-circle" src="../{{author.avatar}}" alt="{{author.name}}" width="90"/>
+                      {% endif %} 
+				</div>
+				<div class="col-md-10">		
+                      <h5 class="font-weight-bold">Hosted by {{ author.name }} {% if author.twitter %}<span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span>{% endif %}</h5>
+					{{ author.bio }}					
+				</div>
+			</div>				
+      {% endif %}
+      
+      <!-- Comments -->
+      {% if page.comments != false %}
+          {% include comments.html %}
+      {% endif %}
+            
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

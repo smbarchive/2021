@@ -1,0 +1,41 @@
+---
+layout: group
+author: esmb
+day: "Tuesday (Wednesday)"
+subgroup: "MFBM"
+title: "From Machine Learning to Deep Learning Methods in Biology"
+organizers: "Erica Rutter (University of California, Merced, United States), Suzanne Sindi (University of California, Merced, United States)"
+description: "As biological data becomes more detailed and ubiquitous, statistical and machine learning methods are needed to process and understand relationships in big data or to incorporate this data into existing mechanistic modeling frameworks. Here we present recent advances for machine learning and deep learning methodologies applied to a variety of biological processes, from single cell genomic analysis to population-wide disease spread. Methods of interest include biomedical image analysis via convolutional neural networks (CNNs), learning equations from data, and many more. The methods developed and discussed in this minisymposium span the range from purely statistical and machine learning models to hybridized mechanistic/machine learning models to data-driven mechanistic modeling."
+code: "MS08"
+code2: "MS07"
+author1: "Ali Heydari"
+inst1: " ((i) UC Merced Department of Applied Mathematics and (ii) Health Sciences Research Institute at UC Merced, USA)"
+title1: "Deep Generative Models for Realistic Single-Cell RNA-Seq Data Augmentation"
+abstract1: "Single-cell RNA sequencing (scRNAseq) technologies allow for measurements of gene expression at a single-cell resolution. This provides researchers with a tremendous advantage for detecting heterogeneity, delineating cellular maps or identifying rare subpopulations. However, a critical challenge remains: the low number of single-cell observations due to limitations by cost  or rarity of subpopulation. This absence of sufficient data may cause inaccuracy or irreproducibility of downstream analysis. In this talk, we present ACTIVA (Automated Cell-Type-informed Introspective Variational Autoencoder): a novel deep learning framework for generating realistic synthetic data using a single-stream adversarial variational autoencoder conditioned with cell-type information. We train and evaluate ACTIVA, and competing models, on multiple public scRNAseq datasets. Under the same conditions, ACTIVA trains up to 17 times faster than the GAN-based state-of-the-art model while performing better or comparably in our quantitative and qualitative evaluations. We show that augmenting rare-populations with ACTIVA significantly increases the classification accuracy of the rare population (more than 45% improvement in our rarest test case). Data generation and augmentation with ACTIVA can enhance scRNAseq pipelines and analysis, such as benchmarking new algorithms, studying the accuracy of classifiers and detecting marker genes. ACTIVA will facilitate analysis of smaller datasets, potentially reducing the number of patients and animals necessary in initial studies."
+author2: "Mohammad Jafari"
+inst2: " (Postdoctoral Scholar,  Department of Applied Mathematics  Jack Baskin School of Engineering  University of California, Santa Cruz, USA)"
+title2: "Machine Learning-based Feedback Controller for Directing Stem Cell Membrane Potential"
+abstract2: "Driving biological response with spatiotemporal precision can help advance biomedical applications for customized therapeutics where bioelectronic devices are suitable to directly interfacing with the biological systems using bioelectronic actuators and sensors. Implementation of feedback control by using these devices can help achieve this but has not been widely adopted, in part, due to a limited understanding of the complexities involved. Modeling, identification, prediction, and control, which are essential to this end, are challenging due to the presence of uncertainties, stochasticity, unmodeled dynamics, and complex nonlinearities. For example, in biological systems, cellular response can change in different environmental conditions such as changing flow characteristics and temperature. Thus, Machine Learning (ML)-based techniques, which can be applied to solve different modeling and control problems when system dynamics are fully or partially unknown, may prove suitable here. The best-known ML techniques rely on the availability
+
+of large datasets a priori and have not been applied to control biological systems using bioelectronic devices. We proposed that ML-based techniques that are explored as control solutions outside of biology for cases involving complex nonlinear systems are also suitable for closing the loop for biological systems [1]. To do this, an adaptive external “sense and respond” learning algorithm is derived using adaptive Lyapunov-based methods [2]. The satisfactory performance of the proposed method is experimentally validated by maintaining the pH in a microfluidic system that houses pluripotent mammalian stem cells. This pH control affects the membrane voltage (Vmem) of the cells that is measured using genetically encoded fluorescent Vmem reporters [3]. To the best of our knowledge, this is the first learning control method demonstrated for biological applications of its kind.
+
+[1]. Selberg, J., Jafari, M., Bradley, C., Gomez, M., & Rolandi, M. (2020). Expanding biological control to bioelectronics with machine learning. APL Materials, 8(12), 120904.
+
+[2]. Jafari, M., Marquez, G., Selberg, J., Jia, M., Dechiraju, H., Pansodtee, P., ... & Gomez, M. (2020). Feedback Control of Bioelectronic Devices Using Machine Learning. IEEE Control Systems Letters, 5(4), 1133-1138.
+
+[3]. Selberg, J., Jafari, M., Mathews, J., Jia, M., Pansodtee, P., Dechiraju, H., ... & Rolandi, M. (2020). Machine Learning‐Driven Bioelectronics for Closed‐Loop Control of Cells. Advanced Intelligent Systems, 2(12), 2000140."
+author3: "Thomas de Mondesir"
+inst3: " (Université Claude Bernard Lyon 1 & UC Merced, France)"
+title3: "Generating biological images to train deep-learning-based segmentation models"
+abstract3: "Medical and biological imaging are areas where image segmentation plays a critical role when diagnosing pathologies or analysing experimental results study.
+While recent studies show that methods using deep learning achieve superior accuracy when neural networks are trained on pixel-level labeled data, sufficient amounts of annotated images are often difficult to gather.
+We introduce an image generation method to produce images containing biological objects and corresponding segmentation masks.
+Our approach creates realistic images by using B-splines to reproduce shapes of interest.
+Simulating objects is done by choosing control points and adjusting parameters that allow their geometries to be diverse.
+Adapted to cases with limited or no training data, our method offers the possibility to train any machine learning based segmentation method on generated images.
+Obtaining a good segmentation on real images relies on similarity with artificial images."
+author4: "Jordan Collignon"
+inst4: " (University of California, Merced, USA)"
+title4: "A High-throughput Pipeline for Analyzing Experimental Images of Sectored Yeast Colonies"
+abstract4: " Prion proteins are most commonly associated with fatal neurodegenerative diseases in mammals, but are also responsible for a number of harmless heritable phenotypes in Saccharomyces cerevisiae (yeast). In normal conditions yeast colonies grow in a circular shape with a uniform white or pink color related to the fraction of normal (non-prion) protein in a typical cell. However, under mild experimental manipulations, which introduce changes in protein aggregation dynamics, colonies exhibit red sectors corresponding to cells with no prion protein. Such phenotypic organization provides a rich data set that can be used to uncover relationships between colony-level phenotypic transitions, molecular processes, and individual cell behaviors.  In this project, we use deep learning tools to develop an automated image processing pipeline for extracting and quantifying the shape, size, and frequency of sectors in yeast colonies grown under experimental conditions.  Our approach will allow us to draw conclusions about the formation of sectors in the experimental data and will help uncover more information about the mechanisms driving colony-level phenotypic transitions."
+---

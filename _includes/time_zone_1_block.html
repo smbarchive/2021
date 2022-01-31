@@ -1,0 +1,20 @@
+{% if include.hoursToAdd %}
+    {% assign hoursToSec = include.hoursToAdd | times: 3600 %}
+    {% assign hoursToSec2 = include.hoursToAdd | plus: 1 | times: 3600 %}
+    {% assign hoursToSec3 = include.hoursToAdd | plus: 2 | times: 3600 %}
+    {% assign hoursToSec4 = include.hoursToAdd | plus: 3 | times: 3600 %}
+{% else %}
+    {% assign hoursToSec = 0 %}
+{% endif %}
+
+{% if include.minutesToAdd %}
+    {% assign minutesToSec = include.minutesToAdd | times: 60 %}
+{% else %}
+    {% assign minutesToSec = 0 %}
+{% endif %}
+
+
+<td>{{  page.date1 | date: "%s" | plus: hoursToSec | plus: minutesToSec | date: "%I:%M%P"}}</td>
+<td>{{  page.date1 | date: "%s" | plus: hoursToSec2 | plus: minutesToSec | date: "%I:%M%P"}}</td>
+<td>{{  page.date1 | date: "%s" | plus: hoursToSec3 | plus: minutesToSec | date: "%I:%M%P"}}</td>
+<td>{{  page.date1 | date: "%s" | plus: hoursToSec4 | plus: minutesToSec | date: "%I:%M%P"}}</td>

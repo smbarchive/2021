@@ -1,0 +1,26 @@
+---
+layout: group
+author: esmb
+day: "Monday (Tuesday)"
+subgroup: "CBBS"
+title: "Mathematics of Biochemical Reaction Networks"
+organizers: "Matthew Johnston (Lawrence Technological University, United States), Angelyn Lao (De La Salle University, Phillipines)"
+description: "Significant research has been conducted in recent years on relating the dynamical behavior of biochemical reaction systems, such as signal transduction cascades and gene regulatory networks, to the structure of the underlying network of interacting species. Such analysis can cut through the tremendous complexity inherent in biochemical mechanisms to identify the primary modules and pathways responsible for cellular function, such as apoptosis, circadian rhythms, and the cell cycle, and diseases like diabetes and cancer. Significantly challenges, however, remain in the mathematical analysis of such models as a result of the generally high dimensionality of the systems, parameter uncertainty, nonlinearities, and time-scale separations between reactions. In this session, we will give a forum to the latest advances in relating the dynamical behavior of biochemical reaction systems to the underlying reaction network."
+code: "MS03"
+author1: "Matthew Johnston"
+inst1: " (Lawrence Technological University, United States)"
+title1: "Analyzing Steady States of Mass Action Systems through Network Splitting"
+abstract1: "The process of network translation corresponds a mass action system to a generalized mass action system with equivalent dynamics. Recent research has shown that, when the generalized chemical reaction network underlying the second network has desirable structure, such as weak reversibility and low deficiency, then we may use the network to establish properties of the steady state set and to explicitly construct a steady state parametrization. In this talk, we will extend this theory by introducing the method of 'splitting' networks. In a split network, we allow the original network to be partitioned into subnetworks, called 'slices', while imposing that the union of the subnetworks preserves the stoichiometry of the original network. We show that this process expands the scope of mass action systems whose steady states can be characterized by the method of network translation."
+author2: "Editha Jose"
+inst2: " (University of the Philippines Los Banos, Philippines)"
+title2: "Absolutely complex balanced power law kinetic systems"
+abstract2: "In this talk, we will focus on absolutely complex balanced (ACB) power law kinetic systems. We say that a kinetic system is absolutely complex balanced if every positive equilibrium is complex balanced. First, we will identify a weakly reversible kinetic system where absolute complex balancing implies zero deficiency, that is, we derived a partial converse to Feinberg's theorem stating that any weakly reversible kinetic system with zero deficiency is absolutely complex balanced. Then, we will describe several methods for constructing new classes of ACB systems and illustrate them with new classes of ACB power law kinetic systems with positive deficiency."
+author3: "Polly Yu"
+inst3: " (University of Wisconsin-Madison, United States)"
+title3: "Conditions for stability of mass-action systems"
+abstract3: "We present a sufficient condition based on the directed species-reaction graph for linear stability of equilibrium, independent of rate constants. The conditions are in terms of cycles, which could be understood as feedback loops, and a special case is when the graph has no cycles at all. The same conditions also imply stability for the chemical system where products are made with a time lag."
+author4: "Bryan Hernandez"
+inst4: " (University of the Philippines Diliman, Philippines)"
+title4: "Independent Decompositions of Chemical Reaction Networks and Some Applications"
+abstract4: "In this talk, we will present some questions and answers concerning independent decompositions of a chemical reaction network. In particular, we will discuss a condition that gives a necessary and sufficient condition for the existence of a nontrivial independent decomposition given a network, and consequently creating a method that gives this specific decomposition, if it exists. We will also deal with what we call the Feinberg Decomposition Theorem, which established equality of the set of positive equilibria of a kinetic system and the intersection of equilibria sets of its subsystems resulting from an independent decomposition of the underlying network. We will specify some implications of the theorem and consequently apply these to examples of reaction networks and kinetic systems existing in literature."
+---

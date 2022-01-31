@@ -1,0 +1,138 @@
+---
+title: "Minisymposia & Contributed talk video recordings"
+layout: default
+pagination:
+    enabled: false
+description: "The Society for Mathematical Biology - e-Conference 2020."
+permalink: /session-recordings/
+---
+
+
+<div class="container">
+	
+	<div class="col-md-12 main-loop">
+	    <div class="row">
+	        <div class="col-md-12  text-center">
+		        {% include banner.html %}
+		        <h1 class="mb-3">{{page.title}}</h1>
+
+	        </div>
+	    </div>
+	</div>
+
+
+	<div class="row justify-content-center">
+        
+        <!-- Share -->
+				<div class="col-lg-2 pr-4 mb-4 col-md-12">
+					<div class="sticky-top sticky-top-offset text-center">
+						<div class="text-muted">
+							Share this
+						</div>
+						<div class="share d-inline-block">
+							<!-- AddToAny BEGIN -->
+							<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+								<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+								<a class="a2a_button_facebook"></a>
+								<a class="a2a_button_twitter"></a>
+							</div>
+							<script async src="https://static.addtoany.com/menu/page.js"></script>
+							<!-- AddToAny END -->
+						</div>
+					</div>
+				</div>
+        
+        
+		<div class="col-md-12 col-lg-10">
+			
+			<p>Please scroll down for the complete list of video recordings of all sessions. These recordings will be available for one week after the conclusion of the conference.</p>
+			<script type="text/javascript">
+				
+			</script>
+			
+	      
+
+	      {% for ms in site.Recordings %}
+	      
+			    	<h4>
+				    	<a id="{{ms.subgroup}}-{{ms.code}}"></a><span class="text-{{ ms.subgroup}}">{{ ms.subgroup}}</span>:
+				    	{{ ms.code }}
+			    	</h4>
+			    	{% if ms.myURL %}
+			    		<a href="{{ms.myURL}}" target="_blank">
+			    			<strong style="color: #459afb">(Click to open the video recording in a new tab.)</strong>
+			    		</a>
+							</br>
+			    		{% if ms.myURL2 %}
+			    			<a href="{{ms.myURL2}}" target="_blank">
+				    			<strong style="color: #459afb">(This session was recorded in multiple parts. Click to open part 2)</strong>
+				    		</a>
+			    		{% endif %}
+			    	{% else %}
+			    		<strong>(This session has not yet been recorded. Please check back later.)</strong>
+			    	{% endif %}
+		    	</a>
+					</br></br>
+				{% endfor %}
+			
+								      
+			<!-- Author Box -->
+      {% if page.author %}				
+			<div class="row mt-5">
+				<div class="col-md-2 align-self-center">
+                       {% if author.avatar %}
+                      <img class="rounded-circle" src="../{{author.avatar}}" alt="{{author.name}}" width="90"/>
+                      {% endif %} 
+				</div>
+				<div class="col-md-10">		
+                      <h5 class="font-weight-bold">Hosted by {{ author.name }} {% if author.twitter %}<span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span>{% endif %}</h5>
+					{{ author.bio }}					
+				</div>
+			</div>				
+      {% endif %}
+      
+      </br>
+      </br>
+      </br>
+      </br>
+      </br>
+      </br>
+      </br>
+      </br>
+      </br>
+      </br>
+      </br>
+      </br>
+      </br>
+      </br>
+      </br>
+      </br>
+      </br>
+      </br>
+      </br>
+      </br>
+      <!-- Comments -->
+      {% if page.comments != false %}
+          {% include comments.html %}
+      {% endif %}
+            
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

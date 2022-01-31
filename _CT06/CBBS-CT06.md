@@ -1,0 +1,25 @@
+---
+layout: group
+author: esmb
+day: "Tuesday (Wednesday)"
+subgroup: "CBBS"
+title: "CBBS Subgroup Contributed Talks"
+code: "CT06"
+permalink: /CBBS/CBBS-CT06.html
+author1: "Helen Zha"
+inst1: "University of Oxford"
+title1: "Lubrication model of a valve-controlled, gravity-driven bioreactor for platelet production"
+abstract1: "We investigate the effect of valve dynamics, scaffold permeability, and bioreactor length on the scaffold shear stress, and fluxes in the bioreactor. The model is extremely computationally efficient, thus we can quickly simulate its operation under different valve configurations and geometric parameters, to optimise some function of shear stress and fluxes."
+author2: "Sahar Jafari Nivlouei"
+inst2: "Department of Physics, University of Coimbra, Portugal"
+title2: "3D Multiscale Modeling of Tumor Vascular Growth: Evaluation of the effectiveness of chemotherapy"
+abstract2: "Developing a multiscale model that includes relevant mechanical and biological properties of endothelial and tumor cells, it is possible to simulate tumor growth and angiogenesis, in a simplified but realistic way. The present model covers multiple time and spatial scales, including extracellular, cellular and intracellular scales. At the intracellular scale, a Boolean network model is used to implement signaling transduction that determines the cell phenotype. Using an agent-based cellular Potts model, it is possible to simulate the cells' biophysical and molecular interactions. A set of PDEs describes tumor-secreted VEGF, vessel-secreted nutrients and cytotoxic drug pharmacodynamics. Results show that the tumor growth rate increases considerably as new capillaries form around the tumor cells, and the malignant tumor progression leads to a high degree of vascularization. Moreover, a systematic study of chemotherapy allows to evaluate typical clinical protocols in what concern with therapy initiation and dose comparison. Accordingly, a delay in chemotherapy initiation does not have a significant effect in the long term, as the tumor volume continues to increase throughout therapy. However, it has been observed that although the therapeutic efficacy may be not enough to prevent tumor regrowth, there is a significant decrease in the tumor size after chemotherapy."
+author3: "Richard Foster"
+inst3: "Virginia Commonwealth University"
+title3: "Modeling Breathing Asynchrony in the Preterm Infant"
+abstract3: "Extremely preterm infants are at risk of developing chronic lung disease after birth due to factors such as weak intercostal muscles, surfactant deficiency, and a highly compliant (floppy) chest wall. These factors can cause asynchronous volume change between the rib cage and abdomen chest wall components, termed 'thoracoabdominal asynchrony' (TAA), which compromise breathing and could lead to lung volume loss. We constructed a respiratory model that simulates TAA under several clinical conditions by incorporating a chest wall partitioned into independent rib cage and abdominal components with respective intercostal and diaphragm muscle activation functions. Nonlinear compliance functions for the rib cage and abdomen were derived from experimental data. Simulation results indicate that TAA occurs when more than ~80% of driving pressure comes from the diaphragm and when a simulated endotracheal tube increases upper airway resistance ~5-fold. This is the first known explicit simulation of independent chest wall component volume changes with nonlinear compliances and resulting breathing asynchrony."
+author4: "Alberto Coccarelli"
+inst4: "College of Engineering, Swansea University"
+title4: "Computer modelling for decrypting vascular function"
+abstract4: "Ca2+ signalling plays a pivotal role in the generation of vascular tone, which in turn determines the level of blood perfusion within tissues. Despite its implication in the onset of several pathological conditions (such as hypertension, myocardial ischemia), vascular function is still poorly understood and therefore there is an urgent need to develop computer models for providing a mechanistic understanding of the underlying dynamics. Within this context, endothelial cells represent system's sensor able to monitor haemodynamic variables as well as the presence of endogenous agents. This information is then translated by endothelial cells into second messenger molecules (such as Ca2+, IP3) which ultimately may up- or down-regulate the level of contraction of the smooth muscle cells. Here we introduce a model for computing the Ca2+ dynamics in endothelial cells induced by agonist intervention. With respect to its predecessors, this model accounts for a new component describing the interaction between calcium stores and store-operated channels, which constitutes the main way for Ca2+ entry within the cell. Through numerical experiments, a link between this subcellular component and the experimentally recorded Ca2+ oscillations is established. Finally, the developed model is employed for quantifying the variability in Ca2+ response observed within the cell population."
+---

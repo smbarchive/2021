@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Modelling and Methods in Mathematical Biology | SMB 2021</title>
+
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Modelling and Methods in Mathematical Biology | SMB 2021</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Modelling and Methods in Mathematical Biology" />
+<meta name="author" content="esmb" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Mathematical modeling is a process by which a real world problem is described by a mathematical formulation. Mathematical biology is a highly challenging frontier of applied mathematics employing a variety of modeling strategies that have been developed to focus on a one or more specific aspects of the application. The vast the majority of these mathematical models are formulated in terms of either algebraic or differential equations. In this mini-symposium we seek to present a survey of applications from mathematical biology that employ unique methods and mathematical biology techniques each of which is inherently tied to the selection of a mathematical model and is tied to measurement data. They are all linked by the common desire to predict, simulate or control biological processes. They are all real world problems where success hinges on accurate modelling and measurement." />
+<meta property="og:description" content="Mathematical modeling is a process by which a real world problem is described by a mathematical formulation. Mathematical biology is a highly challenging frontier of applied mathematics employing a variety of modeling strategies that have been developed to focus on a one or more specific aspects of the application. The vast the majority of these mathematical models are formulated in terms of either algebraic or differential equations. In this mini-symposium we seek to present a survey of applications from mathematical biology that employ unique methods and mathematical biology techniques each of which is inherently tied to the selection of a mathematical model and is tied to measurement data. They are all linked by the common desire to predict, simulate or control biological processes. They are all real world problems where success hinges on accurate modelling and measurement." />
+<link rel="canonical" href="http://localhost:4000/MS15/DDMB-MS15.html" />
+<meta property="og:url" content="http://localhost:4000/MS15/DDMB-MS15.html" />
+<meta property="og:site_name" content="SMB 2021" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-06-17T15:54:54-04:00" />
+<script type="application/ld+json">
+{"description":"Mathematical modeling is a process by which a real world problem is described by a mathematical formulation. Mathematical biology is a highly challenging frontier of applied mathematics employing a variety of modeling strategies that have been developed to focus on a one or more specific aspects of the application. The vast the majority of these mathematical models are formulated in terms of either algebraic or differential equations. In this mini-symposium we seek to present a survey of applications from mathematical biology that employ unique methods and mathematical biology techniques each of which is inherently tied to the selection of a mathematical model and is tied to measurement data. They are all linked by the common desire to predict, simulate or control biological processes. They are all real world problems where success hinges on accurate modelling and measurement.","author":{"@type":"Person","name":"esmb"},"@type":"BlogPosting","url":"http://localhost:4000/MS15/DDMB-MS15.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"esmb"},"headline":"Modelling and Methods in Mathematical Biology","dateModified":"2021-06-17T15:54:54-04:00","datePublished":"2021-06-17T15:54:54-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/MS15/DDMB-MS15.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
+
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+
+		<!-- Twitter card validator -->
+		<meta name="twitter:card" content="summary_large_image">
+	  <meta name="twitter:site" content="@smb2021">
+		<meta name="twitter:creator" content="@smb2021">
+		<meta name="twitter:title" content="Modelling and Methods in Mathematical Biology">
+		<meta name="twitter:description" content="The Society for Mathematical Biology annual meeting - 2021.">
+		<meta name="twitter:image" content="http://schedule.smb2021.org/assets/images/twitter.png">
+		
+		<meta name="title" content="Modelling and Methods in Mathematical Biology" />
+		<meta name="description" content="The Society for Mathematical Biology annual meeting - 2021." />
+		<meta property="og:title" content="Modelling and Methods in Mathematical Biology" />
+		<meta property="og:description" content="The Society for Mathematical Biology annual meeting - 2021." />
+		<meta property="og:image" content="http://schedule.smb2021.org/assets/images/twitter.png"/>
+
+
+
+    
+
+
+    
+
+		<!-- Bootstrap Modified -->
+		
+			<link rel="stylesheet" href="../assets/css/main.css">
+		
+		
+		<!-- Theme Stylesheet -->
+		
+			<link rel="stylesheet" href="../assets/css/theme.css">
+		
+		
+		<!-- Custom Themes Stylesheet -->
+		
+			<link rel="stylesheet" href="../assets/css/custom.css">
+		
+
+
+
+    <!-- Jquery on header to make sure everything works, the rest  of the scripts in footer for fast loading -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    
+    <script src="/assets/js/custom.js"></script>
+
+
+</head>
+
+<body class="">
+  
+	<nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+	  <div class="container">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		
+		  <div class="collapse navbar-collapse" id="navbarColor02">
+		    <ul class="navbar-nav mr-auto d-flex align-items-center">
+			    <li class="nav-item"> <img src="/assets/images/logo.png" width="65" alt="" class="d-inline-block align-middle mr-2"> </li>
+					<a class="navbar-brand" href="/"><strong>SMB 2021</strong></a>
+		      <!--  Replace menu links here -->
+
+<!-- <li class="nav-item"> <img src="/assets/images/logo.jpg" width="45" alt="" class="d-inline-block align-middle mr-2"> </li> -->
+<!-- <a class="navbar-brand" href="/"><strong>SMB 2021</strong></a> -->
+
+<li class="nav-item"><a class="nav-link" id="strong-nav" href="/">Home</a></li>
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Schedule
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item" style="color:#000000 !important;" href="/">Overview</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/your-smb2021">Plan Your SMB2021</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/pre-conference">Pre-conference</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/americas">Americas</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/europe-africa">Europe/Africa</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/asia-oceania">Asia/Oceania</a>
+		
+  </div>
+</li>
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Search by Name
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item" style="color:#000000 !important;" href="/contributed-speakers">Contributed Talks</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/minisymposia-speakers">Minisymposia</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/plenary">Plenary</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/posters">Posters</a>
+  </div>
+</li>
+
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Subgroup / Theme
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item text-CBBS" style="color:#000000 !important;" href="/CBBS"><span class="text-CBBS">CBBS</span> (Complex Biological and Biomedical Systems)</a>
+		<a class="dropdown-item text-CDEV" style="color:#000000 !important;" href="/CDEV"><span class="text-CDEV">CDEV</span> (Cell and Developmental Biology)</a>
+		<a class="dropdown-item text-DDMB" style="color:#000000 !important;" href="/DDMB"><span class="text-DDMB">DDMB</span> (Data Driven Modeling in Biology)</a>
+		<a class="dropdown-item text-DEI" style="color:#000000 !important;" href="/DEI"><span class="text-DEI">DEI</span> (Diversity, Equity, and Inclusion)</a>
+		<a class="dropdown-item text-ECOP" style="color:#000000 !important;" href="/ECOP"><span class="text-ECOP">ECOP</span> (Population Dynamics & Ecology)</a>
+		<a class="dropdown-item text-EDUC" style="color:#000000 !important;" href="/EDUC"><span class="text-EDUC">EDUC</span> (Education)</a>
+		<a class="dropdown-item text-EVOP" style="color:#000000 !important;" href="/EVOP"><span class="text-EVOP">EVOP</span> (Population Dynamics & Evolution)</a>
+		<a class="dropdown-item text-IMMU" style="color:#000000 !important;" href="/IMMU"><span class="text-IMMU">IMMU</span> (Immunobiology and Infection)</a>
+		<a class="dropdown-item text-MEPI" style="color:#000000 !important;" href="/MEPI"><span class="text-MEPI">MEPI</span> (Mathematical Epidemiology)</a>
+		<a class="dropdown-item text-MFBM" style="color:#000000 !important;" href="/MFBM"><span class="text-MFBM">MFBM</span> (Methods for Biological Modeling)</a>
+		<a class="dropdown-item text-MMPB" style="color:#000000 !important;" href="/MMPB"><span class="text-MMPB">MMPB</span> (Multiscale Modeling in Physiology and Biophysics )</a>
+		<a class="dropdown-item text-NEUR" style="color:#000000 !important;" href="/NEUR"><span class="text-NEUR">NEUR</span> (Mathematical Neuroscience)</a>
+		<a class="dropdown-item text-ONCO" style="color:#000000 !important;" href="/ONCO"><span class="text-ONCO">ONCO</span> (Mathematical Oncology)</a>
+  </div>
+</li>
+<li class="nav-item">
+	<a class="nav-link" href="https://www.smb2021.org/">Return to SMB2021.org</a>
+</li>
+
+		    </ul>
+		    
+		  </div>
+	  </div>
+	</nav>
+	
+
+
+    
+
+    <!-- Search Results -->
+    <div id="lunrsearchresults">
+        <ul class="mb-0"></ul>
+    </div>
+
+    <!-- Content -->
+    <main role="main" class="site-content" style="margin-bottom: 300px;">
+        
+<div class="container">
+<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+		<div class="h-100 tofront">
+			<div class="row  justify-content-center ">
+				<div class=" col-md-8  pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+					<p class="text-uppercase font-weight-bold">
+              <span class="catlist">
+              	<span class="text-DDMB">DDMB-MS15</span>						
+              </span>
+					</p>
+					<h1 class="display-4 mb-4 article-headline">Modelling and Methods in Mathematical Biology</h1>
+					<h4>Wednesday, June 16 at 05:45pm (PDT)</br>Thursday, June 17 at 01:45am (BST)</br>Thursday, June 17 09:45am (KST)</h4>
+					<div class="d-flex align-items-center">
+                        
+                        <img class="rounded-circle" src="../assets/images/logo.jpg" alt="SMB2021" width="70"/>
+                        
+						<small class="ml-3"> SMB2021 <span><a target="_blank" href="https://twitter.com/smb2021" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
+              <span class="text-muted d-block mt-1">Wednesday (Thursday) during the "MS15" time block.</span>
+						</small>
+						
+					</div>
+				</div>
+				
+        
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<div class="container-lg pt-4 pb-4">
+	<div class="row justify-content-center">
+        
+        <!-- Share -->
+				<div class="col-lg-2 pr-4 mb-4 col-md-12">
+					<div class="sticky-top sticky-top-offset text-center">
+						<div class="text-muted">
+							Share this
+						</div>
+						<div class="share d-inline-block">
+							<!-- AddToAny BEGIN -->
+							<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+								<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+								<a class="a2a_button_facebook"></a>
+								<a class="a2a_button_twitter"></a>
+							</div>
+							<script async src="https://static.addtoany.com/menu/page.js"></script>
+							<!-- AddToAny END -->
+						</div>
+					</div>
+				</div>
+        
+        
+		<div class="col-md-12 col-lg-10">
+			
+			
+			<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem DDMB position-relative">
+		    <div class="pl-4 pr-0 h-100 tofront">
+		        <div class="row justify-content-between">
+		            <div class="col-md-12 pt-6 pb-6 pr-lg-4 align-self-center">
+		                <p><strong>Organizers:</strong></p>
+		                <h4 class="mb-3">Anthony Kearsley (National Institute of Standards and Technology, USA)</h4>
+		                
+		                
+		                	<p><strong>Description</strong>:</p> 
+		                	<p>Mathematical modeling is a process by which a real world problem is described by a mathematical formulation. Mathematical biology is a highly challenging frontier of applied mathematics employing a variety of modeling strategies that have been developed to focus on a one or more specific aspects of the application. The vast the majority of these mathematical models are formulated in terms of either algebraic or differential equations. In this mini-symposium we seek to present a survey of applications from mathematical biology that employ unique methods and mathematical biology techniques each of which is inherently tied to the selection of a mathematical model and is tied to measurement data. They are all linked by the common desire to predict, simulate or control biological processes. They are all real world problems where success hinges on accurate modelling and measurement.</p>
+			              
+			              
+			              
+		            </div>             
+		        </div>
+		    </div>
+			</div>
+			</br>
+			</br>
+			
+			
+			
+			
+			
+						
+			
+			
+			
+			
+			
+	    	<h4 id="author1">Julia Seilert</h4>
+	    	 
+	    		<em> (Department of Food Process Engineering, Technische Universität Berlin, Germany)</em>
+	    	
+	    	
+	    	
+	    		
+	    			<h6>"Revisiting a model to predict pure triglyceride thermodynamic properties: parameter optimization and performance"</h6>
+	    		
+	    	
+	    	
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			Understanding the thermodynamic properties of triglycerides and their mixtures is of major importance for food applications. Extensive experimental studies and mathematical modeling are needed to predict thermodynamic properties, namely melting temperature and enthalpy of fusion. To date, the most comprehensive work towards modeling triglyceride pure component properties was conducted by Wesdorp in “Liquid-multiple solid phase equilibria in fats: theory and experiments” (1990) building a semi-empirical model with a large set of parameters. The model generally performs well but is known to make thermodynamically inconsistent predictions for certain test cases. In this study, the underlying parameter set is improved in order to deliver more physically consistent predictions without deterioration of the primary model quality to describe the available experimental data. Thermodynamic constraints as well as bound constraints on variables are discussed regarding an interrelation of the model setup conditions.
+		    		
+	    		</article>
+	    	
+				
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    	<h4 id="author2">Adarsh Kumbhari</h4>
+	    	 
+	    		<em> (School of Mathematics and Statistics, University of Sydney, Australia)</em>
+	    	
+	    	
+	    		
+	    			<h6>" Modeling PD-L1 inside the tumor microenvironment"</h6>
+	    		
+	    	
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			The protein PD-1 and its ligand PD-L1 are upregulated on cancerous and immune cells within tumors, and blocking this pathway may induce anti-tumor immunity. The extent to which PD-L1 expression reflects immune activity, however, is poorly understood. Using mathematical modeling, we show that high PD-L1 expression can reflect both tumor escape and clearance. We also identify several T-cell populations that may better reflect dynamic changes to the tumor microenvironment. These findings suggest that moving beyond measuring PD-L1 expression could lead to better ways to predict patient responses to PD-L1 blockade.
+		    		
+	    		</article>
+	    	
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    	<h4 id="author3">Danielle Brager</h4>
+	    	 
+	    		<em> (National Institute of Standards and Technology, USA)</em>
+	    	
+	    	
+	    		
+	    			<h6>"Mathematically Investigating Retinitis Pigmentosa"</h6>
+	    		
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			Retinitis Pigmentosa (RP) is a collection of clinically and genetically heterogeneous degenerative retinal diseases.  Patients with RP experience a loss of night vision that progresses to day-light blindness due to the sequential degeneration of rod and cone photoreceptors.  While known genetic mutations associated with RP affect the rods, the degeneration of cones inevitably follows in a manner independent of those genetic mutations.  Investigation of this secondary death of cone photoreceptors led to the discovery of the rod-derived cone viability factor (RdCVF), a protein secreted by the rods that preserves the cones by accelerating the flow of glucose into cone cells stimulating aerobic glycolysis.  In this work, we formulate a predator-prey style system of nonlinear ordinary differential equations to mathematically model photoreceptor interactions in the presence of RP while accounting for the new understanding of RdCVF's role in enhancing cone survival.  We utilize the mathematical model and subsequent analysis to examine the underlying processes and mechanisms (defined by the model parameters) that affect cone photoreceptor vitality as RP progresses.  The physiologically relevant equilibrium points are interpreted as different stages of retinal degeneration.  We determine conditions necessary for the local asymptotic stability of these equilibrium points and use the results as criteria needed to remain in a stage in the progression of retinal degeneration.  Experimental data is used for parameter estimation.  Pathways to blindness are uncovered via bifurcations and narrows our focus to four of the model equilibria.  We perform a sensitivity analysis to determine mechanisms that have a significant effect on the cones at four stages of RP.  We derive a non-dimensional form of the mathematical model and perform a numerical bifurcation analysis using MATCONT to explore the existence of stable limit cycles because a stable limit cycle is a stable mode, other than an equilibrium point, where the rods and cones coexist.  In our analyses, a set of key parameters involved in photoreceptor outer segment shedding, renewal, and nutrient supply were shown to govern the dynamics of the system.  Our findings illustrate the benefit of using mathematical models to uncover mechanisms driving the progression of RP and opens the possibility to use in silico experiments to test treatment options in the absence of rods.
+		    		
+	    		</article>
+	    	
+	    
+	    
+			</br>
+			</br>
+	    
+	    
+	    	<h4 id="author4">Anca Radulescu</h4>
+	    	 
+	    		<em> (State University of New York at New Paltz, USA)</em>
+	    	
+	    	
+	    		
+	    			<h6>"Estimating glutamate transporter surface density in mouse hippocampal astrocytes"</h6>
+	    		
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			One of the main functions of astrocytes is to remove glutamate from the extracellular space, a task that is accomplished through the activity of glutamate transporters expressed in abundance in the plasma membrane. This property allows astrocytes to limit glutamate diffusion out of the synaptic cleft, to limit extrasynaptic receptor activation and preserve the spatial specificity of synaptic transmission. The distribution of glutamate transporters on is known to be heterogeneous, as these molecules are enriched in astrocyte tip processes as opposed to the rest of the membrane. We investigate in depth the effect of this non-uniform distribution, while also evaluating how local crowding effects can limit the transporter expression in small astrocytic processes.
+We first obtain an experimental estimate of the glutamate transporter surface expression in different sub-cellular compartments of mouse hippocampal astrocytes. We then generate a geometric model of astrocytes that capture statistically the main structural features of real astrocytes, to determine the proportion of the astrocyte cell membrane in different cellular compartments. We found stark differences in the density of expression of transporter molecules in different compartments, indicating that the extent to which astrocytes limit extrasynaptic glutamate diffusion depends not only on the level of astrocytic coverage, but also on the identity of the compartment in contact with the synapse. Together, these findings provide information on the spatial distribution of glutamate transporters in the mouse hippocampus, with potentially long-range implications for the fields of synaptic plasticity and astrocyte physiology.
+		    		
+	    		</article>
+	    	
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    
+	      
+			<!-- Author Box -->
+      				
+			<div class="row mt-5">
+				<div class="col-md-2 align-self-center">
+                       
+                      <img class="rounded-circle" src="../assets/images/logo.jpg" alt="SMB2021" width="90"/>
+                       
+				</div>
+				<div class="col-md-10">		
+                      <h5 class="font-weight-bold">Hosted by SMB2021 <span><a target="_blank" href="https://twitter.com/smb2021" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span></h5>
+					Virtual conference of the Society for Mathematical Biology, 2021.					
+				</div>
+			</div>				
+      
+      
+      <!-- Comments -->
+      
+          <!--  Don't edit anything here. Set your disqus id in _config.yml -->
+
+<div id="comments" class="mt-5">
+    <div id="disqus_thread">
+    </div>
+    <script type="text/javascript">
+        var disqus_shortname = ''; 
+        var disqus_developer = 0;
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = window.location.protocol + '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>
+    Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
+</div>
+      
+            
+		</div>
+        
+        
+	</div>
+</div>
+
+
+
+    </main>
+
+
+    <!-- Scripts: popper, bootstrap, theme, lunr -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+    
+    
+			<script src="../assets/js/theme.js"></script>
+		
+    
+    <!-- All this area goes before </body> closing tag --> 
+
+
+</body>
+
+</html>

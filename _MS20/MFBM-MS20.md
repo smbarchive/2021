@@ -1,0 +1,27 @@
+---
+layout: group
+author: esmb
+day: "Thursday (Friday)"
+subgroup: "MFBM"
+title: "Algebra, Combinatorics, and Topology in Modern Biology"
+organizers: "Daniel Cruz (Georgia Institute of Technology, U.S.), Margherita Maria Ferrari (University of South Florida, U.S.)"
+description: "Over the last few years, research at the interface of mathematics and biology has proven to be a powerful catalyst for advancing each of the individual fields by yielding new tools, discoveries, and open questions. In particular, techniques from algebra, combinatorics, topology, and related areas have complemented more mainstream approaches in mathematical biology while becoming natural tools for understanding biological structures and interactions. This mini-symposium will focus on recent developments and open problems involving the application of algebra, combinatorics, and/or topology to topics in biology. These topics include RNA branching, signaling networks, COVID-19 detection, and phylogenetics, among others. Our intention is not only to facilitate discussion and collaboration but also to promote inclusivity within the associated research communities. As such, we have invited a diverse group of junior and senior speakers with complementary expertise which includes a significant number of women mathematicians."
+code: "MS20"
+code2: "MS19"
+author1: "Mustafa Hajij"
+inst1: " (Santa Clara University, U.S.)"
+title1: "TDA-Net: Fusion of Persistent Homology and Deep Learning Features for COVID-19 Detection in Chest X-Ray Images"
+abstract1: "Topological Data Analysis (TDA) has emerged recently as a robust tool to extract and compare the structure of datasets. TDA identifies features in data such as connected components and holes and assigns a quantitative measure to these features. Several studies reported that topological features extracted by TDA tools provide unique information about the data, discover new insights, and determine which feature is more related to the outcome. On the other hand, the overwhelming success of deep neural networks in learning patterns and relationships has been proven on a vast array of data applications, images in particular. To capture the characteristics of both powerful tools, we propose TDA-Net, a novel ensemble network that fuses topological and deep features for the purpose of enhancing model generalizability and accuracy. We apply the proposed TDA-Net to a critical application, which is the automated detection of COVID-19 from CXR images. The experimental results showed that the proposed network achieved excellent performance and suggests the applicability of our method in practice."
+author2: "Hector Banos"
+inst2: " (Dalhousie University, Canada)"
+title2: "Identifiability of Species Network Topologies from Genomic Sequences"
+abstract2: "Hybridization plays an important role during the evolutionary process of some species. In such cases, phylogenetic trees are sometimes insufficient to describe species-level relationships. We show that most topological features of a level-1 species network (a network with no interlocking cycles) are identifiable under the network multi-species coalescent model (NMSC) using the log-det distance between aligned DNA sequences of concatenated genes."
+author3: "Nida Obatake"
+inst3: " (Texas A&M University, U.S.)"
+title3: "Mixed Volume of Chemical Reaction Networks"
+abstract3: "Chemical reaction networks model the interactions of chemical substances. An important invariant of a chemical reaction network is its maximum number of positive steady states. This number, however, is in general difficult to compute. We introduce an upper bound on this number - namely, a network's mixed volume - that is easy to compute. We show that, for certain biological signaling networks, the mixed volume does not greatly exceed the maximum number of positive steady states. Furthermore, we investigate this overcount and also compute the mixed volumes of small networks (those with only a few species or reactions)."
+author4: "Raina Robeva"
+inst4: " (Randolph-Macon College, U.S.)"
+title4: "Algebraic Biology in the Curriculum"
+abstract4: "Unlike difference and differential equations models, algebraic models in biology have remained largely invisible at the undergraduate level despite their increasing popularity in solving a wide range of biological problems. This discrepancy is puzzling as, in many cases, an introduction to algebraic modeling relies on mathematics covered in traditional mathematics courses. In addition, Boolean and finite dynamical systems, could be used as an alternative to modeling system dynamics by way of difference and differential equations. The talk will discuss the benefits of increasing the profile of algebraic models in the undergraduate curriculum and share insights from an honors class in systems biology for students with minimal mathematics and biology backgrounds."
+---

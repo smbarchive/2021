@@ -1,0 +1,26 @@
+---
+layout: group
+author: esmb
+day: "Tuesday (Wednesday)"
+subgroup: "CBBS"
+title: "Waves and traveling phenomena in living systems"
+organizers: "Stephanie Dodson (University of California, Davis, United States), Scott McCalla (Montana State University, United States)"
+description: "Wavelike phenomena arise in biological systems across a multitude of scales. Examples include growing fronts of tumors, action potentials in cardiac dynamics, population invasions and swarms, and the emergence of localized epidemic outbreaks on networks. Understanding the dynamics of these evolving patterns is crucial for uncovering what biological processes lead to their formation and propagation, and eventually in developing techniques to mediate any adverse effects from their existence. This mini-symposium brings together techniques stemming from the study of dynamical systems and nonlinear waves to study diverse applications of experimentally observed waves in biological systems."
+code: "MS08"
+author1: "Stephanie Dodson"
+inst1: " (University of California, Davis, United States)"
+title1: "One-dimensional spiral waves and reflection-induced cardiac arrhythmia"
+abstract1: "When propagated action potentials in cardiac tissue interact with local heterogeneities, counter propagating or reflected waves can sometimes be induced. These reflected waves have been associated with the onset of cardiac arrhythmias, and while their generation is not well understood, their existence is linked to that of one-dimensional (1D) spiral waves. Thus, understanding the existence and stability of 1D spirals plays a crucial role in determining the likelihood of the unwanted reflected pulses. Mathematically, we probe these issues by viewing the 1D spiral as a time-periodic antisymmetric source defect. Through a combination of direct numerical simulation and continuation methods, we investigate its existence and stability in a qualitative ionic model to determine how the systems propensity for reflections are influenced by system parameters. Our results support and extend a previous hypothesis that the 1D spiral is an unstable periodic orbit that emerges through a global rearrangement of heteroclinic orbits and we identify key parameters and physiological processes that promote and deter reflection behavior."
+author2: "Matt Holzer"
+inst2: " (George Mason University, United States)"
+title2: "Locked fronts in a discrete time discrete space population model"
+abstract2: "A model of population growth and dispersal is considered where the spatial habitat is a lattice and reproduction occurs generationally. The resulting discrete dynamical systems exhibits velocity locking where rational speed invasion fronts are observed to persist as parameters are varied. In this article, we construct locked fronts for a particular piecewise linear reproduction function. These fronts are shown to be linear combinations of exponentially decaying solutions to the linear system near the unstable state. Based upon these front solutions we then derive expressions for the boundary of locking regions in parameter space. We obtain leading order expansions for the locking regions in the limit as the migration parameter tends to zero. Strict spectral stability in exponentially weighted spaces is also established."
+author3: "Tracy Stepien"
+inst3: " (University of Florida, United States)"
+title3: "Traveling Waves of a Go-or-Grow Model of Glioma Growth"
+abstract3: "Glioblastoma multiforme is an aggressive brain tumor that is extremely fatal. Gliomas are characterized by both high amounts of cell proliferation as well as diffusivity, which make them impossible to remove with surgery alone. To gain insight on the mechanisms most responsible for tumor growth and the difficult task of forecasting future tumor behavior, we investigate a mathematical model in which tumor cell motility and cell proliferation are considered as separate processes. We explore the existence of traveling wave solutions and determine conditions for various wave front forms."
+author4: "Scott McCalla"
+inst4: " (Montana State University, United States)"
+title4: "Nonlocal interfacial dynamics in biological systems"
+abstract4: "Biological pattern formation has been extensively studied using reaction-diffusion and agent-based models. In this talk we will discuss nonlocal pattern forming mechanisms in the context of bacterial colony formation and surface striping on animals with an emphasis on arrested fronts. This will lead to a novel nonlocal framework to understand the interfacial motion in biological systems. We will then use this approach to model an interesting bacterial phenomenon, and to understand simple microscopic requirements for flat stripe solutions to persist in nature. We will then examine moving defect patterns in the nonlocal framework."
+---

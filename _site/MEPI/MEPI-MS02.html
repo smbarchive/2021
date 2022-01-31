@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>From Primate to Vectors to Humans: Understanding the underlying mechanisms of disease transmission and control | SMB 2021</title>
+
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>From Primate to Vectors to Humans: Understanding the underlying mechanisms of disease transmission and control | SMB 2021</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="From Primate to Vectors to Humans: Understanding the underlying mechanisms of disease transmission and control" />
+<meta name="author" content="esmb" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Infectious diseases are a leading cause of death worldwide, particularly in low-income countries, especially in young children. Infectious diseases are caused by different agents such as bacteria, viruses, fungi, protozoa, and helminths. Some of these disease agents are transmitted through the bites of infected arthropods such as mosquitoes, ticks, and sandflies on human or primate, or simply transmitted in close quarters with an infected human. Mathematical models of infectious diseases have led to useful insight into the dynamics and control of diseases such has Zika, malaria, dengue, TB, HIV, and rabies, etc. Modeling of infectious diseases will therefore be of importance to the public health sector, and the economy. Although numerous mathematical models of infectious disease abound, deeper insight is required to understanding the dynamic nature of these diseases particularly the emerging and re-emerging diseases. It is, therefore, important to review and improve our understanding of the underlying modeling mechanisms and study approaches of these infectious diseases as well as their subsequent implications for disease control." />
+<meta property="og:description" content="Infectious diseases are a leading cause of death worldwide, particularly in low-income countries, especially in young children. Infectious diseases are caused by different agents such as bacteria, viruses, fungi, protozoa, and helminths. Some of these disease agents are transmitted through the bites of infected arthropods such as mosquitoes, ticks, and sandflies on human or primate, or simply transmitted in close quarters with an infected human. Mathematical models of infectious diseases have led to useful insight into the dynamics and control of diseases such has Zika, malaria, dengue, TB, HIV, and rabies, etc. Modeling of infectious diseases will therefore be of importance to the public health sector, and the economy. Although numerous mathematical models of infectious disease abound, deeper insight is required to understanding the dynamic nature of these diseases particularly the emerging and re-emerging diseases. It is, therefore, important to review and improve our understanding of the underlying modeling mechanisms and study approaches of these infectious diseases as well as their subsequent implications for disease control." />
+<link rel="canonical" href="http://localhost:4000/MEPI/MEPI-MS02.html" />
+<meta property="og:url" content="http://localhost:4000/MEPI/MEPI-MS02.html" />
+<meta property="og:site_name" content="SMB 2021" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-06-17T15:54:54-04:00" />
+<script type="application/ld+json">
+{"description":"Infectious diseases are a leading cause of death worldwide, particularly in low-income countries, especially in young children. Infectious diseases are caused by different agents such as bacteria, viruses, fungi, protozoa, and helminths. Some of these disease agents are transmitted through the bites of infected arthropods such as mosquitoes, ticks, and sandflies on human or primate, or simply transmitted in close quarters with an infected human. Mathematical models of infectious diseases have led to useful insight into the dynamics and control of diseases such has Zika, malaria, dengue, TB, HIV, and rabies, etc. Modeling of infectious diseases will therefore be of importance to the public health sector, and the economy. Although numerous mathematical models of infectious disease abound, deeper insight is required to understanding the dynamic nature of these diseases particularly the emerging and re-emerging diseases. It is, therefore, important to review and improve our understanding of the underlying modeling mechanisms and study approaches of these infectious diseases as well as their subsequent implications for disease control.","author":{"@type":"Person","name":"esmb"},"@type":"BlogPosting","url":"http://localhost:4000/MEPI/MEPI-MS02.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"esmb"},"headline":"From Primate to Vectors to Humans: Understanding the underlying mechanisms of disease transmission and control","dateModified":"2021-06-17T15:54:54-04:00","datePublished":"2021-06-17T15:54:54-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/MEPI/MEPI-MS02.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
+
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+
+		<!-- Twitter card validator -->
+		<meta name="twitter:card" content="summary_large_image">
+	  <meta name="twitter:site" content="@smb2021">
+		<meta name="twitter:creator" content="@smb2021">
+		<meta name="twitter:title" content="From Primate to Vectors to Humans: Understanding the underlying mechanisms of disease transmission and control">
+		<meta name="twitter:description" content="The Society for Mathematical Biology annual meeting - 2021.">
+		<meta name="twitter:image" content="http://schedule.smb2021.org/assets/images/twitter.png">
+		
+		<meta name="title" content="From Primate to Vectors to Humans: Understanding the underlying mechanisms of disease transmission and control" />
+		<meta name="description" content="The Society for Mathematical Biology annual meeting - 2021." />
+		<meta property="og:title" content="From Primate to Vectors to Humans: Understanding the underlying mechanisms of disease transmission and control" />
+		<meta property="og:description" content="The Society for Mathematical Biology annual meeting - 2021." />
+		<meta property="og:image" content="http://schedule.smb2021.org/assets/images/twitter.png"/>
+
+
+
+    
+
+
+    
+
+		<!-- Bootstrap Modified -->
+		
+			<link rel="stylesheet" href="../assets/css/main.css">
+		
+		
+		<!-- Theme Stylesheet -->
+		
+			<link rel="stylesheet" href="../assets/css/theme.css">
+		
+		
+		<!-- Custom Themes Stylesheet -->
+		
+			<link rel="stylesheet" href="../assets/css/custom.css">
+		
+
+
+
+    <!-- Jquery on header to make sure everything works, the rest  of the scripts in footer for fast loading -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    
+    <script src="/assets/js/custom.js"></script>
+
+
+</head>
+
+<body class="">
+  
+	<nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+	  <div class="container">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		
+		  <div class="collapse navbar-collapse" id="navbarColor02">
+		    <ul class="navbar-nav mr-auto d-flex align-items-center">
+			    <li class="nav-item"> <img src="/assets/images/logo.png" width="65" alt="" class="d-inline-block align-middle mr-2"> </li>
+					<a class="navbar-brand" href="/"><strong>SMB 2021</strong></a>
+		      <!--  Replace menu links here -->
+
+<!-- <li class="nav-item"> <img src="/assets/images/logo.jpg" width="45" alt="" class="d-inline-block align-middle mr-2"> </li> -->
+<!-- <a class="navbar-brand" href="/"><strong>SMB 2021</strong></a> -->
+
+<li class="nav-item"><a class="nav-link" id="strong-nav" href="/">Home</a></li>
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Schedule
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item" style="color:#000000 !important;" href="/">Overview</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/your-smb2021">Plan Your SMB2021</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/pre-conference">Pre-conference</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/americas">Americas</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/europe-africa">Europe/Africa</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/asia-oceania">Asia/Oceania</a>
+		
+  </div>
+</li>
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Search by Name
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item" style="color:#000000 !important;" href="/contributed-speakers">Contributed Talks</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/minisymposia-speakers">Minisymposia</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/plenary">Plenary</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/posters">Posters</a>
+  </div>
+</li>
+
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Subgroup / Theme
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item text-CBBS" style="color:#000000 !important;" href="/CBBS"><span class="text-CBBS">CBBS</span> (Complex Biological and Biomedical Systems)</a>
+		<a class="dropdown-item text-CDEV" style="color:#000000 !important;" href="/CDEV"><span class="text-CDEV">CDEV</span> (Cell and Developmental Biology)</a>
+		<a class="dropdown-item text-DDMB" style="color:#000000 !important;" href="/DDMB"><span class="text-DDMB">DDMB</span> (Data Driven Modeling in Biology)</a>
+		<a class="dropdown-item text-DEI" style="color:#000000 !important;" href="/DEI"><span class="text-DEI">DEI</span> (Diversity, Equity, and Inclusion)</a>
+		<a class="dropdown-item text-ECOP" style="color:#000000 !important;" href="/ECOP"><span class="text-ECOP">ECOP</span> (Population Dynamics & Ecology)</a>
+		<a class="dropdown-item text-EDUC" style="color:#000000 !important;" href="/EDUC"><span class="text-EDUC">EDUC</span> (Education)</a>
+		<a class="dropdown-item text-EVOP" style="color:#000000 !important;" href="/EVOP"><span class="text-EVOP">EVOP</span> (Population Dynamics & Evolution)</a>
+		<a class="dropdown-item text-IMMU" style="color:#000000 !important;" href="/IMMU"><span class="text-IMMU">IMMU</span> (Immunobiology and Infection)</a>
+		<a class="dropdown-item text-MEPI" style="color:#000000 !important;" href="/MEPI"><span class="text-MEPI">MEPI</span> (Mathematical Epidemiology)</a>
+		<a class="dropdown-item text-MFBM" style="color:#000000 !important;" href="/MFBM"><span class="text-MFBM">MFBM</span> (Methods for Biological Modeling)</a>
+		<a class="dropdown-item text-MMPB" style="color:#000000 !important;" href="/MMPB"><span class="text-MMPB">MMPB</span> (Multiscale Modeling in Physiology and Biophysics )</a>
+		<a class="dropdown-item text-NEUR" style="color:#000000 !important;" href="/NEUR"><span class="text-NEUR">NEUR</span> (Mathematical Neuroscience)</a>
+		<a class="dropdown-item text-ONCO" style="color:#000000 !important;" href="/ONCO"><span class="text-ONCO">ONCO</span> (Mathematical Oncology)</a>
+  </div>
+</li>
+<li class="nav-item">
+	<a class="nav-link" href="https://www.smb2021.org/">Return to SMB2021.org</a>
+</li>
+
+		    </ul>
+		    
+		  </div>
+	  </div>
+	</nav>
+	
+
+
+    
+
+    <!-- Search Results -->
+    <div id="lunrsearchresults">
+        <ul class="mb-0"></ul>
+    </div>
+
+    <!-- Content -->
+    <main role="main" class="site-content" style="margin-bottom: 300px;">
+        
+<div class="container">
+<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+		<div class="h-100 tofront">
+			<div class="row  justify-content-center ">
+				<div class=" col-md-8  pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+					<p class="text-uppercase font-weight-bold">
+              <span class="catlist">
+              	<span class="text-MEPI">MEPI-MS02</span>						
+              </span>
+					</p>
+					<h1 class="display-4 mb-4 article-headline">From Primate to Vectors to Humans: Understanding the underlying mechanisms of disease transmission and control</h1>
+					<h4>Monday, June 14 at 11:30am (PDT)</br>Monday, June 14 at 07:30pm (BST)</br>Tuesday, June 15 03:30am (KST)</h4>
+					<div class="d-flex align-items-center">
+                        
+                        <img class="rounded-circle" src="../assets/images/logo.jpg" alt="SMB2021" width="70"/>
+                        
+						<small class="ml-3"> SMB2021 <span><a target="_blank" href="https://twitter.com/smb2021" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
+              <span class="text-muted d-block mt-1">Monday (Tuesday) during the "MS02" time block.</span>
+						</small>
+						
+					</div>
+				</div>
+				
+					<small class="ml-3">Note: this minisymposia has multiple sessions. The second session is <strong>MS01-MEPI</strong> <a href="../MEPI/MEPI-MS01.html">(click here)</a>. 
+						
+						
+						
+					</small></br></br>
+				
+        
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<div class="container-lg pt-4 pb-4">
+	<div class="row justify-content-center">
+        
+        <!-- Share -->
+				<div class="col-lg-2 pr-4 mb-4 col-md-12">
+					<div class="sticky-top sticky-top-offset text-center">
+						<div class="text-muted">
+							Share this
+						</div>
+						<div class="share d-inline-block">
+							<!-- AddToAny BEGIN -->
+							<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+								<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+								<a class="a2a_button_facebook"></a>
+								<a class="a2a_button_twitter"></a>
+							</div>
+							<script async src="https://static.addtoany.com/menu/page.js"></script>
+							<!-- AddToAny END -->
+						</div>
+					</div>
+				</div>
+        
+        
+		<div class="col-md-12 col-lg-10">
+			
+			
+			<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem MEPI position-relative">
+		    <div class="pl-4 pr-0 h-100 tofront">
+		        <div class="row justify-content-between">
+		            <div class="col-md-12 pt-6 pb-6 pr-lg-4 align-self-center">
+		                <p><strong>Organizers:</strong></p>
+		                <h4 class="mb-3">Folashade Agusto (University of Kansas, United States), Majid Bani Yaghoub (University of Missouri Kansas City, United States)</h4>
+		                
+		                
+		                	<p><strong>Description</strong>:</p> 
+		                	<p>Infectious diseases are a leading cause of death worldwide, particularly in low-income countries, especially in young children. Infectious diseases are caused by different agents such as bacteria, viruses, fungi, protozoa, and helminths.  Some of these disease agents are transmitted through the bites of infected arthropods such as mosquitoes, ticks, and sandflies on human or primate, or simply transmitted in close quarters with an infected human. Mathematical models of infectious diseases have led to useful insight into the dynamics and control of diseases such has Zika, malaria, dengue, TB, HIV, and rabies, etc. Modeling of infectious diseases will therefore be of importance to the public health sector, and the economy. Although numerous mathematical models of infectious disease abound, deeper insight is required to understanding the dynamic nature of these diseases particularly the emerging and re-emerging diseases. It is, therefore, important to review and improve our understanding of the underlying modeling mechanisms and study approaches of these infectious diseases as well as their subsequent implications for disease control.</p>
+			              
+			              
+			              
+		            </div>             
+		        </div>
+		    </div>
+			</div>
+			</br>
+			</br>
+			
+			
+			
+			
+			
+						
+			
+			
+			
+			
+			
+	    	<h4 id="author1">Wandi Ding</h4>
+	    	 
+	    		<em> (Middle Tennessee State University, United States)</em>
+	    	
+	    	
+	    	
+	    		
+	    			<h6>"Mathematical modeling and optimal control for malaria transmission"</h6>
+	    		
+	    	
+	    	
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			We consider a malaria transmission model with SEIR (susceptible-exposed-infected-recovered) classes for the human population, SEI (susceptible-exposed-infected) classes for the wild mosquitoes and an additional class for sterile mosquitoes. We derive the basic reproduction number of infections. We formulate an optimal control problem in which the goal is to minimize both the infected human populations and the cost to implement two control strategies: the release of sterile mosquitoes and the usage of insecticide-treated nets to reduce the malaria transmission. Adjoint equations are derived and the characterization of the optimal controls is established. Finally, we quantify the effectiveness of the two interventions aimed at limiting the spread of Malaria. A combination of both strategies leads to a more rapid elimination of the wild mosquito population that can suppress Malaria transmission. Numerical simulations are provided to illustrate the results.
+		    		
+	    		</article>
+	    	
+				
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    	<h4 id="author2">Eric Numfor</h4>
+	    	 
+	    		<em> (Augusta University, United States)</em>
+	    	
+	    	
+	    		
+	    			<h6>"A malaria-HIV/AIDS co-infection model with treatment and insecticide-treated bednets"</h6>
+	    		
+	    	
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			Malaria and HIV, two of the world’s most deadly diseases, are endemic in several parts of the world, with overlapping distribution. The concurrent use of multiple strategies has been recommended as an effective strategy to reduce malaria and HIV prevalence. In this talk, we present a malaria-HIV/AIDS co-infection model with control in which malaria treatment, insecticide-treated bednets and HIV/AIDS treatment are incorporated. The local asymptotic stability of the disease-free equilibrium (DFE) of the malaria-only sub- model and co-infection model, and the global stability of the DFE of the HIV/AIDS-only sub-model are  studied. The existence of a backward bifurcation and endemic boundary equilibria are established. Key parameters in determining the number of new cases of malaria-HIV/AIDS co-infection are identified. The impact of malaria treatment, insecticide-treated bednets and HIV/AIDS treatment are assessed by formulating and analyzing an optimal control problem. Our results present the importance of HIV/AIDS treatment in mitigating malaria and HIV prevalence.
+		    		
+	    		</article>
+	    	
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    	<h4 id="author3">Adeshina I. Adekunle</h4>
+	    	 
+	    		<em> (James Cook University, Australia)</em>
+	    	
+	    	
+	    		
+	    			<h6>"Modeling drug-resistant tuberculosis amplification rates and intervention strategies in Bangladesh"</h6>
+	    		
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			Tuberculosis (TB) is the seventh leading cause of morbidity and mortality in Bangladesh. Although the National TB control program (NTP) of Bangladesh is implementing its nationwide TB control strategies, more specific and effective single or combination interventions are needed to control drug-susceptible (DS) and multi-drug resistant (MDR) TB. In this study, we extended our two-strain mathematical model with amplification to account for the latent stage. The mathematical epidemiological properties of this extension follow from our previous analysis. Hence, we fit different variants of the model to the Bangladesh TB data to understand the transmission dynamics of DS and MDR TB. We further performed sensitivity analysis and evaluated the cost-effectiveness of varying combinations of four basic control strategies including distancing, latent case finding, case holding and active case finding, all within the optimal control framework. From our fitting, the model with different transmission rates between DS and MDR TB best captured the Bangladesh TB reported case counts. The estimated basic reproduction number for DS TB was 1.14 and for MDR TB was 0.54, with an amplification rate of 0.011 per year. The sensitivity analysis also indicated that the transmission rates for both DS and MDR TB had the largest influence on prevalence. To reduce the burden of TB (both DS and MDR), our finding suggested that a quadruple control strategy that combines distancing control, latent case finding, case holding and active case finding is the most cost-effective. Alternative strategies can be adopted to curb TB depending on availability of resources and policy makers’ decisions.
+		    		
+	    		</article>
+	    	
+	    
+	    
+			</br>
+			</br>
+	    
+	    
+	    	<h4 id="author4">Hem Raj Joshi</h4>
+	    	 
+	    		<em> (Xavier University, United States)</em>
+	    	
+	    	
+	    		
+	    			<h6>"Modeling transmission dynamics of rabies in Nepal"</h6>
+	    		
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			We developed a mathematical model to describe the transmission dynamics of rabies in Nepal. In particular, this is an indirect interspecies transmission from jackals to humans through dogs, which is relevant to the context of Nepal. This indirect interspecies transmission dynamic is one of the novel features of our model. Our model utilizes annual dog-bite data collected from Nepal for a decade, allowing us to reasonably estimate parameters related to rabies transmission in Nepal. We calculated the basic reproduction number ($R_0$) as well as the intraspecies basic reproduction numbers for dogs ($R_0^D$) and jackals ($R_0^J$ ) in Nepal. We also applied the optimal control theory to identify an optimal control strategy for mitigating the rabies burden in Nepal. Our potential control strategies are human vaccination, dog vaccination, dog culling, dog sterilization, and jackal vaccination. We concluded that a combination of dog vaccination and dog culling is the most effective strategy to control rabies in Nepal. These results may be useful for designing effective prevention and control strategies for mitigating the rabies burden in Nepal and other parts of the world.
+		    		
+	    		</article>
+	    	
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    
+	      
+			<!-- Author Box -->
+      				
+			<div class="row mt-5">
+				<div class="col-md-2 align-self-center">
+                       
+                      <img class="rounded-circle" src="../assets/images/logo.jpg" alt="SMB2021" width="90"/>
+                       
+				</div>
+				<div class="col-md-10">		
+                      <h5 class="font-weight-bold">Hosted by SMB2021 <span><a target="_blank" href="https://twitter.com/smb2021" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span></h5>
+					Virtual conference of the Society for Mathematical Biology, 2021.					
+				</div>
+			</div>				
+      
+      
+      <!-- Comments -->
+      
+          <!--  Don't edit anything here. Set your disqus id in _config.yml -->
+
+<div id="comments" class="mt-5">
+    <div id="disqus_thread">
+    </div>
+    <script type="text/javascript">
+        var disqus_shortname = ''; 
+        var disqus_developer = 0;
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = window.location.protocol + '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>
+    Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
+</div>
+      
+            
+		</div>
+        
+        
+	</div>
+</div>
+
+
+
+    </main>
+
+
+    <!-- Scripts: popper, bootstrap, theme, lunr -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+    
+    
+			<script src="../assets/js/theme.js"></script>
+		
+    
+    <!-- All this area goes before </body> closing tag --> 
+
+
+</body>
+
+</html>

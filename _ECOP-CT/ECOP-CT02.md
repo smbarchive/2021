@@ -1,0 +1,25 @@
+---
+layout: group
+author: esmb
+day: "Monday (Tuesday)"
+subgroup: "ECOP"
+title: "ECOP Subgroup Contributed Talks"
+code: "CT02"
+permalink: /ECOP/ECOP-CT02.html
+author1: "William (Bill) Sherwin"
+inst1: "EERC, BEES. UNSW Sydney Australia"
+title1: "Can Bray-Curtis differentiation be meaningful in Molecular Ecology?"
+abstract1: "A popular measure of differentiation in biodiversity is the Bray Curtis index of dissimilarity.  It has recently also been proposed for use in molecular ecology.  However, this measure currently cannot be predicted under specified conditions of population size, dispersal and speciation or mutation.  Here I show forecasts for Bray-Curtis for two-variant systems such as single-nucleotide polymorphisms (SNPs) (or two species ecosystems).  These are derived from well-known equations for population genetics, and shown to be appropriate by simulation.  Thus, Bray-Curtis can now be used for assessment of differentiation, in order to understand natural or artificial processes, in addition to other measures such as Morisita-Horn/D_EST, G_ST and Shannon Mutual Information/Shannon Differentiation."
+author2: "Tanveen Kaur Randhawa"
+inst2: "Indian Institute of Science, Bangalore"
+title2: "Role of trait variation in the dynamics of savanna-forest bistable system"
+abstract2: "Over the last decade, several studies have discussed the importance of individual and trait variation in natural populations. However, trait variations are typically ignored in many theoretical studies of population dynamics, including those of bistable systems. In this talk, I present an analysis of a mean-field model of savanna-forest bistable dynamics -- modified from Staver and Levin, 2012, Am Nat to incorporate trait variation. Model parameters usually depend on trait values and distribution and are coupled to the state-variable in two ways: (i) as a coefficient to a state-variable or (ii) as a nonlinear function in which the trait variable and the state-variable cannot be separated as a product. Our model predicts that, in the first case, trait variation does not qualitatively affect the dynamics of the system, whereas, in the second case, it may change the dynamics. Within our model, we show that trait variation in the parameter sapling-to-adult recruitment rate affects bistability. We find that an increase in this trait variation shrinks the bistability region, or conversely, low trait variation allows the coexistence of the two stable states. Thus, we argue trait variation has important implications for the stability of ecosystems."
+author3: "Ryo Oizumi"
+inst3: "National Institute of Population and Social Security Research"
+title3: "Sensitivity Analysis of The Declining Population: Effects of Prefecture Specific Fertility and Interregional Migration"
+abstract3: " Interregional migration, as well as fertility and mortality, are essential ingredients of population dynamics. The general Leslie matrix is an essential tool in expressing a multi-regional population model and has been studied in demography since the 1970s. On the other hand, to study each eﬀect of matrix entries on the eigenvalue, sensitivity analysis has also developed in ecology since the same age. Those two methodologies associate with each other via the eigensystem of the matrix model. This study reconstructs the eigensystem in the general Leslie matrix model from the perspective of the statistics for interregional migration pathways over a generation. Using this reconstructed eigensystem, we provide the sensitivity analysis consisting of the statistics of the interregional pathways. As an application of our framework, we use the latest data in Japan's declining birthrate for more than 40 years and clarify the interregional migration and the regional fertility rate that most inﬂuence population decline."
+author4: "Nurdan Cabukoglu"
+inst4: "University of Wolverhampton"
+title4: "Kinesis movement impact on travelling waves"
+abstract4: "In this study, we aim to introduce new models of purposeful kinesis with diffusion coefficient dependent on fitness. New models include one additional parameter, intensity of kinesis, and may be considered as the minimal models of purposeful kinesis. It is demonstrated how kinesis could be beneficial for assimilation of patches of food or periodic fluctuations. Nevertheless, kinesis is not always beneficial in the long-term and spatially global perspective: for example, for species with the Allee effect it can delay invasion and spreading. We will also present the impact of purposeful kinesis on travelling waves. Both monotonic and non-monotonic (Allee effect) dependence of the reproduction coefficient on the population density will be presented. The possible benefits of the purposeful kinesis are demonstrated: with the higher diffusion, while the population without kinesis ends up with extinction, with kinesis stays alive and has the travelling wave behaviour. While the kinesis of the prey population is decreasing, the wave amplitude gets smaller. On the other hand, for the lower kinesis of predators, they have a sharp increase."
+---

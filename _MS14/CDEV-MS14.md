@@ -1,0 +1,27 @@
+---
+layout: group
+author: esmb
+day: "Wednesday (Thursday)"
+subgroup: "CDEV"
+title: "Combining modeling and inference in cell biology"
+organizers: "Maria-Veronica Ciocanel (Duke University, United States), John Nardini (North Carolina State University, United States)"
+description: "In many cell and developmental processes, both modeling and data analytic approaches are necessary in order to generate useful modeling predictions to guide the design of further experiments for both validating and improving biological insight. There is an increased understanding that the application of machine learning methods can also be used to enhance common data-driven modeling techniques, including parameter and equation inference, classification, and sensitivity analysis. The speakers in this session will discuss how continuous differential equation models, individual-based stochastic models, and methods from machine learning can be used to address questions related to mitosis, intracellular transport, cell migration, and tissue development. The speakers will highlight current research progress and challenges associated with combining modeling and inference approaches in cell and developmental biology."
+code: "MS14"
+code2: "MS13"
+author1: "Keisha Cook"
+inst1: " (Tulane University, United States)"
+title1: "Single Particle Tracking with applications to lysosome transport"
+abstract1: "Live cell imaging and single particle tracking techniques have become increasingly popular amongst the mathematical biology community. We study endocytosis, the cellular internalization and transport of bioparticles. This transport is carried out in membrane-bound vesicles through the use of motor proteins. Lysosomes, known for endocytosis, phagocytic destruction, and autophagy, move about the cell along microtubules. Single particle tracking methods utilize stochastic models to simulate intracellular transport and give rise to rigorous analysis of the resulting properties, specifically related to transitioning between inactive to active states. This confidence in the stochastic modeling of particle tracking is useful not only for particle-containing lysosomes, but also broad questions of cellular transport studied with single particle tracking."
+author2: "Christopher Miles"
+inst2: " (New York University, United States)"
+title2: "Stochastic organization of the mitotic spindle from spatiotemporal trajectories"
+abstract2: "For cells to divide, they must undergo mitosis: the process of spatially organizing their copied DNA (chromosomes) to precise locations in the cell. Stochastically driven, this task is accomplished with mysterious speed and accuracy. Our collaborators in the New York State Dept of Health have recently obtained 3D spatial trajectories of every chromosome in a cell during mitosis. Can these trajectories tell us anything about the mechanisms driving them? Fundamental goals of data science (e.g., classification, inference) are challenging here due to the structure and context of this cutting-edge data. I will discuss progress on developing analysis for this data and efforts to model the emerging phenomena."
+author3: "Ruth Baker"
+inst3: " (University of Oxford, United Kingdom)"
+title3: "Quantifying the impact of electric fields on single-cell motility"
+abstract3: "Electrotaxis is attracting much interest and development as a technique to control cell migration due to the precision of electric fields as actuation signals. However, precise control of electrotactic migration relies on an accurate model of how cell motility changes in response to applied electric fields. We present and calibrate a parametrised stochastic model that accurately replicates experimental single-cell data and enables the prediction of input–output behaviour while quantifying uncertainty and stochasticity. The model allows us to elucidate and quantify how electric fields perturb the motile behaviour of the cell, and to make predictions about cellular motility under different electric fields."
+author4: "Carter Jameson"
+inst4: " (North Carolina State University, United States)"
+title4: "Parameterizing agent based models of collective cell migration using topological information"
+abstract4: "Agent-based models (ABMs) are valuable tools for investigating how rules that govern individual cell behavior affect collective population level migration. ABMs have been used to determine many key features of cell interactions during collective cell migration experiments, including how cells migrate and proliferate and the effects of pushing and pulling between cells. However, to the best of our knowledge, there do not currently exist ABMs of mesenchymal cell migration that have been parameterized with data using rigorous statistical methodology. A primary main reason for the lack of validated models is that current approaches to ABM parameter inference are computationally burdensome or may lead to inaccurate estimates. We developed a novel framework for parameter estimation of ABMs using topological data analysis (TDA). To validate this new approach, we simulated point-cloud datasets using a stochastic variant of the agent-based D’Orsogna model of interactive particle motion. We compared this framework, which relies on least-squares inference and Nelder-Mead direct search optimization on summaries of the topology, to least-squares inference on the particle density. We found that it was feasible to recover model parameters from either deterministic and stochastic variants of the D’Orsogna model."
+---

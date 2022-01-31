@@ -1,0 +1,100 @@
+{% assign hoursToSec=0 %}
+{% assign minutesToSec=0 %}
+
+{% if include.hoursToAdd %}
+    {% assign hoursToSec = include.hoursToAdd | times: 3600 %}
+{% else %}
+    {% assign hoursToSec = 0 %}
+{% endif %}
+
+{% if include.minutesToAdd %}
+    {% assign minutesToSec = include.minutesToAdd | times: 60 %}
+{% else %}
+    {% assign minutesToSec = 0 %}
+{% endif %}
+
+{% assign myOffset = hoursToSec | plus: minutesToSec}
+
+<!-- assign a +1 day indicator for each time zone -->
+{% assign plusDay1 = ""}
+{% assign plusDay2 = ""}
+{% assign plusDay3 = ""}
+
+
+<!-- Time Zone 1 -->
+{% assign class1 = "early-late" %}
+{% if myOffset >= 4500 %}
+	{% if myOffset < 34200 %}
+		{% assign class1 = "awake" %}
+	{% else %}
+		{% if myOffset < 54000 %}
+			{% assign class1 = "early-late" %}
+		{% else %}
+			{% assign class1 = "asleep" %}
+		{% endif %}
+	{% endif %}
+{% else %}
+	{% assign class1 = "early-late" %}
+{% endif %}
+
+{% if myOffset >= 58500 %}
+	{% assign plusDay1 = "(next day)" %}
+{% endif %}
+
+<!-- Time Zone 2 -->
+{% assign class2 = "awake" %}
+{% if myOffset < 8100 %}
+	{% assign class2 = "awake" %}
+{% else %}
+	{% if myOffset < 29700 %}
+		{% assign class2 = "early-late" %}
+	{% else %}
+		{% if myOffset < 58500 %} 
+			{% assign class2 = "asleep" %}
+		{% else %}
+			{% if myOffset < 65700 %} 
+				{% assign class2 = "early-late" %}
+			{% else %}
+				{% assign class2 = "awake" %}
+			{% endif %}
+		{% endif %}
+	{% endif %}
+{% endif %}
+
+
+
+{% if myOffset >= 30500 %}
+	{% assign plusDay2 = "(next day)" %}
+{% endif %}
+
+
+<!-- Time Zone 3 -->
+{% assign class3 = "asleep" %}
+{% if myOffset < 26100 %}
+	{% assign class3 = "asleep" %}
+{% else %}
+	{% if myOffset < 33300 %}
+		{% assign class3 = "early-late" %}
+	{% else %}
+		{% if myOffset < 62100 %}
+			{% assign class3 = "awake" %}
+		{% else %}
+			{% assign class3 = "early-late" %}
+		{% endif %}
+	{% endif %}
+{% endif %}
+
+{% if myOffset >= 0 %}
+	{% assign plusDay3 = "(next day)" %}
+{% endif %}
+
+<td class="default-cols {{class1}}" align="center">
+	{{  page.date1 | date: "%s" | plus: hoursToSec | plus: minutesToSec | date: "%I:%M%P"}}
+	</br>{{plusDay1}}
+</td>
+<td class="default-cols {{class2}}" align="center">
+	{{  page.date2 | date: "%s" | plus: hoursToSec | plus: minutesToSec | date: "%I:%M%P"}}
+	</br>{{plusDay2}}</td>
+<td class="default-cols {{class3}}" align="center">
+	{{  page.date3 | date: "%s" | plus: hoursToSec | plus: minutesToSec | date: "%I:%M%P"}}
+	</br>{{plusDay3}}</td>

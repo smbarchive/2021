@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Multiscale simulations of biological fluid dynamics | SMB 2021</title>
+
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Multiscale simulations of biological fluid dynamics | SMB 2021</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Multiscale simulations of biological fluid dynamics" />
+<meta name="author" content="esmb" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Biological fluid dynamics encompass a wide range of scales, from the organism to subcellular levels. The role of fluid dynamics in tissue, organ, and organism scales are of particular interest due to their providing high-level understanding of organism movement and physiology. These scales often involve solving systems of linear and non-linear partial-differential equations. Further, these biological applications typically involve complicated boundary conditions where the fluid interacts with an elastic or rigid moving structure, making these problems mathematically challenging. This has led to the development of advanced numerical methods to gain insight into these interesting problems. In this minisymposium, we present what occurs at the tissue and organ scale where there are many interesting and valuable physiological applications where the role of biological fluid dynamics is significant. For instance, modeling different components of the circulatory system can require fluid dynamics at the organ scale, heart, or at the tissue scale, blood vessel, depending on the problem being investigated. Further we will also discuss the fluid dynamics at the organism scale, specifically fluid flows around sessile and motile marine organisms. These applications can provide insight into open questions relating to marine ecology, engineering problems, and mixing dynamics." />
+<meta property="og:description" content="Biological fluid dynamics encompass a wide range of scales, from the organism to subcellular levels. The role of fluid dynamics in tissue, organ, and organism scales are of particular interest due to their providing high-level understanding of organism movement and physiology. These scales often involve solving systems of linear and non-linear partial-differential equations. Further, these biological applications typically involve complicated boundary conditions where the fluid interacts with an elastic or rigid moving structure, making these problems mathematically challenging. This has led to the development of advanced numerical methods to gain insight into these interesting problems. In this minisymposium, we present what occurs at the tissue and organ scale where there are many interesting and valuable physiological applications where the role of biological fluid dynamics is significant. For instance, modeling different components of the circulatory system can require fluid dynamics at the organ scale, heart, or at the tissue scale, blood vessel, depending on the problem being investigated. Further we will also discuss the fluid dynamics at the organism scale, specifically fluid flows around sessile and motile marine organisms. These applications can provide insight into open questions relating to marine ecology, engineering problems, and mixing dynamics." />
+<link rel="canonical" href="http://localhost:4000/MS08/MMPB-MS08.html" />
+<meta property="og:url" content="http://localhost:4000/MS08/MMPB-MS08.html" />
+<meta property="og:site_name" content="SMB 2021" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-06-17T15:54:54-04:00" />
+<script type="application/ld+json">
+{"description":"Biological fluid dynamics encompass a wide range of scales, from the organism to subcellular levels. The role of fluid dynamics in tissue, organ, and organism scales are of particular interest due to their providing high-level understanding of organism movement and physiology. These scales often involve solving systems of linear and non-linear partial-differential equations. Further, these biological applications typically involve complicated boundary conditions where the fluid interacts with an elastic or rigid moving structure, making these problems mathematically challenging. This has led to the development of advanced numerical methods to gain insight into these interesting problems. In this minisymposium, we present what occurs at the tissue and organ scale where there are many interesting and valuable physiological applications where the role of biological fluid dynamics is significant. For instance, modeling different components of the circulatory system can require fluid dynamics at the organ scale, heart, or at the tissue scale, blood vessel, depending on the problem being investigated. Further we will also discuss the fluid dynamics at the organism scale, specifically fluid flows around sessile and motile marine organisms. These applications can provide insight into open questions relating to marine ecology, engineering problems, and mixing dynamics.","author":{"@type":"Person","name":"esmb"},"@type":"BlogPosting","url":"http://localhost:4000/MS08/MMPB-MS08.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"esmb"},"headline":"Multiscale simulations of biological fluid dynamics","dateModified":"2021-06-17T15:54:54-04:00","datePublished":"2021-06-17T15:54:54-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/MS08/MMPB-MS08.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
+
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+
+		<!-- Twitter card validator -->
+		<meta name="twitter:card" content="summary_large_image">
+	  <meta name="twitter:site" content="@smb2021">
+		<meta name="twitter:creator" content="@smb2021">
+		<meta name="twitter:title" content="Multiscale simulations of biological fluid dynamics">
+		<meta name="twitter:description" content="The Society for Mathematical Biology annual meeting - 2021.">
+		<meta name="twitter:image" content="http://schedule.smb2021.org/assets/images/twitter.png">
+		
+		<meta name="title" content="Multiscale simulations of biological fluid dynamics" />
+		<meta name="description" content="The Society for Mathematical Biology annual meeting - 2021." />
+		<meta property="og:title" content="Multiscale simulations of biological fluid dynamics" />
+		<meta property="og:description" content="The Society for Mathematical Biology annual meeting - 2021." />
+		<meta property="og:image" content="http://schedule.smb2021.org/assets/images/twitter.png"/>
+
+
+
+    
+
+
+    
+
+		<!-- Bootstrap Modified -->
+		
+			<link rel="stylesheet" href="../assets/css/main.css">
+		
+		
+		<!-- Theme Stylesheet -->
+		
+			<link rel="stylesheet" href="../assets/css/theme.css">
+		
+		
+		<!-- Custom Themes Stylesheet -->
+		
+			<link rel="stylesheet" href="../assets/css/custom.css">
+		
+
+
+
+    <!-- Jquery on header to make sure everything works, the rest  of the scripts in footer for fast loading -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    
+    <script src="/assets/js/custom.js"></script>
+
+
+</head>
+
+<body class="">
+  
+	<nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+	  <div class="container">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		
+		  <div class="collapse navbar-collapse" id="navbarColor02">
+		    <ul class="navbar-nav mr-auto d-flex align-items-center">
+			    <li class="nav-item"> <img src="/assets/images/logo.png" width="65" alt="" class="d-inline-block align-middle mr-2"> </li>
+					<a class="navbar-brand" href="/"><strong>SMB 2021</strong></a>
+		      <!--  Replace menu links here -->
+
+<!-- <li class="nav-item"> <img src="/assets/images/logo.jpg" width="45" alt="" class="d-inline-block align-middle mr-2"> </li> -->
+<!-- <a class="navbar-brand" href="/"><strong>SMB 2021</strong></a> -->
+
+<li class="nav-item"><a class="nav-link" id="strong-nav" href="/">Home</a></li>
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Schedule
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item" style="color:#000000 !important;" href="/">Overview</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/your-smb2021">Plan Your SMB2021</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/pre-conference">Pre-conference</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/americas">Americas</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/europe-africa">Europe/Africa</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/asia-oceania">Asia/Oceania</a>
+		
+  </div>
+</li>
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Search by Name
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item" style="color:#000000 !important;" href="/contributed-speakers">Contributed Talks</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/minisymposia-speakers">Minisymposia</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/plenary">Plenary</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/posters">Posters</a>
+  </div>
+</li>
+
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Subgroup / Theme
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item text-CBBS" style="color:#000000 !important;" href="/CBBS"><span class="text-CBBS">CBBS</span> (Complex Biological and Biomedical Systems)</a>
+		<a class="dropdown-item text-CDEV" style="color:#000000 !important;" href="/CDEV"><span class="text-CDEV">CDEV</span> (Cell and Developmental Biology)</a>
+		<a class="dropdown-item text-DDMB" style="color:#000000 !important;" href="/DDMB"><span class="text-DDMB">DDMB</span> (Data Driven Modeling in Biology)</a>
+		<a class="dropdown-item text-DEI" style="color:#000000 !important;" href="/DEI"><span class="text-DEI">DEI</span> (Diversity, Equity, and Inclusion)</a>
+		<a class="dropdown-item text-ECOP" style="color:#000000 !important;" href="/ECOP"><span class="text-ECOP">ECOP</span> (Population Dynamics & Ecology)</a>
+		<a class="dropdown-item text-EDUC" style="color:#000000 !important;" href="/EDUC"><span class="text-EDUC">EDUC</span> (Education)</a>
+		<a class="dropdown-item text-EVOP" style="color:#000000 !important;" href="/EVOP"><span class="text-EVOP">EVOP</span> (Population Dynamics & Evolution)</a>
+		<a class="dropdown-item text-IMMU" style="color:#000000 !important;" href="/IMMU"><span class="text-IMMU">IMMU</span> (Immunobiology and Infection)</a>
+		<a class="dropdown-item text-MEPI" style="color:#000000 !important;" href="/MEPI"><span class="text-MEPI">MEPI</span> (Mathematical Epidemiology)</a>
+		<a class="dropdown-item text-MFBM" style="color:#000000 !important;" href="/MFBM"><span class="text-MFBM">MFBM</span> (Methods for Biological Modeling)</a>
+		<a class="dropdown-item text-MMPB" style="color:#000000 !important;" href="/MMPB"><span class="text-MMPB">MMPB</span> (Multiscale Modeling in Physiology and Biophysics )</a>
+		<a class="dropdown-item text-NEUR" style="color:#000000 !important;" href="/NEUR"><span class="text-NEUR">NEUR</span> (Mathematical Neuroscience)</a>
+		<a class="dropdown-item text-ONCO" style="color:#000000 !important;" href="/ONCO"><span class="text-ONCO">ONCO</span> (Mathematical Oncology)</a>
+  </div>
+</li>
+<li class="nav-item">
+	<a class="nav-link" href="https://www.smb2021.org/">Return to SMB2021.org</a>
+</li>
+
+		    </ul>
+		    
+		  </div>
+	  </div>
+	</nav>
+	
+
+
+    
+
+    <!-- Search Results -->
+    <div id="lunrsearchresults">
+        <ul class="mb-0"></ul>
+    </div>
+
+    <!-- Content -->
+    <main role="main" class="site-content" style="margin-bottom: 300px;">
+        
+<div class="container">
+<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+		<div class="h-100 tofront">
+			<div class="row  justify-content-center ">
+				<div class=" col-md-8  pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+					<p class="text-uppercase font-weight-bold">
+              <span class="catlist">
+              	<span class="text-MMPB">MMPB-MS08</span>						
+              </span>
+					</p>
+					<h1 class="display-4 mb-4 article-headline">Multiscale simulations of biological fluid dynamics</h1>
+					<h4>Tuesday, June 15 at 11:30am (PDT)</br>Tuesday, June 15 at 07:30pm (BST)</br>Wednesday, June 16 03:30am (KST)</h4>
+					<div class="d-flex align-items-center">
+                        
+                        <img class="rounded-circle" src="../assets/images/logo.jpg" alt="SMB2021" width="70"/>
+                        
+						<small class="ml-3"> SMB2021 <span><a target="_blank" href="https://twitter.com/smb2021" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
+              <span class="text-muted d-block mt-1">Tuesday (Wednesday) during the "MS08" time block.</span>
+						</small>
+						
+					</div>
+				</div>
+				
+					<small class="ml-3">Note: this minisymposia has multiple sessions. The second session is <strong>MS09-MMPB</strong> <a href="../MMPB/MMPB-MS09.html">(click here)</a>. 
+						
+						
+						
+					</small></br></br>
+				
+        
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<div class="container-lg pt-4 pb-4">
+	<div class="row justify-content-center">
+        
+        <!-- Share -->
+				<div class="col-lg-2 pr-4 mb-4 col-md-12">
+					<div class="sticky-top sticky-top-offset text-center">
+						<div class="text-muted">
+							Share this
+						</div>
+						<div class="share d-inline-block">
+							<!-- AddToAny BEGIN -->
+							<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+								<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+								<a class="a2a_button_facebook"></a>
+								<a class="a2a_button_twitter"></a>
+							</div>
+							<script async src="https://static.addtoany.com/menu/page.js"></script>
+							<!-- AddToAny END -->
+						</div>
+					</div>
+				</div>
+        
+        
+		<div class="col-md-12 col-lg-10">
+			
+			
+			<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem MMPB position-relative">
+		    <div class="pl-4 pr-0 h-100 tofront">
+		        <div class="row justify-content-between">
+		            <div class="col-md-12 pt-6 pb-6 pr-lg-4 align-self-center">
+		                <p><strong>Organizers:</strong></p>
+		                <h4 class="mb-3">Matea Santiago (University of California, Merced, United States), Shilpa Khatri (University of California, Merced, United States)</h4>
+		                
+		                
+		                	<p><strong>Description</strong>:</p> 
+		                	<p>Biological fluid dynamics encompass a wide range of scales, from the organism to subcellular levels. The role of fluid dynamics in tissue, organ, and organism scales are of particular interest due to their providing high-level understanding of organism movement and physiology. These scales often involve solving systems of linear and non-linear partial-differential equations. Further, these biological applications typically involve complicated boundary conditions where the fluid interacts with an elastic or rigid moving structure, making these problems mathematically challenging. This has led to the development of advanced numerical methods to gain insight into these interesting problems. In this minisymposium, we present what occurs at the tissue and organ scale where there are many interesting and valuable physiological applications where the role of biological fluid dynamics is significant. For instance, modeling different components of the circulatory system can require fluid dynamics at the organ scale, heart, or at the tissue scale, blood vessel, depending on the problem being investigated. Further we will also discuss the fluid dynamics at the organism scale, specifically fluid flows around sessile and motile marine organisms. These applications can provide insight into open questions relating to marine ecology, engineering problems, and mixing dynamics.</p>
+			              
+			              
+			              
+		            </div>             
+		        </div>
+		    </div>
+			</div>
+			</br>
+			</br>
+			
+			
+			
+			
+			
+						
+			
+			
+			
+			
+			
+	    	<h4 id="author1">Christiana Mavroyiakoumou</h4>
+	    	 
+	    		<em> (University of Michigan, United States)</em>
+	    	
+	    	
+	    	
+	    		
+	    			<h6>"Large amplitude flutter of membranes"</h6>
+	    		
+	    	
+	    	
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			We study the dynamics of thin membranes---extensible sheets with negligible bending stiffness---initially aligned with a uniform inviscid background flow. This is a benchmark fluid-structure interaction that has previously been studied mainly in the small-deflection limit, where the flat state may be unstable. Related work includes the shape-morphing of airfoils and bat wings. We study the initial instability and large-amplitude dynamics with respect to three key parameters: membrane mass density, stretching rigidity, and pretension. When both membrane ends are fixed, the membranes become unstable by a divergence instability and converge to steady deflected shapes. With the leading edge fixed and trailing edge free, divergence and/or flutter occurs, and a variety of periodic and aperiodic oscillations are found. With both edges free, the membrane may also translate transverse to the flow, with steady, periodic, or aperiodic trajectories.
+		    		
+	    		</article>
+	    	
+				
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    	<h4 id="author2">Alyssa Taylor</h4>
+	    	 
+	    		<em> (North Carolina State University, United States)</em>
+	    	
+	    	
+	    		
+	    			<h6>"Fluid dynamics in hypoplastic left heart syndrome patients in supine and upright positions"</h6>
+	    		
+	    	
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			Patients with hypoplastic left heart syndrome (HLHS) have an underdeveloped left heart, leaving them with a single functioning ventricle.  Their treatment involves a series of surgeries that create a univentricular (Fontan) circulation and includes a reconstructed aorta.  While patients typically survive into adulthood, most experienced cardiovascular problems, including reduced cardiac output. Current clinical assessments are derived from 4D MRI images that quantify 3D flow patterns in the aorta.  However, this data does not provide information about energy loss, wave intensity, or cerebral perfusion. This study uses a 1D arterial network model for the Fontan circulation to compute quantities of clinical interest in patients with HLHS.  To investigate the effects of vascular reconstruction on perfusion, model predictions will be compared to a single ventricle control patient with a double outlet right ventricle (DORV) and native aorta.  Outputs include pressure and flow predictions in vessels of the systemic system for patients at supine rest and upright exercise.
+		    		
+	    		</article>
+	    	
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    	<h4 id="author3">Christina Hamlet</h4>
+	    	 
+	    		<em> (Bucknell University, Department of Mathematics, United States)</em>
+	    	
+	    	
+	    		
+	    			<h6>"Modeling the small-scale ballistics and fluid dynamics of nematocyst firing"</h6>
+	    		
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			We model the fluid dynamics of nematocyst (stinging cell) firing to shed light on the importance of Reynolds number transitions due to ultrafast accelerations and boundary layer interactions in successful ballistic strategies on the microscale. Nematocyst firing is the fastest-known accelerating mechanism in the natural world and occurs on microscales. In this study, we combine mathematical modeling and computational fluid dynamics to simulate the fluid-structure interactions of an accelerating nematocyst stylus and its target prey coupled to viscous, incompressible fluid. 2D models of a fast-accelerating projectile and a passive target were modeled in an immersed boundary framework. In this presentation, results and insights into the effects of boundary layer interactions on predator-prey dynamics are analyzed and discussed.
+		    		
+	    		</article>
+	    	
+	    
+	    
+			</br>
+			</br>
+	    
+	    
+	    	<h4 id="author4">Ebrahim Kolahdouz</h4>
+	    	 
+	    		<em> (University of North Carolina at Chapel Hill, United States)</em>
+	    	
+	    	
+	    		
+	    			<h6>"Migration and trapping of deformable blood clots using a sharp interface Lagrangian"</h6>
+	    		
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			Understanding the transport dynamics and fluid-structure interaction (FSI) of flexible blood clots in the venous vasculature is critical to predicting the performance of embolic protection devices like inferior vena cava (IVC) blood clot filters. IVC filters are metallic medical devices that are implanted in the IVC, a large vein in the abdomen through which blood returns to the heart from the lower extremities, to capture clots before they can migrate to the lungs and cause a potentially fatal pulmonary embolism. In this work, I introduce a FSI framework to simulate the migration and trapping of blood clots in the IVC, which is especially challenging due to the relatively large size of the clots that affects the local fluid dynamics, the large nonlinear deformations that are generated, and the occurrence of contact between the clots, the vein wall, and the implanted device. The proposed sharp interface immersed Lagrangian-Eulerian (ILE) method combines a partitioned approach to FSI with an immersed coupling strategy. Like other partitioned formulations, the ILE approach uses distinct momentum equations for the fluid and solid regions. Unlike body-fitted arbitrary Lagrangian-Eulerian methods, our approach uses a non-conforming discretization of the dynamic fluid-structure interface that is “immersed” in the surrounding fluid and does not require any grid regeneration or mesh morphing to treat large structural deformations. Blood is modeled as a Newtonian fluid and the blood clot is modeled with a non-linear finite element model and nearly incompressible hyperelastic material behavior. Fluid-structure interaction is mediated by a coupling approach that uses the immersed interface method that accounts for both dynamic and kinematic coupling conditions between the fluid and structure. A penalty approach is used to relax the kinematic constraint. Specifically, the penalty formulation uses two representations of the fluid structure interface, including a thin surface mesh and a bulk volumetric mesh, that are connected by forces that impose kinematic and dynamic interface conditions. The dynamics of the volumetric mesh are driven by the accurate exterior fluid traction obtained from the sharp interface approach. Simulation of clot transport and IVC filter trapping are presented. Verification and validation of the simulations is underway and will be performed by comparing with in vitro experimental measurements.
+		    		
+	    		</article>
+	    	
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    
+	      
+			<!-- Author Box -->
+      				
+			<div class="row mt-5">
+				<div class="col-md-2 align-self-center">
+                       
+                      <img class="rounded-circle" src="../assets/images/logo.jpg" alt="SMB2021" width="90"/>
+                       
+				</div>
+				<div class="col-md-10">		
+                      <h5 class="font-weight-bold">Hosted by SMB2021 <span><a target="_blank" href="https://twitter.com/smb2021" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span></h5>
+					Virtual conference of the Society for Mathematical Biology, 2021.					
+				</div>
+			</div>				
+      
+      
+      <!-- Comments -->
+      
+          <!--  Don't edit anything here. Set your disqus id in _config.yml -->
+
+<div id="comments" class="mt-5">
+    <div id="disqus_thread">
+    </div>
+    <script type="text/javascript">
+        var disqus_shortname = ''; 
+        var disqus_developer = 0;
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = window.location.protocol + '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>
+    Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
+</div>
+      
+            
+		</div>
+        
+        
+	</div>
+</div>
+
+
+
+    </main>
+
+
+    <!-- Scripts: popper, bootstrap, theme, lunr -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+    
+    
+			<script src="../assets/js/theme.js"></script>
+		
+    
+    <!-- All this area goes before </body> closing tag --> 
+
+
+</body>
+
+</html>

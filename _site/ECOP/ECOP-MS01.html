@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mathematical modeling of gene drives | SMB 2021</title>
+
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Mathematical modeling of gene drives | SMB 2021</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Mathematical modeling of gene drives" />
+<meta name="author" content="esmb" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="The emergence of gene drives – engineered genetic constructs that violate Mendelian inheritance – has generated much excitement for its potential application in suppression of disease vectors and invasive species, but it has also raised serious concerns of resistance evolution and spillover to non-target populations or species. Due to the risks involved in gene drive technology, gene drives have yet to be tested in the field. Consequently, mathematical models are the primary approach in which the behaviors of gene drives are currently studied. Building on earlier modeling work of segregation distortion and meiotic drives, divers modeling approaches have been developed in recent years aimed at investigating dynamics of gene drives, under different conditions and from various perspectives. In this mini-symposium, we will explore the history and the current state of mathematical gene drive models. In this pivotal moment, as gene drive technology nears the point of transition from the lab to the field, we will consider how novel modeling perspectives can shed light on key aspects of gene drive dynamics, and how gene drive deployment can be made safer and more efficient." />
+<meta property="og:description" content="The emergence of gene drives – engineered genetic constructs that violate Mendelian inheritance – has generated much excitement for its potential application in suppression of disease vectors and invasive species, but it has also raised serious concerns of resistance evolution and spillover to non-target populations or species. Due to the risks involved in gene drive technology, gene drives have yet to be tested in the field. Consequently, mathematical models are the primary approach in which the behaviors of gene drives are currently studied. Building on earlier modeling work of segregation distortion and meiotic drives, divers modeling approaches have been developed in recent years aimed at investigating dynamics of gene drives, under different conditions and from various perspectives. In this mini-symposium, we will explore the history and the current state of mathematical gene drive models. In this pivotal moment, as gene drive technology nears the point of transition from the lab to the field, we will consider how novel modeling perspectives can shed light on key aspects of gene drive dynamics, and how gene drive deployment can be made safer and more efficient." />
+<link rel="canonical" href="http://localhost:4000/ECOP/ECOP-MS01.html" />
+<meta property="og:url" content="http://localhost:4000/ECOP/ECOP-MS01.html" />
+<meta property="og:site_name" content="SMB 2021" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-06-17T15:54:54-04:00" />
+<script type="application/ld+json">
+{"description":"The emergence of gene drives – engineered genetic constructs that violate Mendelian inheritance – has generated much excitement for its potential application in suppression of disease vectors and invasive species, but it has also raised serious concerns of resistance evolution and spillover to non-target populations or species. Due to the risks involved in gene drive technology, gene drives have yet to be tested in the field. Consequently, mathematical models are the primary approach in which the behaviors of gene drives are currently studied. Building on earlier modeling work of segregation distortion and meiotic drives, divers modeling approaches have been developed in recent years aimed at investigating dynamics of gene drives, under different conditions and from various perspectives. In this mini-symposium, we will explore the history and the current state of mathematical gene drive models. In this pivotal moment, as gene drive technology nears the point of transition from the lab to the field, we will consider how novel modeling perspectives can shed light on key aspects of gene drive dynamics, and how gene drive deployment can be made safer and more efficient.","author":{"@type":"Person","name":"esmb"},"@type":"BlogPosting","url":"http://localhost:4000/ECOP/ECOP-MS01.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"esmb"},"headline":"Mathematical modeling of gene drives","dateModified":"2021-06-17T15:54:54-04:00","datePublished":"2021-06-17T15:54:54-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/ECOP/ECOP-MS01.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
+
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+
+		<!-- Twitter card validator -->
+		<meta name="twitter:card" content="summary_large_image">
+	  <meta name="twitter:site" content="@smb2021">
+		<meta name="twitter:creator" content="@smb2021">
+		<meta name="twitter:title" content="Mathematical modeling of gene drives">
+		<meta name="twitter:description" content="The Society for Mathematical Biology annual meeting - 2021.">
+		<meta name="twitter:image" content="http://schedule.smb2021.org/assets/images/twitter.png">
+		
+		<meta name="title" content="Mathematical modeling of gene drives" />
+		<meta name="description" content="The Society for Mathematical Biology annual meeting - 2021." />
+		<meta property="og:title" content="Mathematical modeling of gene drives" />
+		<meta property="og:description" content="The Society for Mathematical Biology annual meeting - 2021." />
+		<meta property="og:image" content="http://schedule.smb2021.org/assets/images/twitter.png"/>
+
+
+
+    
+
+
+    
+
+		<!-- Bootstrap Modified -->
+		
+			<link rel="stylesheet" href="../assets/css/main.css">
+		
+		
+		<!-- Theme Stylesheet -->
+		
+			<link rel="stylesheet" href="../assets/css/theme.css">
+		
+		
+		<!-- Custom Themes Stylesheet -->
+		
+			<link rel="stylesheet" href="../assets/css/custom.css">
+		
+
+
+
+    <!-- Jquery on header to make sure everything works, the rest  of the scripts in footer for fast loading -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    
+    <script src="/assets/js/custom.js"></script>
+
+
+</head>
+
+<body class="">
+  
+	<nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+	  <div class="container">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		
+		  <div class="collapse navbar-collapse" id="navbarColor02">
+		    <ul class="navbar-nav mr-auto d-flex align-items-center">
+			    <li class="nav-item"> <img src="/assets/images/logo.png" width="65" alt="" class="d-inline-block align-middle mr-2"> </li>
+					<a class="navbar-brand" href="/"><strong>SMB 2021</strong></a>
+		      <!--  Replace menu links here -->
+
+<!-- <li class="nav-item"> <img src="/assets/images/logo.jpg" width="45" alt="" class="d-inline-block align-middle mr-2"> </li> -->
+<!-- <a class="navbar-brand" href="/"><strong>SMB 2021</strong></a> -->
+
+<li class="nav-item"><a class="nav-link" id="strong-nav" href="/">Home</a></li>
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Schedule
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item" style="color:#000000 !important;" href="/">Overview</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/your-smb2021">Plan Your SMB2021</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/pre-conference">Pre-conference</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/americas">Americas</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/europe-africa">Europe/Africa</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/asia-oceania">Asia/Oceania</a>
+		
+  </div>
+</li>
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Search by Name
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item" style="color:#000000 !important;" href="/contributed-speakers">Contributed Talks</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/minisymposia-speakers">Minisymposia</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/plenary">Plenary</a>
+		<a class="dropdown-item" style="color:#000000 !important;" href="/posters">Posters</a>
+  </div>
+</li>
+
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Subgroup / Theme
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item text-CBBS" style="color:#000000 !important;" href="/CBBS"><span class="text-CBBS">CBBS</span> (Complex Biological and Biomedical Systems)</a>
+		<a class="dropdown-item text-CDEV" style="color:#000000 !important;" href="/CDEV"><span class="text-CDEV">CDEV</span> (Cell and Developmental Biology)</a>
+		<a class="dropdown-item text-DDMB" style="color:#000000 !important;" href="/DDMB"><span class="text-DDMB">DDMB</span> (Data Driven Modeling in Biology)</a>
+		<a class="dropdown-item text-DEI" style="color:#000000 !important;" href="/DEI"><span class="text-DEI">DEI</span> (Diversity, Equity, and Inclusion)</a>
+		<a class="dropdown-item text-ECOP" style="color:#000000 !important;" href="/ECOP"><span class="text-ECOP">ECOP</span> (Population Dynamics & Ecology)</a>
+		<a class="dropdown-item text-EDUC" style="color:#000000 !important;" href="/EDUC"><span class="text-EDUC">EDUC</span> (Education)</a>
+		<a class="dropdown-item text-EVOP" style="color:#000000 !important;" href="/EVOP"><span class="text-EVOP">EVOP</span> (Population Dynamics & Evolution)</a>
+		<a class="dropdown-item text-IMMU" style="color:#000000 !important;" href="/IMMU"><span class="text-IMMU">IMMU</span> (Immunobiology and Infection)</a>
+		<a class="dropdown-item text-MEPI" style="color:#000000 !important;" href="/MEPI"><span class="text-MEPI">MEPI</span> (Mathematical Epidemiology)</a>
+		<a class="dropdown-item text-MFBM" style="color:#000000 !important;" href="/MFBM"><span class="text-MFBM">MFBM</span> (Methods for Biological Modeling)</a>
+		<a class="dropdown-item text-MMPB" style="color:#000000 !important;" href="/MMPB"><span class="text-MMPB">MMPB</span> (Multiscale Modeling in Physiology and Biophysics )</a>
+		<a class="dropdown-item text-NEUR" style="color:#000000 !important;" href="/NEUR"><span class="text-NEUR">NEUR</span> (Mathematical Neuroscience)</a>
+		<a class="dropdown-item text-ONCO" style="color:#000000 !important;" href="/ONCO"><span class="text-ONCO">ONCO</span> (Mathematical Oncology)</a>
+  </div>
+</li>
+<li class="nav-item">
+	<a class="nav-link" href="https://www.smb2021.org/">Return to SMB2021.org</a>
+</li>
+
+		    </ul>
+		    
+		  </div>
+	  </div>
+	</nav>
+	
+
+
+    
+
+    <!-- Search Results -->
+    <div id="lunrsearchresults">
+        <ul class="mb-0"></ul>
+    </div>
+
+    <!-- Content -->
+    <main role="main" class="site-content" style="margin-bottom: 300px;">
+        
+<div class="container">
+<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+		<div class="h-100 tofront">
+			<div class="row  justify-content-center ">
+				<div class=" col-md-8  pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+					<p class="text-uppercase font-weight-bold">
+              <span class="catlist">
+              	<span class="text-ECOP">ECOP-MS01</span>						
+              </span>
+					</p>
+					<h1 class="display-4 mb-4 article-headline">Mathematical modeling of gene drives</h1>
+					<h4>Monday, June 14 at 09:30am (PDT)</br>Monday, June 14 at 05:30pm (BST)</br>Tuesday, June 15 01:30am (KST)</h4>
+					<div class="d-flex align-items-center">
+                        
+                        <img class="rounded-circle" src="../assets/images/logo.jpg" alt="SMB2021" width="70"/>
+                        
+						<small class="ml-3"> SMB2021 <span><a target="_blank" href="https://twitter.com/smb2021" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
+              <span class="text-muted d-block mt-1">Monday (Tuesday) during the "MS01" time block.</span>
+						</small>
+						
+					</div>
+				</div>
+				
+					<small class="ml-3">Note: this minisymposia has multiple sessions. The second session is <strong>MS06-ECOP</strong> <a href="../ECOP/ECOP-MS06.html">(click here)</a>. 
+						
+						
+						
+					</small></br></br>
+				
+        
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<div class="container-lg pt-4 pb-4">
+	<div class="row justify-content-center">
+        
+        <!-- Share -->
+				<div class="col-lg-2 pr-4 mb-4 col-md-12">
+					<div class="sticky-top sticky-top-offset text-center">
+						<div class="text-muted">
+							Share this
+						</div>
+						<div class="share d-inline-block">
+							<!-- AddToAny BEGIN -->
+							<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+								<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+								<a class="a2a_button_facebook"></a>
+								<a class="a2a_button_twitter"></a>
+							</div>
+							<script async src="https://static.addtoany.com/menu/page.js"></script>
+							<!-- AddToAny END -->
+						</div>
+					</div>
+				</div>
+        
+        
+		<div class="col-md-12 col-lg-10">
+			
+			
+			<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem ECOP position-relative">
+		    <div class="pl-4 pr-0 h-100 tofront">
+		        <div class="row justify-content-between">
+		            <div class="col-md-12 pt-6 pb-6 pr-lg-4 align-self-center">
+		                <p><strong>Organizers:</strong></p>
+		                <h4 class="mb-3">Gili Greenbaum (The Hebrew University of Jerusalem, Israel), Jaehee Kim (Cornell University, USA)</h4>
+		                
+		                
+		                	<p><strong>Description</strong>:</p> 
+		                	<p>The emergence of gene drives – engineered genetic constructs that violate Mendelian inheritance – has generated much excitement for its potential application in suppression of disease vectors and invasive species, but it has also raised serious concerns of resistance evolution and spillover to non-target populations or species. Due to the risks involved in gene drive technology, gene drives have yet to be tested in the field. Consequently, mathematical models are the primary approach in which the behaviors of gene drives are currently studied. Building on earlier modeling work of segregation distortion and meiotic drives, divers modeling approaches have been developed in recent years aimed at investigating dynamics of gene drives, under different conditions and from various perspectives. In this mini-symposium, we will explore the history and the current state of mathematical gene drive models. In this pivotal moment, as gene drive technology nears the point of transition from the lab to the field, we will consider how novel modeling perspectives can shed light on key aspects of gene drive dynamics, and how gene drive deployment can be made safer and more efficient.</p>
+			              
+			              
+			              
+		            </div>             
+		        </div>
+		    </div>
+			</div>
+			</br>
+			</br>
+			
+			
+			
+			
+			
+						
+			
+			
+			
+			
+			
+	    	<h4 id="author1">Marcus Feldman</h4>
+	    	 
+	    		<em> (Stanford University, USA)</em>
+	    	
+	    	
+	    	
+	    		
+	    			<h6>"The antecedents of modern gene-drive models: Some history of meiotic drive models"</h6>
+	    		
+	    	
+	    	
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			In the late 1950s, it was discovered that factor on the second chromosome of Drosophila melanogaster produced extreme departure from Mendelian segregation in males. This segregation distorter (SD) factor reached a frequency as high as 30 percent in some populations. In small isolated populations of Mus musculus a similar phenomenon, the t-factor, was found to be produce strong segregation distortion as well as infertility in males. Even earlier, segregation distortion has been observed in the XY sex determination of Drosophila pseudoobscura. In all cases models for the balance of pre- and post-zygotic types of selection were invoked to explain the existence of polymorphism for these “anti-Darwinian” meiotic drive phenomena. Dynamics of evolutionary genetic systems with Mendelian segregation are very special, and most well-known results in population genetic theory do not apply if there is meiotic drive. Modern approaches to gene-drive analysis have their antecedent in this early research.
+		    		
+	    		</article>
+	    	
+				
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    	<h4 id="author2">Chaitanya Gokhale</h4>
+	    	 
+	    		<em> (Max Planck Institute for Evolutionary Biology, Germany)</em>
+	    	
+	    	
+	    		
+	    			<h6>"Synthetic gene drives and the control problem"</h6>
+	    		
+	    	
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			Synthetic gene drives are a marvel at par with any other technologies with a capacity for massive global impact. However, the discussion about drive control or intervention dilemmas is not at the same level as with some other technologies that are further behind but overhyped, such as generalized AI. With mathematical models, we show the resultant dynamics of synthetic drive technologies given the forces ecological forces they may face in the wild- particularly mate choice, different mating systems and structured populations. We assess the risk of the drive succeeding, failing or going rogue. In closing, we discuss the control problem from AI while simultaneously acknowledging the differences between artificial and natural selection
+		    		
+	    		</article>
+	    	
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    	<h4 id="author3">Philipp Messer</h4>
+	    	 
+	    		<em> (Cornell University, USA)</em>
+	    	
+	    	
+	    		
+	    			<h6>"Suppression gene drive in continuous space can result in unstable persistence of both drive and wild‐type alleles"</h6>
+	    		
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			Rapid evolutionary processes can produce drastically different outcomes when studied in panmictic population models vs. spatial models. One such process is gene drive, which describes the spread of “selfish” genetic elements through a population. Engineered gene drives are being considered for the suppression of disease vectors or invasive species. While laboratory experiments and modelling in panmictic populations have shown that such drives can rapidly eliminate a population, it remains unclear if these results translate to natural environments where individuals inhabit a continuous landscape. Using spatially explicit simulations, we show that the release of a suppression drive can result in what we term “chasing” dynamics, in which wild‐type individuals recolonize areas where the drive has locally eliminated the population. Despite the drive subsequently reconquering these areas, complete population suppression often fails to occur or is substantially delayed. This increases the likelihood that the drive is lost or that resistance evolves. We analyze how chasing dynamics are influenced by the type of drive, its efficiency, fitness costs, and ecological factors such as the maximal growth rate of the population and levels of dispersal and inbreeding. Our results demonstrate that the population dynamics of suppression gene drives are determined by a complex interplay of genetic and ecological factors, highlighting the need for realistic spatial modelling to predict the outcome of drive releases in natural populations.
+		    		
+	    		</article>
+	    	
+	    
+	    
+			</br>
+			</br>
+	    
+	    
+	    	<h4 id="author4">John Marshall</h4>
+	    	 
+	    		<em> (University of California Berkeley, USA)</em>
+	    	
+	    	
+	    		
+	    			<h6>"Modeling priorities as gene drive mosquito projects transition from lab to field"</h6>
+	    		
+	    	
+	    	
+	    		<article class="article-post text-justify" style="font-size:12px;">
+		    		
+		    			Despite significant reductions in malaria incidence and prevalence over the last decade following the wide-spread distribution of long-lasting insecticide-treated nets, malaria is not expected to be eliminated with currently available tools. Consequently, there is interest in novel interventions that complement existing ones, including gene drive-modified mosquitoes. Mathematical modeling has a central role to play in determining the impact that gene drive systems could have, alongside other interventions, towards the goal of malaria elimination. In this talk, we survey modeling priorities as gene drive mosquito projects advance from the lab to the field. We begin by highlighting priorities in model building, including: i) capturing nuances in the inheritance-biasing impacts of gene drive systems, ii) incorporating data and insights on mosquito vector ecology, including life history, habitat distribution and movement patterns, and iii) aligning entomological models with detailed models of malaria transmission, including the impacts of currently available and novel interventions. We then highlight several priorities in model application as gene drive products advance from the lab to the field. These include informing target product profiles for gene drive products to assess when they satisfy safety and efficacy criteria, and informing the design of cage trials, field trials and eventually vector and disease control interventions. Other priorities include developing monitoring programs to assess the safety and efficacy of trials and interventions, developing surveillance programs to detect unintended spread, and addressing risk and regulatory questions requiring a quantitative analysis.
+		    		
+	    		</article>
+	    	
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    
+	    </br>
+			</br>
+	    
+	    
+	    
+	      
+			<!-- Author Box -->
+      				
+			<div class="row mt-5">
+				<div class="col-md-2 align-self-center">
+                       
+                      <img class="rounded-circle" src="../assets/images/logo.jpg" alt="SMB2021" width="90"/>
+                       
+				</div>
+				<div class="col-md-10">		
+                      <h5 class="font-weight-bold">Hosted by SMB2021 <span><a target="_blank" href="https://twitter.com/smb2021" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span></h5>
+					Virtual conference of the Society for Mathematical Biology, 2021.					
+				</div>
+			</div>				
+      
+      
+      <!-- Comments -->
+      
+          <!--  Don't edit anything here. Set your disqus id in _config.yml -->
+
+<div id="comments" class="mt-5">
+    <div id="disqus_thread">
+    </div>
+    <script type="text/javascript">
+        var disqus_shortname = ''; 
+        var disqus_developer = 0;
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = window.location.protocol + '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>
+    Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
+</div>
+      
+            
+		</div>
+        
+        
+	</div>
+</div>
+
+
+
+    </main>
+
+
+    <!-- Scripts: popper, bootstrap, theme, lunr -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+    
+    
+			<script src="../assets/js/theme.js"></script>
+		
+    
+    <!-- All this area goes before </body> closing tag --> 
+
+
+</body>
+
+</html>

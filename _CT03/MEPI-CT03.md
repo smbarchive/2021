@@ -1,0 +1,25 @@
+---
+layout: group
+author: esmb
+day: "Monday (Tuesday)"
+subgroup: "MEPI"
+title: "MEPI Subgroup Contributed Talks"
+code: "CT03"
+permalink: /MEPI/MEPI-CT03.html
+author1: "Harry Saxton"
+inst1: "Heriot-Watt"
+title1: "Considering the effect reinfected asymptomatic individuals have on malaria transmission"
+abstract1: "In this paper we will consider a mathematical model that aims to better describe the transmissionof malaria. The transmission model is an interaction model between mosquitoes and humans thatdescribes the progress of the infectious disease malaria in the human population. It accounts for thedifferent stages of the disease, showing how the infection develops in both humans and mosquitoes,together with treatment of both sick and partially immune humans. Partially immune humans, whichare termed as asymptomatic, have recovered from the worst stages of the infection, but can still passon the disease to other humans. I will present a mathematical model that consists of a system ofordinary differential equations that describes the evolution of humans and mosquitoes in a range ofdifferent stages of the disease.A new part of the model that I have added, in what turns out to be a key part of the system, is the consideration of asymptomatic humans that have been reinfected again with malaria. Studying the model I will be able to provide a better timeframe in which possible interventions, in the infected region, may produce better results."
+author2: "Nico Stollenwerk"
+inst2: "BCAM, Basque Center of Applied Mathematics, Bilbao, Spain"
+title2: "The interplay between subcritical fluctuations and import: understanding COVID-19 epidemiological dynamics"
+abstract2: "A question of major importance at this moment in time of the ongoing COVID-19 epidemic is the momentary growth rate (exponential growthwith positive growth factor or restriction to limited spreading subcritically), in the public discussed as momentary epidemiological reproduction ratio above or belowunity. In the presentation we investigate stochastic processes which are in their community spreading still controlled, but close to the epidemiologicalthreshold. Such models show large fluctuations, mimicking variations of reproduction numbers oscillating around the threshold of unity, sometimes below,sometimes above threshold due to large fluctuations expected from theories of percolation. Any transition from susecptible individuals to infected not mediatedby the currently infected persons in the study community, here called 'import', will lead to an epidemiological situation under community control but proneto large subcritical fluctuations. We analyse simple models and transfer the notion to well calibrated models of COVID-19, e.g. in the Basque Country, whereexcellent data can be obtained. Reference: medRxiv preprint doi: https://doi.org/10.1101/2020.12.25.20248840, and updates."
+author3: "Alun Lloyd"
+inst3: "North Carolina State University"
+title3: "Honeymoons, Divorces, Flu and Dengue: The Underappreciated Importance of Susceptible Dynamics on Control of Endemics"
+abstract3: "Modelers of an emerging pathogen can typically assume that a population is entirely susceptible to the infection. In contrast, the dynamics of an endemic infection are highly dependent on the fraction of the population that is susceptible. This has important implications for the short and long-term success of control measures targeting an endemic infection (the ''honeymoon effect'') and can lead to perverse outcomes of transient non-immunizing control measures (the ''divorce effect''). We discuss recent examples of these phenomena in the context of the impacts of non-pharmaceutical interventions aimed at COVID-19 on other directly transmitted respiratory infections, and on the interpretation of large-scale trials of non-vaccine controls of mosquito-borne viral infections."
+author4: "Leonardo Souto Ferreira"
+inst4: "Universidade Estadual Paulista"
+title4: "Assessing optimal vaccination scenarios in two-dose regimen with delay differential equations"
+abstract4: "We propose and analyse a mathematical model of epidemiological dynamics coupled with vaccination to assess under which conditions delaying the application of the second dose in a two-dose vaccination effort during an ongoing epidemic reduces the number of cases and deaths. We use delay differential equations to accurately describe the timing between doses, and calculate optimal vaccination rate under several scenarios of production and maximum vaccination rates, and initial vaccine storage. Vaccine parameters are based on published second dose efficacy values of three main vaccine platforms - inactivated virus, adenovirus and mRNA - and the key parameter related to first dose efficacy  is varied to assess the critical value over which it is better to delay the application of the second dose. We evaluate the dependency of this critical value on vaccine production and maximum rate of vaccination, as well as the initial growth rate of the epidemic."
+---

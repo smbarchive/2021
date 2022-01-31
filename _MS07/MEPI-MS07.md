@@ -1,0 +1,27 @@
+---
+layout: group
+author: esmb
+day: "Tuesday (Wednesday)"
+subgroup: "MEPI"
+title: "Celebrating Dr. Ngwa's 55th birthday with talks honoring his mathematical modeling work including malaria mosquitoes."
+organizers: "Miranda Teboh-Ewungkem (Lehigh University, United States), Calistus N.  Ngonghala, (University of Florida, Gainsville, FL, United States), Jude D.  Kong (York University, Toronto, ON, Canada,, Canada)"
+description: "Mathematical Biology has been growing on the African Continent. It has required contributions and sacrifices from many that have shaped the lives and career paths of young mathematicians and shown new directions to others. Since graduating from the University of Oxford with his PhD in 1993 under the supervision of Prof. Phillip Maini, Prof. Gideon Ngwa made the conscious decision to return to Cameroon and initiated Mathematical Biology at the University of Buea. That activity has led to more than 15 graduate students, many of whom have gone on to obtain a PhD in Mathematics or Applied Mathematics with focus in Mathematical Biology. It has laid a foundation that is solid and growing and generated a new group of researchers, making an impact. Additionally, Prof. Ngwa introduced the mathematical understanding of the malaria mosquito dynamics with his pioneering paper in Malaria, work commenced during the Masters Dissertation of Teboh-Ewungkem and work that has formed the basis of different PhD dissertations in the US, UK and Africa. This session combines research and mathematical talks from contributors who have been associated with Prof. Gideon Ngwa in one way or another and shines light on Mathematical Biology research on the continent of Africa."
+code: "MS07"
+code2: "MS14"
+author1: "Philip Maini"
+inst1: " (Mathematical Institute, Oxford, UK)"
+title1: "Modelling collective leader-follower behaviour"
+abstract1: "Collective movement is a very common occurrence in biology and ecology. I will review work in which I have been involved for the past few years on (i) angiogenesis (formation of new blood vessels) in wound healing and cancer growth; (ii) cranial neural crest migration in normal development. The models will range from coupled systems of partial differential equations to discrete cell-based systems. I will show how we have derived a new model for the classical snail-trail system and also how, working with experimental colleagues, we have generated new biological insights."
+author2: "Nakul Chitnis"
+inst2: " (Swiss Tropical and Public Health Institute, Switzerland)"
+title2: "Modelling Mosquitoes and Malaria"
+abstract2: "We present mathematical models of mosquito population dynamics and mosquito foraging behaviour and combine these with models of malaria transmission. We use these models to explore the dynamics of mosquito behaviour on malaria transmission and investigate the impact of vector control interventions on malaria transmission and disease burden."
+author3: "Divine Wanduku"
+inst3: " (Department of Mathematics, Georgia Southern University, United States)"
+title3: "A Stochastic Multi-Population Behavioral Model to Assess the Roles of Education Campaigns, Random Supply of Aids, and Delayed ART Treatment in HIV/AIDS Epidemic"
+abstract3: "The successful reduction in prevalence rates of HIV in many countries is attributed to control measures such as information and education campaigns (IEC), antiretroviral therapy (ART), and national, multinational and multilateral support providing official developmental assistance (ODAs) to combat HIV. However, control of HIV epidemics can be interrupted by limited random supply of ODAs, high poverty rates and low living standards. This study presents a stochastic HIV/AIDS model with treatment assessing the roles of IEC, the supply of ODAs and early treatment in HIV epidemics. The supply of ODAs is assessed via the availability of medical and financial resources leading more people to get tested and begin early ART. The basic reproduction number ( $mathfrak{R}_{0}$) for the dynamics is obtained, and other results for HIV control are obtained by conducting stability analysis for the stochastic SITRZ disease dynamics. Moreover, the model is applied to Uganda HIV/AIDS data, wherein linear regression is applied to predict the $mathfrak{R}_{0}$ over time, and to determine the importance of ART treatment in the dynamics."
+author4: "Jacek Banasiak"
+inst4: " (Department of Mathematics and Applied Mathematics, University of Pretoria, South Africa)"
+title4: "Beyond the Next Generation Matrix Method"
+abstract4: "The Next Generation Matrix method has been one of the most popular methods for establishing the stability of the disease-free equilibrium. It has, however, some drawbacks - for instance it is not directly applicable for problems with the immigration of infectives. In this talk, we shall discuss some ways of dealing with such problems, based on perturbation techniques."
+---

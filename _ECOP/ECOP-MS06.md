@@ -1,0 +1,30 @@
+---
+layout: group
+author: esmb
+day: "Monday (Tuesday)"
+subgroup: "ECOP"
+title: "Mathematical modeling of gene drives"
+organizers: "Gili Greenbaum (The Hebrew University of Jerusalem, Israel), Jaehee Kim (Cornell University, USA)"
+description: "The emergence of gene drives – engineered genetic constructs that violate Mendelian inheritance – has generated much excitement for its potential application in suppression of disease vectors and invasive species, but it has also raised serious concerns of resistance evolution and spillover to non-target populations or species. Due to the risks involved in gene drive technology, gene drives have yet to be tested in the field. Consequently, mathematical models are the primary approach in which the behaviors of gene drives are currently studied. Building on earlier modeling work of segregation distortion and meiotic drives, divers modeling approaches have been developed in recent years aimed at investigating dynamics of gene drives, under different conditions and from various perspectives. In this mini-symposium, we will explore the history and the current state of mathematical gene drive models. In this pivotal moment, as gene drive technology nears the point of transition from the lab to the field, we will consider how novel modeling perspectives can shed light on key aspects of gene drive dynamics, and how gene drive deployment can be made safer and more efficient."
+code: "MS06"
+code2: "MS01"
+author1: "Keith Harris"
+inst1: " (The Hebrew University of Jerusalem, Israel)"
+title1: "Rescue by gene swamping as a fail-safe strategy in gene drive deployment"
+abstract1: "Gene drives are genetic constructs that can spread deleterious alleles in wild populations by generating non-Mendelian inheritance patterns. Lab experiments of CRISPR-Cas9-based gene drives have been shown to drive populations to extinction within a few generations, paving the way for deployment of gene drives to control disease vectors and invasive species. However, given that a gene drive can potentially spill over to and modify other populations or even other species, they must be designed in a way that allows this process to be controlled. Due to the ecological risks involved in deployment, studying behaviors of gene drive spread in wild populations currently relies on mathematical and computational models. We developed a model of gene drive spillover that combines evolutionary and demographic dynamics, in a two-population setting. The model demonstrates how feedback between these dynamics produces additional outcomes to those demonstrated by the evolutionary dynamics alone. We identify an outcome where the short-term suppression of the target population is followed by gene swamping and loss of the gene drive. Using our model, we demonstrate the robustness of this outcome to spillover and the evolution of resistance, and suggest it as a fail-safe strategy for gene drive deployment."
+author2: "Leo Girardin"
+inst2: " (Université Claude Bernard Lyon-1, France)"
+title2: "Demographic feedbacks can hamper the spatial spread of a gene drive"
+abstract2: "This talk is concerned with a reaction--diffusion system modeling the fixation and the invasion in a population of a gene drive (an allele biasing inheritance, increasing its own transmission to offspring).
+In our model, the gene drive has a negative effect on the fitness of individuals carrying it, and is therefore susceptible of decreasing the total carrying capacity of the population locally in space. This tends to generate an opposing demographic advection that the gene drive has to overcome in order to invade. While previous reaction--diffusion models neglected this aspect, here we focus on it and try to predict the sign of the traveling wave speed. It turns out to be an analytical challenge, only partial results being within reach, and we complete our theoretical analysis by numerical simulations.
+Our results indicate that taking into account the interplay between population dynamics and population genetics might actually be crucial, as it can effectively reverse the direction of the invasion and lead to failure."
+author3: "Lena Klay"
+inst3: " (Sorbonne Université, France)"
+title3: "Spatial spread of suppression and eradication drives"
+abstract3: "Understanding the spatial and temporal spread of gene drive (mechanism that disrupts the laws of heredity by biasing transmission) through modeling is an essential step before any field experiments. In this talk, I will present a work based on a deterministic reaction-diffusion system proposed by L. Girardin and F. Débarre (presented in L. Girardin’s talk). I will focus on the case of eradication, when the population goes extinct after the drive has spread.
+Firstly, I will extend the original model to various timings of gene conversion (considering conversion can happen in the zygote or in the germline) and different probabilities of gene conversion (instead of assuming 100% conversion). In contrast with the initial model assuming systematic gene conversion in the zygote, heterozygous individuals must be accounted for. As the model is then quite complex, numerical studies will provide us with information regarding the emergence conditions of eradication waves. If time allows on a second part, I will simplify the system through linearization, to better understand the theoretical behavior (shape, speed…) of those waves."
+author4: "Richard Gomulkiewicz"
+inst4: " (Washington State University, USA)"
+title4: "Resistance-proofing Gene Drives for Population Suppression"
+abstract4: "The advent of CRISPR technology has brought us to the cusp of engineering gene drives capable of eradicating plant and animal species and with it urgent concerns about the evolution of resistances that could undermine the drives. This talk will present results from a mathematical modeling study that reveal the fundamental mechanics of how non-allelic resistance evolves and especially how one may design a gene drive to evade resistance. The findings are used to suggest design principles to guide the engineering of resistance-proof suppression drives."
+---

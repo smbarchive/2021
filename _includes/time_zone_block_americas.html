@@ -1,0 +1,70 @@
+{% assign hoursToSec=0 %}
+{% assign minutesToSec=0 %}
+
+{% if include.hoursToAdd %}
+    {% assign hoursToSec = include.hoursToAdd | times: 3600 %}
+{% else %}
+    {% assign hoursToSec = 0 %}
+{% endif %}
+
+{% if include.minutesToAdd %}
+    {% assign minutesToSec = include.minutesToAdd | times: 60 %}
+{% else %}
+    {% assign minutesToSec = 0 %}
+{% endif %}
+
+<!-- Local timezone offset: -->
+{% assign localMinutesToSec = getOffset() %}
+
+<!-- {% assign localMinutesToSec = include.localMinuteOffset | times: 60 %} -->
+
+
+{% assign myOffset = hoursToSec | plus: minutesToSec}
+
+<!-- assign a +1 day indicator for each time zone -->
+{% assign plusDay1 = ""}
+{% assign plusDay2 = ""}
+
+<!-- Time Zone 2 -->
+{% assign class2 = "awake" %}
+{% if myOffset < 8100 %}
+	{% assign class2 = "awake" %}
+{% else %}
+	{% if myOffset < 29700 %}
+		{% assign class2 = "early-late" %}
+	{% else %}
+		{% if myOffset < 58500 %} 
+			{% assign class2 = "asleep" %}
+		{% else %}
+			{% if myOffset < 65700 %} 
+				{% assign class2 = "early-late" %}
+			{% else %}
+				{% assign class2 = "awake" %}
+			{% endif %}
+		{% endif %}
+	{% endif %}
+{% endif %}
+
+
+{% if myOffset >= 58500 %}
+	{% assign plusDay1 = "(next day)" %}
+{% endif %}
+
+
+<td class="default-cols {{class2}}" align="center">
+	<script type = "text/javascript">
+		
+		// focal date
+		var date2 = new Date('June 14, 2021 10:45:00');
+		var myNewOffset = getNewOffset({{myOffset}});
+		var newDate = add_minutes(date2,myNewOffset);
+		var newDateString = getDateString(newDate);		
+		document.write(newDateString);
+     
+  </script>  
+</td>
+<td class="default-cols {{class2}}" align="center">
+	{{  page.date1 | date: "%s" | plus: hoursToSec | plus: minutesToSec | date: "%I:%M%P"}}
+	</br>{{plusDay1}}
+</td>
+

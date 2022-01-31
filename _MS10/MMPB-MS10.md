@@ -1,0 +1,27 @@
+---
+layout: group
+author: esmb
+day: "Tuesday (Wednesday)"
+subgroup: "MMPB"
+title: "Models and Computations for Studying Biofluid Applications"
+organizers: "Zhiliang Xu (Univeristy of Notre Dame, USA), Giordano Tierra (University of North Texas, USA), Shixin Xu (Duke Kunshan University)"
+description: "The past decades have witnessed a rapid development of mathematical and computational models for biophysical applications. This mini-symposium is intended to provide a forum for researchers to present contributions in the broad field of modeling and computational methods for fluid related biological applications. Topics within the scope of interest include, but are not limited to: a) continuum models such as phase-field models and efficient simulation schemes; b) discrete-continuum multiscale mechanistic models and applications; c) simulations of various biofluid applications."
+code: "MS10"
+code2: "MS16"
+author1: "Qi Wang"
+inst1: " (U of South Carolina, USA)"
+title1: "A Phase Field Embedding Method for Flow-Active Particle Interactions"
+abstract1: "We present a novel computational framework to numerically investigate fluid structure interaction using the phase field embedding. Each solid structure or soft matter structure immersed in the fluid, grossly referred to as the particle in this paper, is represented by a volume preserving phase field. The motion of the active particle is driven by the surrounding fluid velocity and its self-propelling velocity. A repulsive force exists between each pair of particles and between a particle and the boundary. The particle also exerts a drag force to the fluid. When the particle is solid, its state is described by a zero velocity gradient tensor and a phase field that defines its profile. A thermodynamically consistent hydrodynamic model is then derived for the fluid-particle ensemble by the generalized Onsager principle. Structure-preserving numerical algorithms are developed for the thermodynamically consistent model. Numerical tests are carried out to verify the rate of convergence and some numerical examples are given to demonstrate the usefulness of the computational framework for simulating fluid-structure interactions for self-propelling active particles."
+author2: "Jia Zhao"
+inst2: " (Utah State University, USA)"
+title2: "Partial demixing of RNA-protein complexes leads to intra-droplet patterning in phase-separated biological condensates"
+abstract2: "An emerging mechanism for intracellular organization is liquid-liquid phase separation (LLPS). Found in both the nucleus and the cytoplasm, liquid-like droplets condense to create compartments that are thought to promote and inhibit specific biochemistry. In this work, a multiphase, Cahn-Hilliard diffuse interface model is used to examine RNA-protein interactions driving LLPS. We create a bivalent system that allows for two different species of protein-RNA complexes and model the competition that arises for a shared binding partner, free protein. With this system we demonstrate that the binding and unbinding of distinct RNA-protein complexes leads to diverse spatial pattern formation and dynamics within droplets. Both the initial formation and transient behavior of spatial patterning are subject to the exchange of free proteins between RNA-protein complexes. This study illustrates that spatiotemporal heterogeneity can emerge within phase-separated biological condensates with simple binding reactions and competition. Intra-droplet patterning may influence droplet composition and, subsequently, cellular organization on a larger scale."
+author3: "Xinfeng Liu"
+inst3: " (Department of Mathematics, University of South Carolina, USA)"
+title3: "Mathematical modeling and computational investigation of heterogeneity in breast cancer cells"
+abstract3: "Solid tumors are heterogeneous in composition. Cancer stem cells (CSCs) are a highly tumorigenic cell type found in developmentally diverse tumors that are believed to be resistant to standard chemotherapeutic drugs and responsible for tumor recurrence. Thus understanding the tumor growth kinetics is critical for development of novel strategies for cancer treatment. For this talk, I shall introduce mathematical modeling to study Her2 signaling for the dynamical interaction between cancer stem cells (CSCs) and non-stem cancer cells, and our findings reveal that two negative feedback loops are critical in controlling the balance between the population of CSCs and that of non-stem cancer cells. Furthermore, the model with negative feedback suggests that over-expression of the oncogene HER2 leads to an increase of CSCs by regulating the division mode or proliferation rate of CSCs."
+author4: "Isaac Klapper"
+inst4: " (Temple University, USA)"
+title4: "Modeling Metabolism in Microbial Biofilms"
+abstract4: "Outside of laboratories, microbial communities (biofilms and other types) often exist in relatively stable environments where, on average, resource quality and quantity are predictable. Under such conditions, these communities are able to organize into tuned chemical factories, efficiently turning resources into biomass and waste byproducts. To do so, physical, chemical, and biological constraints must be accomodated. Here techniques to model this organization will be discussed. In particular, the importance of coupling microscale metabolic information to community scale transport processes will be emphasized."
+---
