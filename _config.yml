@@ -4,7 +4,7 @@ description: 'The Society for Mathematical Biology - virtual conference 2021.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
-url:     "https://smbarchive.github.io/2021"
+url:     "https://smbarchive.github.io/2021/"
 
 include: ["_pages"]
 permalink: /:title/
