@@ -3,8 +3,8 @@ name: 'SMB 2021'
 description: 'The Society for Mathematical Biology - virtual conference 2021.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-baseurl: '/2021'
-url:     "https://smbarchive.github.io"
+baseurl: ''
+url:     "http://2021.smb.org/"
 
 include: ["_pages"]
 permalink: /:title/
